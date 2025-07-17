@@ -23,5 +23,5 @@ We recollect the published spatial related datasets for evaluation. The followin
 | srbench | -- | [Link](https://huggingface.co/datasets/stogian/srbench) |
 | MINDCUBE| -- | [Link](https://huggingface.co/datasets/MLL-Lab/MindCube) |
 | ViewSpatial-Bench | -- | [Link](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench) |
-| SPHERE| -- | [Link](https://huggingface.co/datasets/wei2912/SPHERE-VLM) |
+| SPAR-Bench| -- | [Link](https://huggingface.co/datasets/jasonzhango/SPAR-Bench) |
 | OmniSpatial| -- | [Link](https://huggingface.co/datasets/qizekun/OmniSpatial) |
