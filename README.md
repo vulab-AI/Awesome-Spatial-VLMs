@@ -13,9 +13,9 @@ We recollect the published spatial related datasets for evaluation. The followin
 
 | Dataset Name | Description  | Link |
 |--------------|--------------|------|
-| EgoOrientBench | -- |  |
-| GeoMeter | -- |  |
-| SEED-Bench(Spatial Relation section)| -- |  |
+| EgoOrientBench | -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
+| GeoMeter | -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
+| SEED-Bench(Spatial Relation section)| -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
 | MM-Vet(Spatial awareness (Spat))| -- |  |
 | CV-Bench| -- | [Link](https://huggingface.co/datasets/nyu-visionx/CV-Bench) |
 | What's Up| -- |  |
