@@ -18,8 +18,7 @@ We recollect the published spatial related datasets for evaluation. The followin
 | SEED-Bench(Spatial Relation section)| -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
 | MM-Vet(Spatial awareness (Spat))| -- |[Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs)|
 | CV-Bench| -- | [Link](https://huggingface.co/datasets/nyu-visionx/CV-Bench) |
-| What's Up| -- |  |
-| VSP | -- |  |
+| What's Up| -- |  |[Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
 | srbench | -- | [Link](https://huggingface.co/datasets/stogian/srbench) |
 | MINDCUBE| -- | [Link](https://huggingface.co/datasets/MLL-Lab/MindCube) |
 | ViewSpatial-Bench | -- | [Link](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench) |
