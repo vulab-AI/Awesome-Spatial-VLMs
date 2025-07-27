@@ -10,17 +10,29 @@ The related code stores in the [here](./code/evaluation/)
 
 We recollect the published spatial related datasets for evaluation. The following table summarizes the key datasets used for benchmarking spatial vision-language models:
 
-
-| Dataset Name | Description  | Link |
-|--------------|--------------|------|
-| EgoOrientBench | -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
-| GeoMeter | -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
-| SEED-Bench(Spatial Relation section)| -- | [Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
-| MM-Vet(Spatial awareness (Spat))| -- |[Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs)|
-| CV-Bench| -- | [Link](https://huggingface.co/datasets/nyu-visionx/CV-Bench) |
-| What's Up| -- |[Link](https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VLMs) |
-| srbench | -- | [Link](https://huggingface.co/datasets/stogian/srbench) |
-| MINDCUBE| -- | [Link](https://huggingface.co/datasets/MLL-Lab/MindCube) |
-| ViewSpatial-Bench | -- | [Link](https://huggingface.co/datasets/lidingm/ViewSpatial-Bench) |
-| realworldqa| -- | [Link](https://huggingface.co/datasets/visheratin/realworldqa) |
-| OmniSpatial| -- | [Link](https://huggingface.co/datasets/qizekun/OmniSpatial) |
+<table>
+  <tr>
+    <th>Dataset Name</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>EgoOrientBench</td>
+    <td>Egocentric spatial understanding benchmark</td>
+    <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">Link</a></td>
+  </tr>
+  <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
+  <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
+  <tr><td>MM-Vet (Spat)</td><td>Spatial awareness evaluation track</td></tr>
+  <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
+  <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
+  <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
+  <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
+  <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
+  <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
+  <tr>
+    <td>ViewSpatial-Bench</td>
+    <td>Multi-view spatial reasoning benchmark</td>
+    <td><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks_ViewSpatial-Bench">Link</a></td>
+  </tr>
+</table>
