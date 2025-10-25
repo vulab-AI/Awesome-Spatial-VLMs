@@ -4,7 +4,7 @@ Spatial Intelligence in Vision-Language Models: A Comprehensive Survey
 ## Benchmark Evaluation of Spatial Vision-Language Models
 Facilitating the evaluation of published spatial related benchmarks, we summarize the dataset used in the evaluation section.
 
-The related code is stored [here](evaluation/README.md) (coming soon).
+The related code is stored [here](evaluation/README.md).
 
 
 
