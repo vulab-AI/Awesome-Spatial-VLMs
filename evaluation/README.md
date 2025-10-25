@@ -13,16 +13,16 @@ In this section, we offer codes of the models we evaluated in the paper. Due to 
 
 ### Model-Centric Enchancement
 
-[Instalations for Model-Centric Enhancement](Model_Centric)
+[Instalations for Model-Centric Enhancement](Model_Centric/README.md)
 
 ### Explicit 2D Information Injecting
 
-[Installation for Explicit 2D Information Injecting]()
+[Installation for Explicit 2D Information Injecting](2D_Information/README.md)
 
 ### 3D Spatial Information Enhancement
 
-[Installation for 3D Spatial Information Enhancement]()
+[Installation for 3D Spatial Information Enhancement](3D_information/README.md)
 
 ### Data-Centric Spatial Enhancement
 
-[Installation for Data-Centric Spatial Enhancement]()
+[Installation for Data-Centric Spatial Enhancement](Data_Centric/README.md)
