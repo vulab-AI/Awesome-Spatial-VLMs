@@ -21,7 +21,7 @@ In this section, we offer codes of the models we evaluated in the paper. Due to 
 
 ### 3D Spatial Information Enhancement
 
-[Installation for 3D Spatial Information Enhancement](3D_information/README.md)
+[Installation for 3D Spatial Information Enhancement](3D_Information/README.md)
 
 ### Data-Centric Spatial Enhancement
 
