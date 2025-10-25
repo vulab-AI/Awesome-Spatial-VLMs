@@ -4,25 +4,25 @@ In this section, we offer codes of the models we evaluated in the paper. Due to 
 
 ### Commercial Models & General Models 
 
-[Instalations for Both](evaluation/Commercial_General/README.md)
+[Instalations for Both](Commercial_General/README.md)
 
 
 ### Prompting Methods
 
-[Instalations for Prompting Methods](evaluation/Train_Free_Promptings)
+[Instalations for Prompting Methods](Train_Free_Promptings/README.md)
 
 ### Model-Centric Enchancement
 
-[Instalations for Model-Centric Enhancement](evaluation/)
+[Instalations for Model-Centric Enhancement](Model_Centric)
 
 ### Explicit 2D Information Injecting
 
-[Installation for Explicit 2D Information Injecting](evaluation/)
+[Installation for Explicit 2D Information Injecting]()
 
 ### 3D Spatial Information Enhancement
 
-[Installation for 3D Spatial Information Enhancement](evaluation/)
+[Installation for 3D Spatial Information Enhancement]()
 
 ### Data-Centric Spatial Enhancement
 
-[Installation for Data-Centric Spatial Enhancement](evaluation/)
+[Installation for Data-Centric Spatial Enhancement]()
