@@ -1,48 +1,44 @@
 # Awesome-Spatial-VLMs
-Spatial Intelligence in Vision-Language Models: A Comprehensive Survey
+> A curated list of resources for Spatial Intelligence in Vision-Language Models.
 
-## Benchmark Evaluation of Spatial Vision-Language Models
-Facilitating the evaluation of published spatial related benchmarks, we summarize the dataset used in the evaluation section.
+This repository is the official, community-maintained resource for the survey paper:
+Spatial Intelligence in Vision-Language Models: A Comprehensive Surve [Paper PDF](arXiv_link)
 
-The related code is stored [here](evaluation/README.md).
-
-
-
-We recollect the published spatial related datasets for evaluation. The following table summarizes the key datasets used for benchmarking spatial vision-language models:
-
-<table>
-  <tr>
-    <th>Dataset Name</th>
-    <th>Description</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>EgoOrientBench</td>
-    <td>Egocentric spatial understanding benchmark</td>
-    <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">Link</a></td>
-  </tr>
-  <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
-  <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
-  <tr><td>MM-Vet (Spat)</td><td>Spatial awareness evaluation track</td></tr>
-  <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
-  <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
-  <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
-  <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
-  <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
-  <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
-  <tr>
-    <td>ViewSpatial-Bench</td>
-    <td>Multi-view spatial reasoning benchmark</td>
-    <td><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks_ViewSpatial-Bench">Link</a></td>
-  </tr>
-</table>
+🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
 
 
-## Paper List
+## What is Spatial Intelligence?
+Our survey organizes spatial reasoning into a three-level cognitive hierarchy that provides a clear framework for understanding tasks, benchmarks, and model capabilities.
+- **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
+- **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
+- **L3: Spatial Extrapolation:** Inferring hidden states, predicting future configurations, or reasoning from a situated perspective (e.g., mental rotation, pathfinding).
+
+
+## Table of Contents
+**Scope.** We focus on models, datasets, and benchmarks that engage spatial reasoning across three cumulative levels—**Perception**, **Understanding**, and **Extrapolation**. See our taxonomy/hierarchy below.
+
+- [Awesome Papers](#awesome-papers)
+  - Training-Free Prompting
+  - Model-Centric Enhancements
+  - Explicit 2D Information Injecting
+  - 3D Information Enhancement
+  - Data-Centric Spatial Enhancement
+
+- [Datasets and Benchmarks](#datasets-and-benchmarks)
+  - Training Corpora
+  - Evaluation Benchmarks
+
+- [Evaluation Toolkit & Spatial VLM Leaderboard](#evaluation-toolkit-&-spatial-vlm-eaderboard)
+
+- [Related Surveys](#related-surveys)
+
+
+
+## Awesome Papers
 
 ### Textual Prompting Methods
 
-| Title | Institution | Venue| Code | Checkpoint |
+| Title | Institution | Venue| Code | Model Zoo |
 |-------|-------------|------|------|------------|
 | Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models | University of Toronto | EMNLP2024  | [Link](https://github.com/andrewliao11/Q-Spatial-Bench-code) |  |
 | Compositional Chain-of-Thought Prompting for Large Multimodal Models | University of California, Berkeley | CVPR2024  | [Link](https://github.com/chancharikmitra/CCoT) |  |
@@ -220,7 +216,87 @@ We recollect the published spatial related datasets for evaluation. The followin
 | Orient Anything | Zhejiang University  | ICML25  | [Link](https://github.com/SpatialVision/Orient-Anything?tab=readme-ov-file) | [Link](https://huggingface.co/Viglong/Orient-Anything/blob/main/croplargeEX2/dino_weight.pt) |
 
 
+## Datasets and Benchmarks
+
+### Spatially-Oriented Training Corpora
+
+### Evaluation Benchmarks (by Cognitive Level)
+
+
+## Leaderboard and Evaluation of Spatial Vision-Language Models
+
+To provide a clear performance baseline and facilitate future research, we provide our full evaluation toolkit. This suite includes the comprehensive results from our TPAMI survey, the open-source code to reproduce our evaluation, and the 9 integrated benchmarks hosted on Hugging Face.
+
+For nine widely used spatial benchmarks, we provide:
+- **Results:** reported performance of representative VLMs.
+- **Evaluation code:** scripts to reproduce the metrics.
+- **Benchmark packages:** integrated Hugging Face versions of each benchmark for plug-and-play evaluation.
+
+These leaderboards are intended to make comparison across models transparent and reproducible.
+
+Quick Links
+- The script to run the evaluation.
+
+- Download all 9 integrated benchmarks in one unified format.
+
+- See the full results from our paper.
+
+### 🏆 Main Leaderboard
+
+The table below presents the main results from our survey, comparing 38 models across 9 benchmarks. Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
+
+We invite the community to benchmark new models using our suite. Please to add your model's results!
+
+
+### 🧑‍🔬 How to Evaluate Your Model
+
+Facilitating the evaluation of published spatial related benchmarks, we summarize the dataset used in the evaluation section.
+
+The related code is stored [here](evaluation/README.md).
+
+
+
+We recollect the published spatial related datasets for evaluation. The following table summarizes the key datasets used for benchmarking spatial vision-language models:
+
+<table>
+  <tr>
+    <th>Dataset Name</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>EgoOrientBench</td>
+    <td>Egocentric spatial understanding benchmark</td>
+    <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">Link</a></td>
+  </tr>
+  <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
+  <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
+  <tr><td>MM-Vet (Spat)</td><td>Spatial awareness evaluation track</td></tr>
+  <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
+  <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
+  <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
+  <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
+  <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
+  <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
+  <tr>
+    <td>ViewSpatial-Bench</td>
+    <td>Multi-view spatial reasoning benchmark</td>
+    <td><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks_ViewSpatial-Bench">Link</a></td>
+  </tr>
+</table>
+
+
 ---
 ## Citation
+If you find this survey or repository useful for your research, please cite our paper:
 ```
+@article{YourLastName2025SpatialSurvey,
+  title   = {{Your Paper Title}},
+  author  = {Your Name and Co-author 1 and Co-author 2},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year    = {2025},
+  volume  = {},
+  number  = {},
+  pages   = {}
+}
 ```
