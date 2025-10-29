@@ -2,7 +2,7 @@
 > A curated list of resources for Spatial Intelligence in Vision-Language Models.
 
 This repository is the official, community-maintained resource for the survey paper:
-Spatial Intelligence in Vision-Language Models: A Comprehensive Surve [Paper PDF](arXiv_link)
+[Spatial Intelligence in Vision-Language Models: A Comprehensive Surve](arXiv_link)
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
 
@@ -15,7 +15,8 @@ Our survey organizes spatial reasoning into a three-level cognitive hierarchy th
 
 
 ## Table of Contents
-**Scope.** We focus on models, datasets, and benchmarks that engage spatial reasoning across three cumulative levels—**Perception**, **Understanding**, and **Extrapolation**. See our taxonomy/hierarchy below.
+**Scope.** We focus on **models**, **datasets**, **benchmarks**, and **evaluations** that engage spatial reasoning across three cumulative levels—*Perception*, *Understanding*, and *Extrapolation*. See our taxonomy/hierarchy below.
+<div align='left'><img src="./samples/outline.jpg"  alt="NAME" width="100%"/></div>
 
 - [Awesome Papers](#awesome-papers)
   - Training-Free Prompting
