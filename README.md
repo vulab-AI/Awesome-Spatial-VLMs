@@ -7,39 +7,52 @@ This repository is the official, community-maintained resource for the survey pa
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
 
 
-## What is Spatial Intelligence?
-Our survey organizes spatial reasoning into a three-level cognitive hierarchy that provides a clear framework for understanding tasks, benchmarks, and model capabilities.
-- **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
-- **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
-- **L3: Spatial Extrapolation:** Inferring hidden states, predicting future configurations, or reasoning from a situated perspective (e.g., mental rotation, pathfinding).
-
-
 ## Table of Contents
-**Scope.** We focus on **models**, **datasets**, **benchmarks**, and **evaluations** that engage spatial reasoning across three cumulative levels—*Perception*, *Understanding*, and *Extrapolation*. See our taxonomy/hierarchy below.
-<div align='left'><img src="./samples/outline.jpg"  alt="NAME" width="100%"/></div>
+- [Overview](#overview)
 
-- [Awesome Papers](#awesome-papers)
+- [Awesome Papers](#📚-awesome-papers)
   - Training-Free Prompting
   - Model-Centric Enhancements
   - Explicit 2D Information Injecting
   - 3D Information Enhancement
   - Data-Centric Spatial Enhancement
 
-- [Datasets and Benchmarks](#datasets-and-benchmarks)
+- [Datasets and Benchmarks](#📚-datasets-and-benchmarks)
   - Training Corpora
   - Evaluation Benchmarks
 
-- [Evaluation Toolkit & Spatial VLM Leaderboard](#evaluation-toolkit-&-spatial-vlm-eaderboard)
+- [Spatial VLM Leaderboard & Evaluation Toolkit](#🏆-spatial-vlm-leaderboard--evaluation-toolkit)
+
 
 - [Related Surveys](#related-surveys)
 
+- [Citation](#citation)
 
 
-## Awesome Papers
+## Overview
+This repository uses the framework from our survey paper to systematically organize the field of Spatial Intelligence in VLMs.
 
-### Textual Prompting Methods
+- The "What": A Cognitive Hierarchy 🧠
+  > We categorize tasks, datasets, and benchmarks by required capability:
+  - **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
+  - **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
+  - **L3: Spatial Extrapolation:** Inferring hidden states, predicting future configurations, or reasoning from a situated perspective (e.g., mental rotation, pathfinding).
 
-| Title | Institution | Venue| Code | Model Zoo |
+- The "How": A Method Taxonomy 🛠️
+  > We group spatial-enhancement approaches using a consistent taxonomy (see the [Table of Contents](#table-of-contents)).
+
+- Where We Are: Evaluation Results and Toolkit 🛠️
+  > We report standardized results for **37 VLMs** across L1/L2/L3 in our leaderboard.  
+  An open **Evaluation Toolkit** is provided to reproduce our protocols and assess your own VLM under the same settings.
+
+<div align='left'><img src="./samples/outline.jpg"  alt="NAME" width="100%"/></div>
+
+## 📚 Awesome Papers
+### Training-Free Prompting
+
+Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/L2/L3}.
+
+| Textual Prompting Methods | Institution | Venue| Code | Model Zoo |
 |-------|-------------|------|------|------------|
 | Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models | University of Toronto | EMNLP2024  | [Link](https://github.com/andrewliao11/Q-Spatial-Bench-code) |  |
 | Compositional Chain-of-Thought Prompting for Large Multimodal Models | University of California, Berkeley | CVPR2024  | [Link](https://github.com/chancharikmitra/CCoT) |  |
@@ -48,9 +61,8 @@ Our survey organizes spatial reasoning into a three-level cognitive hierarchy th
 | SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation | Tsinghua University | CoRR 2025  | [Link](https://github.com/qizekun/SoFar) |  |
 --------
 
-### Visual Prompting Methods
 
-| Title | Institution | Venue| Code | Checkpoint |
+| Visual Prompting Methods | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
 | Fine-Grained Visual Prompting | Nanjing University of Science and Technology | NeurIPS2023  | [Link](https://github.com/ylingfeng/FGVP) |  |
 | Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V | Microsoft Research, Redmond | arXiv2023  | [Link](https://github.com/microsoft/SoM) |  |
@@ -60,9 +72,7 @@ Our survey organizes spatial reasoning into a three-level cognitive hierarchy th
 | Mindjourney: Test-time scaling with world models for spatial reasoning | UMass Amherst | arXiv2025  | [Link](https://github.com/UMass-Embodied-AGI/MindJourney) |  |
 --------
 
-### Hybrid Prompting
-
-| Title | Institution | Venue| Code | Checkpoint |
+| Hybrid Prompting | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
 | Seeground: See and ground for zero-shot open-vocabulary 3d visual grounding | HKUST(Guangzhou) | CVPR 2025  | [Link](https://github.com/iris0329/SeeGround) |  |
 | Scaffolding coordinates to promote vision-language coordination in large multi-modal models | Tsinghua University | COLING2025  | [Link](https://github.com/THUNLP-MT/Scaffold) |  |
@@ -217,14 +227,19 @@ Our survey organizes spatial reasoning into a three-level cognitive hierarchy th
 | Orient Anything | Zhejiang University  | ICML25  | [Link](https://github.com/SpatialVision/Orient-Anything?tab=readme-ov-file) | [Link](https://huggingface.co/Viglong/Orient-Anything/blob/main/croplargeEX2/dino_weight.pt) |
 
 
-## Datasets and Benchmarks
+## 📚 Datasets and Benchmarks
+> A comprehensive list of datasets for training and evaluation.
 
 ### Spatially-Oriented Training Corpora
 
-### Evaluation Benchmarks (by Cognitive Level)
+### Evaluation Benchmarks
 
 
-## Leaderboard and Evaluation of Spatial Vision-Language Models
+## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit
+
+- **Leaderboard:** standardized results across representative datasets; submit via PR.
+
+- **Tooling:** loaders, evaluation scripts, and metric definitions for spatial tasks.
 
 To provide a clear performance baseline and facilitate future research, we provide our full evaluation toolkit. This suite includes the comprehensive results from our TPAMI survey, the open-source code to reproduce our evaluation, and the 9 integrated benchmarks hosted on Hugging Face.
 
@@ -287,7 +302,13 @@ We recollect the published spatial related datasets for evaluation. The followin
 </table>
 
 
+### 📖 Related Surveys
+- Spatial reasoning in VLMs and embodied AI  
+- 3D vision and scene understanding  
+- Multimodal evaluation and benchmarking
+
 ---
+
 ## Citation
 If you find this survey or repository useful for your research, please cite our paper:
 ```
