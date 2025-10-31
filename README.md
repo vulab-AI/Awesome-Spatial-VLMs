@@ -9,45 +9,42 @@ This repository is the official, community-maintained resource for the survey pa
 
 ## Table of Contents
 - [Overview](#overview)
-
 - [Awesome Papers](#📚-awesome-papers)
-  - Training-Free Prompting
-  - Model-Centric Enhancements
-  - Explicit 2D Information Injecting
-  - 3D Information Enhancement
-  - Data-Centric Spatial Enhancement
-
+  - [Training-Free Prompting](#training-free-prompting)
+  - [Model-Centric Enhancements](#model-centric-enhancements)
+  - [Explicit 2D Information Injection](#explicit-2d-information-injection)
+  - [3D Information Enhancement](#3d-information-enhancement)
+  - [Data-Centric Spatial Enhancement](#data-centric-spatial-enhancement)
 - [Datasets and Benchmarks](#📚-datasets-and-benchmarks)
-  - Training Corpora
-  - Evaluation Benchmarks
-
+  - [Training Corpora](#spatially-oriented-training-corpora)
+  - [Evaluation Benchmarks](#evaluation-benchmarks)
 - [Spatial VLM Leaderboard & Evaluation Toolkit](#🏆-spatial-vlm-leaderboard--evaluation-toolkit)
-
-
+  - [Leaderboard](#leaderboard)
+  - [Evaluation Toolkit](#evaluation-toolkit)
 - [Related Surveys](#related-surveys)
-
 - [Citation](#citation)
 
 
 ## Overview
 This repository uses the framework from our survey paper to systematically organize the field of Spatial Intelligence in VLMs.
+- **The “What”: A Cognitive Hierarchy** 🧩  
+  We define spatial intelligence as a 3-level hierarchy, and group tasks, datasets, and benchmarks by required capability:  
+  **L1** *Perception* of intrinsic 3D attributes (e.g., size, orientation) &rarr; **L2** relational *Understanding* &rarr; **L3** *Extrapolation* (e.g., hidden-state inference, future prediction).
+- **The “How”: A Taxonomy of Methods** 🚀  
+  Methods are organized into five families, giving you a clear map of the current landscape. See details in [Awesome Papers](#awesome-papers).
+- **Where We Are: Evaluation Results and Toolkit** 🏆  
+  See how current models perform! 
+  - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
+  - **Open Evaluation Toolkit:** Reproduce our protocols and **evaluate your own models** under the same settings.
 
-- The "What": A Cognitive Hierarchy 🧠
-  > We categorize tasks, datasets, and benchmarks by required capability:
-  - **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
+<div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="85%"/></div>
+
+  <!-- - **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
   - **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
-  - **L3: Spatial Extrapolation:** Inferring hidden states, predicting future configurations, or reasoning from a situated perspective (e.g., mental rotation, pathfinding).
+  - **L3: Spatial Extrapolation:** Inferring hidden states, predicting future configurations, or reasoning from a situated perspective (e.g., mental rotation, pathfinding). -->
 
-- The "How": A Method Taxonomy 🛠️
-  > We group spatial-enhancement approaches using a consistent taxonomy (see the [Table of Contents](#table-of-contents)).
 
-- Where We Are: Evaluation Results and Toolkit 🛠️
-  > We report standardized results for **37 VLMs** across L1/L2/L3 in our leaderboard.  
-  An open **Evaluation Toolkit** is provided to reproduce our protocols and assess your own VLM under the same settings.
-
-<div align='left'><img src="./samples/outline.jpg"  alt="NAME" width="100%"/></div>
-
-## 📚 Awesome Papers
+## 🚀 Awesome Papers
 ### Training-Free Prompting
 
 Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/L2/L3}.
@@ -81,7 +78,8 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | Visual sketchpad: Sketching as a visual chain of thought for multimodal language models | University of Washington | NeurIPS2024  | [Link](https://github.com/Yushi-Hu/VisualSketchpad) |  |
 --------
 
-### Advanced Training Strategies
+### Model-Centric Enhancements
+<!-- Advanced Training Strategies -->
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -104,7 +102,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | Perception Tokens Enhance Visual Reasoning in Multimodal Language Models | University of Washington | CVPR 2025  | [Link](https://github.com/mahtabbigverdi/Aurora-perception) | [Link](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view) |
 --------
 
-### Architectural Enhancements
+#### Architectural Enhancements
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -115,7 +113,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | Contrastive region guidance: Improving grounding in vision-language mod2381 els without training | unc | ECCV 2024   | [Link](https://github.com/meetdavidwan/crg) | [Link](https://github.com/meetdavidwan/crg) |
 --------
 
-### Encoder-Level Improvements
+#### Encoder-Level Improvements
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -129,7 +127,8 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | Eagle 2 | NVIDIA | ICLR 2025  | [Link](https://github.com/NVlabs/EAGLE?tab=readme-ov-file) | [Link](https://huggingface.co/nvidia/Eagle2.5-8B) |
 --------
 
-### Object Region Guidance
+### Explicit 2D Information Injection
+#### Object Region Guidance
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -154,7 +153,8 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | LLaVA-SG |  Tsinghua University | arXiv2025  |  |  |
 --------
 
-### Explicit 3D Geometric Representations
+### 3D Information Enhancement
+#### Explicit 3D Geometric Representations
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -175,7 +175,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models | Zhejiang University | NeurIPS2025  | [Link](https://github.com/cpystan/SD-VLM) | [Link](https://huggingface.co/cpystan/SD-VLM-7B) |
 --------
 
-### Implicit 3D from Egocentric Views
+#### Implicit 3D from Egocentric Views
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -185,7 +185,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction | Guangdong Polytechnic Normal Universit | arXiv2024  |  |  |
 --------
 
-### Scene-level information + Ego-centric
+#### Scene-level information + Ego-centric
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -202,7 +202,8 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs | Apple | ICCV 2025  | [Link](https://github.com/apple/ml-cubifyanything) |  |
 --------
 
-### Manifesting Spatial Relations in 2D Images
+### Data-Centric Spatial Enhancement
+#### Manifesting Spatial Relations in 2D Images
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -213,7 +214,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | Pseudo-Q | Tsinghua University | CVPR22  | [Link](https://github.com/LeapLabTHU/Pseudo-Q?tab=readme-ov-file) |  |
 --------
 
-### Manifesting Spatial Priors in 3D and Synthetic Worlds
+#### Manifesting Spatial Priors in 3D and Synthetic Worlds
 
 | Title | Institution | Venue| Code | Checkpoint |
 |-------|-------------|------|------|------------|
@@ -232,13 +233,21 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 
 ### Spatially-Oriented Training Corpora
 
+<!-- | Datasets | Venue  | Perc. | Unders. | Extrap. | Task| Size | Modality|
+|-------|-------------|------|------|------------|
+| [Proximity-110K](https://huggingface.co/Electronics/ProximityQA/blob/main/llava_proximity-mix.json) | [ArXiv2024]()  | [Link](https://github.com/AlonMendelson/SGVL) | [Link](https://drive.google.com/file/d/13jzpcLgGalO3hkiqVwziNAlCEZD90ENN/view) |
+
+&  & \ding{51} & &  & depth estimation & 989,877 & Visual Genome, COCO &  RGB \\ -->
+
 ### Evaluation Benchmarks
 
 
 ## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit
 
+### Leaderboard
 - **Leaderboard:** standardized results across representative datasets; submit via PR.
 
+### Evaluation Toolkit
 - **Tooling:** loaders, evaluation scripts, and metric definitions for spatial tasks.
 
 To provide a clear performance baseline and facilitate future research, we provide our full evaluation toolkit. This suite includes the comprehensive results from our TPAMI survey, the open-source code to reproduce our evaluation, and the 9 integrated benchmarks hosted on Hugging Face.
