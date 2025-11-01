@@ -1,8 +1,31 @@
-# Awesome-Spatial-VLMs
+  <h1 align="center" style="font-size: 1.7rem">Awesome Spatial VLMs</h1>
+<!-- 
+  <p align="center">
+    <a href="https://scholar.google.com/citations?user=xlIBwREAAAAJ&hl=en">Disheng Liu</a>,
+    <a href="https://jiagengliu02.github.io/">Tuo Liang</a>,
+    <a href="https://scholar.google.com/citations?user=oV8sqb0AAAAJ&hl=zh-CN">Zhe Hu</a>,
+    <a href="https://scholar.google.com/citations?user=7CLFLX0AAAAJ&hl=en">Jierui Peng</a>,
+    <a href="https://yiren-lu.com/">Yiren Lu</a>,
+    <a href="https://sites.google.com/view/homepage-of-yi-xu">Yi Xu</a>,
+    <a href="https://www1.ece.neu.edu/~yunfu/">Yun Fu</a>,
+    <a href="https://yin-yu.github.io/">Yu Yin</a>
+  </p> -->
+
 > A curated list of resources for Spatial Intelligence in Vision-Language Models.
 
-This repository is the official, community-maintained resource for the survey paper:
-[Spatial Intelligence in Vision-Language Models: A Comprehensive Surve](arXiv_link)
+This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
+
+  <p align="center">
+    <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf">
+      <img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue" alt="Paper PDF">
+    </a>
+    <a href='https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow' alt='Evaluated Data'>
+    </a>
+    <a href='https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black' alt='Evaluated Data'>
+    </a>
+  </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
 
@@ -66,7 +89,7 @@ Author et al., Title (Venue YYYY). [paper] [code] — {method tag}; targets {L1/
 | 3daxisprompt: Promoting the 3d grounding and reasoning in gpt-4o | Shanghai AI Lab | Neurocomp’2025  |  |  |
 | Coarse correspondences boost spatial-temporal reasoning in multimodal language model | University of Washington | CVPR2025  |  |  |
 | SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models | Toyota Central R&D Labs | arXiv2025  |  |  |
-| Mindjourney: Test-time scaling with world models for spatial reasoning | UMass Amherst | arXiv2025  | [Link](https://github.com/UMass-Embodied-AGI/MindJourney) |  |
+| Mindjourney: Test-time scaling with world models for spatial reasoning | UMass Amherst | NeurIPS2025  | [Link](https://github.com/UMass-Embodied-AGI/MindJourney) |  |
 --------
 
 | Hybrid Prompting | Institution | Venue| Code | Checkpoint |
