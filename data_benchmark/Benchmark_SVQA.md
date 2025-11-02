@@ -54,4 +54,4 @@
 <tr style="background-color:#ffffff;"><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;"><a href="https://huggingface.co/datasets/Cusyoung/SpaCE-10">SPACE-10</a></td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">ArXiv2025</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">5,000</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">SCN, 3RS, ARK, SCN++</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">RGB, Point Cloud</td></tr>
 </tbody></table></div>
 
-> Total: **40 datasets × 9 columns**
+> Total: **49 datasets × 9 columns**
