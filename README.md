@@ -70,7 +70,7 @@ This repository uses the framework from our survey paper to systematically organ
   We define spatial intelligence as a 3-level hierarchy, and group tasks, datasets, and benchmarks by required capability:  
   **L1** *Perception* of intrinsic 3D attributes (e.g., size, orientation) &rarr; **L2** relational *Understanding* &rarr; **L3** *Extrapolation* (e.g., hidden-state inference, future prediction).
 - **The “How”: A Taxonomy of Methods** 🚀  
-  Methods are organized into five families, giving you a clear map of the current landscape. See details in [Awesome Papers](#awesome-papers).
+  Methods are organized into five families, giving you a clear map of the current landscape. See details in [🚀 Awesome Papers](#🚀-awesome-papers).
 - **Where We Are: Evaluation Results and Toolkit** 🏆  
   See how current models perform! 
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
@@ -422,11 +422,6 @@ We recollect the published spatial related datasets for evaluation. The followin
   <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
   <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
   <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
-  <tr>
-    <td>ViewSpatial-Bench</td>
-    <td>Multi-view spatial reasoning benchmark</td>
-    <td><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks_ViewSpatial-Bench">Link</a></td>
-  </tr>
 </table>
 
 
