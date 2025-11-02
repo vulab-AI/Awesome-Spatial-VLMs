@@ -53,7 +53,7 @@ This repository is the official, community-maintained resource for the survey pa
     - [Manifesting Spatial Relations in 2D Images](#manifesting-spatial-relations-in-2d-images)
     - [Manifesting Spatial Priors in 3D and Synthetic Worlds](#manifesting-spatial-priors-in-3d-and-synthetic-worlds)
 - [📚 Datasets and Benchmarks](#-datasets-and-benchmarks)
-  - [Spatially-Oriented Training Corpora ](#spatially-oriented-training-corpora-)
+  - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
   - [Evaluation Benchmarks](#evaluation-benchmarks)
 - [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
   - [Leaderboard](#leaderboard)
@@ -350,16 +350,13 @@ Zhejiang University ; Orient Anything (ICML25). [[paper]]() [[code]](https://git
 ## 📚 Datasets and Benchmarks
 > A comprehensive list of datasets for training and evaluation.
 
-### Spatially-Oriented Training Corpora <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md">
-<img src="https://img.shields.io/badge/Training Data-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Paper PDF"> </a>
+### Spatially-Oriented Training Corpora 
+<a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md">
+<img src="https://img.shields.io/badge/Training Data-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Dataset"> </a>
 
-<!-- | Datasets | Venue  | Perc. | Unders. | Extrap. | Task| Size | Modality|
-|-------|-------------|------|------|------------|
-| [Proximity-110K](https://huggingface.co/Electronics/ProximityQA/blob/main/llava_proximity-mix.json) | [ArXiv2024]()  | [Link](https://github.com/AlonMendelson/SGVL) | [Link](https://drive.google.com/file/d/13jzpcLgGalO3hkiqVwziNAlCEZD90ENN/view) |
-
-&  & \ding{51} & &  & depth estimation & 989,877 & Visual Genome, COCO &  RGB \\ -->
 
 ### Evaluation Benchmarks 
+
 <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md">
 <img src="https://img.shields.io/badge/Benchmark-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Benchmark"> </a>
 
