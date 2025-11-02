@@ -26,4 +26,4 @@
 <tr style="background-color:#ffffff;"><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;"><a href="https://huggingface.co/datasets/cpystan/MSMU">MSMU</a></td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">NeurIPS2025</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">700,000</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">ScanNet, ScanNet++,</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">RGB</td></tr>
 </tbody></table></div>
 
-> Total: **22 datasets × 9 columns**
+> Total: **21 datasets × 9 columns**

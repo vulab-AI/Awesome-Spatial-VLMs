@@ -70,7 +70,7 @@ This repository uses the framework from our survey paper to systematically organ
   We define spatial intelligence as a 3-level hierarchy, and group tasks, datasets, and benchmarks by required capability:  
   **L1** *Perception* of intrinsic 3D attributes (e.g., size, orientation) &rarr; **L2** relational *Understanding* &rarr; **L3** *Extrapolation* (e.g., hidden-state inference, future prediction).
 - **The “How”: A Taxonomy of Methods** 🚀  
-  Methods are organized into five families, giving you a clear map of the current landscape. See details in [🚀 Awesome Papers](#🚀-awesome-papers).
+  Methods are organized into five families, giving you a clear map of the current landscape. See details in [🚀 Awesome Papers](#-awesome-papers).
 - **Where We Are: Evaluation Results and Toolkit** 🏆  
   See how current models perform! 
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
@@ -351,14 +351,19 @@ Zhejiang University ; Orient Anything (ICML25). [[paper]]() [[code]](https://git
 > A comprehensive list of datasets for training and evaluation.
 
 ### Spatially-Oriented Training Corpora 
-<a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md">
-<img src="https://img.shields.io/badge/Training Data-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Dataset"> </a>
+<p align="left">
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md">
+    <img src="https://img.shields.io/badge/Training Data-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Dataset"> 
+  </a>
+</p>
 
 
 ### Evaluation Benchmarks 
-
-<a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md">
-<img src="https://img.shields.io/badge/Benchmark-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Benchmark"> </a>
+<p align="left">
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md">
+    <img src="https://img.shields.io/badge/Benchmark-Collection-green?style=flat&logo=mdbook&logoColor=white" alt="Benchmark">
+  </a>
+</p>
 
 
 ## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit
