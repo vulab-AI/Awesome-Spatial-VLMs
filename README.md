@@ -84,13 +84,13 @@ This repository uses the framework from our survey paper to systematically organ
 ### Training-Free Prompting
 #### Textual Prompting Methods
 
- - [CoRR2023] Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model (*Peking University*)[[paper]]();
+ - [CoRR2023] Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model (*Peking University*) [[paper]]();
 
  - [EMNLP2024] Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models (*University of Toronto*) [[paper]]() [[code]](https://github.com/andrewliao11/Q-Spatial-Bench-code)
 
-- [CVPR2024] Compositional Chain-of-Thought Prompting for Large Multimodal Models (*University of California, Berkeley*). [[paper]]() [[code]](https://github.com/chancharikmitra/CCoT) 
+- [CVPR2024] Compositional Chain-of-Thought Prompting for Large Multimodal Models (*University of California, Berkeley*) [[paper]]() [[code]](https://github.com/chancharikmitra/CCoT) 
 
-- [NeurIPS2024] SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors (*University of Oxford*). [[paper]](); 
+- [NeurIPS2024] SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors (*University of Oxford*) [[paper]](); 
 
 - [CoRR 2025] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation (*Tsinghua University*) [[paper]]() [[code]](https://github.com/qizekun/SoFar); 
 
