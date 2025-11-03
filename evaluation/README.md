@@ -2,30 +2,30 @@
 In this section, we offer codes of the models we evaluated in the paper. Due to the different environments' requirements of each models, it's hard for us to offer a unified way to run all models in a code. As a result, we offer a spatial_eval.py for each model and installation instructions for each model or method.
 
 
-### Commercial Models & General Models 
+### Commercial Models & General VLMs 
 
-[Instalations for Both](Commercial_General)
+[Evaluation for Both](Commercial_General)
 
 
 ### Prompting Methods
 
-[Instalations for Prompting Methods](Train_Free_Promptings)
+[Installations for Prompting Methods](Train_Free_Promptings)
 
 ### Model-Centric Enchancement
 
-[Instalations for Model-Centric Enhancement](Model_Centric)
+[Installations for Model-Centric Enhancement](Model_Centric)
 
 ### Explicit 2D Information Injecting
 
-[Installation for Explicit 2D Information Injecting](2D_Information)
+[Installations for Explicit 2D Information Injecting](2D_Information)
 
 ### 3D Spatial Information Enhancement
 
-[Installation for 3D Spatial Information Enhancement](3D_Information)
+[Installations for 3D Spatial Information Enhancement](3D_Information)
 
 ### Data-Centric Spatial Enhancement
 
-[Installation for Data-Centric Spatial Enhancement](Data_Centric)
+[Installations for Data-Centric Spatial Enhancement](Data_Centric)
 
 
 # Reference
