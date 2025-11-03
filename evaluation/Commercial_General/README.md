@@ -38,7 +38,7 @@ python gpt_data_preprocess_2.py
 python gpt_batch.py
 ```
 
-# Geenral Models
+# General VLMs
 ## Qwen2_5
 ```
 python general.py --output_path output/qwen2_5_7b. --model_path   Qwen/Qwen2.5-VL-7B-Instruct

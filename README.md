@@ -73,7 +73,7 @@ This repository uses the framework from our survey paper to systematically organ
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
   - **Open Evaluation Toolkit:** Reproduce our protocols and **evaluate your own models** under the same settings.
 
-<div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="90%"/></div>
+<div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="95%"/></div>
 
   <!-- - **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
   - **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
@@ -84,17 +84,17 @@ This repository uses the framework from our survey paper to systematically organ
 ### Training-Free Prompting
 #### Textual Prompting Methods
 
-University of Toronto; Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models (EMNLP2024). [[paper]]() [[code]](https://github.com/andrewliao11/Q-Spatial-Bench-code); 
+ - [CoRR2023] Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model (*Peking University*)[[paper]]();
 
-University of California, Berkeley; Compositional Chain-of-Thought Prompting for Large Multimodal Models (CVPR2024). [[paper]]() [[code]](https://github.com/chancharikmitra/CCoT); 
+ - [EMNLP2024] Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models (*University of Toronto*) [[paper]]() [[code]](https://github.com/andrewliao11/Q-Spatial-Bench-code)
 
-Peking University; Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model (CoRR2023). [[paper]](); 
+- [CVPR2024] Compositional Chain-of-Thought Prompting for Large Multimodal Models (*University of California, Berkeley*). [[paper]]() [[code]](https://github.com/chancharikmitra/CCoT) 
 
-University of Oxford; SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors (NeurIPS2024). [[paper]](); 
+- [NeurIPS2024] SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors (*University of Oxford*). [[paper]](); 
 
-Tsinghua University; SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation (CoRR 2025). [[paper]]() [[code]](https://github.com/qizekun/SoFar); 
+- [CoRR 2025] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation (*Tsinghua University*) [[paper]]() [[code]](https://github.com/qizekun/SoFar); 
 
---------
+---
 
 #### Visual Prompting Methods
 
@@ -367,7 +367,7 @@ Zhejiang University ; Orient Anything (ICML25). [[paper]]() [[code]](https://git
 
 ### 🏅 Main Leaderboard
 
-The table below presents the main results from our survey, comparing 38 models across 9 benchmarks. Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
+The table below presents the main results from our survey, comparing [38 VLMs](evaluation/README.md#model-details-and-original-repositories) across [9 benchmarks](#evaluated-benchmarks). Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
 
 <div align='center'><img src="./samples/leaderboard.jpg"  alt="Leaderboard" width="100%"/></div>
 
@@ -377,10 +377,9 @@ We invite the community to benchmark new models using our suite. Please to add y
 ### 🧑‍🔬 How to Evaluate Your Model
 
 1. **Selected Benchmarks for the Leaderboard**  
-    We collect existing spatial benchmarks used in the literature and standardize their usage for evaluation in the hugging face repo<a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">
-  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20"/>
-</a>.
+    We collect existing spatial benchmarks used in the literature and standardize their usage for evaluation in the hugging face repo<a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20"/></a>.  
     The table below summarizes the key datasets used to benchmark spatial VLMs on our leaderboard.  
+    <a id="evaluated-benchmarks"></a>
     <table>
       <tr>
         <th>Dataset Name</th>
@@ -408,10 +407,14 @@ We invite the community to benchmark new models using our suite. Please to add y
 
    The related code is available in [`evaluation/README.md`](evaluation/README.md).  
    It supports running experiments with:
-   - Commercial VLMs  
-   - General-purpose VLMs  
-   - Specialized spatial VLMs  
-      (1) Train-Free Promptings; (2) Model-Centric Enhancement; (3) Explicit 2D Information Injection; (4) 3D Spatial Information Enhancement; (5) Data-Centric Spatial Enhancement.
+   - [Commercial VLMs](evaluation/Commercial_General/README.md) (*e.g.,* GPT, Gemini)
+   - [General-purpose VLMs](evaluation/Commercial_General/README.md) (*e.g.,* Qwen2.5, LLava1.5, LLava_Next, LLava_Onevision)   
+   - Specialized Spatial VLMs:  
+      (1) [Train-Free Promptings](evaluation/Train_Free_Promptings/README.md)  
+      (2) [Model-Centric Enhancement](evaluation/Model_Centric/README.md)  
+      (3) [Explicit 2D Information Injection](evaluation/2D_Information/README.md)  
+      (4) [3D Spatial Information Enhancement](evaluation/3D_Information/README.md)  
+      (5) [Data-Centric Spatial Enhancement](evaluation/Data_Centric/README.md)
 
 
    Follow the instructions there to plug in your own model and report results under the same protocol as our leaderboard.
