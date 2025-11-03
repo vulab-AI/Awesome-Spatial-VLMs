@@ -1,35 +1,40 @@
 # Evaluation
-In this section, we offer codes of the models we evaluated in the paper. Due to the different environments' requirements of each models, it's hard for us to offer a unified way to run all models in a code. As a result, we offer a spatial_eval.py for each model and installation instructions for each model or method.
 
+This directory contains the evaluation scripts for all models considered in the leaderboard.  
+Because each model has different environment and dependency requirements, it is difficult to provide a single unified entry point. Instead, for **each model/method type**, we provide:
+
+- the installation and usage instructions, and
+- a dedicated `spatial_eval.py` script.  
+
+*Please refer to the corresponding subfolder when running evaluations.*
+
+
+## Evaluation Scripts by Categories
 
 ### Commercial Models & General VLMs 
 
-[Evaluation for Both](Commercial_General)
+- [Evaluation for Commercial & General VLMs](Commercial_General)
+    - **Commercial Models:** GPT, Gemini
+    - **General VLMs:** Qwen2.5, LLava1.5, LLava_Next, LLava_Onevision
+
+### Specialized Spatial VLMs
+
+- [Evaluation for Train-Free Prompting Methods](Train_Free_Promptings)
+
+- [Evaluation for Model-Centric Enhancement](Model_Centric)
+
+- [Evaluation for Explicit 2D Information Injecting](2D_Information)
+
+- [Evaluation for 3D Spatial Information Enhancement](3D_Information)
+
+- [Evaluation for Data-Centric Spatial Enhancement](Data_Centric)
 
 
-### Prompting Methods
 
-[Installations for Prompting Methods](Train_Free_Promptings)
+## Model Details and Original Repositories
 
-### Model-Centric Enchancement
+If you encounter installation issues or bugs, the original GitHub repositories are listed below for your reference.
 
-[Installations for Model-Centric Enhancement](Model_Centric)
-
-### Explicit 2D Information Injecting
-
-[Installations for Explicit 2D Information Injecting](2D_Information)
-
-### 3D Spatial Information Enhancement
-
-[Installations for 3D Spatial Information Enhancement](3D_Information)
-
-### Data-Centric Spatial Enhancement
-
-[Installations for Data-Centric Spatial Enhancement](Data_Centric)
-
-
-# Reference
-If there are some problems or bug during installation, following are the original github links.
 > **Note:** In order to unify and for ease of use, most the pip packages in our requirements.txt diff from the requirements in original github projects and we modify part of code to fit the evaluation. As a result, if you use `git clone ` through belowing link, please don't forget to copy the files in our github.
 
 | Type | Models / Methods | Model Version | Model Source | Model Backbone | Multi-View |
