@@ -94,7 +94,6 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [CoRR 2025] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation (*Tsinghua University*) [[paper]]() [[code]](https://github.com/qizekun/SoFar); 
 
----
 
 #### Visual Prompting Methods
 
@@ -110,7 +109,6 @@ Toyota Central R&D Labs; SpatialPrompting: Keyframe-driven Zero-Shot Spatial Rea
 
 UMass Amherst; Mindjourney: Test-time scaling with world models for spatial reasoning (arXiv2025). [[paper]]() [[code]](https://github.com/UMass-Embodied-AGI/MindJourney); 
 
---------
 
 #### Hybrid Prompting
 
@@ -124,7 +122,7 @@ Westlake University; Image-of-Thought Prompting for Visual Reasoning Refinement 
 
 University of Washington; Visual sketchpad: Sketching as a visual chain of thought for multimodal language models (NeurIPS2024). [[paper]]() [[code]](https://github.com/Yushi-Hu/VisualSketchpad); 
 
---------
+---
 
 ### Model-Centric Enhancements
 #### Advanced Training Strategies
@@ -163,7 +161,7 @@ National University of Singapore 2ARC Lab,; What makes for good visual tokenizer
 
 University of Washington; Perception Tokens Enhance Visual Reasoning in Multimodal Language Models (CVPR 2025). [[paper]]() [[code]](https://github.com/mahtabbigverdi/Aurora-perception) [[checkpoint]](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view); 
 
---------
+
 
 #### Architectural Enhancements
 
@@ -177,7 +175,7 @@ City University of Hong Kong; Why is spatial reasoning hard for vlms? an attenti
 
 unc; Contrastive region guidance: Improving grounding in vision-language mod2381 els without training (ECCV 2024 ). [[paper]]() [[code]](https://github.com/meetdavidwan/crg) [[checkpoint]](https://github.com/meetdavidwan/crg); 
 
---------
+
 
 #### Encoder-Level Improvements
 
@@ -197,7 +195,7 @@ University of Illinois Urbana-Champaign; ARGUS (CVPR2025). [[paper]]();
 
 NVIDIA; Eagle 2 (ICLR 2025). [[paper]]() [[code]](https://github.com/NVlabs/EAGLE?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/nvidia/Eagle2.5-8B); 
 
---------
+---
 
 
 ### Explicit 2D Information Injection
@@ -221,7 +219,7 @@ Meta; Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs (CV
 
 International Digital Economy Academy; Lyrics (arXiv2025). [[paper]](); 
 
---------
+
 
 
 #### Explicit spatial relationship
@@ -234,7 +232,7 @@ South China University of Technology; Seeing Beyond the Scene: Enhancing Vision-
 
 Tsinghua University; LLaVA-SG (arXiv2025). [[paper]](); 
 
---------
+---
 
 ### 3D Information Enhancement
 #### Explicit 3D Geometric Representations
@@ -269,7 +267,7 @@ Westlake University; SSR: Enhancing Depth Perception in Vision-Language Models v
 
 Zhejiang University; SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models (NeurIPS2025). [[paper]]() [[code]](https://github.com/cpystan/SD-VLM) [[checkpoint]](https://huggingface.co/cpystan/SD-VLM-7B); 
 
---------
+
 
 #### Implicit 3D from Egocentric Views
 
@@ -281,7 +279,7 @@ Georgia Institute of Technology; SplatTalk: 3D VQA with Gaussian Splatting (ICCV
 
 Guangdong Polytechnic Normal Universit; I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction (arXiv2024). [[paper]](); 
 
---------
+
 
 #### Scene-level information + Ego-centric
 
@@ -307,7 +305,7 @@ The University of Hong Kong; ScanReason: Empowering 3D Visual Grounding with Rea
 
 Apple; MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs (ICCV 2025). [[paper]]() [[code]](https://github.com/apple/ml-cubifyanything); 
 
---------
+---
 
 ### Data-Centric Spatial Enhancement
 
@@ -323,7 +321,6 @@ Microsoft Research; Kosmos-2  (ICLR24). [[paper]]() [[code]](https://github.com/
 
 Tsinghua University; Pseudo-Q (CVPR22). [[paper]]() [[code]](https://github.com/LeapLabTHU/Pseudo-Q?tab=readme-ov-file); 
 
---------
 
 #### Manifesting Spatial Priors in 3D and Synthetic Worlds
 
@@ -427,13 +424,23 @@ We invite the community to benchmark new models using our suite. Please to add y
 ## Citation
 If you find this survey or repository useful for your research, please cite our paper:
 ```
-@article{YourLastName2025SpatialSurvey,
-  title   = {{Your Paper Title}},
+@article{liu2025spatialIntelligence,
+  title   = {{Spatial Intelligence in Vision-Language Models: A
+Comprehensive Survey}},
+  author  = {Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+  year    = {2025},
+}
+```
+
+<!-- ```
+@article{Disheng2025spatialIntelligence,
+  title   = {{Spatial Intelligence in Vision-Language Models: A
+Comprehensive Survey}},
   author  = {Your Name and Co-author 1 and Co-author 2},
   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2025},
-  volume  = {},
+  <!-- volume  = {},
   number  = {},
-  pages   = {}
+  pages   = {} -->
 }
-```
+``` -->
