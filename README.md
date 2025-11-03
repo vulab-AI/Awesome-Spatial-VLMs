@@ -56,11 +56,9 @@ This repository is the official, community-maintained resource for the survey pa
   - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
   - [Evaluation Benchmarks](#evaluation-benchmarks)
 - [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
-  - [Leaderboard](#leaderboard)
-  - [Evaluation Toolkit](#evaluation-toolkit)
   - [🏆 Main Leaderboard](#-main-leaderboard)
   - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
-  - [📖 Related Surveys](#-related-surveys)
+- [📖 Related Surveys](#-related-surveys)
 - [Citation](#citation)
 
 
@@ -76,7 +74,7 @@ This repository uses the framework from our survey paper to systematically organ
   - **Standardized Leaderboard:** We report results for **37+ VLMs** across all L1/L2/L3 tasks.
   - **Open Evaluation Toolkit:** Reproduce our protocols and **evaluate your own models** under the same settings.
 
-<div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="85%"/></div>
+<div align='center'><img src="./samples/outline.jpg"  alt="Overview Diagram" width="90%"/></div>
 
   <!-- - **L1: Spatial Perception:** Recognizing individual objects and their intrinsic 3D attributes (e.g., size, orientation, 3D segmentation).
   - **L2: Spatial Understanding:** Reasoning about the extrinsic, relational properties among multiple objects (e.g., "the dog to the left of the cat").
@@ -368,31 +366,11 @@ Zhejiang University ; Orient Anything (ICML25). [[paper]]() [[code]](https://git
 
 ## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit
 
-### Leaderboard
-- **Leaderboard:** standardized results across representative datasets; submit via PR.
-
-### Evaluation Toolkit
-- **Tooling:** loaders, evaluation scripts, and metric definitions for spatial tasks.
-
-To provide a clear performance baseline and facilitate future research, we provide our full evaluation toolkit. This suite includes the comprehensive results from our TPAMI survey, the open-source code to reproduce our evaluation, and the 9 integrated benchmarks hosted on Hugging Face.
-
-For nine widely used spatial benchmarks, we provide:
-- **Results:** reported performance of representative VLMs.
-- **Evaluation code:** scripts to reproduce the metrics.
-- **Benchmark packages:** integrated Hugging Face versions of each benchmark for plug-and-play evaluation.
-
-These leaderboards are intended to make comparison across models transparent and reproducible.
-
-Quick Links
-- The script to run the evaluation.
-
-- Download all 9 integrated benchmarks in one unified format.
-
-- See the full results from our paper.
-
 ### 🏆 Main Leaderboard
 
 The table below presents the main results from our survey, comparing 38 models across 9 benchmarks. Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
+
+<div align='center'><img src="./samples/leaderboard.jpg"  alt="Leaderboard" width="100%"/></div>
 
 We invite the community to benchmark new models using our suite. Please to add your model's results!
 
@@ -402,7 +380,6 @@ We invite the community to benchmark new models using our suite. Please to add y
 Facilitating the evaluation of published spatial related benchmarks, we summarize the dataset used in the evaluation section.
 
 The related code is stored [here](evaluation/README.md).
-
 
 
 We recollect the published spatial related datasets for evaluation. The following table summarizes the key datasets used for benchmarking spatial vision-language models:
