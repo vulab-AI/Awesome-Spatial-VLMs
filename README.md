@@ -56,9 +56,8 @@ This repository is the official, community-maintained resource for the survey pa
   - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
   - [Evaluation Benchmarks](#evaluation-benchmarks)
 - [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
-  - [🏆 Main Leaderboard](#-main-leaderboard)
-  - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
-- [📖 Related Surveys](#-related-surveys)
+  - [Main Leaderboard](#-main-leaderboard)
+  - [How to Evaluate Your Model](#-how-to-evaluate-your-model)
 - [Citation](#citation)
 
 
@@ -366,7 +365,7 @@ Zhejiang University ; Orient Anything (ICML25). [[paper]]() [[code]](https://git
 
 ## 🏆 Spatial VLM Leaderboard & Evaluation Toolkit
 
-### 🏆 Main Leaderboard
+### 🏅 Main Leaderboard
 
 The table below presents the main results from our survey, comparing 38 models across 9 benchmarks. Scores are QA Accuracy (%). Benchmarks are grouped by our Cognitive Hierarchy.
 
@@ -377,40 +376,48 @@ We invite the community to benchmark new models using our suite. Please to add y
 
 ### 🧑‍🔬 How to Evaluate Your Model
 
-Facilitating the evaluation of published spatial related benchmarks, we summarize the dataset used in the evaluation section.
+1. **Selected Benchmarks for the Leaderboard**  
+    We collect existing spatial benchmarks used in the literature and standardize their usage for evaluation in the hugging face repo<a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="20"/>
+</a>.
+    The table below summarizes the key datasets used to benchmark spatial VLMs on our leaderboard.  
+    <table>
+      <tr>
+        <th>Dataset Name</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td>EgoOrientBench</td>
+        <td>Egocentric spatial understanding benchmark</td>
+        <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Link" width="20"/> Link</a></td>
+      </tr>
+      <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
+      <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
+      <tr><td>MM-Vet (Spat)</td><td>Spatial awareness evaluation track</td></tr>
+      <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
+      <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
+      <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
+      <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
+      <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
+      <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
+    </table>
 
-The related code is stored [here](evaluation/README.md).
+2. **Evaluation Toolkit**  
+   To facilitate fair and reproducible evaluation on these benchmarks, we provide a unified evaluation toolkit.
+
+   The related code is available in [`evaluation/README.md`](evaluation/README.md).  
+   It supports running experiments with:
+   - Commercial VLMs  
+   - General-purpose VLMs  
+   - Specialized spatial VLMs  
+      (1) Train-Free Promptings; (2) Model-Centric Enhancement; (3) Explicit 2D Information Injection; (4) 3D Spatial Information Enhancement; (5) Data-Centric Spatial Enhancement.
 
 
-We recollect the published spatial related datasets for evaluation. The following table summarizes the key datasets used for benchmarking spatial vision-language models:
-
-<table>
-  <tr>
-    <th>Dataset Name</th>
-    <th>Description</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>EgoOrientBench</td>
-    <td>Egocentric spatial understanding benchmark</td>
-    <td rowspan="10"><a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">Link</a></td>
-  </tr>
-  <tr><td>GeoMeter(real)</td><td>A depth-aware spatial reasoning benchmark</td></tr>
-  <tr><td>SEED-Bench (Spatial section)</td><td>Subset focusing on spatial relations</td></tr>
-  <tr><td>MM-Vet (Spat)</td><td>Spatial awareness evaluation track</td></tr>
-  <tr><td>What’s Up</td><td>Spatial relation in visual grounding</td></tr>
-  <tr><td>CV-Bench</td><td>Visual-center spatial benchmark</td></tr>
-  <tr><td>SRBench</td><td>The extrapolation of spatial benchmark</td></tr>
-  <tr><td>MindCube</td><td>The extrapolation of spatial benchmark</td></tr>
-  <tr><td>OmniSpatial</td><td>Comprehensive spatial reasoning dataset</td></tr>
-  <tr><td>RealWorldQA</td><td>Comprehensive spatial reasoning dataset</td></tr>
-</table>
+   Follow the instructions there to plug in your own model and report results under the same protocol as our leaderboard.
 
 
-### 📖 Related Surveys
-- Spatial reasoning in VLMs and embodied AI  
-- 3D vision and scene understanding  
-- Multimodal evaluation and benchmarking
+
 
 ---
 
