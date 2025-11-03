@@ -400,9 +400,7 @@ We invite the community to benchmark new models using our suite. Please to add y
     </table>
 
 2. **Evaluation Toolkit**  
-   To facilitate fair and reproducible evaluation on these benchmarks, we provide a unified evaluation toolkit.
-
-   The related code is available in [`evaluation/README.md`](evaluation/README.md).  
+   To facilitate fair and reproducible evaluation on these benchmarks, we provide a dedicated evaluation toolkit. The related code is available in [`evaluation/README.md`](evaluation/README.md).  
    It supports running experiments with:
    - [Commercial VLMs](evaluation/Commercial_General/README.md) (*e.g.,* GPT, Gemini)
    - [General-purpose VLMs](evaluation/Commercial_General/README.md) (*e.g.,* Qwen2.5, LLava1.5, LLava_Next, LLava_Onevision)   
@@ -439,8 +437,8 @@ Comprehensive Survey}},
   author  = {Your Name and Co-author 1 and Co-author 2},
   journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year    = {2025},
-  <!-- volume  = {},
+  volume  = {},
   number  = {},
-  pages   = {} -->
+  pages   = {}
 }
 ``` -->
