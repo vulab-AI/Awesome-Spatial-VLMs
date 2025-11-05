@@ -15,17 +15,22 @@
 
 This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
 
-  <p align="center">
-    <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf">
-      <img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue" alt="Paper PDF">
-    </a>
-    <a href='https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks' style='margin-left: 0.5rem; text-decoration: none;'>
-      <img src='https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow' alt='Evaluated Data'>
-    </a>
-    <a href='https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md' style='margin-left: 0.5rem; text-decoration: none;'>
-      <img src='https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black' alt='Evaluated Data'>
-    </a>
-  </p>
+<p align="center">
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf">
+    <img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue"
+         alt="Paper PDF">
+  </a>
+  <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">
+    <img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow"
+         alt="Evaluated Data"
+         style="margin-left: 0.5rem;">
+  </a>
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md">
+    <img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black"
+         alt="Evaluation Code"
+         style="margin-left: 0.5rem;">
+  </a>
+</p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
 
