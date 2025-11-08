@@ -1,0 +1,9 @@
+timm==0.5.4
+wandb
+einops
+yacs
+ujson
+albumentations
+opencv-python==4.5.5.64
+mmcv-full==1.4.8
+mmdet==v2.25.0

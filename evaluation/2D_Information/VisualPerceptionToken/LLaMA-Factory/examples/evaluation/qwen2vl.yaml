@@ -1,0 +1,25 @@
+### model
+model_name_or_path: path/to/your/checkpoint
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: freefreeze
+freefreeze_frozen_modules: "all"
+
+### dataset
+eval_dataset: dataset1,dataset2
+template: qwen2_vl
+cutoff_len: 1024
+max_samples: 50000
+overwrite_cache: true
+preprocessing_num_workers: 64
+
+### output
+output_dir: path/to/your/output
+overwrite_output_dir: true
+
+### eval
+per_device_eval_batch_size: 8
+predict_with_generate: true
+ddp_timeout: 180000000

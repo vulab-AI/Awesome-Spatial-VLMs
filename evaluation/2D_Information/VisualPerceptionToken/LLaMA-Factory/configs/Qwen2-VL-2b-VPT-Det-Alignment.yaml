@@ -1,0 +1,49 @@
+### model
+model_name_or_path: Qwen/Qwen2-VL-2B-Instruct
+new_special_tokens: <|detection_image_pad|>
+resize_vocab: true
+additional_target: embed_tokens,lm_head
+customize_model_class: vpt # must be set as this for our model, must be set None for original qwen
+num_inner_forward_run: 1
+para_mask_id: 0
+para_mask_ratio: 0.0
+vision_encoder_ls: dino
+
+### method
+stage: sft
+do_train: true
+finetuning_type: freefreeze
+freefreeze_trainable_modules: detection_projector
+deepspeed: examples/deepspeed/ds_z0_config.json
+
+### dataset
+dataset: llava_alignment_detection_qwen_response_train 
+template: vpt_qwen2_vl # must be set as this for our model, must be set qwen2_vl for oiginal qwen
+cutoff_len: 2048
+max_samples: 600000 # 50000
+overwrite_cache: true
+preprocessing_num_workers: 64
+
+### output
+output_dir: /output
+logging_steps: 25
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 16
+gradient_accumulation_steps: 4
+learning_rate: 2.0e-3
+num_train_epochs: 1.0 
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+bf16: true
+ddp_timeout: 180000000
+save_safetensors: false
+
+### eval
+val_size: 0.002
+per_device_eval_batch_size: 16
+eval_strategy: steps
+eval_steps: 500
