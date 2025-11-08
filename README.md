@@ -131,6 +131,8 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning (_Inclusion AI, Ant Group_) [[paper]](https://arxiv.org/pdf/2507.08306) [[code]](https://github.com/inclusionAI/M2-Reasoning) [[checkpoint]](https://huggingface.co/inclusionAI/M2-Reasoning);
 
+- [arXiv2025] Improved Visual-Spatial Reasoning via R1-Zero-Like Training (_Shanghai Jiao Tong University_) [[paper]](https://arxiv.org/pdf/2504.00883) [[code]](https://github.com/zhijie-group/R1-Zero-VSI)
+
 - [arXiv2025] SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization (_Stony Brook University_) [[paper]](https://arxiv.org/pdf/2506.01371);
 
 - [arXiv2025] Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2504.12680) [[code]](https://github.com/EmbodiedCity/Embodied-R.code) [[checkpoint]](https://huggingface.co/EmbodiedCity/Embodied-R);
