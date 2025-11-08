@@ -1,4 +1,0 @@
-# ninja log v7
-7	47259	1757093446551233919	/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/build/temp.linux-x86_64-cpython-310/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/src/cpu/ms_deform_attn_cpu.o	b2661b914fd8f50e
-17	65643	1757093446551233919	/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/build/temp.linux-x86_64-cpython-310/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/src/vision.o	b635fb50c1f8e0fd
-14	486816	1757093446551233919	/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/build/temp.linux-x86_64-cpython-310/home/yxy1421/tuo/spatial_eval/Promptings/som/ops/src/cuda/ms_deform_attn_cuda.o	c9965a31ec48b0e6

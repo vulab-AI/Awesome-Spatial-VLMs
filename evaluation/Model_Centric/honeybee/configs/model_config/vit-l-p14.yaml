@@ -1,3 +1,0 @@
-vision_config:
-  encoder_type: openai.clip
-  pretrained_vision_name_or_path: "openai/clip-vit-large-patch14"
