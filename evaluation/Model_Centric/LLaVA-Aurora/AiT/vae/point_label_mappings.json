@@ -1,0 +1,13273 @@
+{
+  "ADE_train_00000639.jpg": {
+    "B": {
+      "coordinate": [
+        73,
+        188
+      ],
+      "depth": 15.0
+    },
+    "A": {
+      "coordinate": [
+        191,
+        77
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        77,
+        79
+      ],
+      "depth": 60.0
+    }
+  },
+  "ADE_train_00012617.jpg": {
+    "B": {
+      "coordinate": [
+        170,
+        225
+      ],
+      "depth": 31.0
+    },
+    "A": {
+      "coordinate": [
+        188,
+        272
+      ],
+      "depth": 79.0
+    },
+    "C": {
+      "coordinate": [
+        81,
+        75
+      ],
+      "depth": 103.0
+    },
+    "E": {
+      "coordinate": [
+        293,
+        117
+      ],
+      "depth": 126.0
+    },
+    "D": {
+      "coordinate": [
+        223,
+        296
+      ],
+      "depth": 164.0
+    }
+  },
+  "ADE_train_00000340.jpg": {
+    "A": {
+      "coordinate": [
+        226,
+        80
+      ],
+      "depth": 68.0
+    },
+    "C": {
+      "coordinate": [
+        285,
+        189
+      ],
+      "depth": 94.0
+    },
+    "B": {
+      "coordinate": [
+        233,
+        296
+      ],
+      "depth": 213.0
+    }
+  },
+  "ADE_train_00002330.jpg": {
+    "B": {
+      "coordinate": [
+        223,
+        180
+      ],
+      "depth": 10.0
+    },
+    "E": {
+      "coordinate": [
+        199,
+        115
+      ],
+      "depth": 45.0
+    },
+    "A": {
+      "coordinate": [
+        136,
+        187
+      ],
+      "depth": 81.0
+    },
+    "C": {
+      "coordinate": [
+        61,
+        82
+      ],
+      "depth": 111.0
+    },
+    "D": {
+      "coordinate": [
+        290,
+        47
+      ],
+      "depth": 179.0
+    }
+  },
+  "ADE_train_00012769.jpg": {
+    "A": {
+      "coordinate": [
+        285,
+        174
+      ],
+      "depth": 25.0
+    },
+    "B": {
+      "coordinate": [
+        151,
+        261
+      ],
+      "depth": 102.0
+    }
+  },
+  "ADE_train_00001263.jpg": {
+    "B": {
+      "coordinate": [
+        123,
+        146
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        83,
+        73
+      ],
+      "depth": 48.0
+    },
+    "D": {
+      "coordinate": [
+        62,
+        36
+      ],
+      "depth": 75.0
+    },
+    "C": {
+      "coordinate": [
+        270,
+        127
+      ],
+      "depth": 131.0
+    }
+  },
+  "ADE_train_00013710.jpg": {
+    "A": {
+      "coordinate": [
+        102,
+        118
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        90,
+        169
+      ],
+      "depth": 75.0
+    },
+    "B": {
+      "coordinate": [
+        149,
+        28
+      ],
+      "depth": 148.0
+    }
+  },
+  "ADE_train_00017701.jpg": {
+    "C": {
+      "coordinate": [
+        274,
+        139
+      ],
+      "depth": 7.0
+    },
+    "A": {
+      "coordinate": [
+        72,
+        89
+      ],
+      "depth": 41.0
+    },
+    "E": {
+      "coordinate": [
+        106,
+        232
+      ],
+      "depth": 116.0
+    },
+    "D": {
+      "coordinate": [
+        107,
+        259
+      ],
+      "depth": 139.0
+    },
+    "B": {
+      "coordinate": [
+        128,
+        288
+      ],
+      "depth": 182.0
+    }
+  },
+  "ADE_train_00016930.jpg": {
+    "A": {
+      "coordinate": [
+        76,
+        73
+      ],
+      "depth": 84.0
+    },
+    "C": {
+      "coordinate": [
+        256,
+        239
+      ],
+      "depth": 110.0
+    },
+    "B": {
+      "coordinate": [
+        294,
+        205
+      ],
+      "depth": 167.0
+    }
+  },
+  "ADE_train_00010822.jpg": {
+    "C": {
+      "coordinate": [
+        197,
+        120
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        288,
+        132
+      ],
+      "depth": 48.0
+    },
+    "B": {
+      "coordinate": [
+        139,
+        9
+      ],
+      "depth": 108.0
+    }
+  },
+  "ADE_train_00014704.jpg": {
+    "A": {
+      "coordinate": [
+        12,
+        134
+      ],
+      "depth": 24.0
+    },
+    "B": {
+      "coordinate": [
+        137,
+        236
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00017889.jpg": {
+    "A": {
+      "coordinate": [
+        41,
+        3
+      ],
+      "depth": 6.0
+    },
+    "B": {
+      "coordinate": [
+        223,
+        148
+      ],
+      "depth": 32.0
+    },
+    "C": {
+      "coordinate": [
+        164,
+        228
+      ],
+      "depth": 74.0
+    },
+    "E": {
+      "coordinate": [
+        91,
+        183
+      ],
+      "depth": 190.0
+    },
+    "D": {
+      "coordinate": [
+        1,
+        242
+      ],
+      "depth": 245.0
+    }
+  },
+  "ADE_train_00018652.jpg": {
+    "B": {
+      "coordinate": [
+        172,
+        190
+      ],
+      "depth": 28.0
+    },
+    "A": {
+      "coordinate": [
+        237,
+        220
+      ],
+      "depth": 54.0
+    },
+    "C": {
+      "coordinate": [
+        6,
+        240
+      ],
+      "depth": 199.0
+    }
+  },
+  "ADE_train_00002612.jpg": {
+    "A": {
+      "coordinate": [
+        179,
+        116
+      ],
+      "depth": 2.0
+    },
+    "B": {
+      "coordinate": [
+        265,
+        73
+      ],
+      "depth": 34.0
+    },
+    "C": {
+      "coordinate": [
+        292,
+        196
+      ],
+      "depth": 143.0
+    }
+  },
+  "ADE_train_00018578.jpg": {
+    "A": {
+      "coordinate": [
+        178,
+        93
+      ],
+      "depth": 3.0
+    },
+    "B": {
+      "coordinate": [
+        188,
+        13
+      ],
+      "depth": 95.0
+    },
+    "C": {
+      "coordinate": [
+        298,
+        286
+      ],
+      "depth": 189.0
+    }
+  },
+  "ADE_train_00010669.jpg": {
+    "B": {
+      "coordinate": [
+        294,
+        127
+      ],
+      "depth": 30.0
+    },
+    "A": {
+      "coordinate": [
+        167,
+        231
+      ],
+      "depth": 62.0
+    },
+    "D": {
+      "coordinate": [
+        260,
+        12
+      ],
+      "depth": 92.0
+    },
+    "C": {
+      "coordinate": [
+        125,
+        290
+      ],
+      "depth": 177.0
+    }
+  },
+  "ADE_train_00015714.jpg": {
+    "A": {
+      "coordinate": [
+        112,
+        181
+      ],
+      "depth": 2.0
+    },
+    "B": {
+      "coordinate": [
+        207,
+        6
+      ],
+      "depth": 122.0
+    }
+  },
+  "ADE_train_00014874.jpg": {
+    "A": {
+      "coordinate": [
+        120,
+        263
+      ],
+      "depth": 66.0
+    },
+    "B": {
+      "coordinate": [
+        35,
+        236
+      ],
+      "depth": 131.0
+    }
+  },
+  "ADE_train_00015036.jpg": {
+    "B": {
+      "coordinate": [
+        88,
+        46
+      ],
+      "depth": 35.0
+    },
+    "C": {
+      "coordinate": [
+        39,
+        139
+      ],
+      "depth": 63.0
+    },
+    "A": {
+      "coordinate": [
+        124,
+        178
+      ],
+      "depth": 102.0
+    },
+    "D": {
+      "coordinate": [
+        122,
+        300
+      ],
+      "depth": 217.0
+    }
+  },
+  "ADE_train_00008387.jpg": {
+    "B": {
+      "coordinate": [
+        5,
+        57
+      ],
+      "depth": 26.0
+    },
+    "D": {
+      "coordinate": [
+        267,
+        27
+      ],
+      "depth": 95.0
+    },
+    "A": {
+      "coordinate": [
+        168,
+        16
+      ],
+      "depth": 120.0
+    },
+    "C": {
+      "coordinate": [
+        165,
+        276
+      ],
+      "depth": 241.0
+    }
+  },
+  "ADE_train_00005531.jpg": {
+    "B": {
+      "coordinate": [
+        115,
+        29
+      ],
+      "depth": 18.0
+    },
+    "C": {
+      "coordinate": [
+        300,
+        138
+      ],
+      "depth": 53.0
+    },
+    "A": {
+      "coordinate": [
+        229,
+        233
+      ],
+      "depth": 127.0
+    }
+  },
+  "ADE_train_00008075.jpg": {
+    "C": {
+      "coordinate": [
+        163,
+        214
+      ],
+      "depth": 21.0
+    },
+    "E": {
+      "coordinate": [
+        213,
+        154
+      ],
+      "depth": 59.0
+    },
+    "D": {
+      "coordinate": [
+        137,
+        95
+      ],
+      "depth": 133.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        2
+      ],
+      "depth": 173.0
+    },
+    "B": {
+      "coordinate": [
+        31,
+        81
+      ],
+      "depth": 222.0
+    }
+  },
+  "ADE_train_00006621.jpg": {
+    "A": {
+      "coordinate": [
+        141,
+        114
+      ],
+      "depth": 89.0
+    },
+    "B": {
+      "coordinate": [
+        290,
+        270
+      ],
+      "depth": 210.0
+    }
+  },
+  "ADE_train_00019377.jpg": {
+    "A": {
+      "coordinate": [
+        139,
+        259
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        257,
+        50
+      ],
+      "depth": 90.0
+    },
+    "B": {
+      "coordinate": [
+        200,
+        300
+      ],
+      "depth": 114.0
+    }
+  },
+  "ADE_train_00005166.jpg": {
+    "A": {
+      "coordinate": [
+        67,
+        93
+      ],
+      "depth": 10.0
+    },
+    "B": {
+      "coordinate": [
+        157,
+        96
+      ],
+      "depth": 58.0
+    },
+    "C": {
+      "coordinate": [
+        250,
+        48
+      ],
+      "depth": 101.0
+    }
+  },
+  "ADE_train_00005108.jpg": {
+    "D": {
+      "coordinate": [
+        135,
+        265
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        180,
+        71
+      ],
+      "depth": 98.0
+    },
+    "B": {
+      "coordinate": [
+        66,
+        168
+      ],
+      "depth": 133.0
+    },
+    "E": {
+      "coordinate": [
+        41,
+        103
+      ],
+      "depth": 180.0
+    },
+    "C": {
+      "coordinate": [
+        15,
+        300
+      ],
+      "depth": 229.0
+    }
+  },
+  "ADE_train_00005895.jpg": {
+    "B": {
+      "coordinate": [
+        223,
+        155
+      ],
+      "depth": 19.0
+    },
+    "E": {
+      "coordinate": [
+        249,
+        105
+      ],
+      "depth": 45.0
+    },
+    "D": {
+      "coordinate": [
+        152,
+        4
+      ],
+      "depth": 65.0
+    },
+    "A": {
+      "coordinate": [
+        69,
+        269
+      ],
+      "depth": 108.0
+    },
+    "C": {
+      "coordinate": [
+        291,
+        86
+      ],
+      "depth": 189.0
+    }
+  },
+  "ADE_train_00010129.jpg": {
+    "A": {
+      "coordinate": [
+        277,
+        189
+      ],
+      "depth": 31.0
+    },
+    "B": {
+      "coordinate": [
+        299,
+        277
+      ],
+      "depth": 136.0
+    },
+    "C": {
+      "coordinate": [
+        145,
+        171
+      ],
+      "depth": 194.0
+    },
+    "D": {
+      "coordinate": [
+        41,
+        278
+      ],
+      "depth": 242.0
+    }
+  },
+  "ADE_train_00003950.jpg": {
+    "B": {
+      "coordinate": [
+        216,
+        171
+      ],
+      "depth": 32.0
+    },
+    "A": {
+      "coordinate": [
+        253,
+        235
+      ],
+      "depth": 52.0
+    },
+    "C": {
+      "coordinate": [
+        117,
+        294
+      ],
+      "depth": 168.0
+    }
+  },
+  "ADE_train_00017225.jpg": {
+    "C": {
+      "coordinate": [
+        101,
+        145
+      ],
+      "depth": 9.0
+    },
+    "D": {
+      "coordinate": [
+        70,
+        217
+      ],
+      "depth": 49.0
+    },
+    "A": {
+      "coordinate": [
+        126,
+        247
+      ],
+      "depth": 73.0
+    },
+    "B": {
+      "coordinate": [
+        266,
+        284
+      ],
+      "depth": 143.0
+    }
+  },
+  "ADE_train_00007930.jpg": {
+    "B": {
+      "coordinate": [
+        242,
+        171
+      ],
+      "depth": 27.0
+    },
+    "A": {
+      "coordinate": [
+        222,
+        176
+      ],
+      "depth": 65.0
+    }
+  },
+  "ADE_train_00000916.jpg": {
+    "A": {
+      "coordinate": [
+        236,
+        146
+      ],
+      "depth": 4.0
+    },
+    "D": {
+      "coordinate": [
+        200,
+        33
+      ],
+      "depth": 39.0
+    },
+    "B": {
+      "coordinate": [
+        294,
+        287
+      ],
+      "depth": 86.0
+    },
+    "C": {
+      "coordinate": [
+        170,
+        289
+      ],
+      "depth": 191.0
+    }
+  },
+  "ADE_train_00000876.jpg": {
+    "A": {
+      "coordinate": [
+        224,
+        95
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        215,
+        251
+      ],
+      "depth": 58.0
+    },
+    "C": {
+      "coordinate": [
+        6,
+        184
+      ],
+      "depth": 78.0
+    },
+    "D": {
+      "coordinate": [
+        45,
+        296
+      ],
+      "depth": 106.0
+    }
+  },
+  "ADE_train_00007689.jpg": {
+    "A": {
+      "coordinate": [
+        126,
+        178
+      ],
+      "depth": 103.0
+    },
+    "B": {
+      "coordinate": [
+        39,
+        294
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00008435.jpg": {
+    "C": {
+      "coordinate": [
+        20,
+        72
+      ],
+      "depth": 59.0
+    },
+    "B": {
+      "coordinate": [
+        55,
+        161
+      ],
+      "depth": 130.0
+    },
+    "A": {
+      "coordinate": [
+        103,
+        278
+      ],
+      "depth": 172.0
+    }
+  },
+  "ADE_train_00002726.jpg": {
+    "A": {
+      "coordinate": [
+        141,
+        137
+      ],
+      "depth": 7.0
+    },
+    "C": {
+      "coordinate": [
+        139,
+        12
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        206,
+        75
+      ],
+      "depth": 227.0
+    }
+  },
+  "ADE_train_00001919.jpg": {
+    "A": {
+      "coordinate": [
+        96,
+        212
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        79,
+        55
+      ],
+      "depth": 66.0
+    },
+    "C": {
+      "coordinate": [
+        105,
+        284
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00004520.jpg": {
+    "B": {
+      "coordinate": [
+        66,
+        65
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        282,
+        187
+      ],
+      "depth": 58.0
+    },
+    "C": {
+      "coordinate": [
+        2,
+        281
+      ],
+      "depth": 101.0
+    }
+  },
+  "ADE_train_00013844.jpg": {
+    "A": {
+      "coordinate": [
+        165,
+        106
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        39,
+        139
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        62,
+        177
+      ],
+      "depth": 56.0
+    },
+    "D": {
+      "coordinate": [
+        177,
+        216
+      ],
+      "depth": 104.0
+    }
+  },
+  "ADE_train_00007341.jpg": {
+    "B": {
+      "coordinate": [
+        271,
+        169
+      ],
+      "depth": 32.0
+    },
+    "A": {
+      "coordinate": [
+        290,
+        274
+      ],
+      "depth": 76.0
+    },
+    "C": {
+      "coordinate": [
+        86,
+        20
+      ],
+      "depth": 129.0
+    }
+  },
+  "ADE_train_00008891.jpg": {
+    "B": {
+      "coordinate": [
+        226,
+        190
+      ],
+      "depth": 93.0
+    },
+    "C": {
+      "coordinate": [
+        163,
+        230
+      ],
+      "depth": 175.0
+    },
+    "A": {
+      "coordinate": [
+        71,
+        280
+      ],
+      "depth": 216.0
+    }
+  },
+  "ADE_train_00003679.jpg": {
+    "A": {
+      "coordinate": [
+        140,
+        77
+      ],
+      "depth": 15.0
+    },
+    "D": {
+      "coordinate": [
+        25,
+        3
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        89,
+        229
+      ],
+      "depth": 80.0
+    },
+    "B": {
+      "coordinate": [
+        2,
+        37
+      ],
+      "depth": 122.0
+    },
+    "E": {
+      "coordinate": [
+        0,
+        279
+      ],
+      "depth": 248.0
+    }
+  },
+  "ADE_train_00001545.jpg": {
+    "B": {
+      "coordinate": [
+        168,
+        88
+      ],
+      "depth": 42.0
+    },
+    "A": {
+      "coordinate": [
+        101,
+        211
+      ],
+      "depth": 112.0
+    },
+    "C": {
+      "coordinate": [
+        293,
+        246
+      ],
+      "depth": 145.0
+    }
+  },
+  "ADE_train_00006107.jpg": {
+    "B": {
+      "coordinate": [
+        108,
+        52
+      ],
+      "depth": 12.0
+    },
+    "C": {
+      "coordinate": [
+        279,
+        155
+      ],
+      "depth": 65.0
+    },
+    "A": {
+      "coordinate": [
+        127,
+        178
+      ],
+      "depth": 106.0
+    },
+    "D": {
+      "coordinate": [
+        252,
+        209
+      ],
+      "depth": 169.0
+    },
+    "E": {
+      "coordinate": [
+        86,
+        226
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00015430.jpg": {
+    "A": {
+      "coordinate": [
+        208,
+        138
+      ],
+      "depth": 1.0
+    },
+    "C": {
+      "coordinate": [
+        21,
+        199
+      ],
+      "depth": 60.0
+    },
+    "D": {
+      "coordinate": [
+        257,
+        252
+      ],
+      "depth": 160.0
+    },
+    "B": {
+      "coordinate": [
+        279,
+        294
+      ],
+      "depth": 187.0
+    }
+  },
+  "ADE_train_00010556.jpg": {
+    "B": {
+      "coordinate": [
+        120,
+        158
+      ],
+      "depth": 24.0
+    },
+    "D": {
+      "coordinate": [
+        97,
+        92
+      ],
+      "depth": 45.0
+    },
+    "C": {
+      "coordinate": [
+        288,
+        110
+      ],
+      "depth": 69.0
+    },
+    "A": {
+      "coordinate": [
+        70,
+        284
+      ],
+      "depth": 123.0
+    },
+    "E": {
+      "coordinate": [
+        259,
+        3
+      ],
+      "depth": 238.0
+    }
+  },
+  "ADE_train_00011161.jpg": {
+    "C": {
+      "coordinate": [
+        13,
+        112
+      ],
+      "depth": 42.0
+    },
+    "B": {
+      "coordinate": [
+        18,
+        174
+      ],
+      "depth": 97.0
+    },
+    "D": {
+      "coordinate": [
+        231,
+        98
+      ],
+      "depth": 144.0
+    },
+    "A": {
+      "coordinate": [
+        119,
+        202
+      ],
+      "depth": 201.0
+    }
+  },
+  "ADE_train_00017897.jpg": {
+    "C": {
+      "coordinate": [
+        190,
+        169
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        244,
+        111
+      ],
+      "depth": 107.0
+    },
+    "A": {
+      "coordinate": [
+        24,
+        228
+      ],
+      "depth": 153.0
+    }
+  },
+  "ADE_train_00019822.jpg": {
+    "A": {
+      "coordinate": [
+        283,
+        119
+      ],
+      "depth": 34.0
+    },
+    "B": {
+      "coordinate": [
+        28,
+        235
+      ],
+      "depth": 130.0
+    }
+  },
+  "ADE_train_00008199.jpg": {
+    "C": {
+      "coordinate": [
+        218,
+        17
+      ],
+      "depth": 8.0
+    },
+    "D": {
+      "coordinate": [
+        141,
+        163
+      ],
+      "depth": 39.0
+    },
+    "A": {
+      "coordinate": [
+        271,
+        34
+      ],
+      "depth": 63.0
+    },
+    "B": {
+      "coordinate": [
+        291,
+        144
+      ],
+      "depth": 90.0
+    },
+    "E": {
+      "coordinate": [
+        208,
+        259
+      ],
+      "depth": 157.0
+    }
+  },
+  "ADE_train_00002937.jpg": {
+    "A": {
+      "coordinate": [
+        162,
+        178
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        193,
+        28
+      ],
+      "depth": 91.0
+    },
+    "B": {
+      "coordinate": [
+        27,
+        246
+      ],
+      "depth": 132.0
+    }
+  },
+  "ADE_train_00020210.jpg": {
+    "B": {
+      "coordinate": [
+        70,
+        270
+      ],
+      "depth": 143.0
+    },
+    "A": {
+      "coordinate": [
+        178,
+        92
+      ],
+      "depth": 188.0
+    }
+  },
+  "ADE_train_00007516.jpg": {
+    "A": {
+      "coordinate": [
+        204,
+        91
+      ],
+      "depth": 33.0
+    },
+    "C": {
+      "coordinate": [
+        94,
+        191
+      ],
+      "depth": 81.0
+    },
+    "B": {
+      "coordinate": [
+        219,
+        233
+      ],
+      "depth": 107.0
+    },
+    "D": {
+      "coordinate": [
+        248,
+        222
+      ],
+      "depth": 129.0
+    }
+  },
+  "ADE_train_00015707.jpg": {
+    "D": {
+      "coordinate": [
+        199,
+        40
+      ],
+      "depth": 24.0
+    },
+    "A": {
+      "coordinate": [
+        136,
+        239
+      ],
+      "depth": 55.0
+    },
+    "C": {
+      "coordinate": [
+        112,
+        295
+      ],
+      "depth": 145.0
+    },
+    "B": {
+      "coordinate": [
+        150,
+        273
+      ],
+      "depth": 167.0
+    }
+  },
+  "ADE_train_00002831.jpg": {
+    "A": {
+      "coordinate": [
+        237,
+        47
+      ],
+      "depth": 24.0
+    },
+    "D": {
+      "coordinate": [
+        287,
+        241
+      ],
+      "depth": 61.0
+    },
+    "E": {
+      "coordinate": [
+        186,
+        197
+      ],
+      "depth": 96.0
+    },
+    "C": {
+      "coordinate": [
+        218,
+        275
+      ],
+      "depth": 123.0
+    },
+    "B": {
+      "coordinate": [
+        239,
+        285
+      ],
+      "depth": 144.0
+    }
+  },
+  "ADE_train_00001182.jpg": {
+    "D": {
+      "coordinate": [
+        44,
+        54
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        97,
+        172
+      ],
+      "depth": 50.0
+    },
+    "C": {
+      "coordinate": [
+        221,
+        28
+      ],
+      "depth": 89.0
+    },
+    "B": {
+      "coordinate": [
+        4,
+        245
+      ],
+      "depth": 121.0
+    }
+  },
+  "ADE_train_00009924.jpg": {
+    "A": {
+      "coordinate": [
+        226,
+        27
+      ],
+      "depth": 2.0
+    },
+    "D": {
+      "coordinate": [
+        14,
+        68
+      ],
+      "depth": 73.0
+    },
+    "E": {
+      "coordinate": [
+        66,
+        236
+      ],
+      "depth": 130.0
+    },
+    "B": {
+      "coordinate": [
+        180,
+        274
+      ],
+      "depth": 151.0
+    },
+    "C": {
+      "coordinate": [
+        243,
+        278
+      ],
+      "depth": 202.0
+    }
+  },
+  "ADE_train_00004611.jpg": {
+    "A": {
+      "coordinate": [
+        171,
+        115
+      ],
+      "depth": 93.0
+    },
+    "B": {
+      "coordinate": [
+        189,
+        225
+      ],
+      "depth": 142.0
+    }
+  },
+  "ADE_train_00010264.jpg": {
+    "B": {
+      "coordinate": [
+        135,
+        161
+      ],
+      "depth": 26.0
+    },
+    "A": {
+      "coordinate": [
+        252,
+        52
+      ],
+      "depth": 70.0
+    },
+    "D": {
+      "coordinate": [
+        82,
+        52
+      ],
+      "depth": 111.0
+    },
+    "C": {
+      "coordinate": [
+        48,
+        78
+      ],
+      "depth": 139.0
+    },
+    "E": {
+      "coordinate": [
+        229,
+        9
+      ],
+      "depth": 202.0
+    }
+  },
+  "ADE_train_00005079.jpg": {
+    "B": {
+      "coordinate": [
+        276,
+        169
+      ],
+      "depth": 185.0
+    },
+    "A": {
+      "coordinate": [
+        11,
+        211
+      ],
+      "depth": 219.0
+    }
+  },
+  "ADE_train_00009995.jpg": {
+    "A": {
+      "coordinate": [
+        130,
+        239
+      ],
+      "depth": 15.0
+    },
+    "B": {
+      "coordinate": [
+        171,
+        18
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        299,
+        186
+      ],
+      "depth": 84.0
+    },
+    "E": {
+      "coordinate": [
+        121,
+        213
+      ],
+      "depth": 194.0
+    },
+    "D": {
+      "coordinate": [
+        67,
+        247
+      ],
+      "depth": 226.0
+    }
+  },
+  "ADE_train_00011280.jpg": {
+    "C": {
+      "coordinate": [
+        194,
+        244
+      ],
+      "depth": 39.0
+    },
+    "A": {
+      "coordinate": [
+        99,
+        13
+      ],
+      "depth": 62.0
+    },
+    "B": {
+      "coordinate": [
+        295,
+        297
+      ],
+      "depth": 164.0
+    }
+  },
+  "ADE_train_00012273.jpg": {
+    "A": {
+      "coordinate": [
+        262,
+        166
+      ],
+      "depth": 77.0
+    },
+    "D": {
+      "coordinate": [
+        154,
+        6
+      ],
+      "depth": 106.0
+    },
+    "C": {
+      "coordinate": [
+        202,
+        217
+      ],
+      "depth": 168.0
+    },
+    "B": {
+      "coordinate": [
+        209,
+        193
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00019782.jpg": {
+    "B": {
+      "coordinate": [
+        284,
+        278
+      ],
+      "depth": 138.0
+    },
+    "A": {
+      "coordinate": [
+        34,
+        258
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00006377.jpg": {
+    "A": {
+      "coordinate": [
+        197,
+        167
+      ],
+      "depth": 18.0
+    },
+    "B": {
+      "coordinate": [
+        175,
+        141
+      ],
+      "depth": 95.0
+    }
+  },
+  "ADE_train_00012502.jpg": {
+    "C": {
+      "coordinate": [
+        138,
+        41
+      ],
+      "depth": 15.0
+    },
+    "A": {
+      "coordinate": [
+        283,
+        173
+      ],
+      "depth": 39.0
+    },
+    "B": {
+      "coordinate": [
+        175,
+        296
+      ],
+      "depth": 162.0
+    },
+    "D": {
+      "coordinate": [
+        139,
+        184
+      ],
+      "depth": 245.0
+    }
+  },
+  "ADE_train_00020054.jpg": {
+    "B": {
+      "coordinate": [
+        128,
+        254
+      ],
+      "depth": 26.0
+    },
+    "A": {
+      "coordinate": [
+        234,
+        226
+      ],
+      "depth": 119.0
+    },
+    "C": {
+      "coordinate": [
+        278,
+        56
+      ],
+      "depth": 160.0
+    }
+  },
+  "ADE_train_00019864.jpg": {
+    "A": {
+      "coordinate": [
+        244,
+        7
+      ],
+      "depth": 67.0
+    },
+    "C": {
+      "coordinate": [
+        283,
+        46
+      ],
+      "depth": 198.0
+    },
+    "B": {
+      "coordinate": [
+        34,
+        285
+      ],
+      "depth": 234.0
+    }
+  },
+  "ADE_train_00006686.jpg": {
+    "C": {
+      "coordinate": [
+        135,
+        30
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        123,
+        147
+      ],
+      "depth": 43.0
+    },
+    "A": {
+      "coordinate": [
+        272,
+        211
+      ],
+      "depth": 134.0
+    },
+    "D": {
+      "coordinate": [
+        162,
+        290
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00001169.jpg": {
+    "D": {
+      "coordinate": [
+        119,
+        214
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        87,
+        127
+      ],
+      "depth": 41.0
+    },
+    "B": {
+      "coordinate": [
+        33,
+        92
+      ],
+      "depth": 71.0
+    },
+    "C": {
+      "coordinate": [
+        4,
+        54
+      ],
+      "depth": 102.0
+    }
+  },
+  "ADE_train_00016252.jpg": {
+    "C": {
+      "coordinate": [
+        77,
+        213
+      ],
+      "depth": 5.0
+    },
+    "A": {
+      "coordinate": [
+        82,
+        143
+      ],
+      "depth": 165.0
+    },
+    "B": {
+      "coordinate": [
+        249,
+        290
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00009430.jpg": {
+    "C": {
+      "coordinate": [
+        131,
+        24
+      ],
+      "depth": 9.0
+    },
+    "D": {
+      "coordinate": [
+        297,
+        131
+      ],
+      "depth": 62.0
+    },
+    "E": {
+      "coordinate": [
+        153,
+        182
+      ],
+      "depth": 89.0
+    },
+    "A": {
+      "coordinate": [
+        25,
+        264
+      ],
+      "depth": 109.0
+    },
+    "B": {
+      "coordinate": [
+        271,
+        261
+      ],
+      "depth": 130.0
+    }
+  },
+  "ADE_train_00020035.jpg": {
+    "C": {
+      "coordinate": [
+        7,
+        298
+      ],
+      "depth": 46.0
+    },
+    "A": {
+      "coordinate": [
+        185,
+        15
+      ],
+      "depth": 80.0
+    },
+    "B": {
+      "coordinate": [
+        263,
+        119
+      ],
+      "depth": 106.0
+    }
+  },
+  "ADE_train_00007072.jpg": {
+    "D": {
+      "coordinate": [
+        180,
+        138
+      ],
+      "depth": 1.0
+    },
+    "A": {
+      "coordinate": [
+        234,
+        115
+      ],
+      "depth": 28.0
+    },
+    "E": {
+      "coordinate": [
+        132,
+        14
+      ],
+      "depth": 83.0
+    },
+    "B": {
+      "coordinate": [
+        47,
+        198
+      ],
+      "depth": 137.0
+    },
+    "C": {
+      "coordinate": [
+        205,
+        286
+      ],
+      "depth": 164.0
+    }
+  },
+  "ADE_train_00001672.jpg": {
+    "B": {
+      "coordinate": [
+        68,
+        18
+      ],
+      "depth": 13.0
+    },
+    "A": {
+      "coordinate": [
+        20,
+        292
+      ],
+      "depth": 127.0
+    }
+  },
+  "ADE_train_00018862.jpg": {
+    "B": {
+      "coordinate": [
+        221,
+        84
+      ],
+      "depth": 21.0
+    },
+    "C": {
+      "coordinate": [
+        290,
+        225
+      ],
+      "depth": 76.0
+    },
+    "A": {
+      "coordinate": [
+        31,
+        266
+      ],
+      "depth": 143.0
+    }
+  },
+  "ADE_train_00006623.jpg": {
+    "A": {
+      "coordinate": [
+        47,
+        33
+      ],
+      "depth": 1.0
+    },
+    "D": {
+      "coordinate": [
+        79,
+        106
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        70,
+        198
+      ],
+      "depth": 75.0
+    },
+    "C": {
+      "coordinate": [
+        65,
+        237
+      ],
+      "depth": 96.0
+    }
+  },
+  "ADE_train_00002643.jpg": {
+    "C": {
+      "coordinate": [
+        75,
+        287
+      ],
+      "depth": 143.0
+    },
+    "A": {
+      "coordinate": [
+        283,
+        198
+      ],
+      "depth": 178.0
+    },
+    "B": {
+      "coordinate": [
+        40,
+        48
+      ],
+      "depth": 199.0
+    }
+  },
+  "ADE_train_00005999.jpg": {
+    "D": {
+      "coordinate": [
+        249,
+        103
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        52,
+        153
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        19,
+        159
+      ],
+      "depth": 74.0
+    },
+    "E": {
+      "coordinate": [
+        28,
+        123
+      ],
+      "depth": 98.0
+    },
+    "C": {
+      "coordinate": [
+        8,
+        255
+      ],
+      "depth": 118.0
+    }
+  },
+  "ADE_train_00003755.jpg": {
+    "A": {
+      "coordinate": [
+        160,
+        44
+      ],
+      "depth": 17.0
+    },
+    "D": {
+      "coordinate": [
+        70,
+        201
+      ],
+      "depth": 42.0
+    },
+    "C": {
+      "coordinate": [
+        172,
+        267
+      ],
+      "depth": 89.0
+    },
+    "B": {
+      "coordinate": [
+        290,
+        257
+      ],
+      "depth": 200.0
+    }
+  },
+  "ADE_train_00017251.jpg": {
+    "A": {
+      "coordinate": [
+        20,
+        196
+      ],
+      "depth": 8.0
+    },
+    "D": {
+      "coordinate": [
+        249,
+        93
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        11,
+        290
+      ],
+      "depth": 72.0
+    },
+    "B": {
+      "coordinate": [
+        7,
+        84
+      ],
+      "depth": 166.0
+    },
+    "E": {
+      "coordinate": [
+        1,
+        36
+      ],
+      "depth": 239.0
+    }
+  },
+  "ADE_train_00005117.jpg": {
+    "C": {
+      "coordinate": [
+        255,
+        17
+      ],
+      "depth": 5.0
+    },
+    "A": {
+      "coordinate": [
+        147,
+        95
+      ],
+      "depth": 71.0
+    },
+    "D": {
+      "coordinate": [
+        144,
+        198
+      ],
+      "depth": 148.0
+    },
+    "B": {
+      "coordinate": [
+        206,
+        25
+      ],
+      "depth": 173.0
+    }
+  },
+  "ADE_train_00011142.jpg": {
+    "C": {
+      "coordinate": [
+        159,
+        216
+      ],
+      "depth": 14.0
+    },
+    "D": {
+      "coordinate": [
+        91,
+        170
+      ],
+      "depth": 48.0
+    },
+    "B": {
+      "coordinate": [
+        222,
+        257
+      ],
+      "depth": 97.0
+    },
+    "A": {
+      "coordinate": [
+        215,
+        283
+      ],
+      "depth": 121.0
+    },
+    "E": {
+      "coordinate": [
+        24,
+        298
+      ],
+      "depth": 143.0
+    }
+  },
+  "ADE_train_00016988.jpg": {
+    "A": {
+      "coordinate": [
+        206,
+        124
+      ],
+      "depth": 52.0
+    },
+    "C": {
+      "coordinate": [
+        286,
+        70
+      ],
+      "depth": 83.0
+    },
+    "B": {
+      "coordinate": [
+        30,
+        90
+      ],
+      "depth": 185.0
+    }
+  },
+  "ADE_train_00001793.jpg": {
+    "C": {
+      "coordinate": [
+        211,
+        45
+      ],
+      "depth": 6.0
+    },
+    "D": {
+      "coordinate": [
+        128,
+        57
+      ],
+      "depth": 38.0
+    },
+    "B": {
+      "coordinate": [
+        269,
+        246
+      ],
+      "depth": 66.0
+    },
+    "A": {
+      "coordinate": [
+        99,
+        249
+      ],
+      "depth": 132.0
+    },
+    "E": {
+      "coordinate": [
+        19,
+        293
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00008506.jpg": {
+    "B": {
+      "coordinate": [
+        232,
+        239
+      ],
+      "depth": 61.0
+    },
+    "A": {
+      "coordinate": [
+        135,
+        247
+      ],
+      "depth": 105.0
+    }
+  },
+  "ADE_train_00001734.jpg": {
+    "D": {
+      "coordinate": [
+        235,
+        24
+      ],
+      "depth": 51.0
+    },
+    "A": {
+      "coordinate": [
+        221,
+        177
+      ],
+      "depth": 128.0
+    },
+    "C": {
+      "coordinate": [
+        7,
+        208
+      ],
+      "depth": 176.0
+    },
+    "B": {
+      "coordinate": [
+        27,
+        222
+      ],
+      "depth": 201.0
+    },
+    "E": {
+      "coordinate": [
+        106,
+        216
+      ],
+      "depth": 221.0
+    }
+  },
+  "ADE_train_00010918.jpg": {
+    "B": {
+      "coordinate": [
+        234,
+        167
+      ],
+      "depth": 91.0
+    },
+    "C": {
+      "coordinate": [
+        146,
+        280
+      ],
+      "depth": 179.0
+    },
+    "A": {
+      "coordinate": [
+        245,
+        19
+      ],
+      "depth": 218.0
+    }
+  },
+  "ADE_train_00015539.jpg": {
+    "B": {
+      "coordinate": [
+        128,
+        137
+      ],
+      "depth": 27.0
+    },
+    "D": {
+      "coordinate": [
+        48,
+        166
+      ],
+      "depth": 55.0
+    },
+    "A": {
+      "coordinate": [
+        63,
+        256
+      ],
+      "depth": 87.0
+    },
+    "C": {
+      "coordinate": [
+        87,
+        287
+      ],
+      "depth": 152.0
+    }
+  },
+  "ADE_train_00012274.jpg": {
+    "D": {
+      "coordinate": [
+        8,
+        39
+      ],
+      "depth": 33.0
+    },
+    "A": {
+      "coordinate": [
+        289,
+        51
+      ],
+      "depth": 99.0
+    },
+    "B": {
+      "coordinate": [
+        68,
+        40
+      ],
+      "depth": 126.0
+    },
+    "E": {
+      "coordinate": [
+        283,
+        229
+      ],
+      "depth": 181.0
+    },
+    "C": {
+      "coordinate": [
+        124,
+        275
+      ],
+      "depth": 220.0
+    }
+  },
+  "ADE_train_00001909.jpg": {
+    "A": {
+      "coordinate": [
+        115,
+        159
+      ],
+      "depth": 24.0
+    },
+    "B": {
+      "coordinate": [
+        223,
+        213
+      ],
+      "depth": 77.0
+    },
+    "D": {
+      "coordinate": [
+        30,
+        252
+      ],
+      "depth": 122.0
+    },
+    "C": {
+      "coordinate": [
+        148,
+        272
+      ],
+      "depth": 155.0
+    }
+  },
+  "ADE_train_00004219.jpg": {
+    "A": {
+      "coordinate": [
+        34,
+        129
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        224,
+        32
+      ],
+      "depth": 60.0
+    }
+  },
+  "ADE_train_00012227.jpg": {
+    "D": {
+      "coordinate": [
+        214,
+        98
+      ],
+      "depth": 22.0
+    },
+    "A": {
+      "coordinate": [
+        229,
+        225
+      ],
+      "depth": 59.0
+    },
+    "B": {
+      "coordinate": [
+        45,
+        40
+      ],
+      "depth": 81.0
+    },
+    "C": {
+      "coordinate": [
+        239,
+        292
+      ],
+      "depth": 158.0
+    },
+    "E": {
+      "coordinate": [
+        187,
+        290
+      ],
+      "depth": 209.0
+    }
+  },
+  "ADE_train_00008142.jpg": {
+    "D": {
+      "coordinate": [
+        210,
+        32
+      ],
+      "depth": 20.0
+    },
+    "A": {
+      "coordinate": [
+        209,
+        112
+      ],
+      "depth": 65.0
+    },
+    "C": {
+      "coordinate": [
+        2,
+        145
+      ],
+      "depth": 101.0
+    },
+    "B": {
+      "coordinate": [
+        34,
+        214
+      ],
+      "depth": 222.0
+    }
+  },
+  "ADE_train_00002910.jpg": {
+    "A": {
+      "coordinate": [
+        250,
+        175
+      ],
+      "depth": 25.0
+    },
+    "B": {
+      "coordinate": [
+        109,
+        170
+      ],
+      "depth": 55.0
+    }
+  },
+  "ADE_train_00001503.jpg": {
+    "B": {
+      "coordinate": [
+        111,
+        214
+      ],
+      "depth": 51.0
+    },
+    "A": {
+      "coordinate": [
+        28,
+        275
+      ],
+      "depth": 71.0
+    }
+  },
+  "ADE_train_00006719.jpg": {
+    "C": {
+      "coordinate": [
+        31,
+        71
+      ],
+      "depth": 16.0
+    },
+    "B": {
+      "coordinate": [
+        12,
+        146
+      ],
+      "depth": 39.0
+    },
+    "A": {
+      "coordinate": [
+        76,
+        197
+      ],
+      "depth": 122.0
+    },
+    "D": {
+      "coordinate": [
+        12,
+        299
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00009558.jpg": {
+    "B": {
+      "coordinate": [
+        121,
+        55
+      ],
+      "depth": 18.0
+    },
+    "C": {
+      "coordinate": [
+        179,
+        196
+      ],
+      "depth": 75.0
+    },
+    "A": {
+      "coordinate": [
+        202,
+        268
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00007608.jpg": {
+    "A": {
+      "coordinate": [
+        190,
+        168
+      ],
+      "depth": 4.0
+    },
+    "B": {
+      "coordinate": [
+        293,
+        31
+      ],
+      "depth": 124.0
+    }
+  },
+  "ADE_train_00003988.jpg": {
+    "B": {
+      "coordinate": [
+        80,
+        223
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        7,
+        275
+      ],
+      "depth": 71.0
+    },
+    "A": {
+      "coordinate": [
+        260,
+        296
+      ],
+      "depth": 189.0
+    }
+  },
+  "ADE_train_00016903.jpg": {
+    "C": {
+      "coordinate": [
+        32,
+        263
+      ],
+      "depth": 25.0
+    },
+    "A": {
+      "coordinate": [
+        116,
+        224
+      ],
+      "depth": 48.0
+    },
+    "B": {
+      "coordinate": [
+        240,
+        183
+      ],
+      "depth": 84.0
+    }
+  },
+  "ADE_train_00002229.jpg": {
+    "C": {
+      "coordinate": [
+        100,
+        111
+      ],
+      "depth": 4.0
+    },
+    "A": {
+      "coordinate": [
+        207,
+        160
+      ],
+      "depth": 33.0
+    },
+    "E": {
+      "coordinate": [
+        289,
+        39
+      ],
+      "depth": 53.0
+    },
+    "B": {
+      "coordinate": [
+        191,
+        271
+      ],
+      "depth": 77.0
+    },
+    "D": {
+      "coordinate": [
+        13,
+        276
+      ],
+      "depth": 185.0
+    }
+  },
+  "ADE_train_00005154.jpg": {
+    "D": {
+      "coordinate": [
+        226,
+        218
+      ],
+      "depth": 1.0
+    },
+    "C": {
+      "coordinate": [
+        248,
+        113
+      ],
+      "depth": 29.0
+    },
+    "E": {
+      "coordinate": [
+        254,
+        292
+      ],
+      "depth": 96.0
+    },
+    "B": {
+      "coordinate": [
+        280,
+        105
+      ],
+      "depth": 192.0
+    },
+    "A": {
+      "coordinate": [
+        121,
+        284
+      ],
+      "depth": 218.0
+    }
+  },
+  "ADE_train_00019180.jpg": {
+    "C": {
+      "coordinate": [
+        10,
+        148
+      ],
+      "depth": 5.0
+    },
+    "A": {
+      "coordinate": [
+        213,
+        159
+      ],
+      "depth": 64.0
+    },
+    "D": {
+      "coordinate": [
+        8,
+        253
+      ],
+      "depth": 103.0
+    },
+    "B": {
+      "coordinate": [
+        7,
+        295
+      ],
+      "depth": 154.0
+    }
+  },
+  "ADE_train_00017008.jpg": {
+    "D": {
+      "coordinate": [
+        285,
+        68
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        41,
+        182
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        134,
+        283
+      ],
+      "depth": 118.0
+    },
+    "A": {
+      "coordinate": [
+        239,
+        299
+      ],
+      "depth": 147.0
+    }
+  },
+  "ADE_train_00001705.jpg": {
+    "C": {
+      "coordinate": [
+        58,
+        158
+      ],
+      "depth": 7.0
+    },
+    "E": {
+      "coordinate": [
+        72,
+        212
+      ],
+      "depth": 52.0
+    },
+    "D": {
+      "coordinate": [
+        265,
+        242
+      ],
+      "depth": 132.0
+    },
+    "B": {
+      "coordinate": [
+        235,
+        15
+      ],
+      "depth": 170.0
+    },
+    "A": {
+      "coordinate": [
+        156,
+        72
+      ],
+      "depth": 203.0
+    }
+  },
+  "ADE_train_00002359.jpg": {
+    "A": {
+      "coordinate": [
+        165,
+        45
+      ],
+      "depth": 58.0
+    },
+    "B": {
+      "coordinate": [
+        25,
+        153
+      ],
+      "depth": 129.0
+    },
+    "C": {
+      "coordinate": [
+        34,
+        229
+      ],
+      "depth": 185.0
+    },
+    "D": {
+      "coordinate": [
+        190,
+        267
+      ],
+      "depth": 207.0
+    }
+  },
+  "ADE_train_00001504.jpg": {
+    "B": {
+      "coordinate": [
+        81,
+        95
+      ],
+      "depth": 37.0
+    },
+    "A": {
+      "coordinate": [
+        189,
+        250
+      ],
+      "depth": 118.0
+    }
+  },
+  "ADE_train_00008157.jpg": {
+    "B": {
+      "coordinate": [
+        93,
+        95
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        144,
+        247
+      ],
+      "depth": 75.0
+    },
+    "A": {
+      "coordinate": [
+        286,
+        260
+      ],
+      "depth": 142.0
+    }
+  },
+  "ADE_train_00010350.jpg": {
+    "C": {
+      "coordinate": [
+        140,
+        101
+      ],
+      "depth": 44.0
+    },
+    "B": {
+      "coordinate": [
+        6,
+        231
+      ],
+      "depth": 70.0
+    },
+    "D": {
+      "coordinate": [
+        174,
+        246
+      ],
+      "depth": 224.0
+    },
+    "A": {
+      "coordinate": [
+        219,
+        258
+      ],
+      "depth": 245.0
+    }
+  },
+  "ADE_train_00004973.jpg": {
+    "A": {
+      "coordinate": [
+        89,
+        77
+      ],
+      "depth": 44.0
+    },
+    "E": {
+      "coordinate": [
+        7,
+        142
+      ],
+      "depth": 67.0
+    },
+    "C": {
+      "coordinate": [
+        73,
+        112
+      ],
+      "depth": 124.0
+    },
+    "D": {
+      "coordinate": [
+        228,
+        262
+      ],
+      "depth": 163.0
+    },
+    "B": {
+      "coordinate": [
+        165,
+        296
+      ],
+      "depth": 200.0
+    }
+  },
+  "ADE_train_00003076.jpg": {
+    "C": {
+      "coordinate": [
+        223,
+        130
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        245,
+        8
+      ],
+      "depth": 39.0
+    },
+    "B": {
+      "coordinate": [
+        146,
+        280
+      ],
+      "depth": 175.0
+    }
+  },
+  "ADE_train_00014482.jpg": {
+    "D": {
+      "coordinate": [
+        163,
+        65
+      ],
+      "depth": 25.0
+    },
+    "E": {
+      "coordinate": [
+        280,
+        104
+      ],
+      "depth": 58.0
+    },
+    "B": {
+      "coordinate": [
+        41,
+        166
+      ],
+      "depth": 93.0
+    },
+    "C": {
+      "coordinate": [
+        8,
+        218
+      ],
+      "depth": 124.0
+    },
+    "A": {
+      "coordinate": [
+        237,
+        244
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00015598.jpg": {
+    "B": {
+      "coordinate": [
+        192,
+        126
+      ],
+      "depth": 69.0
+    },
+    "A": {
+      "coordinate": [
+        49,
+        22
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00014391.jpg": {
+    "D": {
+      "coordinate": [
+        28,
+        60
+      ],
+      "depth": 38.0
+    },
+    "B": {
+      "coordinate": [
+        196,
+        98
+      ],
+      "depth": 80.0
+    },
+    "A": {
+      "coordinate": [
+        71,
+        250
+      ],
+      "depth": 102.0
+    },
+    "C": {
+      "coordinate": [
+        241,
+        244
+      ],
+      "depth": 180.0
+    }
+  },
+  "ADE_train_00000671.jpg": {
+    "C": {
+      "coordinate": [
+        64,
+        149
+      ],
+      "depth": 66.0
+    },
+    "B": {
+      "coordinate": [
+        127,
+        269
+      ],
+      "depth": 99.0
+    },
+    "A": {
+      "coordinate": [
+        78,
+        268
+      ],
+      "depth": 164.0
+    }
+  },
+  "ADE_train_00010704.jpg": {
+    "C": {
+      "coordinate": [
+        67,
+        101
+      ],
+      "depth": 24.0
+    },
+    "D": {
+      "coordinate": [
+        244,
+        76
+      ],
+      "depth": 44.0
+    },
+    "E": {
+      "coordinate": [
+        296,
+        135
+      ],
+      "depth": 69.0
+    },
+    "B": {
+      "coordinate": [
+        259,
+        289
+      ],
+      "depth": 156.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        240
+      ],
+      "depth": 215.0
+    }
+  },
+  "ADE_train_00000338.jpg": {
+    "C": {
+      "coordinate": [
+        289,
+        124
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        127,
+        22
+      ],
+      "depth": 85.0
+    },
+    "D": {
+      "coordinate": [
+        74,
+        228
+      ],
+      "depth": 127.0
+    },
+    "B": {
+      "coordinate": [
+        285,
+        205
+      ],
+      "depth": 172.0
+    }
+  },
+  "ADE_train_00000613.jpg": {
+    "B": {
+      "coordinate": [
+        21,
+        194
+      ],
+      "depth": 133.0
+    },
+    "A": {
+      "coordinate": [
+        18,
+        261
+      ],
+      "depth": 167.0
+    }
+  },
+  "ADE_train_00013862.jpg": {
+    "A": {
+      "coordinate": [
+        42,
+        200
+      ],
+      "depth": 60.0
+    },
+    "B": {
+      "coordinate": [
+        34,
+        261
+      ],
+      "depth": 87.0
+    }
+  },
+  "ADE_train_00014304.jpg": {
+    "B": {
+      "coordinate": [
+        196,
+        196
+      ],
+      "depth": 24.0
+    },
+    "A": {
+      "coordinate": [
+        136,
+        165
+      ],
+      "depth": 155.0
+    }
+  },
+  "ADE_train_00008720.jpg": {
+    "B": {
+      "coordinate": [
+        95,
+        235
+      ],
+      "depth": 63.0
+    },
+    "A": {
+      "coordinate": [
+        106,
+        257
+      ],
+      "depth": 87.0
+    }
+  },
+  "ADE_train_00010881.jpg": {
+    "E": {
+      "coordinate": [
+        273,
+        129
+      ],
+      "depth": 80.0
+    },
+    "B": {
+      "coordinate": [
+        108,
+        164
+      ],
+      "depth": 125.0
+    },
+    "D": {
+      "coordinate": [
+        28,
+        224
+      ],
+      "depth": 154.0
+    },
+    "A": {
+      "coordinate": [
+        262,
+        214
+      ],
+      "depth": 175.0
+    },
+    "C": {
+      "coordinate": [
+        178,
+        293
+      ],
+      "depth": 233.0
+    }
+  },
+  "ADE_train_00009363.jpg": {
+    "A": {
+      "coordinate": [
+        296,
+        170
+      ],
+      "depth": 67.0
+    },
+    "B": {
+      "coordinate": [
+        111,
+        218
+      ],
+      "depth": 92.0
+    }
+  },
+  "ADE_train_00018239.jpg": {
+    "B": {
+      "coordinate": [
+        228,
+        161
+      ],
+      "depth": 34.0
+    },
+    "A": {
+      "coordinate": [
+        77,
+        150
+      ],
+      "depth": 57.0
+    }
+  },
+  "ADE_train_00018234.jpg": {
+    "A": {
+      "coordinate": [
+        35,
+        125
+      ],
+      "depth": 17.0
+    },
+    "C": {
+      "coordinate": [
+        194,
+        161
+      ],
+      "depth": 45.0
+    },
+    "B": {
+      "coordinate": [
+        15,
+        77
+      ],
+      "depth": 79.0
+    }
+  },
+  "ADE_train_00019874.jpg": {
+    "B": {
+      "coordinate": [
+        288,
+        205
+      ],
+      "depth": 7.0
+    },
+    "C": {
+      "coordinate": [
+        215,
+        161
+      ],
+      "depth": 44.0
+    },
+    "A": {
+      "coordinate": [
+        296,
+        278
+      ],
+      "depth": 77.0
+    }
+  },
+  "ADE_train_00000698.jpg": {
+    "C": {
+      "coordinate": [
+        97,
+        147
+      ],
+      "depth": 5.0
+    },
+    "A": {
+      "coordinate": [
+        126,
+        89
+      ],
+      "depth": 36.0
+    },
+    "B": {
+      "coordinate": [
+        224,
+        175
+      ],
+      "depth": 56.0
+    },
+    "E": {
+      "coordinate": [
+        187,
+        253
+      ],
+      "depth": 81.0
+    },
+    "D": {
+      "coordinate": [
+        47,
+        250
+      ],
+      "depth": 242.0
+    }
+  },
+  "ADE_train_00000840.jpg": {
+    "A": {
+      "coordinate": [
+        82,
+        101
+      ],
+      "depth": 19.0
+    },
+    "C": {
+      "coordinate": [
+        237,
+        102
+      ],
+      "depth": 62.0
+    },
+    "B": {
+      "coordinate": [
+        230,
+        173
+      ],
+      "depth": 92.0
+    },
+    "D": {
+      "coordinate": [
+        22,
+        300
+      ],
+      "depth": 149.0
+    }
+  },
+  "ADE_train_00009532.jpg": {
+    "A": {
+      "coordinate": [
+        95,
+        209
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        155,
+        107
+      ],
+      "depth": 63.0
+    }
+  },
+  "ADE_train_00009580.jpg": {
+    "B": {
+      "coordinate": [
+        130,
+        46
+      ],
+      "depth": 63.0
+    },
+    "A": {
+      "coordinate": [
+        289,
+        67
+      ],
+      "depth": 127.0
+    },
+    "C": {
+      "coordinate": [
+        253,
+        246
+      ],
+      "depth": 171.0
+    }
+  },
+  "ADE_train_00002564.jpg": {
+    "C": {
+      "coordinate": [
+        211,
+        105
+      ],
+      "depth": 25.0
+    },
+    "B": {
+      "coordinate": [
+        263,
+        243
+      ],
+      "depth": 76.0
+    },
+    "A": {
+      "coordinate": [
+        254,
+        189
+      ],
+      "depth": 141.0
+    }
+  },
+  "ADE_train_00000001.jpg": {
+    "B": {
+      "coordinate": [
+        76,
+        79
+      ],
+      "depth": 46.0
+    },
+    "A": {
+      "coordinate": [
+        19,
+        237
+      ],
+      "depth": 95.0
+    }
+  },
+  "ADE_train_00014770.jpg": {
+    "D": {
+      "coordinate": [
+        90,
+        137
+      ],
+      "depth": 85.0
+    },
+    "C": {
+      "coordinate": [
+        227,
+        106
+      ],
+      "depth": 105.0
+    },
+    "B": {
+      "coordinate": [
+        178,
+        287
+      ],
+      "depth": 140.0
+    },
+    "A": {
+      "coordinate": [
+        34,
+        281
+      ],
+      "depth": 160.0
+    }
+  },
+  "ADE_train_00001827.jpg": {
+    "A": {
+      "coordinate": [
+        182,
+        143
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        179,
+        38
+      ],
+      "depth": 69.0
+    }
+  },
+  "ADE_train_00015689.jpg": {
+    "A": {
+      "coordinate": [
+        211,
+        117
+      ],
+      "depth": 56.0
+    },
+    "B": {
+      "coordinate": [
+        133,
+        234
+      ],
+      "depth": 82.0
+    }
+  },
+  "ADE_train_00006337.jpg": {
+    "C": {
+      "coordinate": [
+        146,
+        136
+      ],
+      "depth": 4.0
+    },
+    "E": {
+      "coordinate": [
+        156,
+        14
+      ],
+      "depth": 88.0
+    },
+    "B": {
+      "coordinate": [
+        266,
+        171
+      ],
+      "depth": 111.0
+    },
+    "A": {
+      "coordinate": [
+        286,
+        124
+      ],
+      "depth": 144.0
+    },
+    "D": {
+      "coordinate": [
+        16,
+        194
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00005114.jpg": {
+    "D": {
+      "coordinate": [
+        159,
+        198
+      ],
+      "depth": 30.0
+    },
+    "A": {
+      "coordinate": [
+        249,
+        27
+      ],
+      "depth": 95.0
+    },
+    "C": {
+      "coordinate": [
+        148,
+        4
+      ],
+      "depth": 115.0
+    },
+    "E": {
+      "coordinate": [
+        286,
+        158
+      ],
+      "depth": 152.0
+    },
+    "B": {
+      "coordinate": [
+        294,
+        253
+      ],
+      "depth": 181.0
+    }
+  },
+  "ADE_train_00018707.jpg": {
+    "B": {
+      "coordinate": [
+        233,
+        89
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        39,
+        97
+      ],
+      "depth": 69.0
+    },
+    "A": {
+      "coordinate": [
+        207,
+        230
+      ],
+      "depth": 91.0
+    },
+    "D": {
+      "coordinate": [
+        68,
+        234
+      ],
+      "depth": 131.0
+    },
+    "E": {
+      "coordinate": [
+        203,
+        295
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00017202.jpg": {
+    "C": {
+      "coordinate": [
+        106,
+        138
+      ],
+      "depth": 6.0
+    },
+    "B": {
+      "coordinate": [
+        198,
+        247
+      ],
+      "depth": 122.0
+    },
+    "A": {
+      "coordinate": [
+        206,
+        289
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00002062.jpg": {
+    "A": {
+      "coordinate": [
+        11,
+        139
+      ],
+      "depth": 3.0
+    },
+    "D": {
+      "coordinate": [
+        146,
+        152
+      ],
+      "depth": 24.0
+    },
+    "E": {
+      "coordinate": [
+        279,
+        152
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        101,
+        233
+      ],
+      "depth": 103.0
+    },
+    "B": {
+      "coordinate": [
+        256,
+        280
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00014384.jpg": {
+    "A": {
+      "coordinate": [
+        239,
+        158
+      ],
+      "depth": 119.0
+    },
+    "C": {
+      "coordinate": [
+        2,
+        123
+      ],
+      "depth": 139.0
+    },
+    "B": {
+      "coordinate": [
+        63,
+        256
+      ],
+      "depth": 210.0
+    }
+  },
+  "ADE_train_00003746.jpg": {
+    "A": {
+      "coordinate": [
+        125,
+        190
+      ],
+      "depth": 4.0
+    },
+    "B": {
+      "coordinate": [
+        197,
+        170
+      ],
+      "depth": 27.0
+    }
+  },
+  "ADE_train_00014123.jpg": {
+    "C": {
+      "coordinate": [
+        141,
+        24
+      ],
+      "depth": 25.0
+    },
+    "B": {
+      "coordinate": [
+        59,
+        178
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        152,
+        290
+      ],
+      "depth": 157.0
+    }
+  },
+  "ADE_train_00000902.jpg": {
+    "B": {
+      "coordinate": [
+        133,
+        30
+      ],
+      "depth": 27.0
+    },
+    "A": {
+      "coordinate": [
+        88,
+        253
+      ],
+      "depth": 221.0
+    }
+  },
+  "ADE_train_00018966.jpg": {
+    "B": {
+      "coordinate": [
+        219,
+        252
+      ],
+      "depth": 11.0
+    },
+    "D": {
+      "coordinate": [
+        190,
+        78
+      ],
+      "depth": 56.0
+    },
+    "C": {
+      "coordinate": [
+        177,
+        25
+      ],
+      "depth": 82.0
+    },
+    "A": {
+      "coordinate": [
+        27,
+        248
+      ],
+      "depth": 111.0
+    }
+  },
+  "ADE_train_00001940.jpg": {
+    "C": {
+      "coordinate": [
+        108,
+        221
+      ],
+      "depth": 18.0
+    },
+    "B": {
+      "coordinate": [
+        297,
+        121
+      ],
+      "depth": 60.0
+    },
+    "E": {
+      "coordinate": [
+        114,
+        279
+      ],
+      "depth": 83.0
+    },
+    "A": {
+      "coordinate": [
+        130,
+        294
+      ],
+      "depth": 103.0
+    },
+    "D": {
+      "coordinate": [
+        283,
+        254
+      ],
+      "depth": 126.0
+    }
+  },
+  "ADE_train_00016946.jpg": {
+    "A": {
+      "coordinate": [
+        165,
+        33
+      ],
+      "depth": 21.0
+    },
+    "B": {
+      "coordinate": [
+        47,
+        58
+      ],
+      "depth": 64.0
+    }
+  },
+  "ADE_train_00004039.jpg": {
+    "B": {
+      "coordinate": [
+        179,
+        111
+      ],
+      "depth": 7.0
+    },
+    "A": {
+      "coordinate": [
+        98,
+        256
+      ],
+      "depth": 96.0
+    }
+  },
+  "ADE_train_00015385.jpg": {
+    "B": {
+      "coordinate": [
+        25,
+        126
+      ],
+      "depth": 22.0
+    },
+    "A": {
+      "coordinate": [
+        266,
+        205
+      ],
+      "depth": 55.0
+    }
+  },
+  "ADE_train_00005027.jpg": {
+    "C": {
+      "coordinate": [
+        0,
+        2
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        254,
+        22
+      ],
+      "depth": 38.0
+    },
+    "D": {
+      "coordinate": [
+        202,
+        155
+      ],
+      "depth": 74.0
+    },
+    "E": {
+      "coordinate": [
+        80,
+        112
+      ],
+      "depth": 104.0
+    },
+    "B": {
+      "coordinate": [
+        26,
+        40
+      ],
+      "depth": 137.0
+    }
+  },
+  "ADE_train_00011339.jpg": {
+    "B": {
+      "coordinate": [
+        106,
+        146
+      ],
+      "depth": 15.0
+    },
+    "C": {
+      "coordinate": [
+        114,
+        214
+      ],
+      "depth": 55.0
+    },
+    "A": {
+      "coordinate": [
+        214,
+        291
+      ],
+      "depth": 76.0
+    }
+  },
+  "ADE_train_00019482.jpg": {
+    "B": {
+      "coordinate": [
+        66,
+        45
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        240,
+        125
+      ],
+      "depth": 66.0
+    }
+  },
+  "ADE_train_00012271.jpg": {
+    "A": {
+      "coordinate": [
+        87,
+        33
+      ],
+      "depth": 39.0
+    },
+    "B": {
+      "coordinate": [
+        227,
+        105
+      ],
+      "depth": 66.0
+    }
+  },
+  "ADE_train_00005502.jpg": {
+    "B": {
+      "coordinate": [
+        206,
+        43
+      ],
+      "depth": 21.0
+    },
+    "C": {
+      "coordinate": [
+        196,
+        238
+      ],
+      "depth": 62.0
+    },
+    "D": {
+      "coordinate": [
+        298,
+        125
+      ],
+      "depth": 129.0
+    },
+    "A": {
+      "coordinate": [
+        290,
+        253
+      ],
+      "depth": 198.0
+    }
+  },
+  "ADE_train_00005998.jpg": {
+    "A": {
+      "coordinate": [
+        100,
+        128
+      ],
+      "depth": 6.0
+    },
+    "C": {
+      "coordinate": [
+        247,
+        100
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        84,
+        265
+      ],
+      "depth": 99.0
+    }
+  },
+  "ADE_train_00015500.jpg": {
+    "D": {
+      "coordinate": [
+        300,
+        125
+      ],
+      "depth": 31.0
+    },
+    "B": {
+      "coordinate": [
+        175,
+        40
+      ],
+      "depth": 83.0
+    },
+    "C": {
+      "coordinate": [
+        107,
+        2
+      ],
+      "depth": 161.0
+    },
+    "A": {
+      "coordinate": [
+        62,
+        298
+      ],
+      "depth": 185.0
+    }
+  },
+  "ADE_train_00010979.jpg": {
+    "B": {
+      "coordinate": [
+        136,
+        14
+      ],
+      "depth": 26.0
+    },
+    "A": {
+      "coordinate": [
+        294,
+        262
+      ],
+      "depth": 89.0
+    }
+  },
+  "ADE_train_00013532.jpg": {
+    "C": {
+      "coordinate": [
+        238,
+        19
+      ],
+      "depth": 12.0
+    },
+    "B": {
+      "coordinate": [
+        168,
+        149
+      ],
+      "depth": 70.0
+    },
+    "A": {
+      "coordinate": [
+        231,
+        248
+      ],
+      "depth": 122.0
+    }
+  },
+  "ADE_train_00001579.jpg": {
+    "A": {
+      "coordinate": [
+        273,
+        167
+      ],
+      "depth": 44.0
+    },
+    "B": {
+      "coordinate": [
+        144,
+        243
+      ],
+      "depth": 90.0
+    }
+  },
+  "ADE_train_00016540.jpg": {
+    "B": {
+      "coordinate": [
+        81,
+        283
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        251,
+        39
+      ],
+      "depth": 196.0
+    },
+    "D": {
+      "coordinate": [
+        281,
+        15
+      ],
+      "depth": 220.0
+    },
+    "A": {
+      "coordinate": [
+        28,
+        7
+      ],
+      "depth": 247.0
+    }
+  },
+  "ADE_train_00014011.jpg": {
+    "D": {
+      "coordinate": [
+        81,
+        20
+      ],
+      "depth": 6.0
+    },
+    "B": {
+      "coordinate": [
+        57,
+        299
+      ],
+      "depth": 96.0
+    },
+    "C": {
+      "coordinate": [
+        262,
+        166
+      ],
+      "depth": 120.0
+    },
+    "A": {
+      "coordinate": [
+        189,
+        260
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00017372.jpg": {
+    "E": {
+      "coordinate": [
+        22,
+        103
+      ],
+      "depth": 15.0
+    },
+    "D": {
+      "coordinate": [
+        252,
+        28
+      ],
+      "depth": 46.0
+    },
+    "B": {
+      "coordinate": [
+        158,
+        187
+      ],
+      "depth": 80.0
+    },
+    "A": {
+      "coordinate": [
+        38,
+        262
+      ],
+      "depth": 143.0
+    },
+    "C": {
+      "coordinate": [
+        99,
+        298
+      ],
+      "depth": 167.0
+    }
+  },
+  "ADE_train_00007774.jpg": {
+    "B": {
+      "coordinate": [
+        170,
+        33
+      ],
+      "depth": 15.0
+    },
+    "A": {
+      "coordinate": [
+        257,
+        203
+      ],
+      "depth": 109.0
+    }
+  },
+  "ADE_train_00004346.jpg": {
+    "B": {
+      "coordinate": [
+        64,
+        164
+      ],
+      "depth": 21.0
+    },
+    "C": {
+      "coordinate": [
+        213,
+        244
+      ],
+      "depth": 51.0
+    },
+    "E": {
+      "coordinate": [
+        279,
+        264
+      ],
+      "depth": 71.0
+    },
+    "A": {
+      "coordinate": [
+        220,
+        274
+      ],
+      "depth": 91.0
+    },
+    "D": {
+      "coordinate": [
+        40,
+        292
+      ],
+      "depth": 144.0
+    }
+  },
+  "ADE_train_00002801.jpg": {
+    "B": {
+      "coordinate": [
+        276,
+        258
+      ],
+      "depth": 49.0
+    },
+    "A": {
+      "coordinate": [
+        120,
+        137
+      ],
+      "depth": 123.0
+    },
+    "D": {
+      "coordinate": [
+        58,
+        19
+      ],
+      "depth": 183.0
+    },
+    "C": {
+      "coordinate": [
+        12,
+        252
+      ],
+      "depth": 204.0
+    },
+    "E": {
+      "coordinate": [
+        97,
+        214
+      ],
+      "depth": 243.0
+    }
+  },
+  "ADE_train_00008732.jpg": {
+    "B": {
+      "coordinate": [
+        97,
+        74
+      ],
+      "depth": 12.0
+    },
+    "D": {
+      "coordinate": [
+        245,
+        4
+      ],
+      "depth": 41.0
+    },
+    "C": {
+      "coordinate": [
+        154,
+        254
+      ],
+      "depth": 100.0
+    },
+    "A": {
+      "coordinate": [
+        242,
+        209
+      ],
+      "depth": 137.0
+    }
+  },
+  "ADE_train_00003159.jpg": {
+    "B": {
+      "coordinate": [
+        66,
+        19
+      ],
+      "depth": 33.0
+    },
+    "C": {
+      "coordinate": [
+        54,
+        253
+      ],
+      "depth": 166.0
+    },
+    "A": {
+      "coordinate": [
+        82,
+        226
+      ],
+      "depth": 224.0
+    }
+  },
+  "ADE_train_00009330.jpg": {
+    "C": {
+      "coordinate": [
+        294,
+        1
+      ],
+      "depth": 86.0
+    },
+    "A": {
+      "coordinate": [
+        264,
+        248
+      ],
+      "depth": 126.0
+    },
+    "B": {
+      "coordinate": [
+        97,
+        79
+      ],
+      "depth": 158.0
+    },
+    "D": {
+      "coordinate": [
+        28,
+        17
+      ],
+      "depth": 194.0
+    }
+  },
+  "ADE_train_00017425.jpg": {
+    "A": {
+      "coordinate": [
+        246,
+        223
+      ],
+      "depth": 23.0
+    },
+    "C": {
+      "coordinate": [
+        202,
+        188
+      ],
+      "depth": 56.0
+    },
+    "B": {
+      "coordinate": [
+        144,
+        295
+      ],
+      "depth": 178.0
+    }
+  },
+  "ADE_train_00015617.jpg": {
+    "D": {
+      "coordinate": [
+        41,
+        91
+      ],
+      "depth": 58.0
+    },
+    "B": {
+      "coordinate": [
+        1,
+        257
+      ],
+      "depth": 118.0
+    },
+    "E": {
+      "coordinate": [
+        60,
+        257
+      ],
+      "depth": 145.0
+    },
+    "C": {
+      "coordinate": [
+        175,
+        204
+      ],
+      "depth": 171.0
+    },
+    "A": {
+      "coordinate": [
+        291,
+        275
+      ],
+      "depth": 201.0
+    }
+  },
+  "ADE_train_00002773.jpg": {
+    "A": {
+      "coordinate": [
+        134,
+        36
+      ],
+      "depth": 6.0
+    },
+    "B": {
+      "coordinate": [
+        210,
+        142
+      ],
+      "depth": 36.0
+    },
+    "E": {
+      "coordinate": [
+        59,
+        276
+      ],
+      "depth": 71.0
+    },
+    "C": {
+      "coordinate": [
+        278,
+        160
+      ],
+      "depth": 99.0
+    },
+    "D": {
+      "coordinate": [
+        187,
+        239
+      ],
+      "depth": 173.0
+    }
+  },
+  "ADE_train_00016770.jpg": {
+    "E": {
+      "coordinate": [
+        214,
+        201
+      ],
+      "depth": 1.0
+    },
+    "D": {
+      "coordinate": [
+        278,
+        177
+      ],
+      "depth": 42.0
+    },
+    "C": {
+      "coordinate": [
+        180,
+        98
+      ],
+      "depth": 114.0
+    },
+    "A": {
+      "coordinate": [
+        19,
+        83
+      ],
+      "depth": 143.0
+    },
+    "B": {
+      "coordinate": [
+        129,
+        4
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00004891.jpg": {
+    "B": {
+      "coordinate": [
+        215,
+        126
+      ],
+      "depth": 14.0
+    },
+    "C": {
+      "coordinate": [
+        95,
+        186
+      ],
+      "depth": 39.0
+    },
+    "A": {
+      "coordinate": [
+        281,
+        241
+      ],
+      "depth": 158.0
+    }
+  },
+  "ADE_train_00007143.jpg": {
+    "B": {
+      "coordinate": [
+        70,
+        76
+      ],
+      "depth": 4.0
+    },
+    "D": {
+      "coordinate": [
+        134,
+        172
+      ],
+      "depth": 103.0
+    },
+    "C": {
+      "coordinate": [
+        136,
+        201
+      ],
+      "depth": 140.0
+    },
+    "A": {
+      "coordinate": [
+        71,
+        246
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00001948.jpg": {
+    "A": {
+      "coordinate": [
+        269,
+        105
+      ],
+      "depth": 94.0
+    },
+    "B": {
+      "coordinate": [
+        259,
+        272
+      ],
+      "depth": 244.0
+    }
+  },
+  "ADE_train_00017048.jpg": {
+    "A": {
+      "coordinate": [
+        139,
+        21
+      ],
+      "depth": 2.0
+    },
+    "E": {
+      "coordinate": [
+        1,
+        133
+      ],
+      "depth": 56.0
+    },
+    "C": {
+      "coordinate": [
+        183,
+        277
+      ],
+      "depth": 107.0
+    },
+    "D": {
+      "coordinate": [
+        151,
+        163
+      ],
+      "depth": 134.0
+    },
+    "B": {
+      "coordinate": [
+        140,
+        227
+      ],
+      "depth": 198.0
+    }
+  },
+  "ADE_train_00014075.jpg": {
+    "B": {
+      "coordinate": [
+        94,
+        144
+      ],
+      "depth": 62.0
+    },
+    "D": {
+      "coordinate": [
+        244,
+        3
+      ],
+      "depth": 93.0
+    },
+    "C": {
+      "coordinate": [
+        98,
+        247
+      ],
+      "depth": 117.0
+    },
+    "A": {
+      "coordinate": [
+        273,
+        179
+      ],
+      "depth": 170.0
+    }
+  },
+  "ADE_train_00000830.jpg": {
+    "A": {
+      "coordinate": [
+        137,
+        1
+      ],
+      "depth": 21.0
+    },
+    "B": {
+      "coordinate": [
+        77,
+        220
+      ],
+      "depth": 135.0
+    }
+  },
+  "ADE_train_00013170.jpg": {
+    "B": {
+      "coordinate": [
+        210,
+        212
+      ],
+      "depth": 43.0
+    },
+    "A": {
+      "coordinate": [
+        267,
+        288
+      ],
+      "depth": 151.0
+    }
+  },
+  "ADE_train_00017835.jpg": {
+    "E": {
+      "coordinate": [
+        167,
+        41
+      ],
+      "depth": 10.0
+    },
+    "B": {
+      "coordinate": [
+        203,
+        96
+      ],
+      "depth": 32.0
+    },
+    "A": {
+      "coordinate": [
+        149,
+        201
+      ],
+      "depth": 53.0
+    },
+    "C": {
+      "coordinate": [
+        168,
+        233
+      ],
+      "depth": 94.0
+    },
+    "D": {
+      "coordinate": [
+        219,
+        269
+      ],
+      "depth": 148.0
+    }
+  },
+  "ADE_train_00014567.jpg": {
+    "A": {
+      "coordinate": [
+        277,
+        67
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        267,
+        124
+      ],
+      "depth": 33.0
+    },
+    "B": {
+      "coordinate": [
+        266,
+        212
+      ],
+      "depth": 79.0
+    }
+  },
+  "ADE_train_00015378.jpg": {
+    "D": {
+      "coordinate": [
+        166,
+        80
+      ],
+      "depth": 3.0
+    },
+    "C": {
+      "coordinate": [
+        186,
+        284
+      ],
+      "depth": 48.0
+    },
+    "A": {
+      "coordinate": [
+        88,
+        36
+      ],
+      "depth": 75.0
+    },
+    "E": {
+      "coordinate": [
+        23,
+        53
+      ],
+      "depth": 117.0
+    },
+    "B": {
+      "coordinate": [
+        265,
+        191
+      ],
+      "depth": 200.0
+    }
+  },
+  "ADE_train_00019414.jpg": {
+    "B": {
+      "coordinate": [
+        43,
+        208
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        210,
+        201
+      ],
+      "depth": 47.0
+    },
+    "A": {
+      "coordinate": [
+        7,
+        15
+      ],
+      "depth": 68.0
+    }
+  },
+  "ADE_train_00016735.jpg": {
+    "D": {
+      "coordinate": [
+        93,
+        145
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        21,
+        93
+      ],
+      "depth": 26.0
+    },
+    "E": {
+      "coordinate": [
+        225,
+        41
+      ],
+      "depth": 69.0
+    },
+    "B": {
+      "coordinate": [
+        87,
+        6
+      ],
+      "depth": 112.0
+    },
+    "A": {
+      "coordinate": [
+        13,
+        262
+      ],
+      "depth": 225.0
+    }
+  },
+  "ADE_train_00018932.jpg": {
+    "C": {
+      "coordinate": [
+        183,
+        57
+      ],
+      "depth": 17.0
+    },
+    "D": {
+      "coordinate": [
+        123,
+        50
+      ],
+      "depth": 108.0
+    },
+    "A": {
+      "coordinate": [
+        44,
+        108
+      ],
+      "depth": 157.0
+    },
+    "B": {
+      "coordinate": [
+        93,
+        274
+      ],
+      "depth": 185.0
+    }
+  },
+  "ADE_train_00000281.jpg": {
+    "A": {
+      "coordinate": [
+        49,
+        164
+      ],
+      "depth": 2.0
+    },
+    "B": {
+      "coordinate": [
+        181,
+        270
+      ],
+      "depth": 167.0
+    }
+  },
+  "ADE_train_00018456.jpg": {
+    "A": {
+      "coordinate": [
+        0,
+        233
+      ],
+      "depth": 36.0
+    },
+    "D": {
+      "coordinate": [
+        227,
+        260
+      ],
+      "depth": 71.0
+    },
+    "B": {
+      "coordinate": [
+        92,
+        246
+      ],
+      "depth": 96.0
+    },
+    "C": {
+      "coordinate": [
+        16,
+        297
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00005030.jpg": {
+    "A": {
+      "coordinate": [
+        272,
+        149
+      ],
+      "depth": 49.0
+    },
+    "B": {
+      "coordinate": [
+        141,
+        232
+      ],
+      "depth": 133.0
+    }
+  },
+  "ADE_train_00006332.jpg": {
+    "D": {
+      "coordinate": [
+        199,
+        229
+      ],
+      "depth": 18.0
+    },
+    "A": {
+      "coordinate": [
+        262,
+        116
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        98,
+        232
+      ],
+      "depth": 65.0
+    },
+    "B": {
+      "coordinate": [
+        3,
+        231
+      ],
+      "depth": 244.0
+    }
+  },
+  "ADE_train_00016193.jpg": {
+    "A": {
+      "coordinate": [
+        170,
+        13
+      ],
+      "depth": 25.0
+    },
+    "D": {
+      "coordinate": [
+        21,
+        272
+      ],
+      "depth": 159.0
+    },
+    "B": {
+      "coordinate": [
+        47,
+        276
+      ],
+      "depth": 187.0
+    },
+    "E": {
+      "coordinate": [
+        255,
+        70
+      ],
+      "depth": 222.0
+    },
+    "C": {
+      "coordinate": [
+        65,
+        86
+      ],
+      "depth": 253.0
+    }
+  },
+  "ADE_train_00012749.jpg": {
+    "B": {
+      "coordinate": [
+        76,
+        134
+      ],
+      "depth": 84.0
+    },
+    "A": {
+      "coordinate": [
+        244,
+        192
+      ],
+      "depth": 146.0
+    }
+  },
+  "ADE_train_00009683.jpg": {
+    "A": {
+      "coordinate": [
+        39,
+        127
+      ],
+      "depth": 19.0
+    },
+    "C": {
+      "coordinate": [
+        232,
+        74
+      ],
+      "depth": 76.0
+    },
+    "B": {
+      "coordinate": [
+        145,
+        280
+      ],
+      "depth": 115.0
+    }
+  },
+  "ADE_train_00010474.jpg": {
+    "D": {
+      "coordinate": [
+        275,
+        82
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        104,
+        220
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        33,
+        6
+      ],
+      "depth": 106.0
+    },
+    "B": {
+      "coordinate": [
+        283,
+        280
+      ],
+      "depth": 131.0
+    },
+    "E": {
+      "coordinate": [
+        223,
+        246
+      ],
+      "depth": 177.0
+    }
+  },
+  "ADE_train_00000557.jpg": {
+    "B": {
+      "coordinate": [
+        290,
+        176
+      ],
+      "depth": 112.0
+    },
+    "C": {
+      "coordinate": [
+        84,
+        167
+      ],
+      "depth": 176.0
+    },
+    "A": {
+      "coordinate": [
+        186,
+        107
+      ],
+      "depth": 222.0
+    }
+  },
+  "ADE_train_00016100.jpg": {
+    "C": {
+      "coordinate": [
+        205,
+        291
+      ],
+      "depth": 131.0
+    },
+    "B": {
+      "coordinate": [
+        85,
+        67
+      ],
+      "depth": 182.0
+    },
+    "A": {
+      "coordinate": [
+        113,
+        154
+      ],
+      "depth": 202.0
+    }
+  },
+  "ADE_train_00018677.jpg": {
+    "B": {
+      "coordinate": [
+        104,
+        157
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        42,
+        106
+      ],
+      "depth": 59.0
+    }
+  },
+  "ADE_train_00007901.jpg": {
+    "D": {
+      "coordinate": [
+        160,
+        8
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        4,
+        58
+      ],
+      "depth": 97.0
+    },
+    "E": {
+      "coordinate": [
+        43,
+        119
+      ],
+      "depth": 127.0
+    },
+    "A": {
+      "coordinate": [
+        81,
+        203
+      ],
+      "depth": 164.0
+    },
+    "B": {
+      "coordinate": [
+        52,
+        253
+      ],
+      "depth": 198.0
+    }
+  },
+  "ADE_train_00011496.jpg": {
+    "D": {
+      "coordinate": [
+        109,
+        162
+      ],
+      "depth": 15.0
+    },
+    "A": {
+      "coordinate": [
+        250,
+        138
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        209,
+        219
+      ],
+      "depth": 78.0
+    },
+    "C": {
+      "coordinate": [
+        115,
+        15
+      ],
+      "depth": 103.0
+    },
+    "E": {
+      "coordinate": [
+        291,
+        3
+      ],
+      "depth": 126.0
+    }
+  },
+  "ADE_train_00016185.jpg": {
+    "C": {
+      "coordinate": [
+        129,
+        71
+      ],
+      "depth": 9.0
+    },
+    "B": {
+      "coordinate": [
+        92,
+        217
+      ],
+      "depth": 34.0
+    },
+    "A": {
+      "coordinate": [
+        21,
+        263
+      ],
+      "depth": 156.0
+    }
+  },
+  "ADE_train_00002521.jpg": {
+    "B": {
+      "coordinate": [
+        236,
+        110
+      ],
+      "depth": 53.0
+    },
+    "A": {
+      "coordinate": [
+        90,
+        204
+      ],
+      "depth": 110.0
+    }
+  },
+  "ADE_train_00009701.jpg": {
+    "A": {
+      "coordinate": [
+        213,
+        62
+      ],
+      "depth": 50.0
+    },
+    "B": {
+      "coordinate": [
+        114,
+        293
+      ],
+      "depth": 123.0
+    }
+  },
+  "ADE_train_00003250.jpg": {
+    "A": {
+      "coordinate": [
+        283,
+        183
+      ],
+      "depth": 50.0
+    },
+    "D": {
+      "coordinate": [
+        10,
+        103
+      ],
+      "depth": 85.0
+    },
+    "B": {
+      "coordinate": [
+        155,
+        158
+      ],
+      "depth": 131.0
+    },
+    "C": {
+      "coordinate": [
+        42,
+        287
+      ],
+      "depth": 236.0
+    }
+  },
+  "ADE_train_00003364.jpg": {
+    "B": {
+      "coordinate": [
+        231,
+        187
+      ],
+      "depth": 15.0
+    },
+    "C": {
+      "coordinate": [
+        140,
+        123
+      ],
+      "depth": 36.0
+    },
+    "D": {
+      "coordinate": [
+        54,
+        59
+      ],
+      "depth": 57.0
+    },
+    "A": {
+      "coordinate": [
+        211,
+        241
+      ],
+      "depth": 85.0
+    },
+    "E": {
+      "coordinate": [
+        97,
+        299
+      ],
+      "depth": 135.0
+    }
+  },
+  "ADE_train_00016638.jpg": {
+    "B": {
+      "coordinate": [
+        28,
+        13
+      ],
+      "depth": 21.0
+    },
+    "A": {
+      "coordinate": [
+        65,
+        114
+      ],
+      "depth": 58.0
+    }
+  },
+  "ADE_train_00010290.jpg": {
+    "A": {
+      "coordinate": [
+        66,
+        0
+      ],
+      "depth": 34.0
+    },
+    "C": {
+      "coordinate": [
+        57,
+        212
+      ],
+      "depth": 141.0
+    },
+    "B": {
+      "coordinate": [
+        188,
+        257
+      ],
+      "depth": 170.0
+    }
+  },
+  "ADE_train_00003271.jpg": {
+    "B": {
+      "coordinate": [
+        86,
+        161
+      ],
+      "depth": 10.0
+    },
+    "A": {
+      "coordinate": [
+        17,
+        2
+      ],
+      "depth": 64.0
+    }
+  },
+  "ADE_train_00000360.jpg": {
+    "C": {
+      "coordinate": [
+        290,
+        169
+      ],
+      "depth": 98.0
+    },
+    "A": {
+      "coordinate": [
+        37,
+        125
+      ],
+      "depth": 120.0
+    },
+    "B": {
+      "coordinate": [
+        155,
+        300
+      ],
+      "depth": 250.0
+    }
+  },
+  "ADE_train_00018299.jpg": {
+    "D": {
+      "coordinate": [
+        39,
+        141
+      ],
+      "depth": 9.0
+    },
+    "A": {
+      "coordinate": [
+        198,
+        44
+      ],
+      "depth": 40.0
+    },
+    "C": {
+      "coordinate": [
+        204,
+        264
+      ],
+      "depth": 105.0
+    },
+    "B": {
+      "coordinate": [
+        57,
+        280
+      ],
+      "depth": 141.0
+    }
+  },
+  "ADE_train_00009590.jpg": {
+    "D": {
+      "coordinate": [
+        117,
+        188
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        181,
+        228
+      ],
+      "depth": 43.0
+    },
+    "B": {
+      "coordinate": [
+        103,
+        20
+      ],
+      "depth": 73.0
+    },
+    "E": {
+      "coordinate": [
+        46,
+        56
+      ],
+      "depth": 99.0
+    },
+    "C": {
+      "coordinate": [
+        191,
+        288
+      ],
+      "depth": 151.0
+    }
+  },
+  "ADE_train_00014979.jpg": {
+    "E": {
+      "coordinate": [
+        297,
+        243
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        178,
+        278
+      ],
+      "depth": 61.0
+    },
+    "D": {
+      "coordinate": [
+        140,
+        56
+      ],
+      "depth": 102.0
+    },
+    "C": {
+      "coordinate": [
+        24,
+        262
+      ],
+      "depth": 145.0
+    },
+    "A": {
+      "coordinate": [
+        10,
+        30
+      ],
+      "depth": 203.0
+    }
+  },
+  "ADE_train_00008441.jpg": {
+    "A": {
+      "coordinate": [
+        97,
+        123
+      ],
+      "depth": 33.0
+    },
+    "B": {
+      "coordinate": [
+        239,
+        267
+      ],
+      "depth": 68.0
+    }
+  },
+  "ADE_train_00004564.jpg": {
+    "D": {
+      "coordinate": [
+        158,
+        90
+      ],
+      "depth": 22.0
+    },
+    "A": {
+      "coordinate": [
+        208,
+        173
+      ],
+      "depth": 53.0
+    },
+    "C": {
+      "coordinate": [
+        219,
+        232
+      ],
+      "depth": 82.0
+    },
+    "B": {
+      "coordinate": [
+        89,
+        174
+      ],
+      "depth": 121.0
+    }
+  },
+  "ADE_train_00001533.jpg": {
+    "E": {
+      "coordinate": [
+        110,
+        211
+      ],
+      "depth": 12.0
+    },
+    "B": {
+      "coordinate": [
+        85,
+        280
+      ],
+      "depth": 69.0
+    },
+    "D": {
+      "coordinate": [
+        78,
+        211
+      ],
+      "depth": 132.0
+    },
+    "A": {
+      "coordinate": [
+        238,
+        112
+      ],
+      "depth": 171.0
+    },
+    "C": {
+      "coordinate": [
+        36,
+        214
+      ],
+      "depth": 204.0
+    }
+  },
+  "ADE_train_00003829.jpg": {
+    "B": {
+      "coordinate": [
+        217,
+        46
+      ],
+      "depth": 18.0
+    },
+    "C": {
+      "coordinate": [
+        299,
+        199
+      ],
+      "depth": 48.0
+    },
+    "A": {
+      "coordinate": [
+        4,
+        6
+      ],
+      "depth": 76.0
+    },
+    "D": {
+      "coordinate": [
+        50,
+        296
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00008460.jpg": {
+    "A": {
+      "coordinate": [
+        175,
+        97
+      ],
+      "depth": 5.0
+    },
+    "B": {
+      "coordinate": [
+        204,
+        142
+      ],
+      "depth": 82.0
+    }
+  },
+  "ADE_train_00017947.jpg": {
+    "A": {
+      "coordinate": [
+        215,
+        250
+      ],
+      "depth": 23.0
+    },
+    "D": {
+      "coordinate": [
+        133,
+        12
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        102,
+        243
+      ],
+      "depth": 67.0
+    },
+    "E": {
+      "coordinate": [
+        38,
+        179
+      ],
+      "depth": 114.0
+    },
+    "C": {
+      "coordinate": [
+        274,
+        93
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00007735.jpg": {
+    "C": {
+      "coordinate": [
+        204,
+        135
+      ],
+      "depth": 10.0
+    },
+    "D": {
+      "coordinate": [
+        104,
+        72
+      ],
+      "depth": 93.0
+    },
+    "A": {
+      "coordinate": [
+        27,
+        219
+      ],
+      "depth": 160.0
+    },
+    "B": {
+      "coordinate": [
+        21,
+        258
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00019289.jpg": {
+    "B": {
+      "coordinate": [
+        203,
+        8
+      ],
+      "depth": 12.0
+    },
+    "A": {
+      "coordinate": [
+        20,
+        148
+      ],
+      "depth": 74.0
+    }
+  },
+  "ADE_train_00002195.jpg": {
+    "D": {
+      "coordinate": [
+        40,
+        93
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        105,
+        125
+      ],
+      "depth": 67.0
+    },
+    "A": {
+      "coordinate": [
+        128,
+        285
+      ],
+      "depth": 179.0
+    },
+    "C": {
+      "coordinate": [
+        256,
+        247
+      ],
+      "depth": 200.0
+    }
+  },
+  "ADE_train_00009497.jpg": {
+    "A": {
+      "coordinate": [
+        209,
+        8
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        295,
+        7
+      ],
+      "depth": 82.0
+    },
+    "C": {
+      "coordinate": [
+        175,
+        185
+      ],
+      "depth": 196.0
+    }
+  },
+  "ADE_train_00019842.jpg": {
+    "C": {
+      "coordinate": [
+        178,
+        30
+      ],
+      "depth": 3.0
+    },
+    "D": {
+      "coordinate": [
+        194,
+        142
+      ],
+      "depth": 68.0
+    },
+    "A": {
+      "coordinate": [
+        282,
+        204
+      ],
+      "depth": 101.0
+    },
+    "E": {
+      "coordinate": [
+        58,
+        261
+      ],
+      "depth": 154.0
+    },
+    "B": {
+      "coordinate": [
+        15,
+        282
+      ],
+      "depth": 174.0
+    }
+  },
+  "ADE_train_00005694.jpg": {
+    "A": {
+      "coordinate": [
+        147,
+        197
+      ],
+      "depth": 2.0
+    },
+    "D": {
+      "coordinate": [
+        116,
+        264
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        30,
+        275
+      ],
+      "depth": 78.0
+    },
+    "E": {
+      "coordinate": [
+        164,
+        24
+      ],
+      "depth": 107.0
+    },
+    "C": {
+      "coordinate": [
+        265,
+        88
+      ],
+      "depth": 130.0
+    }
+  },
+  "ADE_train_00007220.jpg": {
+    "A": {
+      "coordinate": [
+        211,
+        142
+      ],
+      "depth": 10.0
+    },
+    "D": {
+      "coordinate": [
+        133,
+        4
+      ],
+      "depth": 36.0
+    },
+    "C": {
+      "coordinate": [
+        167,
+        295
+      ],
+      "depth": 98.0
+    },
+    "B": {
+      "coordinate": [
+        59,
+        245
+      ],
+      "depth": 182.0
+    }
+  },
+  "ADE_train_00002555.jpg": {
+    "A": {
+      "coordinate": [
+        231,
+        96
+      ],
+      "depth": 3.0
+    },
+    "B": {
+      "coordinate": [
+        122,
+        20
+      ],
+      "depth": 92.0
+    },
+    "D": {
+      "coordinate": [
+        228,
+        262
+      ],
+      "depth": 135.0
+    },
+    "C": {
+      "coordinate": [
+        45,
+        6
+      ],
+      "depth": 159.0
+    },
+    "E": {
+      "coordinate": [
+        124,
+        296
+      ],
+      "depth": 179.0
+    }
+  },
+  "ADE_train_00014124.jpg": {
+    "B": {
+      "coordinate": [
+        132,
+        114
+      ],
+      "depth": 97.0
+    },
+    "A": {
+      "coordinate": [
+        62,
+        130
+      ],
+      "depth": 120.0
+    }
+  },
+  "ADE_train_00013100.jpg": {
+    "B": {
+      "coordinate": [
+        181,
+        201
+      ],
+      "depth": 11.0
+    },
+    "A": {
+      "coordinate": [
+        253,
+        66
+      ],
+      "depth": 42.0
+    },
+    "C": {
+      "coordinate": [
+        72,
+        285
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00017736.jpg": {
+    "B": {
+      "coordinate": [
+        259,
+        197
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        38,
+        214
+      ],
+      "depth": 123.0
+    }
+  },
+  "ADE_train_00003571.jpg": {
+    "D": {
+      "coordinate": [
+        203,
+        166
+      ],
+      "depth": 11.0
+    },
+    "B": {
+      "coordinate": [
+        140,
+        153
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        166,
+        190
+      ],
+      "depth": 65.0
+    },
+    "A": {
+      "coordinate": [
+        2,
+        42
+      ],
+      "depth": 103.0
+    },
+    "E": {
+      "coordinate": [
+        218,
+        225
+      ],
+      "depth": 213.0
+    }
+  },
+  "ADE_train_00012836.jpg": {
+    "C": {
+      "coordinate": [
+        133,
+        42
+      ],
+      "depth": 36.0
+    },
+    "D": {
+      "coordinate": [
+        213,
+        98
+      ],
+      "depth": 73.0
+    },
+    "A": {
+      "coordinate": [
+        88,
+        240
+      ],
+      "depth": 136.0
+    },
+    "B": {
+      "coordinate": [
+        75,
+        271
+      ],
+      "depth": 172.0
+    }
+  },
+  "ADE_train_00010452.jpg": {
+    "B": {
+      "coordinate": [
+        154,
+        95
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        40,
+        42
+      ],
+      "depth": 67.0
+    }
+  },
+  "ADE_train_00009772.jpg": {
+    "C": {
+      "coordinate": [
+        115,
+        113
+      ],
+      "depth": 62.0
+    },
+    "A": {
+      "coordinate": [
+        119,
+        202
+      ],
+      "depth": 116.0
+    },
+    "B": {
+      "coordinate": [
+        44,
+        263
+      ],
+      "depth": 195.0
+    }
+  },
+  "ADE_train_00004058.jpg": {
+    "B": {
+      "coordinate": [
+        41,
+        143
+      ],
+      "depth": 40.0
+    },
+    "A": {
+      "coordinate": [
+        6,
+        165
+      ],
+      "depth": 65.0
+    }
+  },
+  "ADE_train_00000118.jpg": {
+    "A": {
+      "coordinate": [
+        142,
+        169
+      ],
+      "depth": 5.0
+    },
+    "D": {
+      "coordinate": [
+        73,
+        194
+      ],
+      "depth": 25.0
+    },
+    "E": {
+      "coordinate": [
+        244,
+        19
+      ],
+      "depth": 153.0
+    },
+    "B": {
+      "coordinate": [
+        277,
+        250
+      ],
+      "depth": 188.0
+    },
+    "C": {
+      "coordinate": [
+        288,
+        281
+      ],
+      "depth": 215.0
+    }
+  },
+  "ADE_train_00011972.jpg": {
+    "D": {
+      "coordinate": [
+        265,
+        53
+      ],
+      "depth": 26.0
+    },
+    "C": {
+      "coordinate": [
+        118,
+        296
+      ],
+      "depth": 50.0
+    },
+    "B": {
+      "coordinate": [
+        287,
+        231
+      ],
+      "depth": 89.0
+    },
+    "A": {
+      "coordinate": [
+        292,
+        286
+      ],
+      "depth": 109.0
+    }
+  },
+  "ADE_train_00010504.jpg": {
+    "B": {
+      "coordinate": [
+        233,
+        128
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        44,
+        12
+      ],
+      "depth": 85.0
+    }
+  },
+  "ADE_train_00013405.jpg": {
+    "A": {
+      "coordinate": [
+        195,
+        297
+      ],
+      "depth": 44.0
+    },
+    "B": {
+      "coordinate": [
+        62,
+        126
+      ],
+      "depth": 78.0
+    },
+    "D": {
+      "coordinate": [
+        279,
+        88
+      ],
+      "depth": 138.0
+    },
+    "C": {
+      "coordinate": [
+        281,
+        286
+      ],
+      "depth": 159.0
+    },
+    "E": {
+      "coordinate": [
+        16,
+        14
+      ],
+      "depth": 223.0
+    }
+  },
+  "ADE_train_00010990.jpg": {
+    "A": {
+      "coordinate": [
+        78,
+        283
+      ],
+      "depth": 67.0
+    },
+    "C": {
+      "coordinate": [
+        260,
+        207
+      ],
+      "depth": 88.0
+    },
+    "B": {
+      "coordinate": [
+        47,
+        188
+      ],
+      "depth": 123.0
+    }
+  },
+  "ADE_train_00015113.jpg": {
+    "D": {
+      "coordinate": [
+        232,
+        199
+      ],
+      "depth": 28.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        237
+      ],
+      "depth": 59.0
+    },
+    "C": {
+      "coordinate": [
+        45,
+        230
+      ],
+      "depth": 95.0
+    },
+    "B": {
+      "coordinate": [
+        25,
+        299
+      ],
+      "depth": 177.0
+    }
+  },
+  "ADE_train_00000014.jpg": {
+    "B": {
+      "coordinate": [
+        248,
+        285
+      ],
+      "depth": 30.0
+    },
+    "E": {
+      "coordinate": [
+        38,
+        283
+      ],
+      "depth": 114.0
+    },
+    "D": {
+      "coordinate": [
+        25,
+        120
+      ],
+      "depth": 144.0
+    },
+    "A": {
+      "coordinate": [
+        131,
+        272
+      ],
+      "depth": 209.0
+    },
+    "C": {
+      "coordinate": [
+        119,
+        197
+      ],
+      "depth": 249.0
+    }
+  },
+  "ADE_train_00018575.jpg": {
+    "C": {
+      "coordinate": [
+        35,
+        144
+      ],
+      "depth": 4.0
+    },
+    "A": {
+      "coordinate": [
+        223,
+        90
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        152,
+        241
+      ],
+      "depth": 114.0
+    },
+    "D": {
+      "coordinate": [
+        29,
+        296
+      ],
+      "depth": 193.0
+    }
+  },
+  "ADE_train_00010122.jpg": {
+    "B": {
+      "coordinate": [
+        175,
+        49
+      ],
+      "depth": 3.0
+    },
+    "A": {
+      "coordinate": [
+        56,
+        243
+      ],
+      "depth": 89.0
+    }
+  },
+  "ADE_train_00009566.jpg": {
+    "A": {
+      "coordinate": [
+        52,
+        226
+      ],
+      "depth": 16.0
+    },
+    "C": {
+      "coordinate": [
+        235,
+        219
+      ],
+      "depth": 94.0
+    },
+    "B": {
+      "coordinate": [
+        154,
+        288
+      ],
+      "depth": 175.0
+    }
+  },
+  "ADE_train_00015483.jpg": {
+    "A": {
+      "coordinate": [
+        151,
+        127
+      ],
+      "depth": 60.0
+    },
+    "B": {
+      "coordinate": [
+        46,
+        275
+      ],
+      "depth": 116.0
+    }
+  },
+  "ADE_train_00004188.jpg": {
+    "C": {
+      "coordinate": [
+        98,
+        164
+      ],
+      "depth": 9.0
+    },
+    "B": {
+      "coordinate": [
+        227,
+        66
+      ],
+      "depth": 36.0
+    },
+    "A": {
+      "coordinate": [
+        206,
+        191
+      ],
+      "depth": 69.0
+    },
+    "D": {
+      "coordinate": [
+        185,
+        252
+      ],
+      "depth": 237.0
+    }
+  },
+  "ADE_train_00008880.jpg": {
+    "A": {
+      "coordinate": [
+        231,
+        175
+      ],
+      "depth": 65.0
+    },
+    "B": {
+      "coordinate": [
+        49,
+        269
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00017410.jpg": {
+    "E": {
+      "coordinate": [
+        296,
+        200
+      ],
+      "depth": 9.0
+    },
+    "B": {
+      "coordinate": [
+        195,
+        17
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        56,
+        78
+      ],
+      "depth": 59.0
+    },
+    "D": {
+      "coordinate": [
+        114,
+        280
+      ],
+      "depth": 80.0
+    },
+    "A": {
+      "coordinate": [
+        278,
+        299
+      ],
+      "depth": 104.0
+    }
+  },
+  "ADE_train_00013212.jpg": {
+    "C": {
+      "coordinate": [
+        125,
+        16
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        239,
+        12
+      ],
+      "depth": 33.0
+    },
+    "A": {
+      "coordinate": [
+        253,
+        100
+      ],
+      "depth": 90.0
+    }
+  },
+  "ADE_train_00000149.jpg": {
+    "B": {
+      "coordinate": [
+        283,
+        143
+      ],
+      "depth": 12.0
+    },
+    "A": {
+      "coordinate": [
+        112,
+        144
+      ],
+      "depth": 42.0
+    },
+    "D": {
+      "coordinate": [
+        95,
+        60
+      ],
+      "depth": 68.0
+    },
+    "C": {
+      "coordinate": [
+        68,
+        294
+      ],
+      "depth": 113.0
+    }
+  },
+  "ADE_train_00003592.jpg": {
+    "D": {
+      "coordinate": [
+        292,
+        208
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        178,
+        46
+      ],
+      "depth": 71.0
+    },
+    "B": {
+      "coordinate": [
+        64,
+        249
+      ],
+      "depth": 99.0
+    },
+    "A": {
+      "coordinate": [
+        21,
+        102
+      ],
+      "depth": 138.0
+    }
+  },
+  "ADE_train_00008326.jpg": {
+    "D": {
+      "coordinate": [
+        87,
+        280
+      ],
+      "depth": 12.0
+    },
+    "C": {
+      "coordinate": [
+        19,
+        46
+      ],
+      "depth": 40.0
+    },
+    "A": {
+      "coordinate": [
+        134,
+        56
+      ],
+      "depth": 68.0
+    },
+    "E": {
+      "coordinate": [
+        255,
+        198
+      ],
+      "depth": 110.0
+    },
+    "B": {
+      "coordinate": [
+        297,
+        183
+      ],
+      "depth": 150.0
+    }
+  },
+  "ADE_train_00015616.jpg": {
+    "D": {
+      "coordinate": [
+        1,
+        157
+      ],
+      "depth": 22.0
+    },
+    "A": {
+      "coordinate": [
+        300,
+        146
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        129,
+        220
+      ],
+      "depth": 71.0
+    },
+    "B": {
+      "coordinate": [
+        242,
+        258
+      ],
+      "depth": 98.0
+    }
+  },
+  "ADE_train_00001405.jpg": {
+    "B": {
+      "coordinate": [
+        28,
+        215
+      ],
+      "depth": 72.0
+    },
+    "D": {
+      "coordinate": [
+        188,
+        120
+      ],
+      "depth": 104.0
+    },
+    "C": {
+      "coordinate": [
+        253,
+        57
+      ],
+      "depth": 132.0
+    },
+    "A": {
+      "coordinate": [
+        296,
+        163
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00011555.jpg": {
+    "A": {
+      "coordinate": [
+        171,
+        93
+      ],
+      "depth": 34.0
+    },
+    "B": {
+      "coordinate": [
+        286,
+        64
+      ],
+      "depth": 68.0
+    }
+  },
+  "ADE_train_00010562.jpg": {
+    "C": {
+      "coordinate": [
+        107,
+        103
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        21,
+        157
+      ],
+      "depth": 70.0
+    },
+    "A": {
+      "coordinate": [
+        277,
+        87
+      ],
+      "depth": 122.0
+    }
+  },
+  "ADE_train_00008310.jpg": {
+    "B": {
+      "coordinate": [
+        197,
+        105
+      ],
+      "depth": 17.0
+    },
+    "A": {
+      "coordinate": [
+        156,
+        223
+      ],
+      "depth": 63.0
+    }
+  },
+  "ADE_train_00018217.jpg": {
+    "A": {
+      "coordinate": [
+        143,
+        235
+      ],
+      "depth": 53.0
+    },
+    "B": {
+      "coordinate": [
+        73,
+        230
+      ],
+      "depth": 117.0
+    }
+  },
+  "ADE_train_00014371.jpg": {
+    "B": {
+      "coordinate": [
+        116,
+        137
+      ],
+      "depth": 115.0
+    },
+    "C": {
+      "coordinate": [
+        197,
+        187
+      ],
+      "depth": 142.0
+    },
+    "A": {
+      "coordinate": [
+        62,
+        227
+      ],
+      "depth": 163.0
+    }
+  },
+  "ADE_train_00000819.jpg": {
+    "B": {
+      "coordinate": [
+        163,
+        138
+      ],
+      "depth": 17.0
+    },
+    "C": {
+      "coordinate": [
+        58,
+        264
+      ],
+      "depth": 49.0
+    },
+    "A": {
+      "coordinate": [
+        23,
+        275
+      ],
+      "depth": 80.0
+    }
+  },
+  "ADE_train_00019057.jpg": {
+    "A": {
+      "coordinate": [
+        288,
+        110
+      ],
+      "depth": 12.0
+    },
+    "C": {
+      "coordinate": [
+        267,
+        41
+      ],
+      "depth": 42.0
+    },
+    "D": {
+      "coordinate": [
+        33,
+        26
+      ],
+      "depth": 67.0
+    },
+    "B": {
+      "coordinate": [
+        300,
+        268
+      ],
+      "depth": 181.0
+    }
+  },
+  "ADE_train_00009938.jpg": {
+    "A": {
+      "coordinate": [
+        268,
+        159
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        261,
+        132
+      ],
+      "depth": 32.0
+    },
+    "D": {
+      "coordinate": [
+        69,
+        9
+      ],
+      "depth": 73.0
+    },
+    "B": {
+      "coordinate": [
+        64,
+        236
+      ],
+      "depth": 122.0
+    }
+  },
+  "ADE_train_00003862.jpg": {
+    "B": {
+      "coordinate": [
+        260,
+        15
+      ],
+      "depth": 20.0
+    },
+    "A": {
+      "coordinate": [
+        97,
+        205
+      ],
+      "depth": 199.0
+    }
+  },
+  "ADE_train_00003198.jpg": {
+    "B": {
+      "coordinate": [
+        197,
+        211
+      ],
+      "depth": 7.0
+    },
+    "D": {
+      "coordinate": [
+        110,
+        146
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        67,
+        177
+      ],
+      "depth": 78.0
+    },
+    "E": {
+      "coordinate": [
+        211,
+        77
+      ],
+      "depth": 105.0
+    },
+    "C": {
+      "coordinate": [
+        19,
+        176
+      ],
+      "depth": 129.0
+    }
+  },
+  "ADE_train_00017494.jpg": {
+    "B": {
+      "coordinate": [
+        43,
+        116
+      ],
+      "depth": 6.0
+    },
+    "A": {
+      "coordinate": [
+        268,
+        248
+      ],
+      "depth": 85.0
+    }
+  },
+  "ADE_train_00009656.jpg": {
+    "A": {
+      "coordinate": [
+        224,
+        176
+      ],
+      "depth": 2.0
+    },
+    "D": {
+      "coordinate": [
+        191,
+        224
+      ],
+      "depth": 62.0
+    },
+    "C": {
+      "coordinate": [
+        160,
+        262
+      ],
+      "depth": 84.0
+    },
+    "B": {
+      "coordinate": [
+        13,
+        278
+      ],
+      "depth": 233.0
+    }
+  },
+  "ADE_train_00018672.jpg": {
+    "A": {
+      "coordinate": [
+        27,
+        165
+      ],
+      "depth": 26.0
+    },
+    "B": {
+      "coordinate": [
+        284,
+        100
+      ],
+      "depth": 49.0
+    },
+    "D": {
+      "coordinate": [
+        92,
+        63
+      ],
+      "depth": 103.0
+    },
+    "C": {
+      "coordinate": [
+        100,
+        297
+      ],
+      "depth": 186.0
+    }
+  },
+  "ADE_train_00018847.jpg": {
+    "E": {
+      "coordinate": [
+        262,
+        99
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        74,
+        30
+      ],
+      "depth": 81.0
+    },
+    "D": {
+      "coordinate": [
+        45,
+        154
+      ],
+      "depth": 108.0
+    },
+    "C": {
+      "coordinate": [
+        82,
+        279
+      ],
+      "depth": 137.0
+    },
+    "A": {
+      "coordinate": [
+        209,
+        296
+      ],
+      "depth": 173.0
+    }
+  },
+  "ADE_train_00002254.jpg": {
+    "B": {
+      "coordinate": [
+        296,
+        118
+      ],
+      "depth": 33.0
+    },
+    "A": {
+      "coordinate": [
+        86,
+        172
+      ],
+      "depth": 85.0
+    },
+    "C": {
+      "coordinate": [
+        194,
+        29
+      ],
+      "depth": 122.0
+    },
+    "E": {
+      "coordinate": [
+        138,
+        242
+      ],
+      "depth": 162.0
+    },
+    "D": {
+      "coordinate": [
+        199,
+        293
+      ],
+      "depth": 223.0
+    }
+  },
+  "ADE_train_00008134.jpg": {
+    "B": {
+      "coordinate": [
+        42,
+        269
+      ],
+      "depth": 124.0
+    },
+    "C": {
+      "coordinate": [
+        91,
+        31
+      ],
+      "depth": 144.0
+    },
+    "A": {
+      "coordinate": [
+        81,
+        226
+      ],
+      "depth": 194.0
+    },
+    "D": {
+      "coordinate": [
+        113,
+        228
+      ],
+      "depth": 232.0
+    }
+  },
+  "ADE_train_00017160.jpg": {
+    "B": {
+      "coordinate": [
+        101,
+        82
+      ],
+      "depth": 7.0
+    },
+    "E": {
+      "coordinate": [
+        292,
+        121
+      ],
+      "depth": 35.0
+    },
+    "A": {
+      "coordinate": [
+        185,
+        151
+      ],
+      "depth": 63.0
+    },
+    "D": {
+      "coordinate": [
+        245,
+        182
+      ],
+      "depth": 91.0
+    },
+    "C": {
+      "coordinate": [
+        114,
+        267
+      ],
+      "depth": 179.0
+    }
+  },
+  "ADE_train_00018302.jpg": {
+    "C": {
+      "coordinate": [
+        168,
+        18
+      ],
+      "depth": 13.0
+    },
+    "B": {
+      "coordinate": [
+        111,
+        125
+      ],
+      "depth": 57.0
+    },
+    "D": {
+      "coordinate": [
+        40,
+        32
+      ],
+      "depth": 83.0
+    },
+    "A": {
+      "coordinate": [
+        142,
+        270
+      ],
+      "depth": 106.0
+    }
+  },
+  "ADE_train_00011252.jpg": {
+    "A": {
+      "coordinate": [
+        102,
+        49
+      ],
+      "depth": 53.0
+    },
+    "B": {
+      "coordinate": [
+        38,
+        222
+      ],
+      "depth": 97.0
+    },
+    "C": {
+      "coordinate": [
+        275,
+        238
+      ],
+      "depth": 155.0
+    }
+  },
+  "ADE_train_00014080.jpg": {
+    "A": {
+      "coordinate": [
+        55,
+        132
+      ],
+      "depth": 4.0
+    },
+    "C": {
+      "coordinate": [
+        104,
+        217
+      ],
+      "depth": 33.0
+    },
+    "B": {
+      "coordinate": [
+        32,
+        267
+      ],
+      "depth": 59.0
+    }
+  },
+  "ADE_train_00014275.jpg": {
+    "B": {
+      "coordinate": [
+        264,
+        213
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        31,
+        78
+      ],
+      "depth": 48.0
+    }
+  },
+  "ADE_train_00006161.jpg": {
+    "A": {
+      "coordinate": [
+        29,
+        139
+      ],
+      "depth": 50.0
+    },
+    "B": {
+      "coordinate": [
+        232,
+        229
+      ],
+      "depth": 71.0
+    },
+    "D": {
+      "coordinate": [
+        152,
+        290
+      ],
+      "depth": 118.0
+    },
+    "C": {
+      "coordinate": [
+        16,
+        296
+      ],
+      "depth": 151.0
+    }
+  },
+  "ADE_train_00003984.jpg": {
+    "D": {
+      "coordinate": [
+        271,
+        13
+      ],
+      "depth": 10.0
+    },
+    "C": {
+      "coordinate": [
+        127,
+        19
+      ],
+      "depth": 67.0
+    },
+    "E": {
+      "coordinate": [
+        134,
+        162
+      ],
+      "depth": 93.0
+    },
+    "A": {
+      "coordinate": [
+        259,
+        264
+      ],
+      "depth": 134.0
+    },
+    "B": {
+      "coordinate": [
+        185,
+        292
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00019155.jpg": {
+    "E": {
+      "coordinate": [
+        31,
+        128
+      ],
+      "depth": 38.0
+    },
+    "C": {
+      "coordinate": [
+        296,
+        232
+      ],
+      "depth": 92.0
+    },
+    "A": {
+      "coordinate": [
+        68,
+        37
+      ],
+      "depth": 129.0
+    },
+    "B": {
+      "coordinate": [
+        23,
+        35
+      ],
+      "depth": 149.0
+    },
+    "D": {
+      "coordinate": [
+        265,
+        287
+      ],
+      "depth": 172.0
+    }
+  },
+  "ADE_train_00000261.jpg": {
+    "D": {
+      "coordinate": [
+        70,
+        211
+      ],
+      "depth": 30.0
+    },
+    "A": {
+      "coordinate": [
+        139,
+        155
+      ],
+      "depth": 86.0
+    },
+    "C": {
+      "coordinate": [
+        204,
+        273
+      ],
+      "depth": 163.0
+    },
+    "B": {
+      "coordinate": [
+        28,
+        289
+      ],
+      "depth": 187.0
+    }
+  },
+  "ADE_train_00011969.jpg": {
+    "A": {
+      "coordinate": [
+        7,
+        84
+      ],
+      "depth": 105.0
+    },
+    "D": {
+      "coordinate": [
+        264,
+        103
+      ],
+      "depth": 185.0
+    },
+    "C": {
+      "coordinate": [
+        150,
+        130
+      ],
+      "depth": 206.0
+    },
+    "B": {
+      "coordinate": [
+        43,
+        263
+      ],
+      "depth": 243.0
+    }
+  },
+  "ADE_train_00000151.jpg": {
+    "C": {
+      "coordinate": [
+        63,
+        159
+      ],
+      "depth": 4.0
+    },
+    "A": {
+      "coordinate": [
+        288,
+        170
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        122,
+        281
+      ],
+      "depth": 62.0
+    }
+  },
+  "ADE_train_00004195.jpg": {
+    "E": {
+      "coordinate": [
+        173,
+        62
+      ],
+      "depth": 13.0
+    },
+    "C": {
+      "coordinate": [
+        148,
+        21
+      ],
+      "depth": 43.0
+    },
+    "B": {
+      "coordinate": [
+        290,
+        206
+      ],
+      "depth": 92.0
+    },
+    "D": {
+      "coordinate": [
+        5,
+        231
+      ],
+      "depth": 118.0
+    },
+    "A": {
+      "coordinate": [
+        180,
+        244
+      ],
+      "depth": 145.0
+    }
+  },
+  "ADE_train_00003175.jpg": {
+    "D": {
+      "coordinate": [
+        26,
+        89
+      ],
+      "depth": 17.0
+    },
+    "A": {
+      "coordinate": [
+        266,
+        158
+      ],
+      "depth": 82.0
+    },
+    "B": {
+      "coordinate": [
+        253,
+        243
+      ],
+      "depth": 105.0
+    },
+    "C": {
+      "coordinate": [
+        141,
+        159
+      ],
+      "depth": 141.0
+    }
+  },
+  "ADE_train_00009348.jpg": {
+    "B": {
+      "coordinate": [
+        217,
+        103
+      ],
+      "depth": 33.0
+    },
+    "E": {
+      "coordinate": [
+        269,
+        84
+      ],
+      "depth": 79.0
+    },
+    "D": {
+      "coordinate": [
+        4,
+        237
+      ],
+      "depth": 109.0
+    },
+    "C": {
+      "coordinate": [
+        146,
+        204
+      ],
+      "depth": 138.0
+    },
+    "A": {
+      "coordinate": [
+        294,
+        265
+      ],
+      "depth": 200.0
+    }
+  },
+  "ADE_train_00013565.jpg": {
+    "A": {
+      "coordinate": [
+        79,
+        74
+      ],
+      "depth": 52.0
+    },
+    "B": {
+      "coordinate": [
+        201,
+        146
+      ],
+      "depth": 74.0
+    },
+    "D": {
+      "coordinate": [
+        247,
+        297
+      ],
+      "depth": 105.0
+    },
+    "C": {
+      "coordinate": [
+        20,
+        284
+      ],
+      "depth": 185.0
+    }
+  },
+  "ADE_train_00016901.jpg": {
+    "A": {
+      "coordinate": [
+        134,
+        217
+      ],
+      "depth": 20.0
+    },
+    "C": {
+      "coordinate": [
+        74,
+        47
+      ],
+      "depth": 52.0
+    },
+    "B": {
+      "coordinate": [
+        245,
+        188
+      ],
+      "depth": 92.0
+    }
+  },
+  "ADE_train_00004402.jpg": {
+    "B": {
+      "coordinate": [
+        255,
+        40
+      ],
+      "depth": 28.0
+    },
+    "D": {
+      "coordinate": [
+        188,
+        63
+      ],
+      "depth": 113.0
+    },
+    "C": {
+      "coordinate": [
+        147,
+        150
+      ],
+      "depth": 141.0
+    },
+    "A": {
+      "coordinate": [
+        117,
+        217
+      ],
+      "depth": 163.0
+    },
+    "E": {
+      "coordinate": [
+        80,
+        204
+      ],
+      "depth": 188.0
+    }
+  },
+  "ADE_train_00011367.jpg": {
+    "B": {
+      "coordinate": [
+        290,
+        178
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        130,
+        107
+      ],
+      "depth": 22.0
+    },
+    "D": {
+      "coordinate": [
+        179,
+        211
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        7,
+        49
+      ],
+      "depth": 69.0
+    },
+    "E": {
+      "coordinate": [
+        244,
+        256
+      ],
+      "depth": 98.0
+    }
+  },
+  "ADE_train_00005026.jpg": {
+    "B": {
+      "coordinate": [
+        279,
+        11
+      ],
+      "depth": 9.0
+    },
+    "A": {
+      "coordinate": [
+        247,
+        161
+      ],
+      "depth": 128.0
+    }
+  },
+  "ADE_train_00007385.jpg": {
+    "B": {
+      "coordinate": [
+        15,
+        168
+      ],
+      "depth": 18.0
+    },
+    "C": {
+      "coordinate": [
+        68,
+        183
+      ],
+      "depth": 67.0
+    },
+    "A": {
+      "coordinate": [
+        127,
+        218
+      ],
+      "depth": 114.0
+    },
+    "D": {
+      "coordinate": [
+        286,
+        207
+      ],
+      "depth": 169.0
+    }
+  },
+  "ADE_train_00006654.jpg": {
+    "B": {
+      "coordinate": [
+        192,
+        19
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        88,
+        51
+      ],
+      "depth": 37.0
+    },
+    "A": {
+      "coordinate": [
+        2,
+        98
+      ],
+      "depth": 61.0
+    },
+    "E": {
+      "coordinate": [
+        174,
+        224
+      ],
+      "depth": 85.0
+    },
+    "D": {
+      "coordinate": [
+        3,
+        209
+      ],
+      "depth": 107.0
+    }
+  },
+  "ADE_train_00008013.jpg": {
+    "A": {
+      "coordinate": [
+        222,
+        239
+      ],
+      "depth": 171.0
+    },
+    "B": {
+      "coordinate": [
+        244,
+        126
+      ],
+      "depth": 210.0
+    }
+  },
+  "ADE_train_00019345.jpg": {
+    "C": {
+      "coordinate": [
+        116,
+        212
+      ],
+      "depth": 37.0
+    },
+    "B": {
+      "coordinate": [
+        20,
+        147
+      ],
+      "depth": 106.0
+    },
+    "A": {
+      "coordinate": [
+        270,
+        58
+      ],
+      "depth": 160.0
+    }
+  },
+  "ADE_train_00007894.jpg": {
+    "A": {
+      "coordinate": [
+        247,
+        249
+      ],
+      "depth": 134.0
+    },
+    "B": {
+      "coordinate": [
+        19,
+        33
+      ],
+      "depth": 161.0
+    }
+  },
+  "ADE_train_00008582.jpg": {
+    "A": {
+      "coordinate": [
+        40,
+        143
+      ],
+      "depth": 10.0
+    },
+    "B": {
+      "coordinate": [
+        139,
+        142
+      ],
+      "depth": 47.0
+    },
+    "C": {
+      "coordinate": [
+        196,
+        128
+      ],
+      "depth": 87.0
+    }
+  },
+  "ADE_train_00014094.jpg": {
+    "D": {
+      "coordinate": [
+        236,
+        34
+      ],
+      "depth": 52.0
+    },
+    "A": {
+      "coordinate": [
+        103,
+        15
+      ],
+      "depth": 73.0
+    },
+    "C": {
+      "coordinate": [
+        19,
+        21
+      ],
+      "depth": 106.0
+    },
+    "E": {
+      "coordinate": [
+        27,
+        157
+      ],
+      "depth": 188.0
+    },
+    "B": {
+      "coordinate": [
+        294,
+        214
+      ],
+      "depth": 212.0
+    }
+  },
+  "ADE_train_00019619.jpg": {
+    "B": {
+      "coordinate": [
+        262,
+        184
+      ],
+      "depth": 21.0
+    },
+    "D": {
+      "coordinate": [
+        68,
+        91
+      ],
+      "depth": 41.0
+    },
+    "A": {
+      "coordinate": [
+        257,
+        38
+      ],
+      "depth": 185.0
+    },
+    "C": {
+      "coordinate": [
+        5,
+        15
+      ],
+      "depth": 219.0
+    }
+  },
+  "ADE_train_00016445.jpg": {
+    "A": {
+      "coordinate": [
+        113,
+        85
+      ],
+      "depth": 55.0
+    },
+    "B": {
+      "coordinate": [
+        82,
+        284
+      ],
+      "depth": 168.0
+    }
+  },
+  "ADE_train_00005477.jpg": {
+    "C": {
+      "coordinate": [
+        111,
+        122
+      ],
+      "depth": 13.0
+    },
+    "E": {
+      "coordinate": [
+        97,
+        197
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        248,
+        133
+      ],
+      "depth": 60.0
+    },
+    "B": {
+      "coordinate": [
+        294,
+        100
+      ],
+      "depth": 82.0
+    },
+    "D": {
+      "coordinate": [
+        299,
+        237
+      ],
+      "depth": 111.0
+    }
+  },
+  "ADE_train_00015688.jpg": {
+    "C": {
+      "coordinate": [
+        142,
+        75
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        174,
+        204
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        29,
+        273
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00014720.jpg": {
+    "B": {
+      "coordinate": [
+        112,
+        213
+      ],
+      "depth": 42.0
+    },
+    "A": {
+      "coordinate": [
+        291,
+        275
+      ],
+      "depth": 144.0
+    }
+  },
+  "ADE_train_00006592.jpg": {
+    "E": {
+      "coordinate": [
+        45,
+        111
+      ],
+      "depth": 49.0
+    },
+    "D": {
+      "coordinate": [
+        4,
+        124
+      ],
+      "depth": 76.0
+    },
+    "C": {
+      "coordinate": [
+        296,
+        158
+      ],
+      "depth": 108.0
+    },
+    "B": {
+      "coordinate": [
+        52,
+        243
+      ],
+      "depth": 158.0
+    },
+    "A": {
+      "coordinate": [
+        281,
+        299
+      ],
+      "depth": 191.0
+    }
+  },
+  "ADE_train_00005267.jpg": {
+    "B": {
+      "coordinate": [
+        142,
+        184
+      ],
+      "depth": 56.0
+    },
+    "A": {
+      "coordinate": [
+        251,
+        167
+      ],
+      "depth": 88.0
+    }
+  },
+  "ADE_train_00002168.jpg": {
+    "A": {
+      "coordinate": [
+        50,
+        135
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        143,
+        138
+      ],
+      "depth": 73.0
+    },
+    "C": {
+      "coordinate": [
+        201,
+        284
+      ],
+      "depth": 121.0
+    }
+  },
+  "ADE_train_00004297.jpg": {
+    "A": {
+      "coordinate": [
+        188,
+        90
+      ],
+      "depth": 8.0
+    },
+    "C": {
+      "coordinate": [
+        216,
+        130
+      ],
+      "depth": 58.0
+    },
+    "D": {
+      "coordinate": [
+        151,
+        24
+      ],
+      "depth": 99.0
+    },
+    "B": {
+      "coordinate": [
+        4,
+        20
+      ],
+      "depth": 133.0
+    }
+  },
+  "ADE_train_00012722.jpg": {
+    "B": {
+      "coordinate": [
+        181,
+        87
+      ],
+      "depth": 20.0
+    },
+    "D": {
+      "coordinate": [
+        147,
+        158
+      ],
+      "depth": 41.0
+    },
+    "E": {
+      "coordinate": [
+        146,
+        235
+      ],
+      "depth": 92.0
+    },
+    "C": {
+      "coordinate": [
+        49,
+        26
+      ],
+      "depth": 130.0
+    },
+    "A": {
+      "coordinate": [
+        156,
+        4
+      ],
+      "depth": 161.0
+    }
+  },
+  "ADE_train_00016682.jpg": {
+    "B": {
+      "coordinate": [
+        288,
+        68
+      ],
+      "depth": 36.0
+    },
+    "A": {
+      "coordinate": [
+        40,
+        164
+      ],
+      "depth": 116.0
+    }
+  },
+  "ADE_train_00000113.jpg": {
+    "A": {
+      "coordinate": [
+        55,
+        239
+      ],
+      "depth": 57.0
+    },
+    "B": {
+      "coordinate": [
+        22,
+        183
+      ],
+      "depth": 213.0
+    }
+  },
+  "ADE_train_00018042.jpg": {
+    "B": {
+      "coordinate": [
+        50,
+        237
+      ],
+      "depth": 50.0
+    },
+    "C": {
+      "coordinate": [
+        212,
+        287
+      ],
+      "depth": 96.0
+    },
+    "A": {
+      "coordinate": [
+        116,
+        297
+      ],
+      "depth": 127.0
+    }
+  },
+  "ADE_train_00017420.jpg": {
+    "A": {
+      "coordinate": [
+        126,
+        19
+      ],
+      "depth": 16.0
+    },
+    "B": {
+      "coordinate": [
+        278,
+        26
+      ],
+      "depth": 42.0
+    }
+  },
+  "ADE_train_00016479.jpg": {
+    "B": {
+      "coordinate": [
+        203,
+        188
+      ],
+      "depth": 60.0
+    },
+    "C": {
+      "coordinate": [
+        63,
+        64
+      ],
+      "depth": 85.0
+    },
+    "D": {
+      "coordinate": [
+        32,
+        49
+      ],
+      "depth": 157.0
+    },
+    "A": {
+      "coordinate": [
+        289,
+        111
+      ],
+      "depth": 235.0
+    }
+  },
+  "ADE_train_00005334.jpg": {
+    "D": {
+      "coordinate": [
+        227,
+        150
+      ],
+      "depth": 6.0
+    },
+    "A": {
+      "coordinate": [
+        22,
+        131
+      ],
+      "depth": 48.0
+    },
+    "B": {
+      "coordinate": [
+        16,
+        214
+      ],
+      "depth": 101.0
+    },
+    "C": {
+      "coordinate": [
+        202,
+        297
+      ],
+      "depth": 198.0
+    },
+    "E": {
+      "coordinate": [
+        32,
+        267
+      ],
+      "depth": 229.0
+    }
+  },
+  "ADE_train_00015085.jpg": {
+    "E": {
+      "coordinate": [
+        250,
+        148
+      ],
+      "depth": 10.0
+    },
+    "C": {
+      "coordinate": [
+        2,
+        152
+      ],
+      "depth": 30.0
+    },
+    "D": {
+      "coordinate": [
+        71,
+        235
+      ],
+      "depth": 64.0
+    },
+    "A": {
+      "coordinate": [
+        179,
+        22
+      ],
+      "depth": 115.0
+    },
+    "B": {
+      "coordinate": [
+        5,
+        51
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00000263.jpg": {
+    "A": {
+      "coordinate": [
+        211,
+        179
+      ],
+      "depth": 6.0
+    },
+    "C": {
+      "coordinate": [
+        114,
+        6
+      ],
+      "depth": 42.0
+    },
+    "D": {
+      "coordinate": [
+        194,
+        242
+      ],
+      "depth": 81.0
+    },
+    "B": {
+      "coordinate": [
+        72,
+        300
+      ],
+      "depth": 129.0
+    }
+  },
+  "ADE_train_00015517.jpg": {
+    "B": {
+      "coordinate": [
+        23,
+        117
+      ],
+      "depth": 27.0
+    },
+    "A": {
+      "coordinate": [
+        297,
+        79
+      ],
+      "depth": 48.0
+    }
+  },
+  "ADE_train_00009420.jpg": {
+    "C": {
+      "coordinate": [
+        150,
+        200
+      ],
+      "depth": 10.0
+    },
+    "B": {
+      "coordinate": [
+        19,
+        181
+      ],
+      "depth": 66.0
+    },
+    "A": {
+      "coordinate": [
+        93,
+        291
+      ],
+      "depth": 247.0
+    }
+  },
+  "ADE_train_00005407.jpg": {
+    "A": {
+      "coordinate": [
+        21,
+        115
+      ],
+      "depth": 4.0
+    },
+    "D": {
+      "coordinate": [
+        196,
+        58
+      ],
+      "depth": 31.0
+    },
+    "B": {
+      "coordinate": [
+        241,
+        149
+      ],
+      "depth": 94.0
+    },
+    "C": {
+      "coordinate": [
+        16,
+        247
+      ],
+      "depth": 237.0
+    }
+  },
+  "ADE_train_00019705.jpg": {
+    "A": {
+      "coordinate": [
+        148,
+        22
+      ],
+      "depth": 63.0
+    },
+    "B": {
+      "coordinate": [
+        202,
+        75
+      ],
+      "depth": 106.0
+    }
+  },
+  "ADE_train_00015604.jpg": {
+    "E": {
+      "coordinate": [
+        221,
+        40
+      ],
+      "depth": 13.0
+    },
+    "A": {
+      "coordinate": [
+        168,
+        110
+      ],
+      "depth": 45.0
+    },
+    "C": {
+      "coordinate": [
+        208,
+        135
+      ],
+      "depth": 82.0
+    },
+    "D": {
+      "coordinate": [
+        130,
+        181
+      ],
+      "depth": 117.0
+    },
+    "B": {
+      "coordinate": [
+        37,
+        299
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00011697.jpg": {
+    "B": {
+      "coordinate": [
+        236,
+        222
+      ],
+      "depth": 22.0
+    },
+    "A": {
+      "coordinate": [
+        24,
+        190
+      ],
+      "depth": 116.0
+    }
+  },
+  "ADE_train_00004985.jpg": {
+    "C": {
+      "coordinate": [
+        171,
+        163
+      ],
+      "depth": 72.0
+    },
+    "A": {
+      "coordinate": [
+        168,
+        266
+      ],
+      "depth": 114.0
+    },
+    "B": {
+      "coordinate": [
+        153,
+        293
+      ],
+      "depth": 155.0
+    }
+  },
+  "ADE_train_00009655.jpg": {
+    "A": {
+      "coordinate": [
+        83,
+        115
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        243,
+        294
+      ],
+      "depth": 63.0
+    }
+  },
+  "ADE_train_00016999.jpg": {
+    "E": {
+      "coordinate": [
+        96,
+        78
+      ],
+      "depth": 20.0
+    },
+    "B": {
+      "coordinate": [
+        43,
+        204
+      ],
+      "depth": 43.0
+    },
+    "C": {
+      "coordinate": [
+        217,
+        231
+      ],
+      "depth": 105.0
+    },
+    "D": {
+      "coordinate": [
+        298,
+        293
+      ],
+      "depth": 144.0
+    },
+    "A": {
+      "coordinate": [
+        3,
+        45
+      ],
+      "depth": 250.0
+    }
+  },
+  "ADE_train_00018646.jpg": {
+    "B": {
+      "coordinate": [
+        44,
+        158
+      ],
+      "depth": 16.0
+    },
+    "C": {
+      "coordinate": [
+        268,
+        91
+      ],
+      "depth": 36.0
+    },
+    "D": {
+      "coordinate": [
+        19,
+        232
+      ],
+      "depth": 58.0
+    },
+    "A": {
+      "coordinate": [
+        133,
+        266
+      ],
+      "depth": 78.0
+    },
+    "E": {
+      "coordinate": [
+        2,
+        260
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00013752.jpg": {
+    "C": {
+      "coordinate": [
+        177,
+        42
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        288,
+        38
+      ],
+      "depth": 23.0
+    },
+    "A": {
+      "coordinate": [
+        132,
+        161
+      ],
+      "depth": 108.0
+    },
+    "D": {
+      "coordinate": [
+        291,
+        244
+      ],
+      "depth": 178.0
+    }
+  },
+  "ADE_train_00000726.jpg": {
+    "D": {
+      "coordinate": [
+        148,
+        57
+      ],
+      "depth": 32.0
+    },
+    "C": {
+      "coordinate": [
+        189,
+        206
+      ],
+      "depth": 57.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        234
+      ],
+      "depth": 87.0
+    },
+    "B": {
+      "coordinate": [
+        3,
+        281
+      ],
+      "depth": 151.0
+    },
+    "E": {
+      "coordinate": [
+        275,
+        298
+      ],
+      "depth": 181.0
+    }
+  },
+  "ADE_train_00012200.jpg": {
+    "B": {
+      "coordinate": [
+        233,
+        36
+      ],
+      "depth": 43.0
+    },
+    "A": {
+      "coordinate": [
+        1,
+        298
+      ],
+      "depth": 110.0
+    },
+    "C": {
+      "coordinate": [
+        220,
+        289
+      ],
+      "depth": 135.0
+    }
+  },
+  "ADE_train_00019868.jpg": {
+    "D": {
+      "coordinate": [
+        122,
+        40
+      ],
+      "depth": 13.0
+    },
+    "C": {
+      "coordinate": [
+        77,
+        161
+      ],
+      "depth": 43.0
+    },
+    "E": {
+      "coordinate": [
+        28,
+        205
+      ],
+      "depth": 65.0
+    },
+    "B": {
+      "coordinate": [
+        39,
+        240
+      ],
+      "depth": 91.0
+    },
+    "A": {
+      "coordinate": [
+        105,
+        285
+      ],
+      "depth": 131.0
+    }
+  },
+  "ADE_train_00014503.jpg": {
+    "D": {
+      "coordinate": [
+        101,
+        15
+      ],
+      "depth": 15.0
+    },
+    "B": {
+      "coordinate": [
+        85,
+        130
+      ],
+      "depth": 40.0
+    },
+    "A": {
+      "coordinate": [
+        8,
+        288
+      ],
+      "depth": 65.0
+    },
+    "C": {
+      "coordinate": [
+        289,
+        294
+      ],
+      "depth": 106.0
+    }
+  },
+  "ADE_train_00010389.jpg": {
+    "B": {
+      "coordinate": [
+        183,
+        115
+      ],
+      "depth": 8.0
+    },
+    "C": {
+      "coordinate": [
+        95,
+        275
+      ],
+      "depth": 127.0
+    },
+    "A": {
+      "coordinate": [
+        20,
+        211
+      ],
+      "depth": 151.0
+    }
+  },
+  "ADE_train_00016420.jpg": {
+    "B": {
+      "coordinate": [
+        103,
+        65
+      ],
+      "depth": 39.0
+    },
+    "A": {
+      "coordinate": [
+        132,
+        143
+      ],
+      "depth": 73.0
+    }
+  },
+  "ADE_train_00016662.jpg": {
+    "A": {
+      "coordinate": [
+        113,
+        36
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        182,
+        250
+      ],
+      "depth": 63.0
+    },
+    "C": {
+      "coordinate": [
+        200,
+        276
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00005481.jpg": {
+    "D": {
+      "coordinate": [
+        233,
+        181
+      ],
+      "depth": 32.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        241
+      ],
+      "depth": 59.0
+    },
+    "C": {
+      "coordinate": [
+        132,
+        243
+      ],
+      "depth": 151.0
+    },
+    "B": {
+      "coordinate": [
+        171,
+        271
+      ],
+      "depth": 186.0
+    }
+  },
+  "ADE_train_00008160.jpg": {
+    "B": {
+      "coordinate": [
+        36,
+        66
+      ],
+      "depth": 77.0
+    },
+    "D": {
+      "coordinate": [
+        156,
+        39
+      ],
+      "depth": 138.0
+    },
+    "A": {
+      "coordinate": [
+        221,
+        149
+      ],
+      "depth": 178.0
+    },
+    "C": {
+      "coordinate": [
+        194,
+        260
+      ],
+      "depth": 207.0
+    }
+  },
+  "ADE_train_00012340.jpg": {
+    "B": {
+      "coordinate": [
+        289,
+        66
+      ],
+      "depth": 48.0
+    },
+    "A": {
+      "coordinate": [
+        178,
+        9
+      ],
+      "depth": 99.0
+    }
+  },
+  "ADE_train_00003605.jpg": {
+    "A": {
+      "coordinate": [
+        222,
+        13
+      ],
+      "depth": 56.0
+    },
+    "B": {
+      "coordinate": [
+        46,
+        185
+      ],
+      "depth": 92.0
+    }
+  },
+  "ADE_train_00012251.jpg": {
+    "A": {
+      "coordinate": [
+        6,
+        209
+      ],
+      "depth": 36.0
+    },
+    "B": {
+      "coordinate": [
+        270,
+        254
+      ],
+      "depth": 59.0
+    }
+  },
+  "ADE_train_00015505.jpg": {
+    "D": {
+      "coordinate": [
+        208,
+        187
+      ],
+      "depth": 21.0
+    },
+    "C": {
+      "coordinate": [
+        243,
+        173
+      ],
+      "depth": 42.0
+    },
+    "B": {
+      "coordinate": [
+        115,
+        45
+      ],
+      "depth": 72.0
+    },
+    "A": {
+      "coordinate": [
+        208,
+        3
+      ],
+      "depth": 138.0
+    },
+    "E": {
+      "coordinate": [
+        235,
+        298
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00007508.jpg": {
+    "C": {
+      "coordinate": [
+        273,
+        140
+      ],
+      "depth": 48.0
+    },
+    "E": {
+      "coordinate": [
+        11,
+        206
+      ],
+      "depth": 100.0
+    },
+    "D": {
+      "coordinate": [
+        35,
+        158
+      ],
+      "depth": 120.0
+    },
+    "B": {
+      "coordinate": [
+        281,
+        297
+      ],
+      "depth": 158.0
+    },
+    "A": {
+      "coordinate": [
+        125,
+        284
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00005664.jpg": {
+    "A": {
+      "coordinate": [
+        180,
+        133
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        127,
+        62
+      ],
+      "depth": 47.0
+    },
+    "C": {
+      "coordinate": [
+        231,
+        44
+      ],
+      "depth": 70.0
+    }
+  },
+  "ADE_train_00011221.jpg": {
+    "B": {
+      "coordinate": [
+        104,
+        150
+      ],
+      "depth": 7.0
+    },
+    "D": {
+      "coordinate": [
+        30,
+        202
+      ],
+      "depth": 44.0
+    },
+    "A": {
+      "coordinate": [
+        216,
+        93
+      ],
+      "depth": 64.0
+    },
+    "E": {
+      "coordinate": [
+        51,
+        247
+      ],
+      "depth": 97.0
+    },
+    "C": {
+      "coordinate": [
+        6,
+        247
+      ],
+      "depth": 127.0
+    }
+  },
+  "ADE_train_00004792.jpg": {
+    "D": {
+      "coordinate": [
+        105,
+        82
+      ],
+      "depth": 28.0
+    },
+    "C": {
+      "coordinate": [
+        229,
+        240
+      ],
+      "depth": 98.0
+    },
+    "E": {
+      "coordinate": [
+        146,
+        292
+      ],
+      "depth": 159.0
+    },
+    "B": {
+      "coordinate": [
+        56,
+        27
+      ],
+      "depth": 200.0
+    },
+    "A": {
+      "coordinate": [
+        12,
+        72
+      ],
+      "depth": 226.0
+    }
+  },
+  "ADE_train_00005922.jpg": {
+    "A": {
+      "coordinate": [
+        229,
+        13
+      ],
+      "depth": 2.0
+    },
+    "D": {
+      "coordinate": [
+        87,
+        170
+      ],
+      "depth": 78.0
+    },
+    "B": {
+      "coordinate": [
+        188,
+        149
+      ],
+      "depth": 117.0
+    },
+    "C": {
+      "coordinate": [
+        265,
+        82
+      ],
+      "depth": 153.0
+    },
+    "E": {
+      "coordinate": [
+        288,
+        34
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00005920.jpg": {
+    "A": {
+      "coordinate": [
+        264,
+        21
+      ],
+      "depth": 67.0
+    },
+    "B": {
+      "coordinate": [
+        140,
+        209
+      ],
+      "depth": 119.0
+    },
+    "C": {
+      "coordinate": [
+        17,
+        222
+      ],
+      "depth": 139.0
+    }
+  },
+  "ADE_train_00018824.jpg": {
+    "A": {
+      "coordinate": [
+        258,
+        64
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        39,
+        48
+      ],
+      "depth": 104.0
+    },
+    "B": {
+      "coordinate": [
+        1,
+        143
+      ],
+      "depth": 141.0
+    },
+    "D": {
+      "coordinate": [
+        47,
+        267
+      ],
+      "depth": 214.0
+    }
+  },
+  "ADE_train_00018934.jpg": {
+    "A": {
+      "coordinate": [
+        264,
+        183
+      ],
+      "depth": 29.0
+    },
+    "B": {
+      "coordinate": [
+        173,
+        268
+      ],
+      "depth": 180.0
+    }
+  },
+  "ADE_train_00000901.jpg": {
+    "E": {
+      "coordinate": [
+        162,
+        152
+      ],
+      "depth": 2.0
+    },
+    "B": {
+      "coordinate": [
+        85,
+        87
+      ],
+      "depth": 22.0
+    },
+    "C": {
+      "coordinate": [
+        126,
+        224
+      ],
+      "depth": 65.0
+    },
+    "A": {
+      "coordinate": [
+        44,
+        212
+      ],
+      "depth": 85.0
+    },
+    "D": {
+      "coordinate": [
+        21,
+        271
+      ],
+      "depth": 109.0
+    }
+  },
+  "ADE_train_00015620.jpg": {
+    "B": {
+      "coordinate": [
+        83,
+        240
+      ],
+      "depth": 100.0
+    },
+    "A": {
+      "coordinate": [
+        182,
+        285
+      ],
+      "depth": 156.0
+    }
+  },
+  "ADE_train_00002661.jpg": {
+    "D": {
+      "coordinate": [
+        100,
+        87
+      ],
+      "depth": 3.0
+    },
+    "C": {
+      "coordinate": [
+        186,
+        97
+      ],
+      "depth": 44.0
+    },
+    "B": {
+      "coordinate": [
+        11,
+        8
+      ],
+      "depth": 73.0
+    },
+    "A": {
+      "coordinate": [
+        34,
+        212
+      ],
+      "depth": 138.0
+    }
+  },
+  "ADE_train_00019352.jpg": {
+    "D": {
+      "coordinate": [
+        221,
+        113
+      ],
+      "depth": 121.0
+    },
+    "A": {
+      "coordinate": [
+        177,
+        100
+      ],
+      "depth": 141.0
+    },
+    "B": {
+      "coordinate": [
+        266,
+        48
+      ],
+      "depth": 170.0
+    },
+    "C": {
+      "coordinate": [
+        65,
+        2
+      ],
+      "depth": 195.0
+    },
+    "E": {
+      "coordinate": [
+        264,
+        13
+      ],
+      "depth": 220.0
+    }
+  },
+  "ADE_train_00013064.jpg": {
+    "B": {
+      "coordinate": [
+        71,
+        284
+      ],
+      "depth": 104.0
+    },
+    "A": {
+      "coordinate": [
+        108,
+        227
+      ],
+      "depth": 199.0
+    }
+  },
+  "ADE_train_00019926.jpg": {
+    "E": {
+      "coordinate": [
+        240,
+        64
+      ],
+      "depth": 11.0
+    },
+    "C": {
+      "coordinate": [
+        300,
+        62
+      ],
+      "depth": 32.0
+    },
+    "A": {
+      "coordinate": [
+        297,
+        111
+      ],
+      "depth": 71.0
+    },
+    "B": {
+      "coordinate": [
+        178,
+        73
+      ],
+      "depth": 111.0
+    },
+    "D": {
+      "coordinate": [
+        28,
+        179
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00007613.jpg": {
+    "B": {
+      "coordinate": [
+        27,
+        122
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        203,
+        19
+      ],
+      "depth": 58.0
+    }
+  },
+  "ADE_train_00004463.jpg": {
+    "C": {
+      "coordinate": [
+        271,
+        200
+      ],
+      "depth": 30.0
+    },
+    "A": {
+      "coordinate": [
+        104,
+        105
+      ],
+      "depth": 66.0
+    },
+    "B": {
+      "coordinate": [
+        118,
+        73
+      ],
+      "depth": 86.0
+    }
+  },
+  "ADE_train_00014220.jpg": {
+    "B": {
+      "coordinate": [
+        49,
+        111
+      ],
+      "depth": 97.0
+    },
+    "A": {
+      "coordinate": [
+        129,
+        204
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00004453.jpg": {
+    "B": {
+      "coordinate": [
+        234,
+        155
+      ],
+      "depth": 9.0
+    },
+    "E": {
+      "coordinate": [
+        296,
+        130
+      ],
+      "depth": 33.0
+    },
+    "D": {
+      "coordinate": [
+        103,
+        72
+      ],
+      "depth": 92.0
+    },
+    "A": {
+      "coordinate": [
+        78,
+        59
+      ],
+      "depth": 119.0
+    },
+    "C": {
+      "coordinate": [
+        14,
+        268
+      ],
+      "depth": 188.0
+    }
+  },
+  "ADE_train_00015956.jpg": {
+    "D": {
+      "coordinate": [
+        179,
+        66
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        173,
+        196
+      ],
+      "depth": 77.0
+    },
+    "B": {
+      "coordinate": [
+        124,
+        241
+      ],
+      "depth": 101.0
+    },
+    "E": {
+      "coordinate": [
+        185,
+        254
+      ],
+      "depth": 122.0
+    },
+    "C": {
+      "coordinate": [
+        121,
+        298
+      ],
+      "depth": 154.0
+    }
+  },
+  "ADE_train_00011515.jpg": {
+    "A": {
+      "coordinate": [
+        28,
+        105
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        19,
+        42
+      ],
+      "depth": 60.0
+    },
+    "E": {
+      "coordinate": [
+        197,
+        147
+      ],
+      "depth": 82.0
+    },
+    "C": {
+      "coordinate": [
+        46,
+        226
+      ],
+      "depth": 118.0
+    },
+    "D": {
+      "coordinate": [
+        75,
+        293
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00015696.jpg": {
+    "C": {
+      "coordinate": [
+        242,
+        46
+      ],
+      "depth": 51.0
+    },
+    "D": {
+      "coordinate": [
+        132,
+        188
+      ],
+      "depth": 130.0
+    },
+    "B": {
+      "coordinate": [
+        160,
+        239
+      ],
+      "depth": 158.0
+    },
+    "A": {
+      "coordinate": [
+        252,
+        236
+      ],
+      "depth": 184.0
+    }
+  },
+  "ADE_train_00002889.jpg": {
+    "B": {
+      "coordinate": [
+        184,
+        99
+      ],
+      "depth": 6.0
+    },
+    "A": {
+      "coordinate": [
+        138,
+        269
+      ],
+      "depth": 37.0
+    }
+  },
+  "ADE_train_00018312.jpg": {
+    "D": {
+      "coordinate": [
+        234,
+        77
+      ],
+      "depth": 3.0
+    },
+    "C": {
+      "coordinate": [
+        13,
+        151
+      ],
+      "depth": 44.0
+    },
+    "A": {
+      "coordinate": [
+        99,
+        64
+      ],
+      "depth": 76.0
+    },
+    "B": {
+      "coordinate": [
+        190,
+        278
+      ],
+      "depth": 141.0
+    }
+  },
+  "ADE_train_00002448.jpg": {
+    "A": {
+      "coordinate": [
+        5,
+        19
+      ],
+      "depth": 19.0
+    },
+    "B": {
+      "coordinate": [
+        234,
+        192
+      ],
+      "depth": 71.0
+    },
+    "C": {
+      "coordinate": [
+        216,
+        271
+      ],
+      "depth": 114.0
+    },
+    "D": {
+      "coordinate": [
+        139,
+        293
+      ],
+      "depth": 161.0
+    }
+  },
+  "ADE_train_00002032.jpg": {
+    "D": {
+      "coordinate": [
+        133,
+        97
+      ],
+      "depth": 36.0
+    },
+    "A": {
+      "coordinate": [
+        127,
+        155
+      ],
+      "depth": 83.0
+    },
+    "B": {
+      "coordinate": [
+        95,
+        253
+      ],
+      "depth": 107.0
+    },
+    "C": {
+      "coordinate": [
+        115,
+        269
+      ],
+      "depth": 133.0
+    }
+  },
+  "ADE_train_00005107.jpg": {
+    "D": {
+      "coordinate": [
+        276,
+        50
+      ],
+      "depth": 52.0
+    },
+    "B": {
+      "coordinate": [
+        238,
+        119
+      ],
+      "depth": 96.0
+    },
+    "C": {
+      "coordinate": [
+        113,
+        227
+      ],
+      "depth": 118.0
+    },
+    "A": {
+      "coordinate": [
+        189,
+        211
+      ],
+      "depth": 155.0
+    }
+  },
+  "ADE_train_00001769.jpg": {
+    "C": {
+      "coordinate": [
+        258,
+        97
+      ],
+      "depth": 28.0
+    },
+    "B": {
+      "coordinate": [
+        223,
+        232
+      ],
+      "depth": 54.0
+    },
+    "A": {
+      "coordinate": [
+        139,
+        299
+      ],
+      "depth": 87.0
+    }
+  },
+  "ADE_train_00008803.jpg": {
+    "A": {
+      "coordinate": [
+        115,
+        133
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        126,
+        262
+      ],
+      "depth": 43.0
+    },
+    "D": {
+      "coordinate": [
+        200,
+        244
+      ],
+      "depth": 64.0
+    },
+    "E": {
+      "coordinate": [
+        161,
+        292
+      ],
+      "depth": 84.0
+    },
+    "C": {
+      "coordinate": [
+        87,
+        8
+      ],
+      "depth": 152.0
+    }
+  },
+  "ADE_train_00000686.jpg": {
+    "C": {
+      "coordinate": [
+        59,
+        217
+      ],
+      "depth": 43.0
+    },
+    "A": {
+      "coordinate": [
+        85,
+        46
+      ],
+      "depth": 156.0
+    },
+    "B": {
+      "coordinate": [
+        250,
+        297
+      ],
+      "depth": 176.0
+    }
+  },
+  "ADE_train_00005731.jpg": {
+    "B": {
+      "coordinate": [
+        237,
+        9
+      ],
+      "depth": 12.0
+    },
+    "D": {
+      "coordinate": [
+        63,
+        257
+      ],
+      "depth": 33.0
+    },
+    "C": {
+      "coordinate": [
+        291,
+        97
+      ],
+      "depth": 83.0
+    },
+    "A": {
+      "coordinate": [
+        30,
+        139
+      ],
+      "depth": 120.0
+    }
+  },
+  "ADE_train_00011920.jpg": {
+    "B": {
+      "coordinate": [
+        128,
+        50
+      ],
+      "depth": 87.0
+    },
+    "D": {
+      "coordinate": [
+        288,
+        231
+      ],
+      "depth": 108.0
+    },
+    "A": {
+      "coordinate": [
+        109,
+        208
+      ],
+      "depth": 134.0
+    },
+    "C": {
+      "coordinate": [
+        262,
+        300
+      ],
+      "depth": 169.0
+    }
+  },
+  "ADE_train_00012252.jpg": {
+    "C": {
+      "coordinate": [
+        114,
+        177
+      ],
+      "depth": 3.0
+    },
+    "A": {
+      "coordinate": [
+        71,
+        57
+      ],
+      "depth": 30.0
+    },
+    "B": {
+      "coordinate": [
+        156,
+        248
+      ],
+      "depth": 66.0
+    },
+    "D": {
+      "coordinate": [
+        199,
+        259
+      ],
+      "depth": 96.0
+    },
+    "E": {
+      "coordinate": [
+        104,
+        288
+      ],
+      "depth": 159.0
+    }
+  },
+  "ADE_train_00010747.jpg": {
+    "B": {
+      "coordinate": [
+        98,
+        142
+      ],
+      "depth": 11.0
+    },
+    "E": {
+      "coordinate": [
+        30,
+        171
+      ],
+      "depth": 33.0
+    },
+    "C": {
+      "coordinate": [
+        113,
+        85
+      ],
+      "depth": 63.0
+    },
+    "A": {
+      "coordinate": [
+        228,
+        114
+      ],
+      "depth": 87.0
+    },
+    "D": {
+      "coordinate": [
+        104,
+        0
+      ],
+      "depth": 169.0
+    }
+  },
+  "ADE_train_00010974.jpg": {
+    "A": {
+      "coordinate": [
+        110,
+        12
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        270,
+        266
+      ],
+      "depth": 98.0
+    },
+    "C": {
+      "coordinate": [
+        25,
+        284
+      ],
+      "depth": 142.0
+    },
+    "D": {
+      "coordinate": [
+        7,
+        191
+      ],
+      "depth": 170.0
+    }
+  },
+  "ADE_train_00010049.jpg": {
+    "B": {
+      "coordinate": [
+        201,
+        98
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        148,
+        285
+      ],
+      "depth": 217.0
+    }
+  },
+  "ADE_train_00018833.jpg": {
+    "A": {
+      "coordinate": [
+        5,
+        97
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        148,
+        257
+      ],
+      "depth": 137.0
+    },
+    "C": {
+      "coordinate": [
+        54,
+        273
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00016822.jpg": {
+    "B": {
+      "coordinate": [
+        22,
+        157
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        261,
+        276
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00002905.jpg": {
+    "D": {
+      "coordinate": [
+        168,
+        150
+      ],
+      "depth": 15.0
+    },
+    "B": {
+      "coordinate": [
+        240,
+        165
+      ],
+      "depth": 59.0
+    },
+    "A": {
+      "coordinate": [
+        93,
+        43
+      ],
+      "depth": 109.0
+    },
+    "C": {
+      "coordinate": [
+        6,
+        127
+      ],
+      "depth": 131.0
+    }
+  },
+  "ADE_train_00014725.jpg": {
+    "C": {
+      "coordinate": [
+        295,
+        91
+      ],
+      "depth": 1.0
+    },
+    "E": {
+      "coordinate": [
+        205,
+        37
+      ],
+      "depth": 23.0
+    },
+    "D": {
+      "coordinate": [
+        70,
+        186
+      ],
+      "depth": 59.0
+    },
+    "B": {
+      "coordinate": [
+        280,
+        233
+      ],
+      "depth": 84.0
+    },
+    "A": {
+      "coordinate": [
+        155,
+        244
+      ],
+      "depth": 136.0
+    }
+  },
+  "ADE_train_00012345.jpg": {
+    "A": {
+      "coordinate": [
+        64,
+        101
+      ],
+      "depth": 3.0
+    },
+    "B": {
+      "coordinate": [
+        54,
+        257
+      ],
+      "depth": 84.0
+    }
+  },
+  "ADE_train_00010702.jpg": {
+    "A": {
+      "coordinate": [
+        230,
+        239
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        79,
+        65
+      ],
+      "depth": 52.0
+    }
+  },
+  "ADE_train_00001980.jpg": {
+    "A": {
+      "coordinate": [
+        54,
+        130
+      ],
+      "depth": 30.0
+    },
+    "B": {
+      "coordinate": [
+        41,
+        239
+      ],
+      "depth": 149.0
+    },
+    "C": {
+      "coordinate": [
+        210,
+        275
+      ],
+      "depth": 177.0
+    }
+  },
+  "ADE_train_00014356.jpg": {
+    "B": {
+      "coordinate": [
+        242,
+        186
+      ],
+      "depth": 34.0
+    },
+    "A": {
+      "coordinate": [
+        289,
+        58
+      ],
+      "depth": 64.0
+    },
+    "D": {
+      "coordinate": [
+        133,
+        273
+      ],
+      "depth": 85.0
+    },
+    "C": {
+      "coordinate": [
+        17,
+        143
+      ],
+      "depth": 114.0
+    }
+  },
+  "ADE_train_00008596.jpg": {
+    "A": {
+      "coordinate": [
+        94,
+        209
+      ],
+      "depth": 140.0
+    },
+    "B": {
+      "coordinate": [
+        194,
+        85
+      ],
+      "depth": 188.0
+    }
+  },
+  "ADE_train_00003804.jpg": {
+    "C": {
+      "coordinate": [
+        265,
+        204
+      ],
+      "depth": 18.0
+    },
+    "A": {
+      "coordinate": [
+        199,
+        39
+      ],
+      "depth": 51.0
+    },
+    "B": {
+      "coordinate": [
+        48,
+        253
+      ],
+      "depth": 137.0
+    }
+  },
+  "ADE_train_00015088.jpg": {
+    "A": {
+      "coordinate": [
+        271,
+        167
+      ],
+      "depth": 24.0
+    },
+    "B": {
+      "coordinate": [
+        35,
+        10
+      ],
+      "depth": 243.0
+    }
+  },
+  "ADE_train_00004016.jpg": {
+    "C": {
+      "coordinate": [
+        240,
+        137
+      ],
+      "depth": 1.0
+    },
+    "E": {
+      "coordinate": [
+        138,
+        200
+      ],
+      "depth": 37.0
+    },
+    "A": {
+      "coordinate": [
+        166,
+        103
+      ],
+      "depth": 57.0
+    },
+    "D": {
+      "coordinate": [
+        180,
+        256
+      ],
+      "depth": 153.0
+    },
+    "B": {
+      "coordinate": [
+        9,
+        17
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00001842.jpg": {
+    "B": {
+      "coordinate": [
+        296,
+        76
+      ],
+      "depth": 73.0
+    },
+    "A": {
+      "coordinate": [
+        146,
+        73
+      ],
+      "depth": 110.0
+    }
+  },
+  "ADE_train_00011112.jpg": {
+    "B": {
+      "coordinate": [
+        296,
+        147
+      ],
+      "depth": 20.0
+    },
+    "C": {
+      "coordinate": [
+        220,
+        19
+      ],
+      "depth": 52.0
+    },
+    "D": {
+      "coordinate": [
+        281,
+        180
+      ],
+      "depth": 150.0
+    },
+    "A": {
+      "coordinate": [
+        143,
+        248
+      ],
+      "depth": 190.0
+    }
+  },
+  "ADE_train_00010412.jpg": {
+    "B": {
+      "coordinate": [
+        162,
+        281
+      ],
+      "depth": 16.0
+    },
+    "C": {
+      "coordinate": [
+        275,
+        43
+      ],
+      "depth": 38.0
+    },
+    "D": {
+      "coordinate": [
+        279,
+        213
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        41,
+        281
+      ],
+      "depth": 150.0
+    }
+  },
+  "ADE_train_00015589.jpg": {
+    "A": {
+      "coordinate": [
+        110,
+        275
+      ],
+      "depth": 134.0
+    },
+    "B": {
+      "coordinate": [
+        9,
+        294
+      ],
+      "depth": 177.0
+    }
+  },
+  "ADE_train_00017431.jpg": {
+    "C": {
+      "coordinate": [
+        42,
+        152
+      ],
+      "depth": 47.0
+    },
+    "A": {
+      "coordinate": [
+        174,
+        19
+      ],
+      "depth": 85.0
+    },
+    "B": {
+      "coordinate": [
+        272,
+        248
+      ],
+      "depth": 134.0
+    }
+  },
+  "ADE_train_00012372.jpg": {
+    "B": {
+      "coordinate": [
+        127,
+        261
+      ],
+      "depth": 26.0
+    },
+    "C": {
+      "coordinate": [
+        290,
+        238
+      ],
+      "depth": 73.0
+    },
+    "A": {
+      "coordinate": [
+        25,
+        59
+      ],
+      "depth": 142.0
+    }
+  },
+  "ADE_train_00009769.jpg": {
+    "B": {
+      "coordinate": [
+        120,
+        150
+      ],
+      "depth": 47.0
+    },
+    "C": {
+      "coordinate": [
+        152,
+        222
+      ],
+      "depth": 116.0
+    },
+    "A": {
+      "coordinate": [
+        234,
+        268
+      ],
+      "depth": 206.0
+    }
+  },
+  "ADE_train_00001346.jpg": {
+    "C": {
+      "coordinate": [
+        108,
+        70
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        103,
+        126
+      ],
+      "depth": 29.0
+    },
+    "B": {
+      "coordinate": [
+        159,
+        266
+      ],
+      "depth": 121.0
+    }
+  },
+  "ADE_train_00011911.jpg": {
+    "C": {
+      "coordinate": [
+        148,
+        250
+      ],
+      "depth": 1.0
+    },
+    "B": {
+      "coordinate": [
+        177,
+        169
+      ],
+      "depth": 52.0
+    },
+    "D": {
+      "coordinate": [
+        280,
+        263
+      ],
+      "depth": 112.0
+    },
+    "A": {
+      "coordinate": [
+        62,
+        50
+      ],
+      "depth": 213.0
+    }
+  },
+  "ADE_train_00020126.jpg": {
+    "A": {
+      "coordinate": [
+        27,
+        278
+      ],
+      "depth": 96.0
+    },
+    "B": {
+      "coordinate": [
+        144,
+        167
+      ],
+      "depth": 125.0
+    }
+  },
+  "ADE_train_00005759.jpg": {
+    "C": {
+      "coordinate": [
+        99,
+        240
+      ],
+      "depth": 22.0
+    },
+    "B": {
+      "coordinate": [
+        48,
+        267
+      ],
+      "depth": 74.0
+    },
+    "A": {
+      "coordinate": [
+        223,
+        174
+      ],
+      "depth": 102.0
+    },
+    "D": {
+      "coordinate": [
+        210,
+        128
+      ],
+      "depth": 125.0
+    }
+  },
+  "ADE_train_00013396.jpg": {
+    "B": {
+      "coordinate": [
+        227,
+        96
+      ],
+      "depth": 40.0
+    },
+    "A": {
+      "coordinate": [
+        293,
+        285
+      ],
+      "depth": 246.0
+    }
+  },
+  "ADE_train_00009360.jpg": {
+    "A": {
+      "coordinate": [
+        283,
+        193
+      ],
+      "depth": 42.0
+    },
+    "B": {
+      "coordinate": [
+        237,
+        291
+      ],
+      "depth": 65.0
+    }
+  },
+  "ADE_train_00011717.jpg": {
+    "E": {
+      "coordinate": [
+        251,
+        73
+      ],
+      "depth": 3.0
+    },
+    "C": {
+      "coordinate": [
+        148,
+        38
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        276,
+        285
+      ],
+      "depth": 82.0
+    },
+    "A": {
+      "coordinate": [
+        86,
+        124
+      ],
+      "depth": 176.0
+    },
+    "D": {
+      "coordinate": [
+        258,
+        127
+      ],
+      "depth": 215.0
+    }
+  },
+  "ADE_train_00013536.jpg": {
+    "B": {
+      "coordinate": [
+        201,
+        193
+      ],
+      "depth": 8.0
+    },
+    "D": {
+      "coordinate": [
+        156,
+        39
+      ],
+      "depth": 44.0
+    },
+    "A": {
+      "coordinate": [
+        298,
+        176
+      ],
+      "depth": 72.0
+    },
+    "C": {
+      "coordinate": [
+        1,
+        297
+      ],
+      "depth": 250.0
+    }
+  },
+  "ADE_train_00013664.jpg": {
+    "B": {
+      "coordinate": [
+        79,
+        224
+      ],
+      "depth": 43.0
+    },
+    "A": {
+      "coordinate": [
+        65,
+        51
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00009930.jpg": {
+    "B": {
+      "coordinate": [
+        290,
+        30
+      ],
+      "depth": 17.0
+    },
+    "A": {
+      "coordinate": [
+        15,
+        90
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        173,
+        175
+      ],
+      "depth": 75.0
+    }
+  },
+  "ADE_train_00010989.jpg": {
+    "D": {
+      "coordinate": [
+        172,
+        88
+      ],
+      "depth": 51.0
+    },
+    "E": {
+      "coordinate": [
+        19,
+        261
+      ],
+      "depth": 72.0
+    },
+    "C": {
+      "coordinate": [
+        67,
+        6
+      ],
+      "depth": 95.0
+    },
+    "B": {
+      "coordinate": [
+        8,
+        286
+      ],
+      "depth": 125.0
+    },
+    "A": {
+      "coordinate": [
+        232,
+        216
+      ],
+      "depth": 182.0
+    }
+  },
+  "ADE_train_00013728.jpg": {
+    "B": {
+      "coordinate": [
+        84,
+        249
+      ],
+      "depth": 131.0
+    },
+    "A": {
+      "coordinate": [
+        135,
+        267
+      ],
+      "depth": 157.0
+    }
+  },
+  "ADE_train_00015462.jpg": {
+    "B": {
+      "coordinate": [
+        281,
+        186
+      ],
+      "depth": 46.0
+    },
+    "A": {
+      "coordinate": [
+        129,
+        36
+      ],
+      "depth": 134.0
+    },
+    "C": {
+      "coordinate": [
+        154,
+        230
+      ],
+      "depth": 180.0
+    }
+  },
+  "ADE_train_00007210.jpg": {
+    "A": {
+      "coordinate": [
+        11,
+        176
+      ],
+      "depth": 8.0
+    },
+    "B": {
+      "coordinate": [
+        281,
+        258
+      ],
+      "depth": 95.0
+    }
+  },
+  "ADE_train_00018845.jpg": {
+    "A": {
+      "coordinate": [
+        288,
+        93
+      ],
+      "depth": 23.0
+    },
+    "B": {
+      "coordinate": [
+        143,
+        270
+      ],
+      "depth": 145.0
+    }
+  },
+  "ADE_train_00018097.jpg": {
+    "A": {
+      "coordinate": [
+        292,
+        11
+      ],
+      "depth": 10.0
+    },
+    "D": {
+      "coordinate": [
+        213,
+        38
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        122,
+        24
+      ],
+      "depth": 84.0
+    },
+    "E": {
+      "coordinate": [
+        291,
+        262
+      ],
+      "depth": 140.0
+    },
+    "B": {
+      "coordinate": [
+        68,
+        284
+      ],
+      "depth": 171.0
+    }
+  },
+  "ADE_train_00014235.jpg": {
+    "A": {
+      "coordinate": [
+        194,
+        93
+      ],
+      "depth": 156.0
+    },
+    "B": {
+      "coordinate": [
+        237,
+        81
+      ],
+      "depth": 183.0
+    }
+  },
+  "ADE_train_00015024.jpg": {
+    "A": {
+      "coordinate": [
+        296,
+        153
+      ],
+      "depth": 61.0
+    },
+    "B": {
+      "coordinate": [
+        171,
+        204
+      ],
+      "depth": 103.0
+    }
+  },
+  "ADE_train_00016749.jpg": {
+    "B": {
+      "coordinate": [
+        104,
+        162
+      ],
+      "depth": 19.0
+    },
+    "A": {
+      "coordinate": [
+        280,
+        209
+      ],
+      "depth": 78.0
+    }
+  },
+  "ADE_train_00006356.jpg": {
+    "A": {
+      "coordinate": [
+        289,
+        91
+      ],
+      "depth": 97.0
+    },
+    "B": {
+      "coordinate": [
+        127,
+        57
+      ],
+      "depth": 139.0
+    }
+  },
+  "ADE_train_00010068.jpg": {
+    "D": {
+      "coordinate": [
+        154,
+        102
+      ],
+      "depth": 18.0
+    },
+    "A": {
+      "coordinate": [
+        240,
+        131
+      ],
+      "depth": 63.0
+    },
+    "B": {
+      "coordinate": [
+        175,
+        143
+      ],
+      "depth": 85.0
+    },
+    "E": {
+      "coordinate": [
+        246,
+        221
+      ],
+      "depth": 113.0
+    },
+    "C": {
+      "coordinate": [
+        44,
+        299
+      ],
+      "depth": 146.0
+    }
+  },
+  "ADE_train_00007415.jpg": {
+    "A": {
+      "coordinate": [
+        166,
+        87
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        248,
+        215
+      ],
+      "depth": 34.0
+    },
+    "B": {
+      "coordinate": [
+        88,
+        227
+      ],
+      "depth": 58.0
+    }
+  },
+  "ADE_train_00006956.jpg": {
+    "B": {
+      "coordinate": [
+        41,
+        107
+      ],
+      "depth": 4.0
+    },
+    "A": {
+      "coordinate": [
+        100,
+        263
+      ],
+      "depth": 133.0
+    },
+    "C": {
+      "coordinate": [
+        253,
+        171
+      ],
+      "depth": 234.0
+    }
+  },
+  "ADE_train_00007531.jpg": {
+    "A": {
+      "coordinate": [
+        12,
+        254
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        89,
+        220
+      ],
+      "depth": 145.0
+    },
+    "C": {
+      "coordinate": [
+        118,
+        49
+      ],
+      "depth": 175.0
+    }
+  },
+  "ADE_train_00000749.jpg": {
+    "A": {
+      "coordinate": [
+        232,
+        95
+      ],
+      "depth": 20.0
+    },
+    "B": {
+      "coordinate": [
+        279,
+        145
+      ],
+      "depth": 42.0
+    },
+    "D": {
+      "coordinate": [
+        120,
+        261
+      ],
+      "depth": 93.0
+    },
+    "C": {
+      "coordinate": [
+        2,
+        134
+      ],
+      "depth": 128.0
+    }
+  },
+  "ADE_train_00019351.jpg": {
+    "A": {
+      "coordinate": [
+        126,
+        237
+      ],
+      "depth": 13.0
+    },
+    "C": {
+      "coordinate": [
+        285,
+        4
+      ],
+      "depth": 41.0
+    },
+    "B": {
+      "coordinate": [
+        61,
+        137
+      ],
+      "depth": 69.0
+    },
+    "E": {
+      "coordinate": [
+        180,
+        284
+      ],
+      "depth": 122.0
+    },
+    "D": {
+      "coordinate": [
+        107,
+        294
+      ],
+      "depth": 223.0
+    }
+  },
+  "ADE_train_00004299.jpg": {
+    "B": {
+      "coordinate": [
+        162,
+        124
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        60,
+        171
+      ],
+      "depth": 27.0
+    },
+    "C": {
+      "coordinate": [
+        43,
+        61
+      ],
+      "depth": 48.0
+    },
+    "D": {
+      "coordinate": [
+        248,
+        22
+      ],
+      "depth": 89.0
+    },
+    "E": {
+      "coordinate": [
+        32,
+        254
+      ],
+      "depth": 214.0
+    }
+  },
+  "ADE_train_00016781.jpg": {
+    "B": {
+      "coordinate": [
+        92,
+        129
+      ],
+      "depth": 7.0
+    },
+    "C": {
+      "coordinate": [
+        194,
+        86
+      ],
+      "depth": 54.0
+    },
+    "A": {
+      "coordinate": [
+        127,
+        211
+      ],
+      "depth": 86.0
+    }
+  },
+  "ADE_train_00016192.jpg": {
+    "A": {
+      "coordinate": [
+        22,
+        120
+      ],
+      "depth": 37.0
+    },
+    "E": {
+      "coordinate": [
+        1,
+        195
+      ],
+      "depth": 76.0
+    },
+    "C": {
+      "coordinate": [
+        15,
+        252
+      ],
+      "depth": 147.0
+    },
+    "B": {
+      "coordinate": [
+        66,
+        64
+      ],
+      "depth": 213.0
+    },
+    "D": {
+      "coordinate": [
+        231,
+        37
+      ],
+      "depth": 233.0
+    }
+  },
+  "ADE_train_00005690.jpg": {
+    "B": {
+      "coordinate": [
+        292,
+        180
+      ],
+      "depth": 3.0
+    },
+    "A": {
+      "coordinate": [
+        254,
+        102
+      ],
+      "depth": 24.0
+    }
+  },
+  "ADE_train_00006299.jpg": {
+    "E": {
+      "coordinate": [
+        167,
+        202
+      ],
+      "depth": 4.0
+    },
+    "C": {
+      "coordinate": [
+        112,
+        198
+      ],
+      "depth": 48.0
+    },
+    "D": {
+      "coordinate": [
+        56,
+        249
+      ],
+      "depth": 96.0
+    },
+    "B": {
+      "coordinate": [
+        27,
+        19
+      ],
+      "depth": 118.0
+    },
+    "A": {
+      "coordinate": [
+        8,
+        183
+      ],
+      "depth": 151.0
+    }
+  },
+  "ADE_train_00015750.jpg": {
+    "B": {
+      "coordinate": [
+        189,
+        1
+      ],
+      "depth": 55.0
+    },
+    "D": {
+      "coordinate": [
+        160,
+        91
+      ],
+      "depth": 99.0
+    },
+    "E": {
+      "coordinate": [
+        292,
+        225
+      ],
+      "depth": 129.0
+    },
+    "A": {
+      "coordinate": [
+        262,
+        278
+      ],
+      "depth": 169.0
+    },
+    "C": {
+      "coordinate": [
+        137,
+        58
+      ],
+      "depth": 204.0
+    }
+  },
+  "ADE_train_00016361.jpg": {
+    "C": {
+      "coordinate": [
+        28,
+        117
+      ],
+      "depth": 115.0
+    },
+    "D": {
+      "coordinate": [
+        79,
+        151
+      ],
+      "depth": 143.0
+    },
+    "B": {
+      "coordinate": [
+        283,
+        159
+      ],
+      "depth": 163.0
+    },
+    "A": {
+      "coordinate": [
+        234,
+        250
+      ],
+      "depth": 210.0
+    }
+  },
+  "ADE_train_00004642.jpg": {
+    "B": {
+      "coordinate": [
+        287,
+        40
+      ],
+      "depth": 6.0
+    },
+    "D": {
+      "coordinate": [
+        75,
+        214
+      ],
+      "depth": 38.0
+    },
+    "A": {
+      "coordinate": [
+        98,
+        275
+      ],
+      "depth": 134.0
+    },
+    "C": {
+      "coordinate": [
+        110,
+        294
+      ],
+      "depth": 170.0
+    }
+  },
+  "ADE_train_00005501.jpg": {
+    "A": {
+      "coordinate": [
+        231,
+        63
+      ],
+      "depth": 16.0
+    },
+    "C": {
+      "coordinate": [
+        267,
+        11
+      ],
+      "depth": 36.0
+    },
+    "B": {
+      "coordinate": [
+        48,
+        53
+      ],
+      "depth": 66.0
+    },
+    "D": {
+      "coordinate": [
+        187,
+        269
+      ],
+      "depth": 98.0
+    }
+  },
+  "ADE_train_00006564.jpg": {
+    "B": {
+      "coordinate": [
+        228,
+        19
+      ],
+      "depth": 3.0
+    },
+    "A": {
+      "coordinate": [
+        151,
+        14
+      ],
+      "depth": 26.0
+    },
+    "C": {
+      "coordinate": [
+        205,
+        174
+      ],
+      "depth": 59.0
+    }
+  },
+  "ADE_train_00013558.jpg": {
+    "C": {
+      "coordinate": [
+        102,
+        144
+      ],
+      "depth": 63.0
+    },
+    "A": {
+      "coordinate": [
+        162,
+        178
+      ],
+      "depth": 89.0
+    },
+    "E": {
+      "coordinate": [
+        115,
+        225
+      ],
+      "depth": 128.0
+    },
+    "B": {
+      "coordinate": [
+        175,
+        251
+      ],
+      "depth": 149.0
+    },
+    "D": {
+      "coordinate": [
+        88,
+        289
+      ],
+      "depth": 184.0
+    }
+  },
+  "ADE_train_00006786.jpg": {
+    "B": {
+      "coordinate": [
+        50,
+        25
+      ],
+      "depth": 3.0
+    },
+    "A": {
+      "coordinate": [
+        176,
+        8
+      ],
+      "depth": 56.0
+    },
+    "C": {
+      "coordinate": [
+        214,
+        241
+      ],
+      "depth": 204.0
+    }
+  },
+  "ADE_train_00002512.jpg": {
+    "B": {
+      "coordinate": [
+        282,
+        65
+      ],
+      "depth": 3.0
+    },
+    "D": {
+      "coordinate": [
+        161,
+        176
+      ],
+      "depth": 49.0
+    },
+    "C": {
+      "coordinate": [
+        90,
+        260
+      ],
+      "depth": 139.0
+    },
+    "A": {
+      "coordinate": [
+        271,
+        298
+      ],
+      "depth": 187.0
+    }
+  },
+  "ADE_train_00002772.jpg": {
+    "B": {
+      "coordinate": [
+        225,
+        80
+      ],
+      "depth": 11.0
+    },
+    "C": {
+      "coordinate": [
+        121,
+        256
+      ],
+      "depth": 33.0
+    },
+    "A": {
+      "coordinate": [
+        134,
+        204
+      ],
+      "depth": 56.0
+    }
+  },
+  "ADE_train_00008835.jpg": {
+    "B": {
+      "coordinate": [
+        241,
+        32
+      ],
+      "depth": 6.0
+    },
+    "D": {
+      "coordinate": [
+        263,
+        35
+      ],
+      "depth": 54.0
+    },
+    "C": {
+      "coordinate": [
+        74,
+        13
+      ],
+      "depth": 143.0
+    },
+    "A": {
+      "coordinate": [
+        4,
+        186
+      ],
+      "depth": 235.0
+    }
+  },
+  "ADE_train_00009978.jpg": {
+    "C": {
+      "coordinate": [
+        85,
+        104
+      ],
+      "depth": 26.0
+    },
+    "A": {
+      "coordinate": [
+        241,
+        210
+      ],
+      "depth": 99.0
+    },
+    "B": {
+      "coordinate": [
+        276,
+        296
+      ],
+      "depth": 163.0
+    }
+  },
+  "ADE_train_00014644.jpg": {
+    "B": {
+      "coordinate": [
+        235,
+        139
+      ],
+      "depth": 5.0
+    },
+    "A": {
+      "coordinate": [
+        44,
+        64
+      ],
+      "depth": 108.0
+    },
+    "C": {
+      "coordinate": [
+        28,
+        35
+      ],
+      "depth": 171.0
+    }
+  },
+  "ADE_train_00007539.jpg": {
+    "D": {
+      "coordinate": [
+        199,
+        125
+      ],
+      "depth": 1.0
+    },
+    "A": {
+      "coordinate": [
+        292,
+        146
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        231,
+        255
+      ],
+      "depth": 67.0
+    },
+    "E": {
+      "coordinate": [
+        171,
+        109
+      ],
+      "depth": 112.0
+    },
+    "C": {
+      "coordinate": [
+        5,
+        24
+      ],
+      "depth": 211.0
+    }
+  },
+  "ADE_train_00014223.jpg": {
+    "B": {
+      "coordinate": [
+        80,
+        48
+      ],
+      "depth": 36.0
+    },
+    "E": {
+      "coordinate": [
+        95,
+        83
+      ],
+      "depth": 64.0
+    },
+    "C": {
+      "coordinate": [
+        226,
+        162
+      ],
+      "depth": 120.0
+    },
+    "D": {
+      "coordinate": [
+        41,
+        198
+      ],
+      "depth": 144.0
+    },
+    "A": {
+      "coordinate": [
+        239,
+        207
+      ],
+      "depth": 166.0
+    }
+  },
+  "ADE_train_00004702.jpg": {
+    "B": {
+      "coordinate": [
+        282,
+        87
+      ],
+      "depth": 83.0
+    },
+    "A": {
+      "coordinate": [
+        225,
+        294
+      ],
+      "depth": 104.0
+    }
+  },
+  "ADE_train_00004757.jpg": {
+    "C": {
+      "coordinate": [
+        298,
+        26
+      ],
+      "depth": 69.0
+    },
+    "A": {
+      "coordinate": [
+        33,
+        127
+      ],
+      "depth": 106.0
+    },
+    "D": {
+      "coordinate": [
+        174,
+        256
+      ],
+      "depth": 132.0
+    },
+    "B": {
+      "coordinate": [
+        145,
+        294
+      ],
+      "depth": 187.0
+    }
+  },
+  "ADE_train_00000061.jpg": {
+    "A": {
+      "coordinate": [
+        296,
+        74
+      ],
+      "depth": 43.0
+    },
+    "B": {
+      "coordinate": [
+        206,
+        20
+      ],
+      "depth": 65.0
+    }
+  },
+  "ADE_train_00018075.jpg": {
+    "A": {
+      "coordinate": [
+        213,
+        139
+      ],
+      "depth": 37.0
+    },
+    "C": {
+      "coordinate": [
+        94,
+        250
+      ],
+      "depth": 118.0
+    },
+    "B": {
+      "coordinate": [
+        250,
+        271
+      ],
+      "depth": 157.0
+    },
+    "D": {
+      "coordinate": [
+        165,
+        299
+      ],
+      "depth": 194.0
+    }
+  },
+  "ADE_train_00013390.jpg": {
+    "E": {
+      "coordinate": [
+        238,
+        52
+      ],
+      "depth": 45.0
+    },
+    "D": {
+      "coordinate": [
+        140,
+        142
+      ],
+      "depth": 92.0
+    },
+    "C": {
+      "coordinate": [
+        238,
+        185
+      ],
+      "depth": 120.0
+    },
+    "A": {
+      "coordinate": [
+        252,
+        262
+      ],
+      "depth": 176.0
+    },
+    "B": {
+      "coordinate": [
+        27,
+        284
+      ],
+      "depth": 205.0
+    }
+  },
+  "ADE_train_00009534.jpg": {
+    "C": {
+      "coordinate": [
+        149,
+        159
+      ],
+      "depth": 28.0
+    },
+    "E": {
+      "coordinate": [
+        258,
+        176
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        140,
+        240
+      ],
+      "depth": 83.0
+    },
+    "D": {
+      "coordinate": [
+        103,
+        278
+      ],
+      "depth": 108.0
+    },
+    "B": {
+      "coordinate": [
+        29,
+        259
+      ],
+      "depth": 182.0
+    }
+  },
+  "ADE_train_00002554.jpg": {
+    "A": {
+      "coordinate": [
+        186,
+        59
+      ],
+      "depth": 8.0
+    },
+    "B": {
+      "coordinate": [
+        158,
+        275
+      ],
+      "depth": 70.0
+    }
+  },
+  "ADE_train_00016944.jpg": {
+    "A": {
+      "coordinate": [
+        187,
+        41
+      ],
+      "depth": 13.0
+    },
+    "B": {
+      "coordinate": [
+        46,
+        65
+      ],
+      "depth": 35.0
+    },
+    "C": {
+      "coordinate": [
+        83,
+        249
+      ],
+      "depth": 57.0
+    }
+  },
+  "ADE_train_00011635.jpg": {
+    "E": {
+      "coordinate": [
+        193,
+        193
+      ],
+      "depth": 31.0
+    },
+    "A": {
+      "coordinate": [
+        197,
+        222
+      ],
+      "depth": 59.0
+    },
+    "C": {
+      "coordinate": [
+        56,
+        288
+      ],
+      "depth": 109.0
+    },
+    "D": {
+      "coordinate": [
+        3,
+        188
+      ],
+      "depth": 131.0
+    },
+    "B": {
+      "coordinate": [
+        24,
+        96
+      ],
+      "depth": 154.0
+    }
+  },
+  "ADE_train_00006298.jpg": {
+    "C": {
+      "coordinate": [
+        222,
+        179
+      ],
+      "depth": 9.0
+    },
+    "A": {
+      "coordinate": [
+        285,
+        87
+      ],
+      "depth": 50.0
+    },
+    "D": {
+      "coordinate": [
+        84,
+        81
+      ],
+      "depth": 98.0
+    },
+    "E": {
+      "coordinate": [
+        41,
+        107
+      ],
+      "depth": 126.0
+    },
+    "B": {
+      "coordinate": [
+        10,
+        121
+      ],
+      "depth": 197.0
+    }
+  },
+  "ADE_train_00003526.jpg": {
+    "B": {
+      "coordinate": [
+        38,
+        59
+      ],
+      "depth": 57.0
+    },
+    "A": {
+      "coordinate": [
+        100,
+        1
+      ],
+      "depth": 101.0
+    }
+  },
+  "ADE_train_00013395.jpg": {
+    "B": {
+      "coordinate": [
+        247,
+        79
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        41,
+        246
+      ],
+      "depth": 30.0
+    }
+  },
+  "ADE_train_00011380.jpg": {
+    "C": {
+      "coordinate": [
+        179,
+        98
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        37,
+        62
+      ],
+      "depth": 49.0
+    },
+    "D": {
+      "coordinate": [
+        11,
+        24
+      ],
+      "depth": 70.0
+    },
+    "B": {
+      "coordinate": [
+        265,
+        259
+      ],
+      "depth": 115.0
+    }
+  },
+  "ADE_train_00020156.jpg": {
+    "A": {
+      "coordinate": [
+        138,
+        124
+      ],
+      "depth": 12.0
+    },
+    "C": {
+      "coordinate": [
+        290,
+        111
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        147,
+        262
+      ],
+      "depth": 71.0
+    }
+  },
+  "ADE_train_00019638.jpg": {
+    "B": {
+      "coordinate": [
+        146,
+        270
+      ],
+      "depth": 23.0
+    },
+    "A": {
+      "coordinate": [
+        147,
+        44
+      ],
+      "depth": 77.0
+    }
+  },
+  "ADE_train_00019327.jpg": {
+    "B": {
+      "coordinate": [
+        118,
+        28
+      ],
+      "depth": 15.0
+    },
+    "A": {
+      "coordinate": [
+        2,
+        299
+      ],
+      "depth": 207.0
+    }
+  },
+  "ADE_train_00012208.jpg": {
+    "E": {
+      "coordinate": [
+        204,
+        38
+      ],
+      "depth": 28.0
+    },
+    "D": {
+      "coordinate": [
+        293,
+        167
+      ],
+      "depth": 48.0
+    },
+    "C": {
+      "coordinate": [
+        63,
+        159
+      ],
+      "depth": 85.0
+    },
+    "A": {
+      "coordinate": [
+        256,
+        282
+      ],
+      "depth": 137.0
+    },
+    "B": {
+      "coordinate": [
+        40,
+        262
+      ],
+      "depth": 181.0
+    }
+  },
+  "ADE_train_00019014.jpg": {
+    "B": {
+      "coordinate": [
+        282,
+        168
+      ],
+      "depth": 40.0
+    },
+    "D": {
+      "coordinate": [
+        273,
+        234
+      ],
+      "depth": 64.0
+    },
+    "A": {
+      "coordinate": [
+        14,
+        126
+      ],
+      "depth": 95.0
+    },
+    "C": {
+      "coordinate": [
+        38,
+        288
+      ],
+      "depth": 172.0
+    }
+  },
+  "ADE_train_00019838.jpg": {
+    "A": {
+      "coordinate": [
+        181,
+        103
+      ],
+      "depth": 2.0
+    },
+    "B": {
+      "coordinate": [
+        181,
+        205
+      ],
+      "depth": 25.0
+    },
+    "C": {
+      "coordinate": [
+        40,
+        20
+      ],
+      "depth": 108.0
+    }
+  },
+  "ADE_train_00003496.jpg": {
+    "C": {
+      "coordinate": [
+        79,
+        96
+      ],
+      "depth": 14.0
+    },
+    "A": {
+      "coordinate": [
+        260,
+        11
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        126,
+        239
+      ],
+      "depth": 60.0
+    }
+  },
+  "ADE_train_00013603.jpg": {
+    "B": {
+      "coordinate": [
+        55,
+        227
+      ],
+      "depth": 108.0
+    },
+    "A": {
+      "coordinate": [
+        164,
+        270
+      ],
+      "depth": 163.0
+    }
+  },
+  "ADE_train_00017064.jpg": {
+    "B": {
+      "coordinate": [
+        222,
+        195
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        118,
+        169
+      ],
+      "depth": 22.0
+    },
+    "E": {
+      "coordinate": [
+        5,
+        86
+      ],
+      "depth": 49.0
+    },
+    "A": {
+      "coordinate": [
+        168,
+        35
+      ],
+      "depth": 71.0
+    },
+    "D": {
+      "coordinate": [
+        281,
+        226
+      ],
+      "depth": 91.0
+    }
+  },
+  "ADE_train_00009393.jpg": {
+    "A": {
+      "coordinate": [
+        85,
+        272
+      ],
+      "depth": 83.0
+    },
+    "B": {
+      "coordinate": [
+        253,
+        103
+      ],
+      "depth": 112.0
+    }
+  },
+  "ADE_train_00019502.jpg": {
+    "D": {
+      "coordinate": [
+        104,
+        95
+      ],
+      "depth": 21.0
+    },
+    "B": {
+      "coordinate": [
+        191,
+        179
+      ],
+      "depth": 44.0
+    },
+    "C": {
+      "coordinate": [
+        7,
+        229
+      ],
+      "depth": 135.0
+    },
+    "A": {
+      "coordinate": [
+        216,
+        292
+      ],
+      "depth": 239.0
+    }
+  },
+  "ADE_train_00002146.jpg": {
+    "C": {
+      "coordinate": [
+        26,
+        286
+      ],
+      "depth": 28.0
+    },
+    "A": {
+      "coordinate": [
+        81,
+        189
+      ],
+      "depth": 54.0
+    },
+    "D": {
+      "coordinate": [
+        192,
+        232
+      ],
+      "depth": 108.0
+    },
+    "B": {
+      "coordinate": [
+        243,
+        176
+      ],
+      "depth": 194.0
+    }
+  },
+  "ADE_train_00015300.jpg": {
+    "D": {
+      "coordinate": [
+        284,
+        144
+      ],
+      "depth": 58.0
+    },
+    "A": {
+      "coordinate": [
+        7,
+        222
+      ],
+      "depth": 100.0
+    },
+    "B": {
+      "coordinate": [
+        2,
+        291
+      ],
+      "depth": 137.0
+    },
+    "C": {
+      "coordinate": [
+        133,
+        256
+      ],
+      "depth": 198.0
+    },
+    "E": {
+      "coordinate": [
+        135,
+        119
+      ],
+      "depth": 229.0
+    }
+  },
+  "ADE_train_00006565.jpg": {
+    "B": {
+      "coordinate": [
+        135,
+        7
+      ],
+      "depth": 19.0
+    },
+    "D": {
+      "coordinate": [
+        29,
+        66
+      ],
+      "depth": 45.0
+    },
+    "A": {
+      "coordinate": [
+        276,
+        177
+      ],
+      "depth": 78.0
+    },
+    "C": {
+      "coordinate": [
+        84,
+        253
+      ],
+      "depth": 105.0
+    }
+  },
+  "ADE_train_00008205.jpg": {
+    "C": {
+      "coordinate": [
+        21,
+        154
+      ],
+      "depth": 32.0
+    },
+    "B": {
+      "coordinate": [
+        18,
+        24
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        253,
+        210
+      ],
+      "depth": 95.0
+    },
+    "D": {
+      "coordinate": [
+        274,
+        261
+      ],
+      "depth": 160.0
+    }
+  },
+  "ADE_train_00005444.jpg": {
+    "A": {
+      "coordinate": [
+        16,
+        230
+      ],
+      "depth": 101.0
+    },
+    "B": {
+      "coordinate": [
+        265,
+        300
+      ],
+      "depth": 197.0
+    }
+  },
+  "ADE_train_00010275.jpg": {
+    "B": {
+      "coordinate": [
+        51,
+        149
+      ],
+      "depth": 1.0
+    },
+    "D": {
+      "coordinate": [
+        16,
+        245
+      ],
+      "depth": 29.0
+    },
+    "C": {
+      "coordinate": [
+        48,
+        289
+      ],
+      "depth": 68.0
+    },
+    "A": {
+      "coordinate": [
+        221,
+        261
+      ],
+      "depth": 156.0
+    }
+  },
+  "ADE_train_00003398.jpg": {
+    "A": {
+      "coordinate": [
+        157,
+        260
+      ],
+      "depth": 53.0
+    },
+    "B": {
+      "coordinate": [
+        114,
+        175
+      ],
+      "depth": 80.0
+    },
+    "C": {
+      "coordinate": [
+        5,
+        263
+      ],
+      "depth": 115.0
+    },
+    "D": {
+      "coordinate": [
+        13,
+        21
+      ],
+      "depth": 137.0
+    }
+  },
+  "ADE_train_00002058.jpg": {
+    "A": {
+      "coordinate": [
+        184,
+        15
+      ],
+      "depth": 6.0
+    },
+    "D": {
+      "coordinate": [
+        145,
+        176
+      ],
+      "depth": 47.0
+    },
+    "E": {
+      "coordinate": [
+        300,
+        109
+      ],
+      "depth": 72.0
+    },
+    "B": {
+      "coordinate": [
+        226,
+        182
+      ],
+      "depth": 155.0
+    },
+    "C": {
+      "coordinate": [
+        198,
+        257
+      ],
+      "depth": 186.0
+    }
+  },
+  "ADE_train_00011584.jpg": {
+    "B": {
+      "coordinate": [
+        60,
+        0
+      ],
+      "depth": 4.0
+    },
+    "C": {
+      "coordinate": [
+        243,
+        134
+      ],
+      "depth": 30.0
+    },
+    "A": {
+      "coordinate": [
+        46,
+        259
+      ],
+      "depth": 162.0
+    }
+  },
+  "ADE_train_00011517.jpg": {
+    "B": {
+      "coordinate": [
+        288,
+        36
+      ],
+      "depth": 60.0
+    },
+    "A": {
+      "coordinate": [
+        244,
+        243
+      ],
+      "depth": 110.0
+    }
+  },
+  "ADE_train_00006928.jpg": {
+    "A": {
+      "coordinate": [
+        19,
+        202
+      ],
+      "depth": 64.0
+    },
+    "B": {
+      "coordinate": [
+        189,
+        26
+      ],
+      "depth": 84.0
+    },
+    "C": {
+      "coordinate": [
+        12,
+        32
+      ],
+      "depth": 112.0
+    },
+    "D": {
+      "coordinate": [
+        139,
+        257
+      ],
+      "depth": 220.0
+    }
+  },
+  "ADE_train_00016240.jpg": {
+    "C": {
+      "coordinate": [
+        282,
+        177
+      ],
+      "depth": 36.0
+    },
+    "A": {
+      "coordinate": [
+        224,
+        21
+      ],
+      "depth": 78.0
+    },
+    "B": {
+      "coordinate": [
+        127,
+        174
+      ],
+      "depth": 139.0
+    }
+  },
+  "ADE_train_00000283.jpg": {
+    "A": {
+      "coordinate": [
+        190,
+        198
+      ],
+      "depth": 30.0
+    },
+    "B": {
+      "coordinate": [
+        271,
+        112
+      ],
+      "depth": 60.0
+    }
+  },
+  "ADE_train_00001056.jpg": {
+    "A": {
+      "coordinate": [
+        233,
+        29
+      ],
+      "depth": 3.0
+    },
+    "B": {
+      "coordinate": [
+        183,
+        240
+      ],
+      "depth": 56.0
+    }
+  },
+  "ADE_train_00006665.jpg": {
+    "C": {
+      "coordinate": [
+        95,
+        149
+      ],
+      "depth": 21.0
+    },
+    "A": {
+      "coordinate": [
+        233,
+        13
+      ],
+      "depth": 60.0
+    },
+    "B": {
+      "coordinate": [
+        158,
+        228
+      ],
+      "depth": 115.0
+    }
+  },
+  "ADE_train_00011964.jpg": {
+    "B": {
+      "coordinate": [
+        169,
+        104
+      ],
+      "depth": 74.0
+    },
+    "C": {
+      "coordinate": [
+        188,
+        231
+      ],
+      "depth": 99.0
+    },
+    "D": {
+      "coordinate": [
+        294,
+        264
+      ],
+      "depth": 119.0
+    },
+    "A": {
+      "coordinate": [
+        153,
+        248
+      ],
+      "depth": 147.0
+    },
+    "E": {
+      "coordinate": [
+        28,
+        140
+      ],
+      "depth": 171.0
+    }
+  },
+  "ADE_train_00019774.jpg": {
+    "B": {
+      "coordinate": [
+        270,
+        99
+      ],
+      "depth": 177.0
+    },
+    "A": {
+      "coordinate": [
+        205,
+        95
+      ],
+      "depth": 244.0
+    }
+  },
+  "ADE_train_00003497.jpg": {
+    "A": {
+      "coordinate": [
+        140,
+        52
+      ],
+      "depth": 47.0
+    },
+    "B": {
+      "coordinate": [
+        51,
+        238
+      ],
+      "depth": 103.0
+    }
+  },
+  "ADE_train_00010791.jpg": {
+    "E": {
+      "coordinate": [
+        234,
+        8
+      ],
+      "depth": 11.0
+    },
+    "B": {
+      "coordinate": [
+        223,
+        186
+      ],
+      "depth": 51.0
+    },
+    "C": {
+      "coordinate": [
+        265,
+        230
+      ],
+      "depth": 115.0
+    },
+    "A": {
+      "coordinate": [
+        252,
+        255
+      ],
+      "depth": 146.0
+    },
+    "D": {
+      "coordinate": [
+        41,
+        286
+      ],
+      "depth": 175.0
+    }
+  },
+  "ADE_train_00000429.jpg": {
+    "C": {
+      "coordinate": [
+        76,
+        110
+      ],
+      "depth": 16.0
+    },
+    "D": {
+      "coordinate": [
+        85,
+        149
+      ],
+      "depth": 55.0
+    },
+    "A": {
+      "coordinate": [
+        44,
+        279
+      ],
+      "depth": 163.0
+    },
+    "B": {
+      "coordinate": [
+        209,
+        295
+      ],
+      "depth": 192.0
+    }
+  },
+  "ADE_train_00017205.jpg": {
+    "A": {
+      "coordinate": [
+        162,
+        176
+      ],
+      "depth": 27.0
+    },
+    "B": {
+      "coordinate": [
+        269,
+        194
+      ],
+      "depth": 74.0
+    },
+    "C": {
+      "coordinate": [
+        20,
+        56
+      ],
+      "depth": 212.0
+    }
+  },
+  "ADE_train_00011291.jpg": {
+    "B": {
+      "coordinate": [
+        78,
+        212
+      ],
+      "depth": 46.0
+    },
+    "D": {
+      "coordinate": [
+        197,
+        187
+      ],
+      "depth": 82.0
+    },
+    "A": {
+      "coordinate": [
+        291,
+        45
+      ],
+      "depth": 110.0
+    },
+    "C": {
+      "coordinate": [
+        297,
+        287
+      ],
+      "depth": 220.0
+    }
+  },
+  "ADE_train_00008792.jpg": {
+    "B": {
+      "coordinate": [
+        99,
+        98
+      ],
+      "depth": 2.0
+    },
+    "C": {
+      "coordinate": [
+        56,
+        229
+      ],
+      "depth": 146.0
+    },
+    "A": {
+      "coordinate": [
+        141,
+        195
+      ],
+      "depth": 169.0
+    },
+    "D": {
+      "coordinate": [
+        271,
+        201
+      ],
+      "depth": 231.0
+    }
+  },
+  "ADE_train_00018295.jpg": {
+    "C": {
+      "coordinate": [
+        123,
+        65
+      ],
+      "depth": 39.0
+    },
+    "B": {
+      "coordinate": [
+        156,
+        208
+      ],
+      "depth": 79.0
+    },
+    "D": {
+      "coordinate": [
+        225,
+        219
+      ],
+      "depth": 105.0
+    },
+    "A": {
+      "coordinate": [
+        259,
+        280
+      ],
+      "depth": 138.0
+    }
+  },
+  "ADE_train_00009662.jpg": {
+    "B": {
+      "coordinate": [
+        107,
+        193
+      ],
+      "depth": 41.0
+    },
+    "A": {
+      "coordinate": [
+        29,
+        228
+      ],
+      "depth": 76.0
+    },
+    "D": {
+      "coordinate": [
+        258,
+        285
+      ],
+      "depth": 104.0
+    },
+    "C": {
+      "coordinate": [
+        191,
+        257
+      ],
+      "depth": 129.0
+    }
+  },
+  "ADE_train_00013251.jpg": {
+    "D": {
+      "coordinate": [
+        225,
+        102
+      ],
+      "depth": 33.0
+    },
+    "A": {
+      "coordinate": [
+        200,
+        118
+      ],
+      "depth": 62.0
+    },
+    "C": {
+      "coordinate": [
+        47,
+        137
+      ],
+      "depth": 83.0
+    },
+    "B": {
+      "coordinate": [
+        229,
+        215
+      ],
+      "depth": 130.0
+    }
+  },
+  "ADE_train_00005475.jpg": {
+    "E": {
+      "coordinate": [
+        77,
+        10
+      ],
+      "depth": 11.0
+    },
+    "B": {
+      "coordinate": [
+        98,
+        232
+      ],
+      "depth": 40.0
+    },
+    "C": {
+      "coordinate": [
+        185,
+        104
+      ],
+      "depth": 132.0
+    },
+    "D": {
+      "coordinate": [
+        201,
+        258
+      ],
+      "depth": 156.0
+    },
+    "A": {
+      "coordinate": [
+        233,
+        268
+      ],
+      "depth": 178.0
+    }
+  },
+  "ADE_train_00005893.jpg": {
+    "A": {
+      "coordinate": [
+        244,
+        12
+      ],
+      "depth": 14.0
+    },
+    "B": {
+      "coordinate": [
+        84,
+        183
+      ],
+      "depth": 66.0
+    }
+  },
+  "ADE_train_00015217.jpg": {
+    "B": {
+      "coordinate": [
+        189,
+        35
+      ],
+      "depth": 16.0
+    },
+    "A": {
+      "coordinate": [
+        178,
+        238
+      ],
+      "depth": 84.0
+    },
+    "C": {
+      "coordinate": [
+        53,
+        99
+      ],
+      "depth": 117.0
+    }
+  },
+  "ADE_train_00008320.jpg": {
+    "B": {
+      "coordinate": [
+        139,
+        135
+      ],
+      "depth": 19.0
+    },
+    "C": {
+      "coordinate": [
+        93,
+        271
+      ],
+      "depth": 57.0
+    },
+    "D": {
+      "coordinate": [
+        287,
+        185
+      ],
+      "depth": 79.0
+    },
+    "A": {
+      "coordinate": [
+        282,
+        239
+      ],
+      "depth": 108.0
+    },
+    "E": {
+      "coordinate": [
+        253,
+        296
+      ],
+      "depth": 179.0
+    }
+  },
+  "ADE_train_00000742.jpg": {
+    "A": {
+      "coordinate": [
+        127,
+        179
+      ],
+      "depth": 13.0
+    },
+    "B": {
+      "coordinate": [
+        297,
+        195
+      ],
+      "depth": 144.0
+    },
+    "C": {
+      "coordinate": [
+        202,
+        285
+      ],
+      "depth": 220.0
+    }
+  },
+  "ADE_train_00010456.jpg": {
+    "B": {
+      "coordinate": [
+        90,
+        117
+      ],
+      "depth": 7.0
+    },
+    "A": {
+      "coordinate": [
+        242,
+        167
+      ],
+      "depth": 46.0
+    }
+  },
+  "ADE_train_00014823.jpg": {
+    "E": {
+      "coordinate": [
+        274,
+        66
+      ],
+      "depth": 83.0
+    },
+    "D": {
+      "coordinate": [
+        179,
+        44
+      ],
+      "depth": 104.0
+    },
+    "B": {
+      "coordinate": [
+        98,
+        199
+      ],
+      "depth": 144.0
+    },
+    "C": {
+      "coordinate": [
+        193,
+        268
+      ],
+      "depth": 171.0
+    },
+    "A": {
+      "coordinate": [
+        249,
+        293
+      ],
+      "depth": 204.0
+    }
+  },
+  "ADE_train_00018369.jpg": {
+    "C": {
+      "coordinate": [
+        92,
+        112
+      ],
+      "depth": 20.0
+    },
+    "A": {
+      "coordinate": [
+        292,
+        210
+      ],
+      "depth": 72.0
+    },
+    "B": {
+      "coordinate": [
+        168,
+        225
+      ],
+      "depth": 148.0
+    }
+  },
+  "ADE_train_00000323.jpg": {
+    "E": {
+      "coordinate": [
+        191,
+        147
+      ],
+      "depth": 24.0
+    },
+    "B": {
+      "coordinate": [
+        26,
+        196
+      ],
+      "depth": 54.0
+    },
+    "D": {
+      "coordinate": [
+        5,
+        163
+      ],
+      "depth": 95.0
+    },
+    "A": {
+      "coordinate": [
+        78,
+        266
+      ],
+      "depth": 212.0
+    },
+    "C": {
+      "coordinate": [
+        186,
+        279
+      ],
+      "depth": 235.0
+    }
+  },
+  "ADE_train_00004118.jpg": {
+    "A": {
+      "coordinate": [
+        263,
+        62
+      ],
+      "depth": 30.0
+    },
+    "B": {
+      "coordinate": [
+        78,
+        186
+      ],
+      "depth": 70.0
+    },
+    "D": {
+      "coordinate": [
+        58,
+        40
+      ],
+      "depth": 99.0
+    },
+    "C": {
+      "coordinate": [
+        265,
+        184
+      ],
+      "depth": 140.0
+    }
+  },
+  "ADE_train_00006575.jpg": {
+    "A": {
+      "coordinate": [
+        129,
+        126
+      ],
+      "depth": 125.0
+    },
+    "C": {
+      "coordinate": [
+        213,
+        257
+      ],
+      "depth": 146.0
+    },
+    "B": {
+      "coordinate": [
+        2,
+        12
+      ],
+      "depth": 197.0
+    }
+  },
+  "ADE_train_00003576.jpg": {
+    "C": {
+      "coordinate": [
+        200,
+        154
+      ],
+      "depth": 2.0
+    },
+    "A": {
+      "coordinate": [
+        282,
+        230
+      ],
+      "depth": 35.0
+    },
+    "B": {
+      "coordinate": [
+        189,
+        15
+      ],
+      "depth": 135.0
+    }
+  },
+  "ADE_train_00007268.jpg": {
+    "A": {
+      "coordinate": [
+        17,
+        31
+      ],
+      "depth": 17.0
+    },
+    "B": {
+      "coordinate": [
+        158,
+        205
+      ],
+      "depth": 125.0
+    }
+  },
+  "ADE_train_00005016.jpg": {
+    "B": {
+      "coordinate": [
+        182,
+        31
+      ],
+      "depth": 30.0
+    },
+    "C": {
+      "coordinate": [
+        168,
+        221
+      ],
+      "depth": 98.0
+    },
+    "A": {
+      "coordinate": [
+        290,
+        268
+      ],
+      "depth": 246.0
+    }
+  }
+}

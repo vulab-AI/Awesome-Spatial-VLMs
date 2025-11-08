@@ -1,0 +1,120 @@
+{"question_id": 0, "image": "0.png", "text": "How many blue floats are there?", "category": "count"}
+{"question_id": 1, "image": "1.png", "text": "How many black toilets are there?", "category": "count"}
+{"question_id": 2, "image": "2.png", "text": "How many tvs are hung up on the wall?", "category": "count"}
+{"question_id": 3, "image": "3.png", "text": "How many people are in purple?", "category": "count"}
+{"question_id": 4, "image": "4.png", "text": "How many colored tiles are above the sink?", "category": "count"}
+{"question_id": 5, "image": "5.png", "text": "How many big nuts are in the green bowl?", "category": "count"}
+{"question_id": 6, "image": "6.png", "text": "How many baseball players are looking towards the camera?", "category": "count"}
+{"question_id": 7, "image": "7.png", "text": "How many people are wearing red shirt?", "category": "count"}
+{"question_id": 8, "image": "8.png", "text": "How many black suitcases are pulled in the image?", "category": "count"}
+{"question_id": 9, "image": "9.png", "text": "How many tall buildings have a flat top?", "category": "count"}
+{"question_id": 10, "image": "10.png", "text": "How many people are eating food?", "category": "count"}
+{"question_id": 11, "image": "11.png", "text": "How many glasses are filled with water?", "category": "count"}
+{"question_id": 12, "image": "12.png", "text": "How many people are wearing hat?", "category": "count"}
+{"question_id": 13, "image": "13.png", "text": "How many motors near the wood horse?", "category": "count"}
+{"question_id": 14, "image": "14.png", "text": "How many people are wearing glasses?", "category": "count"}
+{"question_id": 15, "image": "15.png", "text": "How many kids are infront of the yellow schoolbus?", "category": "count"}
+{"question_id": 16, "image": "16.png", "text": "How many people are wearing a red coat?", "category": "count"}
+{"question_id": 17, "image": "17.png", "text": "How many fingers are in front of the bathtub?", "category": "count"}
+{"question_id": 18, "image": "18.png", "text": "How many green tiles are on the wall?", "category": "count"}
+{"question_id": 19, "image": "19.png", "text": "How many toilets are to the left of the basins?", "category": "count"}
+{"question_id": 20, "image": "20.png", "text": "How many red buses are there?", "category": "count"}
+{"question_id": 21, "image": "21.png", "text": "How many people are drinking water?", "category": "count"}
+{"question_id": 22, "image": "22.png", "text": "How many bananas are on the plate?", "category": "count"}
+{"question_id": 23, "image": "23.png", "text": "How many windows are on the front and not the sides of the bus?", "category": "count"}
+{"question_id": 24, "image": "24.png", "text": "How many slices of tomatoes are on the plate?", "category": "count"}
+{"question_id": 25, "image": "25.png", "text": "How many yellow buses are there?", "category": "count"}
+{"question_id": 26, "image": "26.png", "text": "How many people are laying down?", "category": "count"}
+{"question_id": 27, "image": "27.png", "text": "How many people are sitting on the bed?", "category": "count"}
+{"question_id": 28, "image": "28.png", "text": "How many red cars are there?", "category": "count"}
+{"question_id": 29, "image": "29.png", "text": "How many people are wearing a green jacket?", "category": "count"}
+{"question_id": 30, "image": "30.png", "text": "How many green train carts are in the picture?", "category": "count"}
+{"question_id": 31, "image": "31.png", "text": "How many green frogs are under the table?", "category": "count"}
+{"question_id": 32, "image": "32.png", "text": "How many white pillows are in this image?", "category": "count"}
+{"question_id": 33, "image": "33.png", "text": "How many \"one way\" signs are pointing to the left in the image?", "category": "count"}
+{"question_id": 34, "image": "34.png", "text": "How many kids are sitting on the bench in the image?", "category": "count"}
+{"question_id": 35, "image": "35.png", "text": "How many wooden beams are on top of the person?", "category": "count"}
+{"question_id": 36, "image": "36.png", "text": "How many people are wearing a white uniform?", "category": "count"}
+{"question_id": 37, "image": "37.png", "text": "How many blue collars are in this photo?", "category": "count"}
+{"question_id": 38, "image": "38.png", "text": "How many blue buses are there?", "category": "count"}
+{"question_id": 39, "image": "39.png", "text": "How many skiers are wearing red?", "category": "count"}
+{"question_id": 40, "image": "40.png", "text": "How many parking meters are there in the garden?", "category": "count"}
+{"question_id": 41, "image": "41.png", "text": "How many flower pots have flowers in them?", "category": "count"}
+{"question_id": 42, "image": "42.png", "text": "How many elephants have their trunks in the water?", "category": "count"}
+{"question_id": 43, "image": "43.png", "text": "How many skiers are doing a flip?", "category": "count"}
+{"question_id": 44, "image": "44.png", "text": "How many motors are driving near the bus?", "category": "count"}
+{"question_id": 45, "image": "45.png", "text": "How many blue circles are on this building?", "category": "count"}
+{"question_id": 46, "image": "46.png", "text": "How many people are reading book?", "category": "count"}
+{"question_id": 47, "image": "47.png", "text": "How many toilets have lids?", "category": "count"}
+{"question_id": 48, "image": "48.png", "text": "How many people are standing in the picture?", "category": "count"}
+{"question_id": 49, "image": "49.png", "text": "How many blue towels are in the picture?", "category": "count"}
+{"question_id": 50, "image": "50.png", "text": "How many people are eating sandwich?", "category": "count"}
+{"question_id": 51, "image": "51.png", "text": "How many red motorcycles are in the picture?", "category": "count"}
+{"question_id": 52, "image": "52.png", "text": "How many clear bottles of wine are on the table?", "category": "count"}
+{"question_id": 53, "image": "53.png", "text": "How many knobs are on the stove?", "category": "count"}
+{"question_id": 54, "image": "54.png", "text": "How many pieces of chicken nuggets are there?", "category": "count"}
+{"question_id": 55, "image": "55.png", "text": "How many candlights are to the right of the television?", "category": "count"}
+{"question_id": 56, "image": "56.png", "text": "How many players are wearing face guards in the image?", "category": "count"}
+{"question_id": 57, "image": "57.png", "text": "How many drive wheels are on the engine?", "category": "count"}
+{"question_id": 58, "image": "58.png", "text": "How many people are wearing white hats?", "category": "count"}
+{"question_id": 59, "image": "59.png", "text": "How many plates are holding sandwiches?", "category": "count"}
+{"question_id": 60, "image": "60.png", "text": "How many people are sitting near motor?", "category": "count"}
+{"question_id": 61, "image": "61.png", "text": "How many men are looking through a camera?", "category": "count"}
+{"question_id": 62, "image": "62.png", "text": "How many cows are on the train?", "category": "count"}
+{"question_id": 63, "image": "63.png", "text": "How many burners are on the stove?", "category": "count"}
+{"question_id": 64, "image": "64.png", "text": "How many red letters are on the front of the train?", "category": "count"}
+{"question_id": 65, "image": "65.png", "text": "How many gloves on the woman's hands are showing more than one color?", "category": "count"}
+{"question_id": 66, "image": "66.png", "text": "How many white umbrellas are there on the left side?", "category": "count"}
+{"question_id": 67, "image": "67.png", "text": "How many people are holding a baseball bat?", "category": "count"}
+{"question_id": 68, "image": "68.png", "text": "How many of the glowing letters in the image are common vowels?", "category": "count"}
+{"question_id": 69, "image": "69.png", "text": "How many doors with red line are on the train?", "category": "count"}
+{"question_id": 70, "image": "70.png", "text": "How many yellow stars are on a colorful bridge?", "category": "count"}
+{"question_id": 71, "image": "71.png", "text": "How many purple planes are there?", "category": "count"}
+{"question_id": 72, "image": "72.png", "text": "How many elephants are in the water?", "category": "count"}
+{"question_id": 73, "image": "73.png", "text": "How many of the glasses are empty?", "category": "count"}
+{"question_id": 74, "image": "74.png", "text": "How many people are reflected in the mirror?", "category": "count"}
+{"question_id": 75, "image": "75.png", "text": "How many people ski on the mountain?", "category": "count"}
+{"question_id": 76, "image": "76.png", "text": "How many people are wearing suit?", "category": "count"}
+{"question_id": 77, "image": "77.png", "text": "How many people are climbing on the wall?", "category": "count"}
+{"question_id": 78, "image": "78.png", "text": "How many of the letters printed on the climber's snowboard are consonants?", "category": "count"}
+{"question_id": 79, "image": "79.png", "text": "How many empty blue seats are in the picture?", "category": "count"}
+{"question_id": 80, "image": "80.png", "text": "How many players are wearing red shirts?", "category": "count"}
+{"question_id": 81, "image": "81.png", "text": "How many people are in the water?", "category": "count"}
+{"question_id": 82, "image": "82.png", "text": "How many person in the images is wearing cap?", "category": "count"}
+{"question_id": 83, "image": "83.png", "text": "How many people are wearing a white hat?", "category": "count"}
+{"question_id": 84, "image": "84.png", "text": "How many telephone poles are to the right of the truck?", "category": "count"}
+{"question_id": 85, "image": "85.png", "text": "How many banners do you see in the awning?", "category": "count"}
+{"question_id": 86, "image": "86.png", "text": "How many people are eating apples?", "category": "count"}
+{"question_id": 87, "image": "87.png", "text": "How many of the bears are yellow?", "category": "count"}
+{"question_id": 88, "image": "88.png", "text": "How many plates on the counter?", "category": "count"}
+{"question_id": 89, "image": "89.png", "text": "How many signs have black letters?", "category": "count"}
+{"question_id": 90, "image": "90.png", "text": "How many words on the sign in this image have the letter \"i\" in them?", "category": "count"}
+{"question_id": 91, "image": "91.png", "text": "How many people are carrying tennis rackets?", "category": "count"}
+{"question_id": 92, "image": "92.png", "text": "How many people are washing hand?", "category": "count"}
+{"question_id": 93, "image": "93.png", "text": "How many people are driving white motor on the street?", "category": "count"}
+{"question_id": 94, "image": "94.png", "text": "How many people without hats are there?", "category": "count"}
+{"question_id": 95, "image": "95.png", "text": "How many sinking boats are there?", "category": "count"}
+{"question_id": 96, "image": "96.png", "text": "How many people in this image are wearing solid red shirts?", "category": "count"}
+{"question_id": 97, "image": "97.png", "text": "How many trains are stopped at a station?", "category": "count"}
+{"question_id": 98, "image": "98.png", "text": "How many people are driving red car front of the train?", "category": "count"}
+{"question_id": 99, "image": "99.png", "text": "How many white fridges are there in the image ?", "category": "count"}
+{"question_id": 100, "image": "100.png", "text": "How many red buildings are there?", "category": "count"}
+{"question_id": 101, "image": "101.png", "text": "How many people are wearing blue shirt?", "category": "count"}
+{"question_id": 102, "image": "102.png", "text": "How many people are wearing yellow jacket?", "category": "count"}
+{"question_id": 103, "image": "103.png", "text": "How many signs have faces on them?", "category": "count"}
+{"question_id": 104, "image": "104.png", "text": "How many signs with arrows are in the picture?", "category": "count"}
+{"question_id": 105, "image": "105.png", "text": "How many white vertical lines are drawn on the ground?", "category": "count"}
+{"question_id": 106, "image": "106.png", "text": "How many people are sitting in the image?", "category": "count"}
+{"question_id": 107, "image": "107.png", "text": "How many words written in white chalk are on the chalkboard?", "category": "count"}
+{"question_id": 108, "image": "108.png", "text": "How many people are wearing glasses?", "category": "count"}
+{"question_id": 109, "image": "109.png", "text": "How many red bikes are in the picture?", "category": "count"}
+{"question_id": 110, "image": "110.png", "text": "How many tigers are running near the sheep?", "category": "count"}
+{"question_id": 111, "image": "111.png", "text": "How many bottles are on the round table at the bottom of the photo?", "category": "count"}
+{"question_id": 112, "image": "112.png", "text": "How many of the cars a black?", "category": "count"}
+{"question_id": 113, "image": "113.png", "text": "How many people are standing near the right of the giraffe ?", "category": "count"}
+{"question_id": 114, "image": "114.png", "text": "How many birds are facing the right of frame?", "category": "count"}
+{"question_id": 115, "image": "115.png", "text": "How many people are playing in tennis?", "category": "count"}
+{"question_id": 116, "image": "116.png", "text": "How many yellow cars are in the picture?", "category": "count"}
+{"question_id": 117, "image": "117.png", "text": "How many people are not wearing a blue hat?", "category": "count"}
+{"question_id": 118, "image": "118.png", "text": "How many people are wearing yellow shirt?", "category": "count"}
+{"question_id": 119, "image": "119.png", "text": "How many small signs say \"kumquat\" on them?", "category": "count"}
