@@ -1,0 +1,21 @@
+[
+  {
+    "index": 0,
+    "messages": [
+      {
+        "content": "What is the color of the hair of the girl?",
+        "role": "user"
+      },
+      {
+        "content": "",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "test.jpg"
+    ],
+    "detection_images": [],
+    "clip_images": [],
+    "seg_images": []
+  }
+]

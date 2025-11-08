@@ -1,0 +1,110 @@
+
+SEMANTIC_QUESTIONS = [
+    "What objects can be seen in the image? Perceive as done for semantic segmentation.",
+    "What items are depicted in the picture? Consider in terms of semantic segmentation.",
+    "Which elements are present in the visual? Analyze as you would for semantic segmentation.",
+    "Can you identify the objects in the image? Think from a semantic segmentation perspective.",
+    "What are the components visible in the graphic? Examine as if segmenting semantically.",
+    "Which entities can be spotted in the photo? View through the lens of semantic segmentation.",
+    "What are the discernible objects in the snapshot? Envision in relation to semantic segmentation.",
+    "What elements stand out in the illustration? Reflect upon it as for semantic segmentation.",
+    "Can you spot any items within the visual representation? Contemplate in a semantic segmentation context.",
+    "What features are evident in this visual content? Analyze with semantic segmentation in mind.",
+    "Which objects are noticeable in the image? Think of it in terms of semantic layers.",
+    "How would you categorize the objects in this picture? As if you're doing semantic segmentation.",
+    "What constituents can you recognize in the image? Ponder considering semantic segmentation.",
+    "Which components can be distinguished in the photo? Evaluate as per semantic segmentation guidelines.",
+    "What items in the image can you point out? Interpret with a semantic segmentation approach.",
+    "Can you enumerate the objects present in this visual? Think semantically.",
+    "What do you observe in the graphic? Consider its semantic segments.",
+    "How many distinct objects can you identify in the visual? Keeping semantic segmentation in perspective.",
+    "Which items are apparent in this depiction? Assess as one would for semantic segmentation.",
+    "What are the visible entities within this image? Delve into it semantically.",
+    "Can you discern specific objects in the portrayal? Approach it from a semantic segmentation standpoint.",
+]
+
+INSTANCE_QUESTIONS = [
+    "What objects can be seen in the image? Perceive as done for instance segmentation",
+    "What items are visible in the picture? Analyze as you would for instance segmentation.",
+    "Which elements are present in the visual? Consider from an instance segmentation perspective.",
+    "What are the distinguishable objects in the image? Think in terms of instance segmentation.",
+    "Can you identify the entities in the graphic? Approach it with instance segmentation in mind.",
+    "What components are apparent in the photo? Examine as if performing instance segmentation.",
+    "Which items can be detected in the snapshot? View it through the lens of instance segmentation.",
+    "What features stand out in the illustration? Reflect upon it as for instance segmentation.",
+    "How would you describe the objects in this image? Keeping instance segmentation as a reference.",
+    "What constituents are evident in the visual content? Think from an instance segmentation standpoint.",
+    "Which objects can you spot in the depiction? Evaluate as per instance segmentation guidelines.",
+    "What do you observe in the graphic? Contemplate with instance segmentation considerations.",
+    "Can you discern specific entities in the visual? Approach it in the context of instance segmentation.",
+    "Which components in the image catch your eye? Think of it in relation to instance layers.",
+    "How many distinct items can you pinpoint in the photo? With an instance segmentation approach.",
+    "What elements are noticeable in this portrayal? Analyze while considering instance segmentation.",
+    "Can you list the objects present in the visual representation? Reflecting on instance segmentation.",
+    "What items in the snapshot can you recognize? Interpret with an instance segmentation perspective.",
+    "Which entities are discernible in this depiction? Delve into it from an instance segmentation angle.",
+    "What are the components you can spot within the image? Think instance-wise.",
+    "Can you detail the objects in the visual? Assess as one would for instance segmentation.",
+]
+
+PANOPTIC_QUESTIONS = [
+    "What objects can be seen in the image? Perceive as done for panoptic segmentation",
+    "What items are evident in the picture? Analyze with a panoptic segmentation perspective.",
+    "Which elements emerge in the visual? Think in terms of panoptic segmentation.",
+    "What are the discernible objects in the graphic? Approach it from a panoptic segmentation viewpoint.",
+    "Can you identify the entities within the image? Consider it as you would for panoptic segmentation.",
+    "What components stand out in the photo? Examine with panoptic segmentation in mind.",
+    "Which items are detectable in the snapshot? Reflect upon it with panoptic segmentation considerations.",
+    "What features can be observed in the illustration? View through the lens of panoptic segmentation.",
+    "How would you describe the objects in this depiction? Keeping panoptic segmentation as a reference.",
+    "What constituents are visible in the visual content? Think from a panoptic segmentation standpoint.",
+    "Which objects can you pinpoint in the image? Evaluate as per panoptic segmentation guidelines.",
+    "What do you perceive in the graphic? Delve into it with panoptic segmentation insights.",
+    "Can you spot specific components in the visual? Contextualize with panoptic segmentation.",
+    "What items in the portrayal catch your attention? Think in relation to panoptic layers.",
+    "How many distinct entities can you recognize in the photo? With a panoptic segmentation approach.",
+    "What elements are present in this visual? Analyze while keeping panoptic segmentation in mind.",
+    "Can you list the objects depicted in the visual representation? Reflecting on panoptic segmentation.",
+    "Which features in the image can you discern? Interpret considering panoptic segmentation.",
+    "What are the components evident in this depiction? Approach it using a panoptic segmentation angle.",
+    "What items can you detect in the visual content? Think panoptically.",
+    "Can you detail the entities present in the image? Assess as one would when considering panoptic segmentation.",
+]
+
+DEPTH_QUESTIONS = [
+    "what is depth order of objects in the image?",
+    "Can you describe the depth order of the objects in this image, from closest to farthest?",
+    "Which objects in the image appear nearest to the viewer and which seem furthest away?",
+    "Could you list the objects in the image in order of their perceived distance from the foreground to the background?",
+    "In what order do the objects in this image appear based on their depth, starting from the closest?",
+    "How would you rank the objects in this picture from the most proximal to the most distal?",
+    "Can you arrange the objects seen here from those appearing closest to those appearing farthest?",
+    "What is the sequence of objects in this image based on their distance from the front to the back?",
+    "Please identify the order of objects in terms of depth perspective in this image.",
+    "Which objects in the picture seem to be in the front, and which ones appear to be in the back?",
+    "How are the objects in this image layered in depth, from the one nearest to the camera to the one farthest?",
+    "Could you sort the objects in this photo from foreground to background?",
+    "In this image, what is the spatial arrangement of objects from closest to furthest?",
+    "Can you pinpoint the depth hierarchy of these objects, starting from the closest?",
+    "What's the depth sequence of the objects displayed in this picture?",
+    "From nearest to furthest, how would you order the objects in this image?",
+    "How would you describe the spatial positioning of these objects in terms of their depth?",
+    "Can you determine the depth placement of each object in this photo, starting with the nearest?",
+    "What is the arrangement of objects in this scene by depth?",
+    "Could you outline the depth profile of the objects in this image?",
+    "In what depth order do the objects in this image align, from the frontmost to the rearmost?",
+    "How are the objects in this image ordered in terms of their relative distance from the observer?",
+]
+
+QUESTIONS = {
+    'semantic': SEMANTIC_QUESTIONS,
+    'instance': INSTANCE_QUESTIONS,
+    'panoptic': PANOPTIC_QUESTIONS,
+    'depth': DEPTH_QUESTIONS,
+}
+
+### Depth Prompts
+# Can you decribe the depth order of the objects in this image, from closest to farthest? Return answer in the paragraph format: `The depth order for the objects present in the image is: ...' and then list the objects with their order number (if greater than 1) separated by a hyphen like `person-2'. For example, an acceptable response is "The depth order for objects present in the image is: bicycle, bicycle-2, bicycle-3, pavement, road, bus, tree, sky, building."
+
+### Seg Prompts
+# What objects can be seen in the image? Return the answer in the paragraph format: 'The objects present in the image are: ...' and then list the objects with their count in word format (if greater than 1) in front of them, like 'two people'.

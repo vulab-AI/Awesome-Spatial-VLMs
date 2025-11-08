@@ -16,20 +16,9 @@
 This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
 
 <p align="center">
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf">
-    <img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue"
-         alt="Paper PDF">
-  </a>
-  <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks">
-    <img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow"
-         alt="Evaluated Data"
-         style="margin-left: 0.5rem;">
-  </a>
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md">
-    <img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black"
-         alt="Evaluation Code"
-         style="margin-left: 0.5rem;">
-  </a>
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue" alt="Paper PDF"></a>&nbsp;
+  <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow" alt="Evaluated Data"></a>&nbsp;
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
 </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
@@ -105,9 +94,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [NeurIPS2023] Fine-Grained Visual Prompting (_Nanjing University of Science and Technology_) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4e9fa6e716940a7cfc60c46e6f702f52-Paper-Conference.pdf) [[code]](https://github.com/ylingfeng/FGVP);
 
-- [arXiv2025] SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models (_Toyota Central R&D Labs_) [[paper]](https://arxiv.org/pdf/2505.04911v1);
+- [arXiv2024] I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction (_Guangdong Polytechnic Normal University_) [[paper]](https://arxiv.org/pdf/2407.14133);
 
-- [arXiv2025] Mindjourney: Test-time Scaling with World Models for Spatial Reasoning (_UMass Amherst_) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
+- [arXiv2025]; Mindjourney: Test-time scaling with world models for spatial reasoning (UMass Amherst) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
 
 - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Coarse_Correspondences_Boost_Spatial-Temporal_Reasoning_in_Multimodal_Language_Model_CVPR_2025_paper.pdf);
 
@@ -121,7 +110,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [NeurIPS2024] Visual SKETCHPAD: Sketching as a visual chain of thought for multimodal language models (University of Washington) [[paper]](https://arxiv.org/pdf/2406.09403) [[code]](https://github.com/Yushi-Hu/VisualSketchpad);
 
-- [COLING2025] Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-modal Models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
+- [arXiv2025]; SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models (Toyota Central R&D Labs) [[paper]](https://arxiv.org/pdf/2505.04911v1);
+
+- [COLING2025]; Scaffolding coordinates to promote vision-language coordination in large multi-modal models (Tsinghua University) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
 
 - [CVPR2025] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST(Guangzhou)_) [[paper]](https://arxiv.org/pdf/2412.04383) [[code]](https://github.com/iris0329/SeeGround);
 
@@ -139,6 +130,8 @@ This repository uses the framework from our survey paper to systematically organ
 - [arXiv2025] ViLaSR: Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing (_Institute of Automation, Chinese Academy of Sciences_) [[paper]](https://arxiv.org/abs/2506.09965) [[code]](https://github.com/AntResearchNLP/ViLaSR) [[checkpoint]](https://huggingface.co/inclusionAI/ViLaSR/tree/main);
 
 - [arXiv2025] M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning (_Inclusion AI, Ant Group_) [[paper]](https://arxiv.org/pdf/2507.08306) [[code]](https://github.com/inclusionAI/M2-Reasoning) [[checkpoint]](https://huggingface.co/inclusionAI/M2-Reasoning);
+
+- [arXiv2025] Improved Visual-Spatial Reasoning via R1-Zero-Like Training (_Shanghai Jiao Tong University_) [[paper]](https://arxiv.org/pdf/2504.00883) [[code]](https://github.com/zhijie-group/R1-Zero-VSI)
 
 - [arXiv2025] SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization (_Stony Brook University_) [[paper]](https://arxiv.org/pdf/2506.01371);
 
@@ -269,7 +262,6 @@ This repository uses the framework from our survey paper to systematically organ
 
 #### Implicit 3D from Egocentric Views
 
-- [arXiv2024] I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction (_Guangdong Polytechnic Normal University_) [[paper]](https://arxiv.org/pdf/2407.14133);
 
 - [arXiv2025] VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction (_UT Austin_) [[paper]](https://arxiv.org/pdf/2505.20279) [[code]](https://github.com/VITA-Group/VLM-3R);
 
@@ -421,12 +413,14 @@ We invite the community to benchmark new models using our suite. Please to add y
 ## Citation
 If you find this survey or repository useful for your research, please cite our paper:
 ```
-@article{liu2025spatialIntelligence,
-  title   = {{Spatial Intelligence in Vision-Language Models: A
-Comprehensive Survey}},
-  author  = {Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
-  year    = {2025},
-}
+@article{Liu_2025,
+  title={Deconstructing Spatial Intelligence in Vision-Language Models},
+  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v1},
+  DOI={10.36227/techrxiv.176231405.57942913/v1},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+  year={2025},
+  month=nov }
 ```
 
 <!-- ```

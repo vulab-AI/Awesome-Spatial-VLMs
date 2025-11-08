@@ -1,0 +1,211 @@
+[2025-09-15 19:09:14,462] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-09-15 19:09:15,415] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+09/15/2025 19:09:16 - INFO - llamafactory.cli - Initializing distributed tasks at: 127.0.0.1:28909
+W0915 19:09:17.656000 140155010578240 torch/distributed/run.py:779] 
+W0915 19:09:17.656000 140155010578240 torch/distributed/run.py:779] *****************************************
+W0915 19:09:17.656000 140155010578240 torch/distributed/run.py:779] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0915 19:09:17.656000 140155010578240 torch/distributed/run.py:779] *****************************************
+[2025-09-15 19:09:19,859] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-09-15 19:09:19,860] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-09-15 19:09:19,860] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-09-15 19:09:19,861] [INFO] [real_accelerator.py:260:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2025-09-15 19:09:20,931] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-15 19:09:20,933] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-15 19:09:20,933] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[2025-09-15 19:09:20,934] [INFO] [logging.py:107:log_dist] [Rank -1] [TorchCheckpointEngine] Initialized with serialization = False
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 563, in from_name
+[rank0]:     return next(cls.discover(name=name))
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: StopIteration
+
+[rank0]: During handling of the above exception, another exception occurred:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 102, in require_version
+[rank0]:     got_ver = importlib.metadata.version(pkg)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 1009, in version
+[rank0]:     return distribution(distribution_name).version
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 982, in distribution
+[rank0]:     return Distribution.from_name(distribution_name)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 565, in from_name
+[rank0]:     raise PackageNotFoundError(name)
+[rank0]: importlib.metadata.PackageNotFoundError: No package metadata was found for jieba
+
+[rank0]: During handling of the above exception, another exception occurred:
+
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank0]:     launch()
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank0]:     run_exp()
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/train/tuner.py", line 45, in run_exp
+[rank0]:     model_args, data_args, training_args, finetuning_args, generating_args = get_train_args(args)
+[rank0]:                                                                              ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 268, in get_train_args
+[rank0]:     _check_extra_dependencies(model_args, finetuning_args, training_args)
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 141, in _check_extra_dependencies
+[rank0]:     require_version("jieba", "To fix: pip install jieba")
+[rank0]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 104, in require_version
+[rank0]:     raise importlib.metadata.PackageNotFoundError(
+[rank0]: importlib.metadata.PackageNotFoundError: No package metadata was found for The 'jieba' distribution was not found and is required by this application. 
+[rank0]: To fix: pip install jieba
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 563, in from_name
+[rank1]:     return next(cls.discover(name=name))
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]: StopIteration
+
+[rank1]: During handling of the above exception, another exception occurred:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 102, in require_version
+[rank1]:     got_ver = importlib.metadata.version(pkg)
+[rank1]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 1009, in version
+[rank1]:     return distribution(distribution_name).version
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 982, in distribution
+[rank1]:     return Distribution.from_name(distribution_name)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 565, in from_name
+[rank1]:     raise PackageNotFoundError(name)
+[rank1]: importlib.metadata.PackageNotFoundError: No package metadata was found for jieba
+
+[rank1]: During handling of the above exception, another exception occurred:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank1]:     launch()
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank1]:     run_exp()
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/train/tuner.py", line 45, in run_exp
+[rank1]:     model_args, data_args, training_args, finetuning_args, generating_args = get_train_args(args)
+[rank1]:                                                                              ^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 268, in get_train_args
+[rank1]:     _check_extra_dependencies(model_args, finetuning_args, training_args)
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 141, in _check_extra_dependencies
+[rank1]:     require_version("jieba", "To fix: pip install jieba")
+[rank1]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 104, in require_version
+[rank1]:     raise importlib.metadata.PackageNotFoundError(
+[rank1]: importlib.metadata.PackageNotFoundError: No package metadata was found for The 'jieba' distribution was not found and is required by this application. 
+[rank1]: To fix: pip install jieba
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 563, in from_name
+[rank3]:     return next(cls.discover(name=name))
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]: StopIteration
+
+[rank3]: During handling of the above exception, another exception occurred:
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 102, in require_version
+[rank3]:     got_ver = importlib.metadata.version(pkg)
+[rank3]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 1009, in version
+[rank3]:     return distribution(distribution_name).version
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 982, in distribution
+[rank3]:     return Distribution.from_name(distribution_name)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 565, in from_name
+[rank3]:     raise PackageNotFoundError(name)
+[rank3]: importlib.metadata.PackageNotFoundError: No package metadata was found for jieba
+
+[rank3]: During handling of the above exception, another exception occurred:
+
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank3]:     launch()
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank3]:     run_exp()
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/train/tuner.py", line 45, in run_exp
+[rank3]:     model_args, data_args, training_args, finetuning_args, generating_args = get_train_args(args)
+[rank3]:                                                                              ^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 268, in get_train_args
+[rank3]:     _check_extra_dependencies(model_args, finetuning_args, training_args)
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 141, in _check_extra_dependencies
+[rank3]:     require_version("jieba", "To fix: pip install jieba")
+[rank3]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 104, in require_version
+[rank3]:     raise importlib.metadata.PackageNotFoundError(
+[rank3]: importlib.metadata.PackageNotFoundError: No package metadata was found for The 'jieba' distribution was not found and is required by this application. 
+[rank3]: To fix: pip install jieba
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 563, in from_name
+[rank2]:     return next(cls.discover(name=name))
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: StopIteration
+
+[rank2]: During handling of the above exception, another exception occurred:
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 102, in require_version
+[rank2]:     got_ver = importlib.metadata.version(pkg)
+[rank2]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 1009, in version
+[rank2]:     return distribution(distribution_name).version
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 982, in distribution
+[rank2]:     return Distribution.from_name(distribution_name)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/importlib/metadata/__init__.py", line 565, in from_name
+[rank2]:     raise PackageNotFoundError(name)
+[rank2]: importlib.metadata.PackageNotFoundError: No package metadata was found for jieba
+
+[rank2]: During handling of the above exception, another exception occurred:
+
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 23, in <module>
+[rank2]:     launch()
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py", line 19, in launch
+[rank2]:     run_exp()
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/train/tuner.py", line 45, in run_exp
+[rank2]:     model_args, data_args, training_args, finetuning_args, generating_args = get_train_args(args)
+[rank2]:                                                                              ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 268, in get_train_args
+[rank2]:     _check_extra_dependencies(model_args, finetuning_args, training_args)
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/hparams/parser.py", line 141, in _check_extra_dependencies
+[rank2]:     require_version("jieba", "To fix: pip install jieba")
+[rank2]:   File "/home/tuo/Codes/VisualPerceptionToken/transformers/src/transformers/utils/versions.py", line 104, in require_version
+[rank2]:     raise importlib.metadata.PackageNotFoundError(
+[rank2]: importlib.metadata.PackageNotFoundError: No package metadata was found for The 'jieba' distribution was not found and is required by this application. 
+[rank2]: To fix: pip install jieba
+W0915 19:09:22.075000 140155010578240 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 2978356 closing signal SIGTERM
+W0915 19:09:22.075000 140155010578240 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 2978357 closing signal SIGTERM
+W0915 19:09:22.075000 140155010578240 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 2978358 closing signal SIGTERM
+E0915 19:09:22.189000 140155010578240 torch/distributed/elastic/multiprocessing/api.py:833] failed (exitcode: 1) local_rank: 0 (pid: 2978355) of binary: /home/tuo/anaconda3/envs/vpt/bin/python
+Traceback (most recent call last):
+  File "/home/tuo/anaconda3/envs/vpt/bin/torchrun", line 33, in <module>
+    sys.exit(load_entry_point('torch==2.4.0', 'console_scripts', 'torchrun')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/site-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/site-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 133, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tuo/anaconda3/envs/vpt/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/home/tuo/Codes/VisualPerceptionToken/LLaMA-Factory/src/llamafactory/launcher.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-09-15_19:09:22
+  host      : cse-d5mw0d14-2.ENGINEERING.CWRU.Edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2978355)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
