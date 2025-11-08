@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# FORCE_TORCHRUN=1 llamafactory-cli train train_vsr/code_start_ppue_16gpu/qwen2_5vl_full_vqa_video_maze_v3.yaml
-# python /ossfs/workspace/main.py
-
-FORCE_TORCHRUN=1 \
-# llamafactory-cli train train_vsr/code_start_ppue_16gpu/qwen2_5vl_full_vqa_video_maze_stage2_v4.yaml
-llamafactory-cli train train/cold_start/vilasr_full_16gpu/train.sh
