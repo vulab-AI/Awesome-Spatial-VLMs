@@ -432,14 +432,12 @@ If you find this survey or repository useful for your research, please cite our 
 ```
 
 <!-- ```
-@article{Disheng2025spatialIntelligence,
-  title   = {{Spatial Intelligence in Vision-Language Models: A
-Comprehensive Survey}},
-  author  = {Your Name and Co-author 1 and Co-author 2},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year    = {2025},
-  volume  = {},
-  number  = {},
-  pages   = {}
-}
+ @article{Liu_2025,
+  title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
+  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
+  DOI={10.36227/techrxiv.176231405.57942913/v2},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+  year={2025},
+  month=nov }
 ``` -->
