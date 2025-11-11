@@ -421,17 +421,6 @@ We invite the community to benchmark new models using our suite. Please to add y
 ## Citation
 If you find this survey or repository useful for your research, please cite our paper:
 ```
-@article{Liu_2025,
-  title={Deconstructing Spatial Intelligence in Vision-Language Models},
-  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v1},
-  DOI={10.36227/techrxiv.176231405.57942913/v1},
-  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
-  year={2025},
-  month=nov }
-```
-
-<!-- ```
  @article{Liu_2025,
   title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
   url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
@@ -440,4 +429,4 @@ If you find this survey or repository useful for your research, please cite our 
   author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
   year={2025},
   month=nov }
-``` -->
+```
