@@ -24,7 +24,9 @@
 This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
 
 <p align="center">
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-blue?style=flat&logo=google-scholar&logoColor=blue" alt="Paper PDF"></a>&nbsp;
+<a href="https://www.techrxiv.org/users/992599/articles/1354538-spatial-intelligence-in-vision-language-models-a-comprehensive-survey">
+  <img src="https://img.shields.io/badge/TechRxiv-Preprint-00629B?style=flat&logo=ieee&logoColor=white" alt="TechRxiv"></a>&nbsp;
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-0066CC?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>&nbsp;
   <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow" alt="Evaluated Data"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
 </p>
