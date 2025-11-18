@@ -1,5 +1,5 @@
-# Awesome Spatial VLMs
-<h1 align="center" style="font-size: 1.7rem">
+# Awesome Spatial VLMs <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge" style="vertical-align: middle;"> </a> <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/commits/main/"> <img src="https://img.shields.io/github/last-commit/vulab-AI/Awesome-Spatial-VLMs" alt="GitHub Last Commit" style="vertical-align: middle;"></a>
+<!-- <h1 align="center" style="font-size: 1.7rem">
   🚀 Awesome Spatial VLMs
   <a href="https://github.com/sindresorhus/awesome">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge" style="vertical-align: middle;">
@@ -7,7 +7,7 @@
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/commits/main/">
     <img src="https://img.shields.io/github/last-commit/vulab-AI/Awesome-Spatial-VLMs" alt="GitHub Last Commit" style="vertical-align: middle;">
   </a>
-</h1>
+</h1> -->
 <!-- 
   <p align="center">
     <a href="https://scholar.google.com/citations?user=xlIBwREAAAAJ&hl=en">Disheng Liu</a>,
