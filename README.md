@@ -136,6 +136,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] SpatialCoT: Advancing Spatial Reasoning through Coordinate Alignment and Chain-of-Thought for Embodied Task Planning (_Huawei Noah's Ark Lab_) [[paper]](https://arxiv.org/pdf/2501.10074);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Enhancing Spatial Reasoning through Visual and Textual Thinking (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2507.20529);
+
 - [arXiv2025] SpaceR: Reinforcing MLLMs in Video Spatial Reasoning (_Peking University_) [[paper]](https://arxiv.org/pdf/2504.01805v2) [[code]](https://github.com/OuyangKun10/SpaceR?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/RUBBISHLIKE/SpaceR);
 
 - [arXiv2025] ViLaSR: Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing (_Institute of Automation, Chinese Academy of Sciences_) [[paper]](https://arxiv.org/abs/2506.09965) [[code]](https://github.com/AntResearchNLP/ViLaSR) [[checkpoint]](https://huggingface.co/inclusionAI/ViLaSR/tree/main);
