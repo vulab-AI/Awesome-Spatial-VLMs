@@ -184,9 +184,10 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [NeurIPS2024] Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLM (_New York University_) [[paper]](https://arxiv.org/pdf/2406.16860) [[code]](https://github.com/cambrian-mllm/cambrian) [[checkpoint]](https://huggingface.co/collections/nyu-visionx/cambrian-1-models-666fa7116d5420e514b0f23c);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Cambrian-S: Towards Spatial Supersensing in Video (_New York University_) [[paper]](https://arxiv.org/pdf/2511.04670) [[code]](https://github.com/cambrian-mllm/cambrian-s) [[checkpoint]](https://huggingface.co/collections/nyu-visionx/cambrian-s-models);
+
 - [ICML2025] Why is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas (_City University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2503.01773) [[code]](https://github.com/shiqichen17/AdaptVis) [[checkpoint]](https://github.com/shiqichen17/AdaptVis);
-
-
 
 
 #### Encoder-Level Improvements
