@@ -351,7 +351,7 @@ This repository uses the framework from our survey paper to systematically organ
 - [arXiv2025] Visual Spatial Tuning (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2511.05491) [[code]](https://github.com/Yangr116/VST) [[checkpoint]](https://huggingfgace.co/collections/rayruiyang/vst);
 
 <!-- New paper, excluded in survey -->
-- [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations (__) [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
+- [ICLR26 Submission] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations () [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
 
 
 ## 📚 Datasets and Benchmarks
