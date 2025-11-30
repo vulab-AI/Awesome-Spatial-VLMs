@@ -173,6 +173,8 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [NeurIPS2025] Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs (_UIUC_) [[paper]](https://arxiv.org/pdf/2506.21656);
 
+<!-- New paper, excluded in survey -->
+- [AAAI 2026] SIFThinker: Spatially-Aware Image Focus for Visual Reasoning (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2508.06259) [[code]](https://github.com/zhangquanchen/SIFThinker?tab=readme-ov-file);
 
 #### Architectural Enhancements
 
