@@ -159,6 +159,10 @@ This repository uses the framework from our survey paper to systematically organ
 - [arXiv2025] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards (_University of Oxford_) [[paper]](https://arxiv.org/pdf/2511.07403) [[code]](https://github.com/hunarbatra/SpatialThinker) [[checkpoint]](https://huggingface.co/collections/OX-PIXL/spatialthinker);
 <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2511.07403) [[code]](https://github.com/zhangquanchen/3DThinker)
+<!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
+
 - [CVPR2025] Perception Tokens Enhance Visual Reasoning in Multimodal Language Models (_University of Washington_) [[paper]](https://arxiv.org/pdf/2412.03548v1) [[code]](https://github.com/mahtabbigverdi/Aurora-perception) [[checkpoint]](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view);
 
 - [ICLR2025] Ross: Reconstructive Visual Instruction Tuning (_Institute of Automation, Chinese Academy of Sciences_) [[paper]](https://arxiv.org/pdf/2410.09575) [[code]](https://github.com/haochen-wang409/ross) [[checkpoint]](https://huggingface.co/HaochenWang/ross-qwen2-7b);
@@ -175,6 +179,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 <!-- New paper, excluded in survey -->
 - [AAAI2026] SIFThinker: Spatially-Aware Image Focus for Visual Reasoning (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2508.06259) [[code]](https://github.com/zhangquanchen/SIFThinker?tab=readme-ov-file);
+<!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
 #### Architectural Enhancements
 
