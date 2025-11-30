@@ -329,11 +329,6 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data (_University of Waterloo_) [[paper]](https://arxiv.org/pdf/2504.20648);
 
-<!-- New paper, excluded in survey -->
-- [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations (__) [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
-
-
-
 #### Manifesting Spatial Priors in 3D and Synthetic Worlds
 
 - [CVPR2024] SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities (_Google DeepMind_) [[paper]](https://arxiv.org/pdf/2401.12168) [[code]](https://spatial-vlm.github.io/#community-implementation) [[checkpoint]](https://github.com/remyxai/VQASynth?tab=readme-ov-file#models-trained-using-vqasynth-);
@@ -355,6 +350,8 @@ This repository uses the framework from our survey paper to systematically organ
 <!-- New paper, excluded in survey -->
 - [arXiv2025] Visual Spatial Tuning (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2511.05491) [[code]](https://github.com/Yangr116/VST) [[checkpoint]](https://huggingfgace.co/collections/rayruiyang/vst);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations (__) [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
 
 
 ## 📚 Datasets and Benchmarks
