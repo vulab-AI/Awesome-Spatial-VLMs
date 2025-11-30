@@ -160,7 +160,7 @@ This repository uses the framework from our survey paper to systematically organ
 <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
 <!-- New paper, excluded in survey -->
-- [arXiv2025] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2511.07403) [[code]](https://github.com/zhangquanchen/3DThinker)
+- [arXiv2025] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2510.18632) [[code]](https://github.com/zhangquanchen/3DThinker)
 <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
 - [CVPR2025] Perception Tokens Enhance Visual Reasoning in Multimodal Language Models (_University of Washington_) [[paper]](https://arxiv.org/pdf/2412.03548v1) [[code]](https://github.com/mahtabbigverdi/Aurora-perception) [[checkpoint]](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view);
