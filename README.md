@@ -329,6 +329,10 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data (_University of Waterloo_) [[paper]](https://arxiv.org/pdf/2504.20648);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations (__) [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
+
+
 
 #### Manifesting Spatial Priors in 3D and Synthetic Worlds
 
