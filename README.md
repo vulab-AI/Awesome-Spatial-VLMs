@@ -20,7 +20,8 @@
     <a href="https://yin-yu.github.io/">Yu Yin</a>
   </p> -->
 
-> A curated list of resources for Spatial Intelligence in Vision-Language Models. This repository is actively maintained. You can watch it to stay updated on the latest developments. If you find it useful, please consider starring ⭐ the project and sharing it with others.
+> A curated list of resources for Spatial Intelligence in Vision-Language Models.
+> This repository is actively maintained. You can watch it to stay updated on the latest developments. If you find it useful, please consider STARRING ⭐ the project and sharing it with others.
 
 This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
 
