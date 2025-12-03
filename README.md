@@ -285,6 +285,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [NeurIPS2025] SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2509.17664) [[code]](https://github.com/cpystan/SD-VLM) [[checkpoint]](https://huggingface.co/cpystan/SD-VLM-7B);
 
+<!-- New paper, excluded in survey -->
+- [Arxiv2025] 3D Aware Region Prompted Vision Language Model (_UC San Diego_) [[paper]](https://arxiv.org/pdf/2509.13317);
+<!-- leveraging depth for training a position embedding -->
 
 
 #### Implicit 3D from Egocentric Views
