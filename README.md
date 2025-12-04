@@ -340,6 +340,8 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data (_University of Waterloo_) [[paper]](https://arxiv.org/pdf/2504.20648);
 
+- [arXiv2025] Scaling Spatial Intelligence with Multimodal Foundation  (_SenseTime Research_) [[paper]](https://arxiv.org/pdf/2511.13719) [[code]](https://github.com/OpenSenseNova/SenseNova-SI) [[checkpoint]](https://huggingface.co/collections/sensenova/sensenova-si);
+
 #### Manifesting Spatial Priors in 3D and Synthetic Worlds
 
 - [CVPR2024] SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities (_Google DeepMind_) [[paper]](https://arxiv.org/pdf/2401.12168) [[code]](https://spatial-vlm.github.io/#community-implementation) [[checkpoint]](https://github.com/remyxai/VQASynth?tab=readme-ov-file#models-trained-using-vqasynth-);
