@@ -1,5 +1,8 @@
 ## 📊 Spatial Benchmark Collection
 
+The Spatial Benchmarks table includes **51 datasets** described by **9 attributes**.  
+**P.** denotes Perception Level, **U.** denotes Understanding Level, and **E.** denotes Extrapolation Level.
+
 <div style="overflow-x:auto;">
 <table style="border-collapse:collapse;font-size:13px;width:100%;">
 <thead><tr style="background-color:#f5f5f5;"><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Dataset</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Venue</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">P.</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">U.</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">E.</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Fundamental Task</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Size</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Image Source</th><th style="border:1px solid #ccc;padding:4px 6px;text-align:center;">Modality</th></tr></thead><tbody>
@@ -56,4 +59,4 @@
 <tr style="background-color:#ffffff;"><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;"><a href="https://huggingface.co/datasets/Cusyoung/SpaCE-10">SPACE-10</a></td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">ArXiv2025</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">5,000</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">SCN, 3RS, ARK, SCN++</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">RGB, Point Cloud</td></tr>
 </tbody></table></div>
 
-> Total: **51 datasets × 9 columns**
+
