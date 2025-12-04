@@ -1,7 +1,7 @@
 ## 📊 Spatial Training Datasets
-**P.**: Perception Level  
-**U.**: Understanding Level  
-**E.**: Extrapolation Level  
+
+The Training Datasets table includes **21 datasets** described by **9 attributes**.  
+**P.** denotes Perception Level, **U.** denotes Understanding Level, and **E.** denotes Extrapolation Level.
 
 <div style="overflow-x:auto;">
 <table style="border-collapse:collapse;font-size:13px;width:100%;">
@@ -28,5 +28,3 @@
 <tr style="background-color:#fafafa;"><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;"><a href="https://github.com/NVlabs/RoboSpatial?tab=readme-ov-file">RoboSpatial</a></td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">CVPR2025</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3,000,000</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">Matterport3D, ScanNet, 3RScan, HOPE, GraspNet-1B</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">RGB, Point Cloud</td></tr>
 <tr style="background-color:#ffffff;"><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;"><a href="https://huggingface.co/datasets/cpystan/MSMU">MSMU</a></td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">NeurIPS2025</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">✓</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">700,000</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">ScanNet, ScanNet++,</td><td style="border:1px solid #ddd;padding:3px 5px;text-align:center;">RGB</td></tr>
 </tbody></table></div>
-
-> Total: **21 datasets × 9 columns**
