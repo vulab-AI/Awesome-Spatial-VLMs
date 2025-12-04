@@ -31,6 +31,19 @@ This repository is the official, community-maintained resource for the survey pa
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-0066CC?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>&nbsp;
   <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow" alt="Evaluated Data"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
+  <br/>
+<a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md">
+  <img
+    src="https://img.shields.io/badge/Training-21%20datasets-teal?style=flat"
+    alt="Training - 21 datasets"
+  >
+</a>&nbsp;
+<a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md">
+  <img
+    src="https://img.shields.io/badge/Evaluation-51%20benchmarks-orange?style=flat"
+    alt="Evaluation - 51 benchmarks"
+  >
+</a>
 </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
