@@ -1,4 +1,7 @@
 ## 📊 Spatial Training Datasets
+**P.**: Perception Level  
+**U.**: Understanding Level  
+**E.**: Extrapolation Level  
 
 <div style="overflow-x:auto;">
 <table style="border-collapse:collapse;font-size:13px;width:100%;">
