@@ -185,6 +185,9 @@ This repository uses the framework from our survey paper to systematically organ
 - [AAAI2026] SIFThinker: Spatially-Aware Image Focus for Visual Reasoning (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2508.06259) [[code]](https://github.com/zhangquanchen/SIFThinker?tab=readme-ov-file);
 <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
+<!-- New paper, excluded in survey -->
+SpaceMind: Camera-Guided Modality Fusion for Spatial Reasoning in Vision-Language Models (_Huawei_) [[paper]](https://arxiv.org/pdf/2511.23075)
+
 #### Architectural Enhancements
 
 - [CVPR2024] Honeybee: Locality Enhanced Projector for Multimodal LLM (_Kakao Brain_) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Cha_Honeybee_Locality-enhanced_Projector_for_Multimodal_LLM_CVPR_2024_paper.pdf) [[code]](https://github.com/khanrc/honeybee) [[checkpoint]](https://github.com/khanrc/honeybee);
