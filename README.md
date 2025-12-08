@@ -144,7 +144,7 @@ This repository uses the framework from our survey paper to systematically organ
 - [arXiv2025] Enhancing Spatial Reasoning through Visual and Textual Thinking (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2507.20529);
 
 <!-- New paper, excluded in survey -->
-- [arXiv2025]SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL (_Nvidia_) [[paper]](https://arxiv.org/pdf/2512.04069)
+- [arXiv2025] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL (_Umich_, _OSU_, _Nvidia_) [[paper]](https://arxiv.org/pdf/2512.04069)
 
 - [arXiv2025] SpaceR: Reinforcing MLLMs in Video Spatial Reasoning (_Peking University_) [[paper]](https://arxiv.org/pdf/2504.01805v2) [[code]](https://github.com/OuyangKun10/SpaceR?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/RUBBISHLIKE/SpaceR);
 
