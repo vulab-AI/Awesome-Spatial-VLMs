@@ -314,6 +314,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [ICCV2025] SplatTalk: 3D VQA with Gaussian Splatting (_Georgia Institute of Technology_) [[paper]](https://arxiv.org/pdf/2503.06271) [[code]](https://splat-talk.github.io/);
 
+<!-- New paper, excluded in survey -->
+- [NeurIPS2025] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors (_CUHK_) [[paper]](https://arxiv.org/pdf/2505.24625#page=3.50) [[code]](https://github.com/LaVi-Lab/VG-LLM)
+
 
 #### Scene-level information + Ego-centric
 
