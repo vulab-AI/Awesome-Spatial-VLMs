@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Awesome Spatial VLMs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="icon"
+      href="./Awesome-Spatial-VLMs/icon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="shortcut icon"
+      href="./Awesome-Spatial-VLMs/favicon.svg"
+      type="image/svg+xml"
+    />
+
+    <style>
+      html {
+        font-size: 18px;  /* 或 18px，如果你想整体明显大一点 */
+      }
+      :root {
+        --bg: #eef2f7;
+        --card-bg: #ffffff;
+        --border-subtle: #e5e7eb;
+        --border-strong: #d1d5db;
+        --accent: #2563eb;
+        --accent-soft: rgba(37, 99, 235, 0.08);
+        --accent-strong: #1d4ed8;
+        --text-main: #111827;
+        --text-muted: #6b7280;
+        --pill-bg: #eff5ff;
+        --code-bg: #f9fafb;
+        --radius-lg: 20px;
+        --radius-pill: 999px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+          "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: var(--text-main);
+        background:
+          radial-gradient(circle at top, #e5efff, #f3f4f6 55%),
+          radial-gradient(circle at bottom, #dbeafe, #f9fafb 65%);
+        padding: 2.8rem 1.5rem;
+        font-size: 1.05rem;  /* 新增：整体略放大一点 */
+      }
+
+      .shell {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+      .card {
+        background: var(--card-bg);
+        border-radius: 28px;
+        border: 1px solid var(--border-subtle);
+        box-shadow:
+          0 18px 50px rgba(148, 163, 184, 0.24),
+          0 0 0 1px rgba(255, 255, 255, 0.9);
+        padding: 2.3rem 2.5rem 2.4rem;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: -80px 40% auto auto;
+        height: 180px;
+        border-radius: 999px;
+        background: radial-gradient(circle at center, #bfdbfe, transparent 70%);
+        opacity: 0.5;
+        pointer-events: none;
+      }
+
+      @media (max-width: 720px) {
+        body {
+          padding: 1.8rem 1rem;
+        }
+        .card {
+          padding: 1.6rem 1.5rem 1.9rem;
+          border-radius: 22px;
+        }
+      }
+
+      .header-block {
+        margin-bottom: 1.8rem;
+      }
+
+      .title-row {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        margin-bottom: 0.4rem;
+      }
+
+      .cube-icon-wrap {
+        /* 去掉蓝色背景和阴影 */
+        width: auto;
+        height: auto;
+        padding: 0;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.1rem; /* 和标题之间的间距交给 .title-row 的 gap 为主 */
+      }
+
+
+
+      .cube-icon {
+        /* 放大图标 */
+        width: 55px;
+        height: 55px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.95rem;
+        letter-spacing: 0.01em;
+      }
+
+      .brand-tag {
+        margin-top: 0.4rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.82rem;
+        color: var(--accent);
+        background: var(--accent-soft);
+        border-radius: var(--radius-pill);
+        padding: 0.15rem 0.7rem;
+        border: 1px solid rgba(37, 99, 235, 0.22);
+      }
+
+      .brand-tag-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 999px;
+        background: var(--accent);
+      }
+
+      .tagline {
+        margin-top: 0.75rem;
+        font-size: 0.96rem;
+        color: var(--text-muted);
+        max-width: 620px;
+      }
+
+      .tagline strong {
+        color: var(--text-main);
+      }
+
+      .metrics {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        font-size: 0.82rem;
+      }
+
+      .metrics span {
+        padding: 0.18rem 0.65rem;
+        border-radius: var(--radius-pill);
+        border: 1px solid var(--border-subtle);
+        background: #f9fafb;
+        color: var(--text-muted);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .metrics span strong {
+        color: #9ca3af;
+        font-weight: 600;
+      }
+
+      /* Key resources as central cards */
+      .resources-section {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .link-desc {
+        font-size: 0.7rem;  
+        color: var(--text-muted);  /* 可选：用更淡的颜色 */
+        line-height: 1.4;     /* 可选：稍微紧一点的行距 */
+      }
+      .resources-title {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-muted);
+        margin-bottom: 0.6rem;
+      }
+
+      .resources-subtitle {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-bottom: 1.1rem;
+      }
+
+      .resources-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 0.9rem;
+        justify-items: stretch;
+      }
+
+      .resource-btn {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        min-height: 90px;
+        padding: 0.9rem 1rem;
+        border-radius: 16px; /* 圆角方块 */
+        border: 1px solid var(--border-subtle);
+        background: linear-gradient(135deg, #f9fafb, #eff6ff);
+        text-decoration: none;
+        color: var(--text-main);
+        box-shadow:
+          0 10px 22px rgba(148, 163, 184, 0.25),
+          0 0 0 1px rgba(255, 255, 255, 0.9);
+        transition:
+          transform 0.15s ease-out,
+          box-shadow 0.15s ease-out,
+          border-color 0.15s ease-out,
+          background 0.15s ease-out;
+        width: 100%;
+      }
+
+      .resource-btn:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow:
+          0 16px 34px rgba(148, 163, 184, 0.35),
+          0 0 0 1px rgba(209, 213, 219, 0.8);
+        border-color: rgba(37, 99, 235, 0.35);
+        background: linear-gradient(135deg, #eff6ff, #e0edff);
+      }
+
+      .resource-label {
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--text-muted);
+        margin-bottom: 0.15rem;
+      }
+
+      .resource-title {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--accent-strong);
+      }
+
+      .divider {
+        margin-top: 0.4rem;
+        margin-bottom: 1.4rem;
+        height: 1px;
+        background: linear-gradient(
+          to right,
+          transparent,
+          rgba(209, 213, 219, 0.9),
+          transparent
+        );
+      }
+
+      .section {
+        margin-top: 0.4rem;
+      }
+
+      .section-title {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.16em;
+        color: var(--text-muted);
+        margin-bottom: 0.55rem;
+      }
+
+      .pill-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .pill-list li {
+        font-size: 0.83rem;
+        padding: 0.25rem 0.75rem;
+        border-radius: var(--radius-pill);
+        background: var(--pill-bg);
+        border: 1px solid rgba(37, 99, 235, 0.18);
+        color: #1f2933;
+      }
+
+      .pill-list li strong {
+        color: var(--accent-strong);
+      }
+
+      pre {
+        margin: 0.55rem 0 0;
+        background: var(--code-bg);
+        border-radius: 12px;
+        border: 1px solid var(--border-subtle);
+        padding: 0.9rem 1rem;
+        overflow-x: auto;
+        font-size: 0.8rem;
+      }
+
+      code {
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+        white-space: pre;
+      }
+
+      .footer {
+        margin-top: 1.6rem;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: space-between;
+      }
+
+      .footer span.right {
+        opacity: 0.9;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="shell">
+      <main class="card">
+        <!-- Header / Intro -->
+        <header class="header-block">
+          <div class="title-row">
+          <div class="cube-icon-wrap" aria-hidden="true">
+            <svg
+              class="cube-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <!-- Subtle fills for depth -->
+              <defs>
+                <pattern id="dots" patternUnits="userSpaceOnUse" width="2" height="2">
+                  <circle cx="1" cy="1" r="0.2" fill="currentColor" opacity="0.1" />
+                </pattern>
+              </defs>
+              
+              <!-- Faces -->
+              <path d="M3 7.5 L12 3 L21 7.5 L12 12 Z" fill="currentColor" opacity="0.04" />
+              <path d="M3 7.5 L3 16.5 L12 21 L12 12 Z" fill="currentColor" opacity="0.12" />
+              <path d="M12 12 L21 7.5 L21 16.5 L12 21 Z" fill="currentColor" opacity="0.08" />
+              
+              <!-- Main structure -->
+              <path d="M21 16.5V7.5a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 7.5v9a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16.5z" />
+              
+              <!-- Key edges for 3D effect -->
+              <polyline points="3 7.5 12 12 21 7.5" stroke-width="1.8" />
+              <line x1="12" y1="21" x2="12" y2="12" stroke-width="1.8" />
+              
+              <!-- Hidden edges (dotted) -->
+              <line x1="12" y1="3" x2="12" y2="12" stroke-dasharray="2,1" opacity="0.3" stroke-width="1" />
+              <line x1="3" y1="16.5" x2="12" y2="12" stroke-dasharray="2,1" opacity="0.3" stroke-width="1" />
+              <line x1="21" y1="16.5" x2="12" y2="12" stroke-dasharray="2,1" opacity="0.3" stroke-width="1" />
+            </svg>
+          </div>
+            <div>
+              <h1>Awesome Spatial VLMs</h1>
+              <div class="brand-tag">
+                <span class="brand-tag-dot"></span>
+                Spatial Intelligence in Vision–Language Models
+              </div>
+            </div>
+          </div>
+
+          <p >
+            Official site for <strong>Awesome Spatial VLMs</strong> project, a curated
+            resource and evaluation toolkit for spatial intelligence in
+            Vision–Language Models (VLMs).
+          </p>
+
+          <div class="divider" aria-hidden="true"></div>
+
+          <!-- Highlights -->
+          <section class="section" aria-label="Highlights">
+            <div class="section-title">Highlights</div>
+            <ul class="pill-list">
+              <li>
+                <strong>Structured taxonomy</strong> of spatial intelligence in VLMs
+              </li>
+              <li>
+                <strong>120+</strong> method papers, <strong>20+</strong> datasets, and
+                <strong>50+</strong> benchmarks
+              </li>
+              <li>
+                Comprehensive evaluation across <strong>37</strong> methods
+              </li>
+            </ul>
+          </section>
+    
+          <!-- <div class="metrics">
+            <span><strong>3</strong> spatial cognitive levels</span>
+            <span><strong>37</strong> evaluated VLMs</span>
+            <span><strong>50+</strong> spatial benchmarks</span>
+            <span><strong>120+</strong> research papers</span>
+          </div> -->
+        </header>
+
+        <div class="divider" aria-hidden="true"></div>
+        <!-- Centered key resources as cards -->
+        <section class="resources-section" aria-label="Key resources">
+          <div class="resources-title">Key resources</div>
+          <div class="resources-subtitle">
+            Jump directly to the main artifacts of the project.
+          </div>
+
+          <div class="resources-grid">
+            <a
+              class="resource-btn"
+              href="https://www.techrxiv.org/users/992599/articles/1354538/master/file/data/Spatial%20VLM%20Survey/Spatial%20VLM%20Survey.pdf?inline=true#scrollbar=1&toolbar=1&statusbar=1&navpanes=1#"
+            >
+              <div class="resource-label">📄  Survey paper</div>
+              <div class="resource-title">Comprehensive survey PDF</div>
+              <div class="link-desc">TechRxiv preprint · 2025</div>
+            </a>
+
+            <a
+              class="resource-btn"
+              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs"
+            >
+              <div class="resource-label">💻 GitHub repository</div>
+              <div class="resource-title">Awesome-Spatial-VLMs</div>
+              <div class="link-desc">Project repository with papers and code </div>
+            </a>
+
+            <a
+              class="resource-btn"
+              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/tree/main/evaluation"
+            >
+              <div class="resource-label">🏆  Evaluation toolkit</div>
+              <div class="resource-title">
+                Spatial VQA evaluation &amp; leaderboard
+              </div>
+              <div class="link-desc">Reproducible evaluation scripts</div>
+            </a>
+
+            <a
+              class="resource-btn"
+              href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"
+            >
+              <div class="resource-label">📦 Benchmarks dataset</div>
+              <div class="resource-title">
+                Awesome Spatial VQA Benchmarks (HF)
+              </div>
+              <div class="link-desc">Dataset recourses used in survey paper</div>
+            </a>
+          </div>
+        </section>
+
+        <div class="divider" aria-hidden="true"></div>
+
+
+
+        <!-- BibTeX -->
+        <section class="section" aria-label="BibTeX">
+          <div class="section-title">BibTeX</div>
+          <pre><code>@article{Liu_2025,
+  title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
+  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
+  DOI={10.36227/techrxiv.176231405.57942913/v2},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+  year={2025},
+  month=nov
+}</code></pre>
+        </section>
+
+        <footer class="footer">
+          <span>Maintained by 
+            <a href="https://github.com/vulab-AI" target="_blank" rel="noopener noreferrer">
+              vulab-AI
+            </a>
+          </span>
+          <span class="right">Last updated: 2025</span>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
