@@ -111,7 +111,10 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2024] I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction (_Guangdong Polytechnic Normal University_) [[paper]](https://arxiv.org/pdf/2407.14133);
 
-- [arXiv2025]; Mindjourney: Test-time scaling with world models for spatial reasoning (UMass Amherst) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
+- [arXiv2025] Mindjourney: Test-time scaling with world models for spatial reasoning (_UMass Amherst_) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
+
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2511.10946)
 
 - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Coarse_Correspondences_Boost_Spatial-Temporal_Reasoning_in_Multimodal_Language_Model_CVPR_2025_paper.pdf);
 
