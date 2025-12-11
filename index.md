@@ -1,3 +1,7 @@
+---
+title: Awesome Spatial VLMs
+---
+
 # Awesome Spatial VLMs
 
 Official site for **Awesome Spatial VLMs**, a curated resource and evaluation toolkit for  
