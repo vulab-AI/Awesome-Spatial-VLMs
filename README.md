@@ -218,6 +218,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] Introducing Visual Perception Token into Multimodal Large Language Model (_National University of Singapore_) [[paper]](https://arxiv.org/pdf/2502.17425) [[code]](https://github.com/yu-rp/VisualPerceptionToken?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/collections/rp-yu/vpt-models-67b6afdc8679a05a2876f07a);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] G2VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning (_Shanghai AI Lab_) [[paper]](https://arxiv.org/pdf/2511.21688) [[code]](https://github.com/InternRobotics/G2VLM) [[checkpoint]](https://huggingface.co/InternRobotics/G2VLM-2B-MoT)
+
 - [CVPR2025] SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language (_Zhejiang University_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SpatialCLIP_Learning_3D-aware_Image_Representations_from_Spatially_Discriminative_Language_CVPR_2025_paper.pdf) [[code]](https://github.com/SpatialVision/Spatial-CLIP);
 
 - [CVPR2025] SpatialLLM: A Compound 3D-Informed Design towards Spatially-Intelligent Large Multimodal Models (_Johns Hopkins University_) [[paper]](https://www.cs.jhu.edu/~alanlab/Pubs25/ma2025spatialllm.pdf) [[code]](https://3d-spatial-reasoning.github.io/spatial-llm/#public);
