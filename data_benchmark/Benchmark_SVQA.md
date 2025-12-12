@@ -1,6 +1,6 @@
 ## 📊 Spatial Benchmark Collection
 
-The Spatial Benchmarks table includes **51 datasets** described by **9 attributes**.  
+The Spatial Benchmarks table includes **52 datasets** described by **9 attributes**.  
 **P.** denotes Perception Level, **U.** denotes Understanding Level, and **E.** denotes Extrapolation Level.
 
 <div style="overflow-x:auto;">
