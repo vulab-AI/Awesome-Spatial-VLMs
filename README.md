@@ -330,6 +330,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2501.01428) [[code]](https://github.com/Qi-Zhangyang/GPT4Scene-and-VLN-R1) [[checkpoint]](https://huggingface.co/alexzyqi/GPT4Scene-qwen2vl_full_sft_mark_32_3D_img512);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Beyond Flatlands: Unlocking Spatial Intelligence by Decoupling 3D Reasoning from Numerical Regression (_Beijing Institute of Technology_) [[paper]](https://arxiv.org/pdf/2511.11239)
+
 - [CVPR2025] Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2503.00513) [[code]](https://github.com/hanxunyu/Inst3D-LMM);
 
 - [CVPR2025] DSPNet: Dual-vision Scene Perception for Robust 3D Question Answering (_Sun Yat-sen University_) [[paper]](https://arxiv.org/pdf/2503.03190) [[code]](https://github.com/LZ-CH/DSPNet) [[checkpoint]](https://github.com/LZ-CH/DSPNet);
