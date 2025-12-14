@@ -310,15 +310,20 @@ This repository uses the framework from our survey paper to systematically organ
 
 #### Implicit 3D from Egocentric Views
 
-
 - [arXiv2025] VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction (_UT Austin_) [[paper]](https://arxiv.org/pdf/2505.20279) [[code]](https://github.com/VITA-Group/VLM-3R);
 
 - [arXiv2025] Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2505.23747) [[code]](https://github.com/diankun-wu/Spatial-MLLM);
+
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Vision-Language Memory for Spatial Reasoning (_University at Buffalo_) [[paper]]([https://arxiv.org/pdf/2505.23747](https://arxiv.org/pdf/2511.20644))
 
 - [ICCV2025] SplatTalk: 3D VQA with Gaussian Splatting (_Georgia Institute of Technology_) [[paper]](https://arxiv.org/pdf/2503.06271) [[code]](https://splat-talk.github.io/);
 
 <!-- New paper, excluded in survey -->
 - [NeurIPS2025] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors (_CUHK_) [[paper]](https://arxiv.org/pdf/2505.24625#page=3.50) [[code]](https://github.com/LaVi-Lab/VG-LLM)
+
+<!-- New paper, excluded in survey -->
+- [NeurIPS2025] 3DRS: MLLMs Need 3D-Aware Representation Supervision for Scene Understanding (_HKU_) [[paper]](https://arxiv.org/pdf/2506.01946) [[code]](https://github.com/Visual-AI/3DRS)
 
 
 #### Scene-level information + Ego-centric
