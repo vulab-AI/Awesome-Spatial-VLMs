@@ -387,6 +387,12 @@ This repository uses the framework from our survey paper to systematically organ
 
 - [arXiv2025] Sparkle: Mastering Basic Spatial Capabilities in Vision Language Models Elicits Generalization to Spatial Reasoning (_Massachusetts Institute of Technology_) [[paper]](https://arxiv.org/pdf/2410.16162);
 
+<!-- New paper, excluded in survey -->
+- [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations () [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
+
+<!-- New paper, excluded in survey -->
+- [arXiv2025] Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis (_Harbin Institute of Technology_) [[paper]](https://arxiv.org/pdf/2512.16237#page=7.00) [[code]](https://github.com/AI9Stars/SPRITE);
+
 - [CVPR2025] RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics (_NVIDIA_) [[paper]](https://arxiv.org/pdf/2411.16537) [[code]](https://github.com/NVlabs/RoboSpatial);
 
 - [ICLR2025] SPARTUN3D: Situated Spatial Understanding of 3D World in Large Language Models (_Michigan State University & UC Davis_) [[paper]](https://arxiv.org/pdf/2410.03878);
@@ -398,8 +404,9 @@ This repository uses the framework from our survey paper to systematically organ
 <!-- New paper, excluded in survey -->
 - [arXiv2025] Visual Spatial Tuning (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2511.05491) [[code]](https://github.com/Yangr116/VST) [[checkpoint]](https://huggingfgace.co/collections/rayruiyang/vst);
 
-<!-- New paper, excluded in survey -->
-- [ICLR26 Submission] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations () [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
+
+
+
 
 
 ## 📚 Datasets and Benchmarks
