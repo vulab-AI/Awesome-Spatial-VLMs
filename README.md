@@ -91,6 +91,7 @@ This repository uses the framework from our survey paper to systematically organ
 
 ## 🚀 Awesome Papers
 ### Training-Free Prompting
+<a id="textual-prompting-methods"></a>
 <details>
   <summary><b>Textual Prompting Methods</b></summary>
 
@@ -105,6 +106,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [CoRR2025] SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2502.13143) [[code]](https://github.com/qizekun/SoFar);
 </details>
 
+<a id="visual-prompting-methods"></a>
 <details>
   <summary><b>Visual Prompting Methods</b></summary>
 
@@ -124,6 +126,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231225007441);
 </details>
 
+<a id="hybrid-prompting"></a>
 <details>
   <summary><b>Hybrid Prompting</b></summary>
   - [arXiv2024] Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models (_Westlake University_) [[paper]](https://arxiv.org/pdf/2405.13872);
@@ -142,7 +145,7 @@ This repository uses the framework from our survey paper to systematically organ
 ---
 
 ### Model-Centric Enhancements
-
+<a id="advanced-training-strategies"></a>
 <details>
   <summary><b>Advanced Training Strategies</b></summary>
 
@@ -205,6 +208,7 @@ This repository uses the framework from our survey paper to systematically organ
   <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 </details>
 
+<a id="architectural-enhancements"></a>
 <details>
   <summary><b>Architectural Enhancements</b></summary>
 
@@ -222,6 +226,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [ICML2025] Why is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas (_City University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2503.01773) [[code]](https://github.com/shiqichen17/AdaptVis) [[checkpoint]](https://github.com/shiqichen17/AdaptVis);
 </details>
 
+<a id="encoder-level-improvements"></a>
 <details>
   <summary><b>Encoder-Level Improvements</b></summary>
 
@@ -248,7 +253,7 @@ This repository uses the framework from our survey paper to systematically organ
 --------
 
 ### Explicit 2D Information Injection
-
+<a id="object-region-guidance"></a>
 <details>
   <summary><b>Object Region Guidance</b></summary>
 
@@ -271,8 +276,9 @@ This repository uses the framework from our survey paper to systematically organ
   - [CVPR2025] Argus: A Compact and Versatile Foundation Model for Vision (_University of Illinois Urbana-Champaign_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.pdf);
 </details>
 
+<a id="explicit-spatial-relationship"></a>
 <details>
-  <summary><b>Explicit spatial relationship</b></summary>
+  <summary><b>Explicit Spatial Relationship</b></summary>
 
   - [ACL2023] Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs (_Tel-Aviv University_) [[paper]](https://arxiv.org/pdf/2305.06343) [[code]](https://github.com/AlonMendelson/SGVL) [[checkpoint]](https://drive.google.com/file/d/13jzpcLgGalO3hkiqVwziNAlCEZD90ENN/view);
 
@@ -286,6 +292,7 @@ This repository uses the framework from our survey paper to systematically organ
 ---
 
 ### 3D Information Enhancement
+<a id="explicit-3d-geometric-representations"></a>
 <details>
   <summary><b>Explicit 3D Geometric Representations</b></summary>
 
@@ -327,6 +334,7 @@ This repository uses the framework from our survey paper to systematically organ
   <!-- leveraging depth for training a position embedding -->
 </details>
 
+<a id="implicit-3d-from-egocentric-views"></a>
 <details>
   <summary><b>Implicit 3D from Egocentric Views</b></summary>
 
@@ -346,8 +354,9 @@ This repository uses the framework from our survey paper to systematically organ
   - [NeurIPS2025] 3DRS: MLLMs Need 3D-Aware Representation Supervision for Scene Understanding (_HKU_) [[paper]](https://arxiv.org/pdf/2506.01946) [[code]](https://github.com/Visual-AI/3DRS)
 </details>
 
+<a id="scene-level-information--ego-centric"></a>
 <details>
-  <summary><b>Scene-level information + Ego-centric</b></summary>
+  <summary><b>Scene-level Information + Ego-centric</b></summary>
 
   - [CVPR2023] 3D Concept Learning and Reasoning from Multi-View Images (_UCLA_) [[paper]](https://arxiv.org/pdf/2303.11327) [[code]](https://github.com/evelinehong/3D-CLR-Official);
 
@@ -379,8 +388,9 @@ This repository uses the framework from our survey paper to systematically organ
 
 ### Data-Centric Spatial Enhancement
 
+<a id="manifesting-spatial-relations-in-2d-images"></a>
 <details>
-  <summary><b>Scene-level information + Ego-centric</b></summary>
+  <summary><b>Manifesting Spatial Relations in 2D Images</b></summary>
 
   - [CVPR2022] Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2203.08481) [[code]](https://github.com/LeapLabTHU/Pseudo-Q?tab=readme-ov-file);
 
@@ -396,8 +406,10 @@ This repository uses the framework from our survey paper to systematically organ
   - [arXiv2025] Scaling Spatial Intelligence with Multimodal Foundation  (_SenseTime Research_) [[paper]](https://arxiv.org/pdf/2511.13719) [[code]](https://github.com/OpenSenseNova/SenseNova-SI) [[checkpoint]](https://huggingface.co/collections/sensenova/sensenova-si);
 </details>
 
+
+<a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 <details>
-  <summary><b>Scene-level information + Ego-centric</b></summary>
+  <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds</b></summary>
 
   - [CVPR2024] SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities (_Google DeepMind_) [[paper]](https://arxiv.org/pdf/2401.12168) [[code]](https://spatial-vlm.github.io/#community-implementation) [[checkpoint]](https://github.com/remyxai/VQASynth?tab=readme-ov-file#models-trained-using-vqasynth-);
 
