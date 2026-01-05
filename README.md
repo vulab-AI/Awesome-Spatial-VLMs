@@ -33,7 +33,7 @@ This repository is the official, community-maintained resource for the survey pa
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
   <br/>
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md"><img src="https://img.shields.io/badge/Training-22%20datasets-teal?style=flat"alt="Training - 22 datasets"></a>&nbsp;
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md"><img src="https://img.shields.io/badge/Evaluation-51%20benchmarks-orange?style=flat" alt="Evaluation - 51 benchmarks"></a>&nbsp;
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md"><img src="https://img.shields.io/badge/Evaluation-52%20benchmarks-orange?style=flat" alt="Evaluation - 52 benchmarks"></a>&nbsp;
 </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
@@ -427,6 +427,11 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Visual Spatial Tuning (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2511.05491) [[code]](https://github.com/Yangr116/VST) [[checkpoint]](https://huggingfgace.co/collections/rayruiyang/vst);
+
+
+  <!-- New paper, excluded in survey -->
+  - [arXiv2025] INTERNSPATIAL: A COMPREHENSIVE DATASET FOR SPATIAL REASONING IN VISION-LANGUAGE MODELS (_Shanghai AI Laboratory_) [[paper]](https://arxiv.org/pdf/2506.18385)
+
 
   - [CVPR2025] RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics (_NVIDIA_) [[paper]](https://arxiv.org/pdf/2411.16537) [[code]](https://github.com/NVlabs/RoboSpatial);
 
