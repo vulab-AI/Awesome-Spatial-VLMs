@@ -112,18 +112,18 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [arXiv2023] Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V (_Microsoft Research, Redmond_) [[paper]](https://arxiv.org/pdf/2310.11441) [[code]](https://github.com/microsoft/SoM);
 
-  - [NeurIPS2023] Fine-Grained Visual Prompting (_Nanjing University of Science and Technology_) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/4e9fa6e716940a7cfc60c46e6f702f52-Paper-Conference.pdf) [[code]](https://github.com/ylingfeng/FGVP);
+  - [NeurIPS2023] Fine-Grained Visual Prompting (_Nanjing University of Science and Technology_) [[paper]](https://arxiv.org/pdf/2306.04356) [[code]](https://github.com/ylingfeng/FGVP);
 
   - [arXiv2024] I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction (_Guangdong Polytechnic Normal University_) [[paper]](https://arxiv.org/pdf/2407.14133);
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2511.10946)
 
-  - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Coarse_Correspondences_Boost_Spatial-Temporal_Reasoning_in_Multimodal_Language_Model_CVPR_2025_paper.pdf);
+  - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://arxiv.org/pdf/2408.00754);
 
   - [NeurIPS2025] Mindjourney: Test-time scaling with world models for spatial reasoning (_UMass Amherst_) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
     
-  - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0925231225007441);
+  - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://arxiv.org/pdf/2503.13185);
 </details>
 
 <a id="hybrid-prompting"></a>
@@ -133,11 +133,11 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [NeurIPS2024] Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models (_Microsoft Research_) [[paper]](https://phttps://arxiv.org/pdf/2405.13872roceedings.neurips.cc/paper_files/paper/2024/file/a45296e83b19f656392e0130d9e53cb1-Paper-Conference.pdf) [[code]](https://github.com/microsoft/visualization-of-thought/);
 
-  - [NeurIPS2024] Visual SKETCHPAD: Sketching as a visual chain of thought for multimodal language models (University of Washington) [[paper]](https://arxiv.org/pdf/2406.09403) [[code]](https://github.com/Yushi-Hu/VisualSketchpad);
+  - [NeurIPS2024] Visual SKETCHPAD: Sketching as a visual chain of thought for multimodal language models (_University of Washington_) [[paper]](https://arxiv.org/pdf/2406.09403) [[code]](https://github.com/Yushi-Hu/VisualSketchpad);
 
-  - [arXiv2025]; SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models (Toyota Central R&D Labs) [[paper]](https://arxiv.org/pdf/2505.04911v1);
+  - [arXiv2025] SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models (_Toyota Central R&D Labs_) [[paper]](https://arxiv.org/pdf/2505.04911v1);
 
-  - [COLING2025]; Scaffolding coordinates to promote vision-language coordination in large multi-modal models (Tsinghua University) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
+  - [COLING2025] Scaffolding coordinates to promote vision-language coordination in large multi-modal models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
 
   - [CVPR2025] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST(Guangzhou)_) [[paper]](https://arxiv.org/pdf/2412.04383) [[code]](https://github.com/iris0329/SeeGround);
 </details>
@@ -157,7 +157,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [arXiv2025] Enhancing Spatial Reasoning through Visual and Textual Thinking (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2507.20529);
 
   <!-- New paper, excluded in survey -->
-  - [arXiv2025] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL (_Umich_, _OSU_, _Nvidia_) [[paper]](https://arxiv.org/pdf/2512.04069)
+  - [arXiv2025] SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL (_Umich_) [[paper]](https://arxiv.org/pdf/2512.04069)
 
   - [arXiv2025] SpaceR: Reinforcing MLLMs in Video Spatial Reasoning (_Peking University_) [[paper]](https://arxiv.org/pdf/2504.01805v2) [[code]](https://github.com/OuyangKun10/SpaceR?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/RUBBISHLIKE/SpaceR);
 
@@ -212,9 +212,9 @@ This repository uses the framework from our survey paper to systematically organ
 <details>
   <summary><b>Architectural Enhancements</b></summary>
 
-  - [CVPR2024] Honeybee: Locality Enhanced Projector for Multimodal LLM (_Kakao Brain_) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Cha_Honeybee_Locality-enhanced_Projector_for_Multimodal_LLM_CVPR_2024_paper.pdf) [[code]](https://github.com/khanrc/honeybee) [[checkpoint]](https://github.com/khanrc/honeybee);
+  - [CVPR2024] Honeybee: Locality Enhanced Projector for Multimodal LLM (_Kakao Brain_) [[paper]](https://arxiv.org/pdf/2312.06742) [[code]](https://github.com/khanrc/honeybee) [[checkpoint]](https://github.com/khanrc/honeybee);
 
-  - [ECCV2024] Contrastive Region Guidance: Improving Grounding in Vision-Language Models without Training (_unc_) [[paper]](https://arxiv.org/pdf/2403.02325) [[code]](https://github.com/meetdavidwan/crg) [[checkpoint]](https://github.com/meetdavidwan/crg);
+  - [ECCV2024] Contrastive Region Guidance: Improving Grounding in Vision-Language Models without Training (_UNC_) [[paper]](https://arxiv.org/pdf/2403.02325) [[code]](https://github.com/meetdavidwan/crg) [[checkpoint]](https://github.com/meetdavidwan/crg);
 
   - [EMNLP2024] To Preserve or To Compress: An In-Depth Study of Connector Selection in Multimodal Large Language Models (_Digital Twin Institute, Eastern Institute of Technology, China_) [[paper]](https://arxiv.org/pdf/2410.06765v1) [[code]](https://github.com/EIT-NLP/Connector-Selection-for-MLLM);
 
@@ -230,7 +230,7 @@ This repository uses the framework from our survey paper to systematically organ
 <details>
   <summary><b>Encoder-Level Improvements</b></summary>
 
-  - [ICML2024] Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models (_Stanford_) [[paper]](https://arxiv.org/pdf/2402.07865) [[code]](https://github.com/TRI-ML/prismatic-vlms?tab=readme-ov-file#pretrained-models) [[checkpoint]](https://github.com/TRI-ML/prismatic-vlms);
+  - [ICML2024] Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models (_Stanford University_) [[paper]](https://arxiv.org/pdf/2402.07865) [[code]](https://github.com/TRI-ML/prismatic-vlms?tab=readme-ov-file#pretrained-models) [[checkpoint]](https://github.com/TRI-ML/prismatic-vlms);
 
   - [NeurIPS2024] Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLM (_New York University_) [[paper]](https://arxiv.org/pdf/2406.16860) [[code]](https://github.com/cambrian-mllm/cambrian) [[checkpoint]](https://huggingface.co/collections/nyu-visionx/cambrian-1-models-666fa7116d5420e514b0f23c);
 
@@ -241,7 +241,7 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [CVPR2025] SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language (_Zhejiang University_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SpatialCLIP_Learning_3D-aware_Image_Representations_from_Spatially_Discriminative_Language_CVPR_2025_paper.pdf) [[code]](https://github.com/SpatialVision/Spatial-CLIP);
 
-  - [CVPR2025] SpatialLLM: A Compound 3D-Informed Design towards Spatially-Intelligent Large Multimodal Models (_Johns Hopkins University_) [[paper]](https://www.cs.jhu.edu/~alanlab/Pubs25/ma2025spatialllm.pdf) [[code]](https://3d-spatial-reasoning.github.io/spatial-llm/#public);
+  - [CVPR2025] SpatialLLM: A Compound 3D-Informed Design towards Spatially-Intelligent Large Multimodal Models (_Johns Hopkins University_) [[paper]](https://arxiv.org/pdf/2505.00788) [[code]](https://3d-spatial-reasoning.github.io/spatial-llm/#public);
 
   - [CVPR2025] Argus: A Compact and Versatile Foundation Model for Vision (_University of Illinois Urbana-Champaign_) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.pdf);
 
@@ -318,7 +318,7 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [ICCVW2025] SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters (_Universit de Moncton_) [[paper]](https://arxiv.org/pdf/2509.15490) [[code]](https://github.com/abtraore/SmolRGPT) [[checkpoint]](https://huggingface.co/collections/Abdrah/smolrgpt-checkpoints-6893bad56127440ef250486e);
 
-  - [ICRA2025] SpatialBot: Precise Spatial Understanding with Vision Language Models (_Shanghai Jiao Tong University_) [[paper]](https://ieeexplore.ieee.org/abstract/document/11128671) [[code]](https://github.com/BAAI-DCAI/SpatialBot) [[checkpoint]](https://huggingface.co/RussRobin/SpatialBot-3B);
+  - [ICRA2025] SpatialBot: Precise Spatial Understanding with Vision Language Models (_Shanghai Jiao Tong University_) [[paper]](https://arxiv.org/pdf/2406.13642) [[code]](https://github.com/BAAI-DCAI/SpatialBot) [[checkpoint]](https://huggingface.co/RussRobin/SpatialBot-3B);
 
   - [NeurIPS2025] RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics (_Beihang University_) [[paper]](https://arxiv.org/pdf/2506.04308) [[code]](https://github.com/Zhoues/RoboRefer) [[checkpoint]](https://huggingface.co/collections/Zhoues/roborefer-and-refspatial-6857c97848fab02271310b89);
 
@@ -343,7 +343,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [arXiv2025] Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2505.23747) [[code]](https://github.com/diankun-wu/Spatial-MLLM);
 
   <!-- New paper, excluded in survey -->
-  - [arXiv2025] Vision-Language Memory for Spatial Reasoning (_University at Buffalo_) [[paper]]([https://arxiv.org/pdf/2505.23747](https://arxiv.org/pdf/2511.20644))
+  - [arXiv2025] Vision-Language Memory for Spatial Reasoning (_University at Buffalo_) [[paper]](https://arxiv.org/pdf/2511.20644)
 
   - [ICCV2025] SplatTalk: 3D VQA with Gaussian Splatting (_Georgia Institute of Technology_) [[paper]](https://arxiv.org/pdf/2503.06271) [[code]](https://splat-talk.github.io/);
 
@@ -362,7 +362,7 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [ECCV2024] ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities (_The University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2407.01525) [[code]](https://github.com/ZCMax/ScanReason);
 
-  - [ICML2024] An Embodied Generalist Agent in 3D World (Beijing Institute for General Artificial Intelligence (_BIGAI_)) [[paper]](https://arxiv.org/pdf/2311.12871) [[code]](https://github.com/embodied-generalist/embodied-generalist) [[checkpoint]](https://huggingface.co/datasets/huangjy-pku/LEO_data/tree/main);
+  - [ICML2024] An Embodied Generalist Agent in 3D World (_Beijing Institute for General Artificial Intelligence (BIGAI)_) [[paper]](https://arxiv.org/pdf/2311.12871) [[code]](https://github.com/embodied-generalist/embodied-generalist) [[checkpoint]](https://huggingface.co/datasets/huangjy-pku/LEO_data/tree/main);
 
   - [NeurIPS2024] Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2312.08168) [[code]](https://github.com/ZzZZCHS/Chat-Scene);
 
@@ -381,7 +381,7 @@ This repository uses the framework from our survey paper to systematically organ
 
   - [ICCV2025] MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs (_Apple_) [[paper]](https://arxiv.org/pdf/2503.13111) [[code]](https://github.com/apple/ml-cubifyanything);
 
-  - [WACV2025] Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning (_Brown University_) [[paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Fu_Scene-LLM_Extending_Language_Model_for_3D_Visual_Reasoning_WACV_2025_paper.pdf);
+  - [WACV2025] Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning (_Brown University_) [[paper]](https://arxiv.org/pdf/2403.11401);
 </details>
 
 ---
@@ -420,7 +420,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [arXiv2025] Sparkle: Mastering Basic Spatial Capabilities in Vision Language Models Elicits Generalization to Spatial Reasoning (_Massachusetts Institute of Technology_) [[paper]](https://arxiv.org/pdf/2410.16162);
 
   <!-- New paper, excluded in survey -->
-  - [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations () [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
+  - [arXiv2025] SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations (_Anonymous_) [[paper]](https://openreview.net/pdf?id=5Tph6wFMOm);
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis (_Harbin Institute of Technology_) [[paper]](https://arxiv.org/pdf/2512.16237#page=7.00) [[code]](https://github.com/AI9Stars/SPRITE);
