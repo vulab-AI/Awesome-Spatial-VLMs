@@ -1,487 +1,1167 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="google-site-verification" content="g0iBnczVNxZCqZ7YQHe7I5SUp0KKkcfxL3DwLfF5iCI" />
     <meta name="description" content="Awesome Spatial VLMs: a curated collection of methods, datasets, and benchmarks for spatial intelligence in vision–language models, with standardized evaluation for 37 VLMs."/>
     <meta name="keywords" content="Spatial VLM, Spatial Intelligence, Vision-Language Models, VQA, 3D reasoning, benchmarks"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Awesome Spatial VLMs</title>
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="/Awesome-Spatial-VLMs/icon.svg"
-      type="image/svg+xml"
-    />
-    <link
-      rel="shortcut icon"
-      href="/Awesome-Spatial-VLMs/icon.svg"
-      type="image/svg+xml"
-    />
+    <link rel="icon" href="icon_.png" type="image/png" />
+    <link rel="shortcut icon" href="icon_.png" type="image/png" />
 
     <style>
-      html {
-        font-size: 18px;  /* 或 18px，如果你想整体明显大一点 */
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
       :root {
-        --bg: #eef2f7;
-        --card-bg: #ffffff;
-        --border-subtle: #e5e7eb;
-        --border-strong: #d1d5db;
-        --accent: #2563eb;
-        --accent-soft: rgba(37, 99, 235, 0.08);
-        --accent-strong: #1d4ed8;
-        --text-main: #111827;
-        --text-muted: #6b7280;
-        --pill-bg: #eff5ff;
-        --code-bg: #f9fafb;
-        --radius-lg: 20px;
-        --radius-pill: 999px;
+        --bg-primary: #fafbfc;
+        --bg-secondary: #f0f2f5;
+        --surface: #ffffff;
+        --surface-alt: #f8f9fa;
+        --border: #e5e7eb;
+        --border-light: #f0f2f5;
+        --text-primary: #0f1419;
+        --text-secondary: #57606a;
+        --text-tertiary: #8b92a0;
+        --accent: #0066ff;
+        --accent-soft: rgba(0, 102, 255, 0.08);
+        --accent-strong: #0052cc;
+        --success: #16a34a;
+        --danger: #dc2626;
+        --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+        --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+        --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.12);
+        --radius-sm: 8px;
+        --radius-md: 12px;
+        --radius-lg: 16px;
+        --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
       }
 
       * {
         box-sizing: border-box;
       }
 
+      html {
+        scroll-behavior: smooth;
+      }
+
+
+      /* ===== Survey Table Layout ===== */
+
+      .survey-section .table-container{
+        background: rgba(255,255,255,0.75);
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+        overflow: hidden;
+      }
+
+      /* header (filters area) */
+      .table-header{
+        padding: 18px 18px 6px;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        background: rgba(255,255,255,0.6);
+        backdrop-filter: blur(8px);
+      }
+
+      .table-controls{
+        display: grid;
+        grid-template-columns: 1.3fr 1fr 1fr 0.8fr auto;
+        gap: 12px;
+        align-items: end;
+      }
+
+      .control-group{
+        min-width: 0;
+      }
+
+      .control-label{
+        display: block;
+        font-size: 12px;
+        opacity: 0.75;
+        margin-bottom: 6px;
+      }
+
+      .input-field,
+      .select-field{
+        width: 100%;
+        height: 40px;
+        padding: 8px 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.12);
+        background: white;
+      }
+
+      .table-controls .btn{
+        height: 40px;
+        border-radius: 10px;
+        padding: 0 14px;
+        white-space: nowrap;
+      }
+
+      /* scroll wrapper */
+      .table-scroll{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* table base */
+      #surveyTable{
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-size: 14px;
+        min-width: 980px; /* 让小屏横向滚动更自然；你可改 900/1100 */
+      }
+
+      #surveyTable th,
+      #surveyTable td{
+        padding: 10px 12px;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        vertical-align: top;
+      }
+
+      /* header */
+      #surveyTable thead th{
+        position: sticky; /* 可选：表头固定 */
+        top: 0;
+        background: rgba(255,255,255,0.92);
+        backdrop-filter: blur(6px);
+        z-index: 2;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+
+      /* hover row */
+      #surveyTable tbody tr:hover{
+        background: rgba(0,0,0,0.02);
+      }
+
+      /* column widths (按你9列优化) */
+      #surveyTable th:nth-child(1), #surveyTable td:nth-child(1){ width: 14%; }
+      #surveyTable th:nth-child(2), #surveyTable td:nth-child(2){ width: 16%; }
+      #surveyTable th:nth-child(3), #surveyTable td:nth-child(3){ width: 10%; }
+      #surveyTable th:nth-child(4), #surveyTable td:nth-child(4){ width: 10%; }
+      #surveyTable th:nth-child(5), #surveyTable td:nth-child(5){ width: 28%; }
+      #surveyTable th:nth-child(6), #surveyTable td:nth-child(6){ width: 14%; }
+      #surveyTable th:nth-child(7), #surveyTable td:nth-child(7){ width: 6%; }
+      #surveyTable th:nth-child(8), #surveyTable td:nth-child(8){ width: 6%; }
+      #surveyTable th:nth-child(9), #surveyTable td:nth-child(9){ width: 8%; }
+
+      /* Title wrap, other cols keep neat */
+      #surveyTable td:nth-child(5){
+        white-space: normal;
+        word-break: break-word;
+      }
+
+      /* link cols no wrap */
+      #surveyTable td:nth-child(7),
+      #surveyTable td:nth-child(8),
+      #surveyTable td:nth-child(9){
+        white-space: nowrap;
+      }
+
+      /* pagination */
+      .pagination{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px 18px;
+      }
+
+      .pagination-controls{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .pagination .btn{
+        height: 34px;
+        padding: 0 10px;
+        border-radius: 10px;
+      }
+
+      /* responsive */
+      @media (max-width: 1100px){
+        .table-controls{
+          grid-template-columns: 1fr 1fr;
+        }
+        .table-controls .control-group:last-child{
+          grid-column: 1 / -1; /* clear button full width */
+        }
+      }
+
+      @media (max-width: 640px){
+        .table-header{ padding: 14px 14px 6px; }
+        .pagination{
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+
       body {
         margin: 0;
-        min-height: 100vh;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-          "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'Geist', system-ui, -apple-system, sans-serif;
+        font-size: 15px;
         line-height: 1.6;
-        color: var(--text-main);
-        background:
-          radial-gradient(circle at top, #e5efff, #f3f4f6 55%),
-          radial-gradient(circle at bottom, #dbeafe, #f9fafb 65%);
-        padding: 2.8rem 1.5rem;
-        font-size: 1.05rem;  /* 新增：整体略放大一点 */
+        color: var(--text-primary);
+        background: var(--bg-primary);
+        padding: 0;
       }
 
-      .shell {
-        max-width: 960px;
+      .container {
+        max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
       }
 
-      .card {
-        background: var(--card-bg);
-        border-radius: 28px;
-        border: 1px solid var(--border-subtle);
-        box-shadow:
-          0 18px 50px rgba(148, 163, 184, 0.24),
-          0 0 0 1px rgba(255, 255, 255, 0.9);
-        padding: 2.3rem 2.5rem 2.4rem;
+      /* ==================== Header / Navigation ==================== */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border);
+        padding: 16px 0;
+        margin-bottom: 48px;
+      }
+
+      .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+      }
+
+      .logo-section {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none;
+        color: var(--text-primary);
+      }
+
+      .logo {
+        width: 70px;
+        height: auto;
+        display: block;
+      }
+
+      .logo-text h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .logo-text p {
+        margin: 0;
+        font-size: 12px;
+        color: var(--text-tertiary);
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      nav {
+        display: flex;
+        gap: 8px;
+      }
+
+      .nav-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        border-radius: var(--radius-md);
+        text-decoration: none;
+        color: var(--text-secondary);
+        font-size: 14px;
+        font-weight: 500;
+        transition: var(--transition);
+        border: 1px solid transparent;
+      }
+
+      .nav-link:hover {
+        color: var(--accent);
+        background: var(--accent-soft);
+        border-color: rgba(0, 102, 255, 0.2);
+      }
+
+      .nav-link.primary {
+        color: var(--accent);
+        background: var(--accent-soft);
+        border-color: rgba(0, 102, 255, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        header {
+          margin-bottom: 32px;
+        }
+        nav {
+          display: none;
+        }
+      }
+
+      /* ==================== Hero Section ==================== */
+      .hero {
+        margin-bottom: 64px;
+      }
+
+      .hero-content {
+        display: block;
+        margin-bottom: 48px;
+      }
+
+      .hero-left {
+        width: 100%;
+      }
+
+      .hero-left h2 {
+        margin: 0 0 24px 0;
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        max-width: 100%;
+      }
+
+      .hero-left p {
+        margin: 0 0 40px 0;
+        font-size: 18px;
+        color: var(--text-secondary);
+        line-height: 1.8;
+        max-width: 700px;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 24px;
+        margin-top: 24px;
+      }
+
+      .stat {
+        padding: 24px;
+        background: var(--surface);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border);
+        transition: var(--transition);
         position: relative;
         overflow: hidden;
       }
 
-      .card::before {
-        content: "";
+      .stat::before {
+        content: '';
         position: absolute;
-        inset: -80px 40% auto auto;
-        height: 180px;
-        border-radius: 999px;
-        background: radial-gradient(circle at center, #bfdbfe, transparent 70%);
-        opacity: 0.5;
-        pointer-events: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, var(--accent), rgba(0, 102, 255, 0));
       }
 
-      @media (max-width: 720px) {
-        body {
-          padding: 1.8rem 1rem;
-        }
-        .card {
-          padding: 1.6rem 1.5rem 1.9rem;
-          border-radius: 22px;
-        }
+      .stat:hover {
+        border-color: var(--accent);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-4px);
       }
 
-      .header-block {
-        margin-bottom: 1.8rem;
-      }
-
-      .title-row {
-        display: flex;
-        align-items: center;
-        gap: 0.9rem;
-        margin-bottom: 0.4rem;
-      }
-
-      .cube-icon-wrap {
-        /* 去掉蓝色背景和阴影 */
-        width: auto;
-        height: auto;
-        padding: 0;
-        border-radius: 0;
-        background: none;
-        box-shadow: none;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0.1rem; /* 和标题之间的间距交给 .title-row 的 gap 为主 */
-      }
-
-
-
-      .cube-icon {
-        /* 放大图标 */
-        width: 55px;
-        height: 55px;
-        display: block;
-      }
-
-      h1 {
-        margin: 0;
-        font-size: 1.95rem;
-        letter-spacing: 0.01em;
-      }
-
-      .brand-tag {
-        margin-top: 0.4rem;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        font-size: 0.82rem;
+      .stat-value {
+        font-size: 16px;
+        font-weight: 700;
         color: var(--accent);
-        background: var(--accent-soft);
-        border-radius: var(--radius-pill);
-        padding: 0.15rem 0.7rem;
-        border: 1px solid rgba(37, 99, 235, 0.22);
-      }
-
-      .brand-tag-dot {
-        width: 7px;
-        height: 7px;
-        border-radius: 999px;
-        background: var(--accent);
-      }
-
-      .tagline {
-        margin-top: 0.75rem;
-        font-size: 0.96rem;
-        color: var(--text-muted);
-        max-width: 620px;
-      }
-
-      .tagline strong {
-        color: var(--text-main);
-      }
-
-      .metrics {
-        margin-top: 1rem;
         display: flex;
+        align-items: baseline;
+        gap: 8px;
+        margin-bottom: 8px;
         flex-wrap: wrap;
-        gap: 0.6rem;
-        font-size: 0.82rem;
       }
 
-      .metrics span {
-        padding: 0.18rem 0.65rem;
-        border-radius: var(--radius-pill);
-        border: 1px solid var(--border-subtle);
-        background: #f9fafb;
-        color: var(--text-muted);
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
+      .stat-value strong {
+        color: var(--text-primary);
+        font-size: 15px;
       }
 
-      .metrics span strong {
-        color: #9ca3af;
-        font-weight: 600;
+      .stat-value span {
+        font-size: 14px;
+        color: var(--text-tertiary);
+        font-weight: 500;
       }
 
-      /* Key resources as central cards */
-      .resources-section {
+      .stat-label {
+        margin-top: 8px;
+        font-size: 14px;
+        color: var(--text-secondary);
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      .hero-right {
+        display: none;
+      }
+
+      @media (max-width: 1024px) {
+        .hero-left h2 {
+          font-size: 40px;
+        }
+        .stats {
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 16px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .hero-left h2 {
+          font-size: 32px;
+        }
+        .stats {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .stat {
+          padding: 16px;
+        }
+      }
+
+      /* ==================== Resources Section ==================== */
+      .resources {
+        margin-bottom: 64px;
+      }
+
+      .section-header {
         text-align: center;
-        margin-bottom: 2rem;
-      }
-      .link-desc {
-        font-size: 0.7rem;  
-        color: var(--text-muted);  /* 可选：用更淡的颜色 */
-        line-height: 1.4;     /* 可选：稍微紧一点的行距 */
-      }
-      .resources-title {
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 0.16em;
-        color: var(--text-muted);
-        margin-bottom: 0.6rem;
+        margin-bottom: 40px;
       }
 
-      .resources-subtitle {
-        font-size: 0.9rem;
-        color: var(--text-muted);
-        margin-bottom: 1.1rem;
+      .section-label {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 8px;
+        padding: 4px 12px;
+        background: var(--accent-soft);
+        border-radius: 20px;
+        border: 1px solid rgba(0, 102, 255, 0.2);
+      }
+
+      .section-title {
+        margin: 0 0 12px 0;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .section-description {
+        margin: 0;
+        font-size: 16px;
+        color: var(--text-secondary);
+        max-width: 500px;
+        margin: 0 auto;
       }
 
       .resources-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-        gap: 0.9rem;
-        justify-items: stretch;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
       }
 
-      .resource-btn {
-        position: relative;
+      .resource-card {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        text-align: left;
-        min-height: 90px;
-        padding: 0.9rem 1rem;
-        border-radius: 16px; /* 圆角方块 */
-        border: 1px solid var(--border-subtle);
-        background: linear-gradient(135deg, #f9fafb, #eff6ff);
+        padding: 32px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
         text-decoration: none;
-        color: var(--text-main);
-        box-shadow:
-          0 10px 22px rgba(148, 163, 184, 0.25),
-          0 0 0 1px rgba(255, 255, 255, 0.9);
-        transition:
-          transform 0.15s ease-out,
-          box-shadow 0.15s ease-out,
-          border-color 0.15s ease-out,
-          background 0.15s ease-out;
-        width: 100%;
+        color: inherit;
+        transition: var(--transition);
+        position: relative;
+        overflow: hidden;
       }
 
-      .resource-btn:hover {
-        transform: translateY(-2px) scale(1.02);
-        box-shadow:
-          0 16px 34px rgba(148, 163, 184, 0.35),
-          0 0 0 1px rgba(209, 213, 219, 0.8);
-        border-color: rgba(37, 99, 235, 0.35);
-        background: linear-gradient(135deg, #eff6ff, #e0edff);
+      .resource-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent), rgba(0, 102, 255, 0));
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+      }
+
+      .resource-card:hover {
+        border-color: var(--accent);
+        box-shadow: var(--shadow-md);
+        transform: translateY(-4px);
+      }
+
+      .resource-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .resource-icon {
+        font-size: 32px;
+        margin-bottom: 12px;
       }
 
       .resource-label {
-        font-size: 0.78rem;
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--accent);
         text-transform: uppercase;
-        letter-spacing: 0.12em;
-        color: var(--text-muted);
-        margin-bottom: 0.15rem;
+        letter-spacing: 0.08em;
+        margin-bottom: 8px;
       }
 
       .resource-title {
-        font-size: 0.9rem;
-        font-weight: 600;
-        color: var(--accent-strong);
+        margin: 0 0 8px 0;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
       }
 
-      .divider {
-        margin-top: 0.4rem;
-        margin-bottom: 1.4rem;
-        height: 1px;
-        background: linear-gradient(
-          to right,
-          transparent,
-          rgba(209, 213, 219, 0.9),
-          transparent
-        );
-      }
-
-      .section {
-        margin-top: 0.4rem;
-      }
-
-      .section-title {
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 0.16em;
-        color: var(--text-muted);
-        margin-bottom: 0.55rem;
-      }
-
-      .pill-list {
-        list-style: none;
-        padding: 0;
+      .resource-description {
         margin: 0;
+        font-size: 14px;
+        color: var(--text-secondary);
+        line-height: 1.6;
+        flex-grow: 1;
+      }
+
+      /* ==================== Table Section ==================== */
+      .survey-section {
+        margin-bottom: 64px;
+      }
+
+      .table-container {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .table-header {
+        padding: 24px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .table-controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+
+      .control-group {
         display: flex;
-        flex-wrap: wrap;
-        gap: 0.45rem;
+        flex-direction: column;
+        gap: 6px;
       }
 
-      .pill-list li {
-        font-size: 0.83rem;
-        padding: 0.25rem 0.75rem;
-        border-radius: var(--radius-pill);
-        background: var(--pill-bg);
-        border: 1px solid rgba(37, 99, 235, 0.18);
-        color: #1f2933;
+      .control-label {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
       }
 
-      .pill-list li strong {
-        color: var(--accent-strong);
+      input, select, button {
+        font-family: 'Geist', sans-serif;
       }
 
-      pre {
-        margin: 0.55rem 0 0;
-        background: var(--code-bg);
+      .input-field, .select-field {
+        padding: 10px 12px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        font-size: 14px;
+        background: var(--surface-alt);
+        color: var(--text-primary);
+        transition: var(--transition);
+      }
+
+      .input-field:focus, .select-field:focus {
+        outline: none;
+        border-color: var(--accent);
+        background: var(--surface);
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+
+      .btn {
+        padding: 10px 16px;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: var(--transition);
+        background: var(--surface);
+        color: var(--text-primary);
+      }
+
+      .btn:hover:not(:disabled) {
+        background: var(--surface-alt);
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .btn-primary {
+        background: var(--accent);
+        color: white;
+        border-color: var(--accent);
+      }
+
+      .btn-primary:hover:not(:disabled) {
+        background: var(--accent-strong);
+        border-color: var(--accent-strong);
+      }
+
+      .btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+
+      th {
+        padding: 12px 16px;
+        text-align: left;
+        font-weight: 600;
+        color: var(--text-secondary);
+        background: var(--surface-alt);
+        border-bottom: 1px solid var(--border);
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+      }
+
+      th.sortable:hover {
+        background: rgba(0, 102, 255, 0.04);
+      }
+
+      th.sortable::after {
+        content: ' ↕';
+        opacity: 0;
+        transition: opacity 0.2s;
+      }
+
+      th.sortable:hover::after {
+        opacity: 0.5;
+      }
+
+      td {
+        padding: 12px 16px;
+        border-bottom: 1px solid var(--border-light);
+        color: var(--text-primary);
+      }
+
+      tbody tr:hover {
+        background: var(--surface-alt);
+      }
+
+      .cell-link {
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
+      }
+
+      .cell-link:hover {
+        text-decoration: underline;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        background: var(--accent-soft);
+        color: var(--accent);
         border-radius: 12px;
-        border: 1px solid var(--border-subtle);
-        padding: 0.9rem 1rem;
-        overflow-x: auto;
-        font-size: 0.8rem;
+        font-size: 12px;
+        font-weight: 600;
+        border: 1px solid rgba(0, 102, 255, 0.2);
       }
 
-      code {
-        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-          "Courier New", monospace;
+      .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px;
+        border-top: 1px solid var(--border);
+        font-size: 14px;
+        color: var(--text-secondary);
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .pagination-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      /* ==================== Footer ==================== */
+      footer {
+        background: var(--bg-secondary);
+        padding: 48px 0 32px;
+        margin-top: 80px;
+        border-top: 1px solid var(--border);
+      }
+
+      .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+
+      .footer-section h3 {
+        margin: 0 0 16px 0;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .footer-link {
+        color: var(--text-secondary);
+        text-decoration: none;
+        font-size: 14px;
+        transition: var(--transition);
+      }
+
+      .footer-link:hover {
+        color: var(--accent);
+      }
+
+      .footer-bottom {
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        color: var(--text-tertiary);
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .bibtex {
+        background: var(--surface-alt);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        padding: 16px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        color: var(--text-primary);
+        overflow-x: auto;
+        line-height: 1.6;
+        margin-bottom: 40px;
+      }
+
+      @media (max-width: 768px) {
+        .hero-content {
+          grid-template-columns: 1fr;
+        }
+        .hero-left h2 {
+          font-size: 32px;
+        }
+        .stats {
+          grid-template-columns: 1fr;
+        }
+        .section-title {
+          font-size: 28px;
+        }
+        .resources-grid {
+          grid-template-columns: 1fr;
+        }
+        .table-controls {
+          grid-template-columns: 1fr;
+        }
+        .pagination {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .footer-content {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* ==================== Animations ==================== */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in {
+        animation: fadeInUp 0.6s ease-out forwards;
+      }
+
+      .delay-1 { animation-delay: 0.1s; }
+      .delay-2 { animation-delay: 0.2s; }
+      .delay-3 { animation-delay: 0.3s; }
+      .delay-4 { animation-delay: 0.4s; }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo-section">
+                    <img src="icon_.png" alt="Awesome Spatial VLMs" class="logo" />
+                    <div class="logo-text">
+                        <h1>Spatial VLMs</h1>
+                        <p>Research Hub</p>
+                    </div>
+                </a>
+                <nav>
+                    <a href="#resources" class="nav-link">Resources</a>
+                    <a href="#survey" class="nav-link">Survey</a>
+                    <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="nav-link primary">GitHub ↗</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left fade-in delay-1">
+                    <h2>Spatial Intelligence in Vision–Language Models</h2>
+                    <p>A comprehensive survey and evaluation toolkit for understanding how VLMs perceive and reason about spatial relationships, 3D geometry, and geometric understanding.</p>
+                    
+                    <div class="stats">
+                        <div class="stat fade-in delay-2">
+                            <div class="stat-value">Novel Structured Taxonomy</div>
+                            <div class="stat-label">of Spatial Intelligence in VLMs</div>
+                        </div>
+                        <div class="stat fade-in delay-2">
+                            <div class="stat-value">37 <span>Models</span></div>
+                            <div class="stat-label">Evaluated</div>
+                        </div>
+                        <div class="stat fade-in delay-3">
+                            <div class="stat-value">20+<span>Datasets;</span> 50+ <span>Benchmarks</span></div>
+                            <div class="stat-label">Collected</div>
+                        </div>
+                        <div class="stat fade-in delay-4">
+                            <div class="stat-value">120+ <span>Methodology Papers</span></div>
+                            <div class="stat-label">Curated</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources" id="resources">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Getting Started</div>
+                <h2 class="section-title">Key Resources</h2>
+                <p class="section-description">Everything you need to explore spatial intelligence in vision-language models</p>
+            </div>
+
+            <div class="resources-grid">
+                <a href="https://www.techrxiv.org/users/992599/articles/1354538/master/file/data/Spatial%20VLM%20Survey/Spatial%20VLM%20Survey.pdf?inline=true#scrollbar=1&toolbar=1&statusbar=1&navpanes=1#" class="resource-card fade-in delay-1">
+                    <div class="resource-icon">📄</div>
+                    <div class="resource-label">Survey</div>
+                    <h3 class="resource-title">Survey Paper</h3>
+                    <p class="resource-description">Comprehensive survey of spatial intelligence in VLMs. TechRxiv preprint 2025</p>
+                </a>
+
+                <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="resource-card fade-in delay-2">
+                    <div class="resource-icon">💻</div>
+                    <div class="resource-label">Code</div>
+                    <h3 class="resource-title">Repository</h3>
+                    <p class="resource-description">Full project repository with curated papers, code implementations, and resources</p>
+                </a>
+
+                <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/tree/main/evaluation" class="resource-card fade-in delay-3">
+                    <div class="resource-icon">🏆</div>
+                    <div class="resource-label">Evaluation</div>
+                    <h3 class="resource-title">Toolkit & Leaderboard</h3>
+                    <p class="resource-description">Reproducible evaluation scripts and benchmark leaderboard for all 37 models</p>
+                </a>
+
+                <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks" class="resource-card fade-in delay-4">
+                    <div class="resource-icon">📦</div>
+                    <div class="resource-label">Data</div>
+                    <h3 class="resource-title">Benchmark Datasets</h3>
+                    <p class="resource-description">Spatial VQA benchmarks and dataset resources for evaluation and research</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Survey Table -->
+    <section class="survey-section" id="survey">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Explore</div>
+                <h2 class="section-title">Research Papers</h2>
+                <p class="section-description">Browse and filter papers from our curated collection</p>
+                <p class="section-description"> (continuously update)</p>
+            </div>
+
+            <div class="table-container">
+                <div class="table-header">
+                  <div class="table-controls">
+                    <div class="control-group">
+                      <label class="control-label">Search</label>
+                      <input type="text" id="searchInput" class="input-field" placeholder="Search all fields...">
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">Main Section</label>
+                      <select id="mainSectionFilter" class="select-field">
+                        <option value="">All Main Sections</option>
+                      </select>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">Methodology</label>
+                      <select id="methodologyFilter" class="select-field">
+                        <option value="">All Methodologies</option>
+                      </select>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">Year</label>
+                      <select id="yearFilter" class="select-field">
+                        <option value="">All Years</option>
+                      </select>
+                    </div>
+
+                    <div class="control-group">
+                      <button onclick="clearAllFilters()" class="btn btn-primary">Clear Filters</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="overflow-x: auto;">
+                    <table id="surveyTable">
+                    <thead>
+                      <tr>
+                        <th class="sortable" data-column="0">Main Section</th>
+                        <th class="sortable" data-column="1">Methodology</th>
+                        <th class="sortable" data-column="2">Venue</th>
+                        <th class="sortable" data-column="3">Published</th>
+                        <th class="sortable" data-column="4">Title</th>
+                        <th class="sortable" data-column="5">Institution</th>
+                        <th>Paper</th>
+                        <th>Code</th>
+                        <th>Checkpoint</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                      <tr>
+                        <td colspan="9" style="text-align:center;padding:32px;">Loading research papers...</td>
+                      </tr>
+                    </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination">
+                    <div>
+                        Showing <span id="startRecord">0</span>-<span id="endRecord">0</span> of <span id="totalRecords">0</span> papers
+                    </div>
+                    <div class="pagination-controls">
+                        <button id="firstPage" class="btn">⏮</button>
+                        <button id="prevPage" class="btn">◀</button>
+                        <span>Page <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
+                        <button id="nextPage" class="btn">▶</button>
+                        <button id="lastPage" class="btn">⏭</button>
+                        <select id="recordsPerPage" class="select-field" style="width: auto; margin-left: 8px;">
+                            <option value="10" selected>10 per page</option>
+                            <option value="25">25 per page</option>
+                            <option value="50">50 per page</option>
+                            <option value="100">100 per page</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BibTeX Section -->
+    <section id="citation" class="citation-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">Citation</div>
+          <h2 class="section-title">Cite This Work</h2>
+          <p class="text-muted" style="margin-top: 0.5rem;">
+            If you find this survey useful, please consider citing it:
+          </p>
+        </div>
+
+        <div class="bibtex-card">
+          <div class="bibtex-toolbar">
+            <span class="bibtex-title">BibTeX</span>
+            <button class="btn btn-sm btn-outline-primary" type="button" onclick="copyBibtex()">
+              Copy
+            </button>
+          </div>
+
+          <pre id="bibtexBlock" class="bibtex-pre"><code>@article{liu2025spatialintelligence,
+      title        = {Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
+      author       = {Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+      year         = {2025},
+      month        = nov,
+      publisher    = {Institute of Electrical and Electronics Engineers (IEEE)},
+      doi          = {10.36227/techrxiv.176231405.57942913/v2},
+      url          = {http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2}
+    }</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function copyBibtex() {
+        const el = document.getElementById("bibtexBlock");
+        const text = el ? el.innerText : "";
+        if (!text) return;
+
+        navigator.clipboard.writeText(text).then(() => {
+          // optional: simple feedback
+          // alert("BibTeX copied!");
+        }).catch(() => {
+          // fallback for older browsers
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+        });
+      }
+    </script>
+
+    <style>
+      .bibtex-card {
+        border: 1px solid rgba(0,0,0,0.12);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      }
+
+      .bibtex-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 12px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        background: rgba(0,0,0,0.02);
+      }
+
+      .bibtex-title {
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .bibtex-pre {
+        margin: 0;
+        padding: 14px 16px;
+        max-height: 320px;
+        overflow: auto;
+        font-size: 0.9rem;
+        line-height: 1.45;
+        background: #0b1020;
+        color: #e6e6e6;
+      }
+
+      .bibtex-pre code {
         white-space: pre;
       }
-
-      .footer {
-        margin-top: 1.6rem;
-        font-size: 0.8rem;
-        color: var(--text-muted);
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        justify-content: space-between;
-      }
-
-      .footer span.right {
-        opacity: 0.9;
-      }
     </style>
-  </head>
 
-  <body>
-    <div class="shell">
-      <main class="card">
-        <!-- Header / Intro -->
-        <header class="header-block">
-          <div class="title-row">
-          <div class="cube-icon-wrap" aria-hidden="true">
-          <img
-            src="icon.svg"
-            alt="Awesome Spatial VLMs logo"
-            class="cube-icon"
-          />
-          </div>
-            <div>
-              <h1>Awesome Spatial VLMs</h1>
-              <div class="brand-tag">
-                <span class="brand-tag-dot"></span>
-                Spatial Intelligence in Vision–Language Models
-              </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Project</h3>
+                    <div class="footer-links">
+                        <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="footer-link">GitHub Repository</a>
+                        <a href="https://www.techrxiv.org/users/992599/articles/1354538/" class="footer-link">Survey Paper</a>
+                        <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks" class="footer-link">Datasets</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <div class="footer-links">
+                        <a href="#resources" class="footer-link">Key Resources</a>
+                        <a href="#survey" class="footer-link">Paper Survey</a>
+                        <a href="#" class="footer-link">Documentation</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Community</h3>
+                    <div class="footer-links">
+                        <a href="https://github.com/vulab-AI" class="footer-link">VULab AI</a>
+                        <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/issues" class="footer-link">Issues & Discussion</a>
+                        <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/pulls" class="footer-link">Contributions</a>
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <p >
-            Official site for <strong>Awesome Spatial VLMs</strong> project, a curated
-            resource and evaluation toolkit for spatial intelligence in
-            Vision–Language Models (VLMs).
-          </p>
+            <div class="footer-bottom">
+                <span>© 2025 Awesome Spatial VLMs by VULab-AI</span>
+                <span>Last updated: Dec. 2025</span>
+            </div>
+        </div>
+    </footer>
 
-          <div class="divider" aria-hidden="true"></div>
-
-          <!-- Highlights -->
-          <section class="section" aria-label="Highlights">
-            <div class="section-title">Highlights</div>
-            <ul class="pill-list">
-              <li>
-                <strong>Structured taxonomy</strong> of spatial intelligence in VLMs
-              </li>
-              <li>
-                <strong>20+</strong> datasets, <strong>50+</strong> benchmarks, and <strong>120+</strong> method papers
-              </li>
-              <li>
-                Comprehensive evaluation across <strong>37</strong> methods
-              </li>
-            </ul>
-          </section>
-    
-          <!-- <div class="metrics">
-            <span><strong>3</strong> spatial cognitive levels</span>
-            <span><strong>37</strong> evaluated VLMs</span>
-            <span><strong>50+</strong> spatial benchmarks</span>
-            <span><strong>120+</strong> research papers</span>
-          </div> -->
-        </header>
-
-        <div class="divider" aria-hidden="true"></div>
-        <!-- Centered key resources as cards -->
-        <section class="resources-section" aria-label="Key resources">
-          <div class="resources-title">Key resources</div>
-          <div class="resources-subtitle">
-            Jump directly to the main artifacts of the project.
-          </div>
-
-          <div class="resources-grid">
-            <a
-              class="resource-btn"
-              href="https://www.techrxiv.org/users/992599/articles/1354538/master/file/data/Spatial%20VLM%20Survey/Spatial%20VLM%20Survey.pdf?inline=true#scrollbar=1&toolbar=1&statusbar=1&navpanes=1#"
-            >
-              <div class="resource-label">📄  Survey paper</div>
-              <div class="resource-title">Comprehensive survey PDF</div>
-              <div class="link-desc">TechRxiv preprint · 2025</div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs"
-            >
-              <div class="resource-label">💻 GitHub repository</div>
-              <div class="resource-title">Awesome-Spatial-VLMs</div>
-              <div class="link-desc">Project repository with papers and code </div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/tree/main/evaluation"
-            >
-              <div class="resource-label">🏆  Evaluation toolkit</div>
-              <div class="resource-title">
-                Evaluation code &amp; leaderboard
-              </div>
-              <div class="link-desc">Reproducible evaluation scripts</div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"
-            >
-              <div class="resource-label">📦 Benchmarks dataset</div>
-              <div class="resource-title">
-                Spatial VQA Benchmarks
-              </div>
-              <div class="link-desc">Dataset resources used in survey paper</div>
-            </a>
-          </div>
-        </section>
-
-        <div class="divider" aria-hidden="true"></div>
-
-
-
-        <!-- BibTeX -->
-        <section class="section" aria-label="BibTeX">
-          <div class="section-title">BibTeX</div>
-          <pre><code>@article{Liu_2025,
-  title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
-  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
-  DOI={10.36227/techrxiv.176231405.57942913/v2},
-  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
-  year={2025},
-  month=nov
-}</code></pre>
-        </section>
-
-        <footer class="footer">
-          <span>Maintained by 
-            <a href="https://github.com/vulab-AI" target="_blank" rel="noopener noreferrer">
-              vulab-AI
-            </a>
-          </span>
-          <span class="right">Last updated: 2025</span>
-        </footer>
-      </main>
-    </div>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        // Placeholder for main.js functionality
+        // Include your existing table management code here
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize animations
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach(el => {
+                el.style.opacity = '1';
+            });
+        });
+    </script>
+</body>
 </html>
