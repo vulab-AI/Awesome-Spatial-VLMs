@@ -140,7 +140,6 @@ This repository uses the framework from our survey paper to systematically organ
   - [COLING2025] Scaffolding coordinates to promote vision-language coordination in large multi-modal models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
 
   - [CVPR2025] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST(Guangzhou)_) [[paper]](https://arxiv.org/pdf/2412.04383) [[code]](https://github.com/iris0329/SeeGround);
-</details>
 
   - [arXiv2026] CoV: Chain-of-View Prompting for Spatial Reasoning (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2601.05172) [[code]](https://github.com/ziplab/CoV?tab=readme-ov-file);
 </details>
