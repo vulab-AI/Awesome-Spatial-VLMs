@@ -46,163 +46,6 @@
         scroll-behavior: smooth;
       }
 
-
-      /* ===== Survey Table Layout ===== */
-
-      .survey-section .table-container{
-        background: rgba(255,255,255,0.75);
-        border: 1px solid rgba(0,0,0,0.08);
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-        overflow: hidden;
-      }
-
-      /* header (filters area) */
-      .table-header{
-        padding: 18px 18px 6px;
-        border-bottom: 1px solid rgba(0,0,0,0.06);
-        background: rgba(255,255,255,0.6);
-        backdrop-filter: blur(8px);
-      }
-
-      .table-controls{
-        display: grid;
-        grid-template-columns: 1.3fr 1fr 1fr 0.8fr auto;
-        gap: 12px;
-        align-items: end;
-      }
-
-      .control-group{
-        min-width: 0;
-      }
-
-      .control-label{
-        display: block;
-        font-size: 12px;
-        opacity: 0.75;
-        margin-bottom: 6px;
-      }
-
-      .input-field,
-      .select-field{
-        width: 100%;
-        height: 40px;
-        padding: 8px 10px;
-        border-radius: 10px;
-        border: 1px solid rgba(0,0,0,0.12);
-        background: white;
-      }
-
-      .table-controls .btn{
-        height: 40px;
-        border-radius: 10px;
-        padding: 0 14px;
-        white-space: nowrap;
-      }
-
-      /* scroll wrapper */
-      .table-scroll{
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* table base */
-      #surveyTable{
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed;
-        font-size: 14px;
-        min-width: 980px; /* 让小屏横向滚动更自然；你可改 900/1100 */
-      }
-
-      #surveyTable th,
-      #surveyTable td{
-        padding: 10px 12px;
-        border-bottom: 1px solid rgba(0,0,0,0.06);
-        vertical-align: top;
-      }
-
-      /* header */
-      #surveyTable thead th{
-        position: sticky; /* 可选：表头固定 */
-        top: 0;
-        background: rgba(255,255,255,0.92);
-        backdrop-filter: blur(6px);
-        z-index: 2;
-        font-weight: 600;
-        white-space: nowrap;
-      }
-
-      /* hover row */
-      #surveyTable tbody tr:hover{
-        background: rgba(0,0,0,0.02);
-      }
-
-      /* column widths (按你9列优化) */
-      #surveyTable th:nth-child(1), #surveyTable td:nth-child(1){ width: 14%; }
-      #surveyTable th:nth-child(2), #surveyTable td:nth-child(2){ width: 16%; }
-      #surveyTable th:nth-child(3), #surveyTable td:nth-child(3){ width: 10%; }
-      #surveyTable th:nth-child(4), #surveyTable td:nth-child(4){ width: 10%; }
-      #surveyTable th:nth-child(5), #surveyTable td:nth-child(5){ width: 28%; }
-      #surveyTable th:nth-child(6), #surveyTable td:nth-child(6){ width: 14%; }
-      #surveyTable th:nth-child(7), #surveyTable td:nth-child(7){ width: 6%; }
-      #surveyTable th:nth-child(8), #surveyTable td:nth-child(8){ width: 6%; }
-      #surveyTable th:nth-child(9), #surveyTable td:nth-child(9){ width: 8%; }
-
-      /* Title wrap, other cols keep neat */
-      #surveyTable td:nth-child(5){
-        white-space: normal;
-        word-break: break-word;
-      }
-
-      /* link cols no wrap */
-      #surveyTable td:nth-child(7),
-      #surveyTable td:nth-child(8),
-      #surveyTable td:nth-child(9){
-        white-space: nowrap;
-      }
-
-      /* pagination */
-      .pagination{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 12px;
-        padding: 14px 18px 18px;
-      }
-
-      .pagination-controls{
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-      }
-
-      .pagination .btn{
-        height: 34px;
-        padding: 0 10px;
-        border-radius: 10px;
-      }
-
-      /* responsive */
-      @media (max-width: 1100px){
-        .table-controls{
-          grid-template-columns: 1fr 1fr;
-        }
-        .table-controls .control-group:last-child{
-          grid-column: 1 / -1; /* clear button full width */
-        }
-      }
-
-      @media (max-width: 640px){
-        .table-header{ padding: 14px 14px 6px; }
-        .pagination{
-          flex-direction: column;
-          align-items: flex-start;
-        }
-      }
-
-
       body {
         margin: 0;
         font-family: 'Geist', system-ui, -apple-system, sans-serif;
@@ -215,6 +58,13 @@
 
       .container {
         max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* ====== 表格专用的宽容器 ====== */
+      .container-wide {
+        max-width: 1600px;
         margin: 0 auto;
         padding: 0 20px;
       }
@@ -544,80 +394,80 @@
         flex-grow: 1;
       }
 
-      /* ==================== Table Section ==================== */
+      /* ==================== Survey Table Section ==================== */
       .survey-section {
         margin-bottom: 64px;
       }
 
-      .table-container {
-        background: var(--surface);
-        border: 1px solid var(--border);
-        border-radius: var(--radius-lg);
+      .survey-section .table-container {
+        background: rgba(255,255,255,0.75);
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.06);
         overflow: hidden;
-        box-shadow: var(--shadow-sm);
       }
 
       .table-header {
-        padding: 24px;
-        border-bottom: 1px solid var(--border);
+        padding: 18px 18px 12px;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        background: rgba(255,255,255,0.6);
+        backdrop-filter: blur(8px);
       }
 
       .table-controls {
         display: grid;
-        grid-template-columns: 1fr 1fr auto;
-        gap: 16px;
-        margin-bottom: 20px;
+        grid-template-columns: 1.5fr 1fr 1fr 0.7fr auto;
+        gap: 12px;
+        align-items: end;
       }
 
       .control-group {
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
+        min-width: 0;
       }
 
       .control-label {
-        font-size: 13px;
+        display: block;
+        font-size: 12px;
         font-weight: 600;
         color: var(--text-secondary);
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
+        margin-bottom: 6px;
       }
 
-      input, select, button {
-        font-family: 'Geist', sans-serif;
-      }
-
-      .input-field, .select-field {
-        padding: 10px 12px;
-        border: 1px solid var(--border);
-        border-radius: var(--radius-md);
+      .input-field,
+      .select-field {
+        width: 100%;
+        height: 40px;
+        padding: 8px 12px;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.12);
+        background: white;
         font-size: 14px;
-        background: var(--surface-alt);
-        color: var(--text-primary);
+        font-family: inherit;
         transition: var(--transition);
       }
 
-      .input-field:focus, .select-field:focus {
+      .input-field:focus,
+      .select-field:focus {
         outline: none;
         border-color: var(--accent);
-        background: var(--surface);
         box-shadow: 0 0 0 3px var(--accent-soft);
       }
 
       .btn {
-        padding: 10px 16px;
+        height: 40px;
+        padding: 0 16px;
+        border-radius: 10px;
         border: 1px solid var(--border);
-        border-radius: var(--radius-md);
+        background: var(--surface);
         font-size: 14px;
         font-weight: 600;
+        font-family: inherit;
         cursor: pointer;
         transition: var(--transition);
-        background: var(--surface);
-        color: var(--text-primary);
+        white-space: nowrap;
       }
 
       .btn:hover:not(:disabled) {
-        background: var(--surface-alt);
         border-color: var(--accent);
         color: var(--accent);
       }
@@ -631,6 +481,7 @@
       .btn-primary:hover:not(:disabled) {
         background: var(--accent-strong);
         border-color: var(--accent-strong);
+        color: white;
       }
 
       .btn:disabled {
@@ -638,89 +489,204 @@
         cursor: not-allowed;
       }
 
-      table {
+      /* 表格滚动容器 */
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* 表格基础样式 */
+      #surveyTable {
         width: 100%;
         border-collapse: collapse;
-        font-size: 14px;
+        table-layout: fixed;
+        font-size: 13px;
+        min-width: 1200px;
       }
 
-      th {
-        padding: 12px 16px;
+      #surveyTable th,
+      #surveyTable td {
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        vertical-align: top;
         text-align: left;
+      }
+
+      #surveyTable thead th {
+        position: sticky;
+        top: 0;
+        background: rgba(248,249,250,0.95);
+        backdrop-filter: blur(6px);
+        z-index: 2;
         font-weight: 600;
-        color: var(--text-secondary);
-        background: var(--surface-alt);
-        border-bottom: 1px solid var(--border);
-        text-transform: uppercase;
         font-size: 12px;
-        letter-spacing: 0.05em;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
         cursor: pointer;
         user-select: none;
-        position: relative;
       }
 
-      th.sortable:hover {
-        background: rgba(0, 102, 255, 0.04);
+      #surveyTable th.sortable:hover {
+        background: rgba(0, 102, 255, 0.06);
       }
 
-      th.sortable::after {
+      #surveyTable th.sortable::after {
         content: ' ↕';
-        opacity: 0;
-        transition: opacity 0.2s;
+        opacity: 0.3;
+        font-size: 10px;
       }
 
-      th.sortable:hover::after {
-        opacity: 0.5;
+      #surveyTable th.sortable[data-order="asc"]::after {
+        content: ' ▲';
+        opacity: 1;
       }
 
-      td {
-        padding: 12px 16px;
-        border-bottom: 1px solid var(--border-light);
-        color: var(--text-primary);
+      #surveyTable th.sortable[data-order="desc"]::after {
+        content: ' ▼';
+        opacity: 1;
       }
 
-      tbody tr:hover {
-        background: var(--surface-alt);
+      #surveyTable tbody tr:hover {
+        background: rgba(0,0,0,0.02);
       }
 
-      .cell-link {
+      /* ====== 优化的列宽分配 ====== */
+      #surveyTable th:nth-child(1), #surveyTable td:nth-child(1) { width: 11%; }  /* Main Section */
+      #surveyTable th:nth-child(2), #surveyTable td:nth-child(2) { width: 14%; }  /* Methodology */
+      #surveyTable th:nth-child(3), #surveyTable td:nth-child(3) { width: 7%; }   /* Venue */
+      #surveyTable th:nth-child(4), #surveyTable td:nth-child(4) { width: 8%; }   /* Published */
+      #surveyTable th:nth-child(5), #surveyTable td:nth-child(5) { width: 32%; }  /* Title - 最宽 */
+      #surveyTable th:nth-child(6), #surveyTable td:nth-child(6) { width: 13%; }  /* Institution */
+      #surveyTable th:nth-child(7), #surveyTable td:nth-child(7) { width: 5%; }   /* Paper */
+      #surveyTable th:nth-child(8), #surveyTable td:nth-child(8) { width: 5%; }   /* Code */
+      #surveyTable th:nth-child(9), #surveyTable td:nth-child(9) { width: 5%; }   /* Checkpoint */
+
+      /* Title 列允许换行 */
+      #surveyTable td:nth-child(5) {
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1.4;
+      }
+
+      /* 链接列不换行 */
+      #surveyTable td:nth-child(7),
+      #surveyTable td:nth-child(8),
+      #surveyTable td:nth-child(9) {
+        white-space: nowrap;
+        text-align: center;
+      }
+
+      #surveyTable td a {
         color: var(--accent);
         text-decoration: none;
         font-weight: 500;
-        transition: var(--transition);
+        font-size: 12px;
       }
 
-      .cell-link:hover {
+      #surveyTable td a:hover {
         text-decoration: underline;
       }
 
-      .badge {
-        display: inline-block;
-        padding: 4px 10px;
-        background: var(--accent-soft);
-        color: var(--accent);
-        border-radius: 12px;
-        font-size: 12px;
-        font-weight: 600;
-        border: 1px solid rgba(0, 102, 255, 0.2);
-      }
-
+      /* 分页栏 */
       .pagination {
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        padding: 24px;
-        border-top: 1px solid var(--border);
+        align-items: center;
+        gap: 12px;
+        padding: 14px 18px;
+        border-top: 1px solid rgba(0,0,0,0.06);
         font-size: 14px;
         color: var(--text-secondary);
         flex-wrap: wrap;
-        gap: 16px;
       }
 
       .pagination-controls {
         display: flex;
         align-items: center;
         gap: 8px;
+        flex-wrap: wrap;
+      }
+
+      .pagination .btn {
+        height: 34px;
+        padding: 0 12px;
+        min-width: 34px;
+      }
+
+      .pagination .select-field {
+        height: 34px;
+        width: auto;
+        padding: 4px 8px;
+      }
+
+      /* 响应式 */
+      @media (max-width: 1400px) {
+        .container-wide {
+          max-width: 100%;
+          padding: 0 16px;
+        }
+      }
+
+      @media (max-width: 1100px) {
+        .table-controls {
+          grid-template-columns: 1fr 1fr;
+        }
+        .table-controls .control-group:nth-child(5) {
+          grid-column: 1 / -1;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .table-header {
+          padding: 14px;
+        }
+        .table-controls {
+          grid-template-columns: 1fr;
+        }
+        .pagination {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      /* ==================== Citation Section ==================== */
+      .bibtex-card {
+        border: 1px solid rgba(0,0,0,0.12);
+        border-radius: 12px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+      }
+
+      .bibtex-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 12px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        background: rgba(0,0,0,0.02);
+      }
+
+      .bibtex-title {
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+
+      .bibtex-pre {
+        margin: 0;
+        padding: 14px 16px;
+        max-height: 320px;
+        overflow: auto;
+        font-size: 0.9rem;
+        line-height: 1.45;
+        background: #0b1020;
+        color: #e6e6e6;
+      }
+
+      .bibtex-pre code {
+        white-space: pre;
       }
 
       /* ==================== Footer ==================== */
@@ -774,41 +740,12 @@
         gap: 16px;
       }
 
-      .bibtex {
-        background: var(--surface-alt);
-        border: 1px solid var(--border);
-        border-radius: var(--radius-md);
-        padding: 16px;
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 12px;
-        color: var(--text-primary);
-        overflow-x: auto;
-        line-height: 1.6;
-        margin-bottom: 40px;
-      }
-
       @media (max-width: 768px) {
-        .hero-content {
-          grid-template-columns: 1fr;
-        }
-        .hero-left h2 {
-          font-size: 32px;
-        }
-        .stats {
-          grid-template-columns: 1fr;
-        }
         .section-title {
           font-size: 28px;
         }
         .resources-grid {
           grid-template-columns: 1fr;
-        }
-        .table-controls {
-          grid-template-columns: 1fr;
-        }
-        .pagination {
-          flex-direction: column;
-          align-items: flex-start;
         }
         .footer-content {
           grid-template-columns: 1fr;
@@ -933,69 +870,70 @@
 
     <!-- Interactive Survey Table -->
     <section class="survey-section" id="survey">
-        <div class="container">
+        <!-- 使用更宽的容器 -->
+        <div class="container-wide">
             <div class="section-header">
                 <div class="section-label">Explore</div>
                 <h2 class="section-title">Research Papers</h2>
                 <p class="section-description">Browse and filter papers from our curated collection</p>
-                <p class="section-description"> (continuously update)</p>
+                <p class="section-description">(continuously update)</p>
             </div>
 
             <div class="table-container">
                 <div class="table-header">
-                  <div class="table-controls">
-                    <div class="control-group">
-                      <label class="control-label">Search</label>
-                      <input type="text" id="searchInput" class="input-field" placeholder="Search all fields...">
-                    </div>
+                    <div class="table-controls">
+                        <div class="control-group">
+                            <label class="control-label">Search</label>
+                            <input type="text" id="searchInput" class="input-field" placeholder="Search all fields...">
+                        </div>
 
-                    <div class="control-group">
-                      <label class="control-label">Main Section</label>
-                      <select id="mainSectionFilter" class="select-field">
-                        <option value="">All Main Sections</option>
-                      </select>
-                    </div>
+                        <div class="control-group">
+                            <label class="control-label">Main Section</label>
+                            <select id="mainSectionFilter" class="select-field">
+                                <option value="">All Main Sections</option>
+                            </select>
+                        </div>
 
-                    <div class="control-group">
-                      <label class="control-label">Methodology</label>
-                      <select id="methodologyFilter" class="select-field">
-                        <option value="">All Methodologies</option>
-                      </select>
-                    </div>
+                        <div class="control-group">
+                            <label class="control-label">Methodology</label>
+                            <select id="methodologyFilter" class="select-field">
+                                <option value="">All Methodologies</option>
+                            </select>
+                        </div>
 
-                    <div class="control-group">
-                      <label class="control-label">Year</label>
-                      <select id="yearFilter" class="select-field">
-                        <option value="">All Years</option>
-                      </select>
-                    </div>
+                        <div class="control-group">
+                            <label class="control-label">Year</label>
+                            <select id="yearFilter" class="select-field">
+                                <option value="">All Years</option>
+                            </select>
+                        </div>
 
-                    <div class="control-group">
-                      <button onclick="clearAllFilters()" class="btn btn-primary">Clear Filters</button>
+                        <div class="control-group" style="align-self: end;">
+                            <button onclick="clearAllFilters()" class="btn btn-primary">Clear Filters</button>
+                        </div>
                     </div>
-                  </div>
                 </div>
 
-                <div style="overflow-x: auto;">
+                <div class="table-scroll">
                     <table id="surveyTable">
-                    <thead>
-                      <tr>
-                        <th class="sortable" data-column="0">Main Section</th>
-                        <th class="sortable" data-column="1">Methodology</th>
-                        <th class="sortable" data-column="2">Venue</th>
-                        <th class="sortable" data-column="3">Published</th>
-                        <th class="sortable" data-column="4">Title</th>
-                        <th class="sortable" data-column="5">Institution</th>
-                        <th>Paper</th>
-                        <th>Code</th>
-                        <th>Checkpoint</th>
-                      </tr>
-                    </thead>
-                    <tbody id="tableBody">
-                      <tr>
-                        <td colspan="9" style="text-align:center;padding:32px;">Loading research papers...</td>
-                      </tr>
-                    </tbody>
+                        <thead>
+                            <tr>
+                                <th class="sortable" data-column="0">Main Section</th>
+                                <th class="sortable" data-column="1">Methodology</th>
+                                <th class="sortable" data-column="2">Venue</th>
+                                <th class="sortable" data-column="3">Published</th>
+                                <th class="sortable" data-column="4">Title</th>
+                                <th class="sortable" data-column="5">Institution</th>
+                                <th>Paper</th>
+                                <th>Code</th>
+                                <th>Checkpoint</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td colspan="9" style="text-align:center;padding:32px;">Loading research papers...</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
@@ -1009,7 +947,7 @@
                         <span>Page <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
                         <button id="nextPage" class="btn">▶</button>
                         <button id="lastPage" class="btn">⏭</button>
-                        <select id="recordsPerPage" class="select-field" style="width: auto; margin-left: 8px;">
+                        <select id="recordsPerPage" class="select-field">
                             <option value="10" selected>10 per page</option>
                             <option value="25">25 per page</option>
                             <option value="50">50 per page</option>
@@ -1023,24 +961,22 @@
 
     <!-- BibTeX Section -->
     <section id="citation" class="citation-section">
-      <div class="container">
-        <div class="section-header">
-          <div class="section-label">Citation</div>
-          <h2 class="section-title">Cite This Work</h2>
-          <p class="text-muted" style="margin-top: 0.5rem;">
-            If you find this survey useful, please consider citing it:
-          </p>
-        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Citation</div>
+                <h2 class="section-title">Cite This Work</h2>
+                <p class="section-description" style="margin-top: 0.5rem;">
+                    If you find this survey useful, please consider citing it:
+                </p>
+            </div>
 
-        <div class="bibtex-card">
-          <div class="bibtex-toolbar">
-            <span class="bibtex-title">BibTeX</span>
-            <button class="btn btn-sm btn-outline-primary" type="button" onclick="copyBibtex()">
-              Copy
-            </button>
-          </div>
+            <div class="bibtex-card">
+                <div class="bibtex-toolbar">
+                    <span class="bibtex-title">BibTeX</span>
+                    <button class="btn" type="button" onclick="copyBibtex()">Copy</button>
+                </div>
 
-          <pre id="bibtexBlock" class="bibtex-pre"><code>@article{liu2025spatialintelligence,
+                <pre id="bibtexBlock" class="bibtex-pre"><code>@article{liu2025spatialintelligence,
       title        = {Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
       author       = {Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
       year         = {2025},
@@ -1049,69 +985,9 @@
       doi          = {10.36227/techrxiv.176231405.57942913/v2},
       url          = {http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2}
     }</code></pre>
+            </div>
         </div>
-      </div>
     </section>
-
-    <script>
-      function copyBibtex() {
-        const el = document.getElementById("bibtexBlock");
-        const text = el ? el.innerText : "";
-        if (!text) return;
-
-        navigator.clipboard.writeText(text).then(() => {
-          // optional: simple feedback
-          // alert("BibTeX copied!");
-        }).catch(() => {
-          // fallback for older browsers
-          const ta = document.createElement("textarea");
-          ta.value = text;
-          document.body.appendChild(ta);
-          ta.select();
-          document.execCommand("copy");
-          document.body.removeChild(ta);
-        });
-      }
-    </script>
-
-    <style>
-      .bibtex-card {
-        border: 1px solid rgba(0,0,0,0.12);
-        border-radius: 12px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-      }
-
-      .bibtex-toolbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px 12px;
-        border-bottom: 1px solid rgba(0,0,0,0.08);
-        background: rgba(0,0,0,0.02);
-      }
-
-      .bibtex-title {
-        font-weight: 600;
-        font-size: 0.95rem;
-      }
-
-      .bibtex-pre {
-        margin: 0;
-        padding: 14px 16px;
-        max-height: 320px;
-        overflow: auto;
-        font-size: 0.9rem;
-        line-height: 1.45;
-        background: #0b1020;
-        color: #e6e6e6;
-      }
-
-      .bibtex-pre code {
-        white-space: pre;
-      }
-    </style>
 
     <!-- Footer -->
     <footer>
@@ -1153,10 +1029,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
     <script src="./js/main.js"></script>
     <script>
-        // Placeholder for main.js functionality
-        // Include your existing table management code here
+        function copyBibtex() {
+            const el = document.getElementById("bibtexBlock");
+            const text = el ? el.innerText : "";
+            if (!text) return;
+
+            navigator.clipboard.writeText(text).then(() => {
+                // optional feedback
+            }).catch(() => {
+                const ta = document.createElement("textarea");
+                ta.value = text;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand("copy");
+                document.body.removeChild(ta);
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize animations
             const elements = document.querySelectorAll('.fade-in');
             elements.forEach(el => {
                 el.style.opacity = '1';
