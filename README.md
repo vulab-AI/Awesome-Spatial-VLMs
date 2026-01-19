@@ -33,7 +33,7 @@ This repository is the official, community-maintained resource for the survey pa
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
   <br/>
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md"><img src="https://img.shields.io/badge/Training-22%20datasets-teal?style=flat"alt="Training - 22 datasets"></a>&nbsp;
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md"><img src="https://img.shields.io/badge/Evaluation-52%20benchmarks-orange?style=flat" alt="Evaluation - 52 benchmarks"></a>&nbsp;
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md"><img src="https://img.shields.io/badge/Evaluation-53%20benchmarks-orange?style=flat" alt="Evaluation - 53 benchmarks"></a>&nbsp;
 </p>
 
 🤝 This repository will be continuously updated, and we warmly invite contributions. **If you have a paper, dataset, or model to add, please submit a pull request or open an issue for discussion.**
