@@ -171,9 +171,9 @@
       <td>${escapeHtml(pub)}</td>
       <td>${escapeHtml(title)}</td>
       <td>${escapeHtml(inst)}</td>
-      <td>${linkOrEmpty(paper, "paper")}</td>
-      <td>${linkOrEmpty(code, "code")}</td>
-      <td>${linkOrEmpty(ckpt, "checkpoint")}</td>
+      <td>${linkOrEmpty(paper, "Open ↗")}</td>
+      <td>${linkOrEmpty(code, "Open ↗")}</td>
+      <td>${linkOrEmpty(ckpt, "Open ↗")}</td>
     `;
     return tr;
   }
