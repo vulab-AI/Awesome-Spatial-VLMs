@@ -20,10 +20,19 @@
     <a href="https://yin-yu.github.io/">Yu Yin</a>
   </p> -->
 
-> A curated list of resources for Spatial Intelligence in Vision-Language Models.  
-> This repository is actively maintained. You can watch it to stay updated on the latest developments and benchmark your VLM using our evaluation code. If you find it useful, please consider STARRING 🌟 the project and sharing it with others.
+>A curated hub for Spatial Intelligence in Vision-Language Models.   
+>Actively maintained—watch for updates, benchmark your VLM with our evaluation code, and consider starring 🌟 and sharing if helpful.
 
-This repository is the official, community-maintained resource for the survey paper: **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**
+This repository is the official, community-maintained resource for our survey paper:  **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**.  
+We host an official website for streamlined navigation and well-organized resources: 👉 [Website 🔗](https://vulab-ai.github.io/Awesome-Spatial-VLMs/)
+
+<p align="center">
+  <a href="./website.png">
+    <img src="./website.png" alt="Cover Image" width="88%">
+  </a>
+</p>
+
+
 
 <p align="center">
 <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176231405.57942913/v2">
@@ -40,34 +49,22 @@ This repository is the official, community-maintained resource for the survey pa
 
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [🚀 Awesome Papers](#-awesome-papers)
-  - [Training-Free Prompting](#training-free-prompting)
-    - [Textual Prompting Methods](#textual-prompting-methods)
-    - [Visual Prompting Methods](#visual-prompting-methods)
-    - [Hybrid Prompting](#hybrid-prompting)
-  - [Model-Centric Enhancements](#model-centric-enhancements)
-    - [Advanced Training Strategies](#advanced-training-strategies)
-    - [Architectural Enhancements](#architectural-enhancements)
-    - [Encoder-Level Improvements](#encoder-level-improvements)
-  - [Explicit 2D Information Injection](#explicit-2d-information-injection)
-    - [Object Region Guidance](#object-region-guidance)
-    - [Explicit spatial relationship](#explicit-spatial-relationship)
-  - [3D Information Enhancement](#3d-information-enhancement)
-    - [Explicit 3D Geometric Representations](#explicit-3d-geometric-representations)
-    - [Implicit 3D from Egocentric Views](#implicit-3d-from-egocentric-views)
-    - [Scene-level information + Ego-centric](#scene-level-information--ego-centric)
-  - [Data-Centric Spatial Enhancement](#data-centric-spatial-enhancement)
-    - [Manifesting Spatial Relations in 2D Images](#manifesting-spatial-relations-in-2d-images)
-    - [Manifesting Spatial Priors in 3D and Synthetic Worlds](#manifesting-spatial-priors-in-3d-and-synthetic-worlds)
-- [📚 Datasets and Benchmarks](#-datasets-and-benchmarks)
-  - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
-  - [Evaluation Benchmarks](#evaluation-benchmarks)
-- [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
-  - [🏅 Main Leaderboard](#-main-leaderboard)
-  - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
-- [Citation](#citation)
+- [Awesome Spatial VLMs    ](#awesome-spatial-vlms----)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [🚀 Awesome Papers](#-awesome-papers)
+    - [Training-Free Prompting](#training-free-prompting)
+    - [Model-Centric Enhancements](#model-centric-enhancements)
+    - [Explicit 2D Information Injection](#explicit-2d-information-injection)
+    - [3D Information Enhancement](#3d-information-enhancement)
+    - [Data-Centric Spatial Enhancement](#data-centric-spatial-enhancement)
+  - [📚 Datasets and Benchmarks](#-datasets-and-benchmarks)
+    - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
+    - [Evaluation Benchmarks](#evaluation-benchmarks)
+  - [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
+    - [🏅 Main Leaderboard](#-main-leaderboard)
+    - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
+  - [Citation](#citation)
 
 
 ## Overview
