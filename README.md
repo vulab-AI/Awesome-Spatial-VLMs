@@ -33,7 +33,6 @@ We host an official website for streamlined navigation and well-organized resour
 </p>
 
 
-
 <p align="center">
 <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176231405.57942913/v2">
   <img src="https://img.shields.io/badge/TechRxiv-Preprint-00629B?style=flat&logo=ieee&logoColor=white" alt="TechRxiv"></a>&nbsp;
@@ -123,6 +122,8 @@ This repository uses the framework from our survey paper to systematically organ
   - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://arxiv.org/pdf/2503.13185);
 </details>
 
+  - [arXiv2026] Think3D: Thinking with Space for Spatial Reasoning (_Dalian University of Technology_) [[paper]](https://arxiv.org/pdf/2601.13029) [[code]](https://github.com/zhangzaibin/spagent) [[checkpoint]](https://huggingface.co/jialianjie/SPAgent-4B);
+
 <a id="hybrid-prompting"></a>
 <details>
   <summary><b>Hybrid Prompting</b></summary>
@@ -187,6 +188,10 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] DepthLM: Metric Depth From Vision Language Models (_Meta_) [[paper]](https://arxiv.org/pdf/2509.25413#page=4.00) [[code]](https://github.com/facebookresearch/DepthLM_Official) [[checkpoint]](https://huggingface.co/facebook/DepthLM)
+  
+  <!-- New paper, excluded in survey -->
+  - [arXiv2026] Think3D: Thinking with Space for Spatial Reasoning (_Dalian University of Technology_) [[paper]](https://arxiv.org/pdf/2601.13029) [[code]](https://github.com/zhangzaibin/spagent) [[checkpoint]](https://huggingface.co/jialianjie/SPAgent-4B);
+
 
   - [CVPR2025] Perception Tokens Enhance Visual Reasoning in Multimodal Language Models (_University of Washington_) [[paper]](https://arxiv.org/pdf/2412.03548v1) [[code]](https://github.com/mahtabbigverdi/Aurora-perception) [[checkpoint]](https://drive.google.com/file/d/1r7WYQWYA6VDpzfxPIHP1zEUgBYQmwNIj/view);
 
