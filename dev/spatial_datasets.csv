@@ -1,4 +1,5 @@
 ﻿Dataset,Venue,Cognitive Level,Fundamental Task,Size,Image Source,Modality,Link
+OriAnyV2_Train_Render,NeurIPS2025,Perception,Orientation Estimation,"686,000","ImageNet3D, Synthetic Data",RGB,https://huggingface.co/datasets/Viglong/OriAnyV2_Train_Render
 Proximity-110K,ArXiv2024,Perception,Depth Estimation,"989,877","Visual Genome, COCO",RGB,https://huggingface.co/Electronics/ProximityQA/blob/main/llava_proximity-mix.json
 AS-V2,ECCV2024,Understanding,Spatial Relations VQA,"127,000",COCO,RGB,https://huggingface.co/datasets/OpenGVLab/AS-V2
 SpaceThinker,online,Understanding,Spatial Relations VQA,"12,000",VQASynth,RGB,https://huggingface.co/datasets/remyxai/SpaceThinker

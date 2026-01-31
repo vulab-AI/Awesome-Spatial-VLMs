@@ -1,5 +1,6 @@
 ﻿Dataset,Venue,Cognitive Level,Fundamental Task,Size,Image Source,Modality,Link
 Ori-Bench,ArXiv2024,Perception,Orientation Estimation,400,"COCO, Generated from DALL-E",RGB,https://github.com/SpatialVision/Orient-Anything
+OriAnyV2_Inference,NeurIPS2025,Perception,Orientation Estimation,838,"Orient Anything V1, ImageNet3D, ARKitScenes...",RGB,https://huggingface.co/datasets/Viglong/OriAnyV2_Inferenceg
 EgoOrientBench,CVPR2025,Perception,Orientation Estimation,"33,460","ImageNet, D3, DomainNet, PACS, OmniObject3D",RGB,https://huggingface.co/datasets/jhCOR/EgoOrientBench
 GeoMeter,CVPRW2025,Perception,Depth Estimation,"11,200",synthetic data,RGB,https://drive.google.com/drive/folders/13WqSuUNV007oQp-u4t0FA51ZOI7BqAaG
 CRPE-relation,ECCV2024,Understanding,Spatial Relations VQA,"7,576",COCO,RGB,https://huggingface.co/datasets/OpenGVLab/CRPE
