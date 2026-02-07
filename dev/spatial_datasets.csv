@@ -9,6 +9,7 @@ SQA3D,ICLR2023,Extrapolation,Spatial Situated Reasoning,"33,400",ScanNet,"RGB, P
 MSQA,NeurIPS2024,Extrapolation,Spatial Situated Reasoning,"251,000","ScanNet , 3RScan , ARKitScenes",Point Cloud,https://docs.google.com/forms/d/e/1FAIpQLSdzj25kXcthCKtypAI0wQP8j16e9F7ODBroL4SCH_ly8_3rKw/viewform
 Spartun3D,ICLR2025,Extrapolation,Spatial Situated Reasoning,"123,000",3RScan,Point Cloud,https://github.com/zhangyuejoslin/Spartun3D?tab=readme-ov-file
 MulSeT,ArXiv2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","38,200",AI2THOR,RGB,https://huggingface.co/datasets/WanyueZhang/MulSeT
+Viewpoint-100K,NeurIPS2025,Extrapolation,"Spatial Situated Reasoning,","100,000",MVImgNet,RGB,https://github.com/warmsnow-sh/Actial?tab=readme-ov-file#Data
 "Super-CLEVR-3D(Pose, occlusion)",NeurIPS2023,Perception; Understanding,"Orientation Estimation, Spatial Relations VQA","543,383",Super-CLEVR,RGB,https://github.com/XingruiWang/superclevr-3D-question
 SpatialQA,ICRA2025,Perception; Understanding,"Depth Estimation, 3D Object Detection, Spatial Relations VQA","852,869","Bunny 695k, Open X-Embodiment",RGB-D,https://huggingface.co/datasets/RussRobin/SpatialQA
 SURDS,ArXiv2025,Perception; Understanding,"Depth Estimation, Orientation Estimation, Spatial Relations VQA","50,330",nuScenes,RGB,https://huggingface.co/datasets/bonbon-rj/SURDS

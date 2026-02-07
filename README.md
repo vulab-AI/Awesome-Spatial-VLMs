@@ -40,7 +40,7 @@ We host an official website for streamlined navigation and well-organized resour
   <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow" alt="Evaluated Data"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
   <br/>
-  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md"><img src="https://img.shields.io/badge/Training-23%20datasets-teal?style=flat"alt="Training - 23 datasets"></a>&nbsp;
+  <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Dataset_SVQA.md"><img src="https://img.shields.io/badge/Training-24%20datasets-teal?style=flat"alt="Training - 24 datasets"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/data_benchmark/Benchmark_SVQA.md"><img src="https://img.shields.io/badge/Evaluation-54%20benchmarks-orange?style=flat" alt="Evaluation - 54 benchmarks"></a>&nbsp;
 </p>
 
@@ -177,11 +177,11 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards (_University of Oxford_) [[paper]](https://arxiv.org/pdf/2511.07403) [[code]](https://github.com/hunarbatra/SpatialThinker) [[checkpoint]](https://huggingface.co/collections/OX-PIXL/spatialthinker);
-  <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
+    <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2510.18632) [[code]](https://github.com/zhangquanchen/3DThinker)
-  <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
+    <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] SpaceMind: Camera-Guided Modality Fusion for Spatial Reasoning in Vision-Language Models (_Huawei_) [[paper]](https://arxiv.org/pdf/2511.23075)
@@ -205,8 +205,8 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [AAAI2026] SIFThinker: Spatially-Aware Image Focus for Visual Reasoning (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2508.06259) [[code]](https://github.com/zhangquanchen/SIFThinker?tab=readme-ov-file);
-  <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
-</details>
+    <!-- ![RL-based](https://img.shields.io/badge/RL--based-blue?) -->
+    </details>
 
 <a id="architectural-enhancements"></a>
 <details>
@@ -331,8 +331,8 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [Arxiv2025] 3D Aware Region Prompted Vision Language Model (_UC San Diego_) [[paper]](https://arxiv.org/pdf/2509.13317);
-  <!-- leveraging depth for training a position embedding -->
-</details>
+    <!-- leveraging depth for training a position embedding -->
+    </details>
 
 <a id="implicit-3d-from-egocentric-views"></a>
 <details>
@@ -351,7 +351,7 @@ This repository uses the framework from our survey paper to systematically organ
   - [NeurIPS2025] Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors (_CUHK_) [[paper]](https://arxiv.org/pdf/2505.24625#page=3.50) [[code]](https://github.com/LaVi-Lab/VG-LLM)
 
   <!-- New paper, excluded in survey -->
-  - [NeurIPS2025] 3DRS: MLLMs Need 3D-Aware Representation Supervision for Scene Understanding (_HKU_) [[paper]](https://arxiv.org/pdf/2506.01946) [[code]](https://github.com/Visual-AI/3DRS)
+  - [NeurIPS2025] 3DRS: MLLMs Need 3D-Aware Representation Supervision for Scene Understanding (_HKU_) [[paper]](https://arxiv.org/pdf/2506.01946) [[code]](https://github.com/Visual-AI/3DRS) [[checkpoint]](https://huggingface.co/OliverHuang1998/3DRS)
 </details>
 
 <a id="scene-level-information--ego-centric"></a>
@@ -405,9 +405,10 @@ This repository uses the framework from our survey paper to systematically organ
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Scaling Spatial Intelligence with Multimodal Foundation  (_SenseTime Research_) [[paper]](https://arxiv.org/pdf/2511.13719) [[code]](https://github.com/OpenSenseNova/SenseNova-SI) [[checkpoint]](https://huggingface.co/collections/sensenova/sensenova-si);
 </details>
-
+  - [NeurIPS2025] Stitch and Tell: A Structured Multimodal Data Augmentation Method for Spatial Understanding (_Beijing Institute of Technology_) [[paper]](https://www.arxiv.org/pdf/2512.06769);
 
 <a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
+
 <details>
   <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds</b></summary>
 
@@ -440,6 +441,11 @@ This repository uses the framework from our survey paper to systematically organ
   - [ICML2025] Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2412.18605) [[code]](https://github.com/SpatialVision/Orient-Anything?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/Viglong/Orient-Anything/blob/main/croplargeEX2/dino_weight.pt);
 
   - [WACV2025] LLaVA-SpaceSGG: Visual Instruct Tuning for Open-vocabulary Scene Graph Generation with Enhanced Spatial Relations (_City University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2412.06322) [[code]](https://github.com/Endlinc/LLaVA-SpaceSGG?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/wumengyangok/LLaVA-SpaceSGG/tree/main);
+
+  - [NeurIPS2025] Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models (_Nanjing University_) [[paper]](https://openreview.net/pdf?id=jquTBzt3Av) [[code]](https://github.com/warmsnow-sh/Actial) [[checkpoint]](https://huggingface.co/Osilly/Acital-Qwen-2.5VL-7B);
+
+  - 
+
 </details>
 
 ## 📚 Datasets and Benchmarks
