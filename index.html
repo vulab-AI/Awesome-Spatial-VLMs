@@ -1,487 +1,1651 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="google-site-verification" content="g0iBnczVNxZCqZ7YQHe7I5SUp0KKkcfxL3DwLfF5iCI" />
-    <meta name="description" content="Awesome Spatial VLMs: a curated collection of methods, datasets, and benchmarks for spatial intelligence in vision–language models, with standardized evaluation for 37 VLMs."/>
-    <meta name="keywords" content="Spatial VLM, Spatial Intelligence, Vision-Language Models, VQA, 3D reasoning, benchmarks"/>
-    <title>Awesome Spatial VLMs</title>
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="g0iBnczVNxZCqZ7YQHe7I5SUp0KKkcfxL3DwLfF5iCI" />
+  <meta name="description"
+    content="Awesome Spatial VLMs: a curated collection of methods, datasets, and benchmarks for spatial intelligence in vision–language models, with standardized evaluation for 37 VLMs." />
+  <meta name="keywords"
+    content="Spatial VLM, Spatial Intelligence, Vision-Language Models, VQA, 3D reasoning, benchmarks" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Awesome Spatial VLMs</title>
 
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="/Awesome-Spatial-VLMs/icon.svg"
-      type="image/svg+xml"
-    />
-    <link
-      rel="shortcut icon"
-      href="/Awesome-Spatial-VLMs/icon.svg"
-      type="image/svg+xml"
-    />
+  <link rel="icon" href="icon.png" type="image/png" />
+  <link rel="shortcut icon" href="icon.png" type="image/png" />
 
-    <style>
-      html {
-        font-size: 18px;  /* 或 18px，如果你想整体明显大一点 */
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+    :root {
+      --bg-primary: #fafbfc;
+      --bg-secondary: #f0f2f5;
+      --surface: #ffffff;
+      --surface-alt: #f8f9fa;
+      --border: #e5e7eb;
+      --border-light: #f0f2f5;
+      --text-primary: #0f1419;
+      --text-secondary: #57606a;
+      --text-tertiary: #8b92a0;
+      --accent: #0066ff;
+      --accent-soft: rgba(0, 102, 255, 0.08);
+      --accent-strong: #0052cc;
+      --success: #16a34a;
+      --danger: #dc2626;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.12);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Geist', system-ui, -apple-system, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-primary);
+      background: var(--bg-primary);
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .container-wide {
+      width: 80vw;
+      max-width: none;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    @media (max-width: 900px) {
+      .container-wide {
+        width: 95vw;
+        padding: 0 12px;
       }
-      :root {
-        --bg: #eef2f7;
-        --card-bg: #ffffff;
-        --border-subtle: #e5e7eb;
-        --border-strong: #d1d5db;
-        --accent: #2563eb;
-        --accent-soft: rgba(37, 99, 235, 0.08);
-        --accent-strong: #1d4ed8;
-        --text-main: #111827;
-        --text-muted: #6b7280;
-        --pill-bg: #eff5ff;
-        --code-bg: #f9fafb;
-        --radius-lg: 20px;
-        --radius-pill: 999px;
+    }
+
+    /* Datasets Table specific (8 columns) */
+    #datasetsTable {
+      min-width: 1400px;
+      /* 8列建议更宽一点 */
+    }
+
+    /* 8列宽度分配 */
+    #datasetsTable th:nth-child(1),
+    #datasetsTable td:nth-child(1) {
+      width: 8%;
+    }
+
+    /* Dataset */
+    #datasetsTable th:nth-child(2),
+    #datasetsTable td:nth-child(2) {
+      width: 10%;
+    }
+
+    /* Venue */
+    #datasetsTable th:nth-child(3),
+    #datasetsTable td:nth-child(3) {
+      width: 10%;
+    }
+
+    /* Cognitive Level */
+    #datasetsTable th:nth-child(4),
+    #datasetsTable td:nth-child(4) {
+      width: 24%;
+    }
+
+    /* Fundamental Task */
+    #datasetsTable th:nth-child(5),
+    #datasetsTable td:nth-child(5) {
+      width: 8%;
+    }
+
+    /* Size */
+    #datasetsTable th:nth-child(6),
+    #datasetsTable td:nth-child(6) {
+      width: 20%;
+    }
+
+    /* Image Source */
+    #datasetsTable th:nth-child(7),
+    #datasetsTable td:nth-child(7) {
+      width: 7%;
+    }
+
+    /* Modality */
+    #datasetsTable th:nth-child(8),
+    #datasetsTable td:nth-child(8) {
+      width: 5%;
+    }
+
+    /* Link */
+
+    /* 让长文本正常换行，不会把列挤爆 */
+    #datasetsTable td:nth-child(4),
+    #datasetsTable td:nth-child(6) {
+      white-space: normal;
+      word-break: break-word;
+      line-height: 1.4;
+    }
+
+    #datasetsTable td:nth-child(8) {
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    /* atomic 容器：支持自动换行 */
+    .pill-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      row-gap: 4px;
+    }
+
+    /* pill 本身允许换行（之前你是 nowrap，会导致很长内容挤爆） */
+    .pill {
+      white-space: normal;
+      /* ✅允许换行 */
+      word-break: break-word;
+      /* ✅长词断行 */
+      max-width: 100%;
+    }
+
+    /* 中文逗号分隔符样式 */
+    .pill-sep {
+      margin: 0 6px 0 0;
+      color: var(--text-tertiary);
+      font-weight: 600;
+    }
+
+    /* ==================== Header / Navigation ==================== */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+      margin-bottom: 48px;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-primary);
+    }
+
+    .logo {
+      width: 70px;
+      height: auto;
+      display: block;
+    }
+
+    .logo-text h1 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-text p {
+      margin: 0;
+      font-size: 12px;
+      color: var(--text-tertiary);
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      gap: 8px;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 500;
+      transition: var(--transition);
+      border: 1px solid transparent;
+    }
+
+    .nav-link:hover {
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-color: rgba(0, 102, 255, 0.2);
+    }
+
+    .nav-link.primary {
+      color: var(--accent);
+      background: var(--accent-soft);
+      border-color: rgba(0, 102, 255, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      header {
+        margin-bottom: 32px;
       }
 
-      * {
-        box-sizing: border-box;
+      nav {
+        display: none;
+      }
+    }
+
+    /* ==================== Hero Section ==================== */
+    .hero {
+      margin-bottom: 64px;
+    }
+
+    .hero-content {
+      display: block;
+      margin-bottom: 48px;
+    }
+
+    .hero-left {
+      width: 100%;
+    }
+
+    .hero-left h2 {
+      margin: 0 0 24px 0;
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      max-width: 100%;
+    }
+
+    .hero-left p {
+      margin: 0 0 40px 0;
+      font-size: 18px;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      max-width: 700px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+
+    .stat {
+      padding: 24px;
+      background: var(--surface);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), rgba(0, 102, 255, 0));
+    }
+
+    .stat:hover {
+      border-color: var(--accent);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+
+    .stat-value {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--accent);
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .stat-value strong {
+      color: var(--text-primary);
+      font-size: 15px;
+    }
+
+    .stat-value span {
+      font-size: 14px;
+      color: var(--text-tertiary);
+      font-weight: 500;
+    }
+
+    .stat-label {
+      margin-top: 8px;
+      font-size: 14px;
+      color: var(--text-secondary);
+      font-weight: 500;
+      line-height: 1.5;
+    }
+
+    .hero-right {
+      display: none;
+    }
+
+    @media (max-width: 1024px) {
+      .hero-left h2 {
+        font-size: 40px;
       }
 
-      body {
-        margin: 0;
-        min-height: 100vh;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
-          "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: var(--text-main);
-        background:
-          radial-gradient(circle at top, #e5efff, #f3f4f6 55%),
-          radial-gradient(circle at bottom, #dbeafe, #f9fafb 65%);
-        padding: 2.8rem 1.5rem;
-        font-size: 1.05rem;  /* 新增：整体略放大一点 */
+      .stats {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-left h2 {
+        font-size: 32px;
       }
 
-      .shell {
-        max-width: 960px;
-        margin: 0 auto;
+      .stats {
+        grid-template-columns: 1fr;
+        gap: 12px;
       }
 
-      .card {
-        background: var(--card-bg);
-        border-radius: 28px;
-        border: 1px solid var(--border-subtle);
-        box-shadow:
-          0 18px 50px rgba(148, 163, 184, 0.24),
-          0 0 0 1px rgba(255, 255, 255, 0.9);
-        padding: 2.3rem 2.5rem 2.4rem;
-        position: relative;
-        overflow: hidden;
+      .stat {
+        padding: 16px;
+      }
+    }
+
+    /* ==================== Resources Section ==================== */
+    .resources {
+      margin-bottom: 64px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+      padding: 4px 12px;
+      background: var(--accent-soft);
+      border-radius: 20px;
+      border: 1px solid rgba(0, 102, 255, 0.2);
+    }
+
+    .section-title {
+      margin: 0 0 12px 0;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .section-description {
+      margin: 0;
+      font-size: 16px;
+      color: var(--text-secondary);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .resources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .resource-card {
+      display: flex;
+      flex-direction: column;
+      padding: 32px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .resource-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent), rgba(0, 102, 255, 0));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .resource-card:hover {
+      border-color: var(--accent);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+
+    .resource-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .resource-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .resource-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .resource-title {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .resource-description {
+      margin: 0;
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+
+    /* ==================== Tabs Styles (NEW) ==================== */
+    .tabs-nav {
+      display: flex;
+      gap: 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+      padding: 0 8px;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      padding: 12px 4px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s;
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .tab-btn.active {
+      color: var(--accent);
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 3px 3px 0 0;
+    }
+
+    .tab-count {
+      background: var(--bg-secondary);
+      color: var(--text-tertiary);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .tab-btn.active .tab-count {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    /* ==================== Table Section (共用样式) ==================== */
+    .table-section {
+      margin-bottom: 64px;
+    }
+
+    .table-section .table-container {
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+    }
+
+    .table-header {
+      padding: 18px 18px 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    .table-controls {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 0.7fr auto;
+      gap: 12px;
+      align-items: end;
+    }
+
+    .control-group {
+      min-width: 0;
+    }
+
+    .control-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .input-field,
+    .select-field {
+      width: 100%;
+      height: 40px;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      background: white;
+      font-size: 14px;
+      font-family: inherit;
+      transition: var(--transition);
+    }
+
+    .input-field:focus,
+    .select-field:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .btn {
+      height: 40px;
+      padding: 0 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background: var(--accent-strong);
+      border-color: var(--accent-strong);
+      color: white;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 13px;
+    }
+
+    table th,
+    table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+      vertical-align: top;
+      text-align: left;
+    }
+
+    table thead th {
+      position: sticky;
+      top: 0;
+      background: rgba(248, 249, 250, 0.95);
+      backdrop-filter: blur(6px);
+      z-index: 2;
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    table th.sortable:hover {
+      background: rgba(0, 102, 255, 0.06);
+    }
+
+    table th.sortable::after {
+      content: ' ↕';
+      opacity: 0.3;
+      font-size: 10px;
+    }
+
+    table th.sortable[data-order="asc"]::after {
+      content: ' ▲';
+      opacity: 1;
+    }
+
+    table th.sortable[data-order="desc"]::after {
+      content: ' ▼';
+      opacity: 1;
+    }
+
+    table tbody tr:hover {
+      background: rgba(0, 0, 0, 0.02);
+    }
+
+    table td a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    table td a:hover {
+      text-decoration: underline;
+    }
+
+    /* Survey Table specific */
+    #surveyTable {
+      min-width: 1200px;
+    }
+
+    #surveyTable th:nth-child(1),
+    #surveyTable td:nth-child(1) {
+      width: 11%;
+    }
+
+    #surveyTable th:nth-child(2),
+    #surveyTable td:nth-child(2) {
+      width: 14%;
+    }
+
+    #surveyTable th:nth-child(3),
+    #surveyTable td:nth-child(3) {
+      width: 7%;
+    }
+
+    #surveyTable th:nth-child(4),
+    #surveyTable td:nth-child(4) {
+      width: 8%;
+    }
+
+    #surveyTable th:nth-child(5),
+    #surveyTable td:nth-child(5) {
+      width: 32%;
+    }
+
+    #surveyTable th:nth-child(6),
+    #surveyTable td:nth-child(6) {
+      width: 13%;
+    }
+
+    #surveyTable th:nth-child(7),
+    #surveyTable td:nth-child(7) {
+      width: 5%;
+    }
+
+    #surveyTable th:nth-child(8),
+    #surveyTable td:nth-child(8) {
+      width: 5%;
+    }
+
+    #surveyTable th:nth-child(9),
+    #surveyTable td:nth-child(9) {
+      width: 5%;
+    }
+
+    #surveyTable td:nth-child(5) {
+      white-space: normal;
+      word-break: break-word;
+      line-height: 1.4;
+    }
+
+    #surveyTable td:nth-child(7),
+    #surveyTable td:nth-child(8),
+    #surveyTable td:nth-child(9) {
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    /* Datasets Table specific (NEW) */
+    #datasetsTable {
+      min-width: 1200px;
+    }
+
+    /* Benchmark Table specific */
+    #benchmarkTable {
+      min-width: 1400px;
+    }
+
+    #benchmarkTable th:nth-child(1),
+    #benchmarkTable td:nth-child(1) {
+      width: 15%;
+    }
+
+    #benchmarkTable th:nth-child(2),
+    #benchmarkTable td:nth-child(2) {
+      width: 8%;
+    }
+
+    #benchmarkTable th:nth-child(3),
+    #benchmarkTable td:nth-child(3) {
+      width: 15%;
+    }
+
+    #benchmarkTable th:nth-child(4),
+    #benchmarkTable td:nth-child(4) {
+      width: 25%;
+    }
+
+    #benchmarkTable th:nth-child(5),
+    #benchmarkTable td:nth-child(5) {
+      width: 7%;
+    }
+
+    #benchmarkTable th:nth-child(6),
+    #benchmarkTable td:nth-child(6) {
+      width: 18%;
+    }
+
+    #benchmarkTable th:nth-child(7),
+    #benchmarkTable td:nth-child(7) {
+      width: 7%;
+    }
+
+    #benchmarkTable th:nth-child(8),
+    #benchmarkTable td:nth-child(8) {
+      width: 5%;
+    }
+
+    #benchmarkTable td:nth-child(1),
+    #benchmarkTable td:nth-child(4),
+    #benchmarkTable td:nth-child(6) {
+      white-space: normal;
+      word-break: break-word;
+      line-height: 1.4;
+    }
+
+    #benchmarkTable td:nth-child(8) {
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    /* Cognitive Level Tags */
+    .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      margin: 2px 4px 2px 0;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .tag-perception {
+      background: rgba(59, 130, 246, 0.1);
+      color: #2563eb;
+      border: 1px solid rgba(59, 130, 246, 0.2);
+    }
+
+    .tag-understanding {
+      background: rgba(16, 185, 129, 0.1);
+      color: #059669;
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+
+    .tag-extrapolation {
+      background: rgba(245, 158, 11, 0.1);
+      color: #d97706;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      border-top: 1px solid rgba(0, 0, 0, 0.06);
+      font-size: 14px;
+      color: var(--text-secondary);
+      flex-wrap: wrap;
+    }
+
+    .pagination-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .pagination .btn {
+      height: 34px;
+      padding: 0 12px;
+      min-width: 34px;
+    }
+
+    .pagination .select-field {
+      height: 34px;
+      width: auto;
+      padding: 4px 8px;
+    }
+
+    @media (max-width: 1400px) {
+      .container-wide {
+        max-width: 100%;
+        padding: 0 16px;
+      }
+    }
+
+    @media (max-width: 1100px) {
+      .table-controls {
+        grid-template-columns: 1fr 1fr;
       }
 
-      .card::before {
-        content: "";
-        position: absolute;
-        inset: -80px 40% auto auto;
-        height: 180px;
-        border-radius: 999px;
-        background: radial-gradient(circle at center, #bfdbfe, transparent 70%);
-        opacity: 0.5;
-        pointer-events: none;
+      .table-controls .control-group:nth-child(5) {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .table-header {
+        padding: 14px;
       }
 
-      @media (max-width: 720px) {
-        body {
-          padding: 1.8rem 1rem;
-        }
-        .card {
-          padding: 1.6rem 1.5rem 1.9rem;
-          border-radius: 22px;
-        }
+      .table-controls {
+        grid-template-columns: 1fr;
       }
 
-      .header-block {
-        margin-bottom: 1.8rem;
+      .pagination {
+        flex-direction: column;
+        align-items: flex-start;
       }
 
-      .title-row {
-        display: flex;
-        align-items: center;
-        gap: 0.9rem;
-        margin-bottom: 0.4rem;
+      .tabs-nav {
+        overflow-x: auto;
+        padding-bottom: 4px;
       }
+    }
 
-      .cube-icon-wrap {
-        /* 去掉蓝色背景和阴影 */
-        width: auto;
-        height: auto;
-        padding: 0;
-        border-radius: 0;
-        background: none;
-        box-shadow: none;
+    /* ==================== Citation Section ==================== */
+    .bibtex-card {
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0.1rem; /* 和标题之间的间距交给 .title-row 的 gap 为主 */
-      }
+    .bibtex-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      background: rgba(0, 0, 0, 0.02);
+    }
 
+    .bibtex-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
 
+    .bibtex-pre {
+      margin: 0;
+      padding: 14px 16px;
+      max-height: 320px;
+      overflow: auto;
+      font-size: 0.9rem;
+      line-height: 1.45;
+      background: #0b1020;
+      color: #e6e6e6;
+    }
 
-      .cube-icon {
-        /* 放大图标 */
-        width: 55px;
-        height: 55px;
-        display: block;
-      }
+    .bibtex-pre code {
+      white-space: pre;
+    }
 
-      h1 {
-        margin: 0;
-        font-size: 1.95rem;
-        letter-spacing: 0.01em;
-      }
+    /* ==================== Footer ==================== */
+    footer {
+      background: var(--bg-secondary);
+      padding: 48px 0 32px;
+      margin-top: 80px;
+      border-top: 1px solid var(--border);
+    }
 
-      .brand-tag {
-        margin-top: 0.4rem;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        font-size: 0.82rem;
-        color: var(--accent);
-        background: var(--accent-soft);
-        border-radius: var(--radius-pill);
-        padding: 0.15rem 0.7rem;
-        border: 1px solid rgba(37, 99, 235, 0.22);
-      }
+    .footer-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
 
-      .brand-tag-dot {
-        width: 7px;
-        height: 7px;
-        border-radius: 999px;
-        background: var(--accent);
-      }
+    .footer-section h3 {
+      margin: 0 0 16px 0;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
 
-      .tagline {
-        margin-top: 0.75rem;
-        font-size: 0.96rem;
-        color: var(--text-muted);
-        max-width: 620px;
-      }
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
 
-      .tagline strong {
-        color: var(--text-main);
-      }
+    .footer-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 14px;
+      transition: var(--transition);
+    }
 
-      .metrics {
-        margin-top: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.6rem;
-        font-size: 0.82rem;
-      }
+    .footer-link:hover {
+      color: var(--accent);
+    }
 
-      .metrics span {
-        padding: 0.18rem 0.65rem;
-        border-radius: var(--radius-pill);
-        border: 1px solid var(--border-subtle);
-        background: #f9fafb;
-        color: var(--text-muted);
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-      }
+    .footer-bottom {
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
 
-      .metrics span strong {
-        color: #9ca3af;
-        font-weight: 600;
-      }
-
-      /* Key resources as central cards */
-      .resources-section {
-        text-align: center;
-        margin-bottom: 2rem;
-      }
-      .link-desc {
-        font-size: 0.7rem;  
-        color: var(--text-muted);  /* 可选：用更淡的颜色 */
-        line-height: 1.4;     /* 可选：稍微紧一点的行距 */
-      }
-      .resources-title {
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 0.16em;
-        color: var(--text-muted);
-        margin-bottom: 0.6rem;
-      }
-
-      .resources-subtitle {
-        font-size: 0.9rem;
-        color: var(--text-muted);
-        margin-bottom: 1.1rem;
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 28px;
       }
 
       .resources-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-        gap: 0.9rem;
-        justify-items: stretch;
+        grid-template-columns: 1fr;
       }
 
-      .resource-btn {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        text-align: left;
-        min-height: 90px;
-        padding: 0.9rem 1rem;
-        border-radius: 16px; /* 圆角方块 */
-        border: 1px solid var(--border-subtle);
-        background: linear-gradient(135deg, #f9fafb, #eff6ff);
-        text-decoration: none;
-        color: var(--text-main);
-        box-shadow:
-          0 10px 22px rgba(148, 163, 184, 0.25),
-          0 0 0 1px rgba(255, 255, 255, 0.9);
-        transition:
-          transform 0.15s ease-out,
-          box-shadow 0.15s ease-out,
-          border-color 0.15s ease-out,
-          background 0.15s ease-out;
-        width: 100%;
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ==================== Animations ==================== */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
       }
 
-      .resource-btn:hover {
-        transform: translateY(-2px) scale(1.02);
-        box-shadow:
-          0 16px 34px rgba(148, 163, 184, 0.35),
-          0 0 0 1px rgba(209, 213, 219, 0.8);
-        border-color: rgba(37, 99, 235, 0.35);
-        background: linear-gradient(135deg, #eff6ff, #e0edff);
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
       }
 
-      .resource-label {
-        font-size: 0.78rem;
-        text-transform: uppercase;
-        letter-spacing: 0.12em;
-        color: var(--text-muted);
-        margin-bottom: 0.15rem;
+      to {
+        opacity: 1;
       }
+    }
 
-      .resource-title {
-        font-size: 0.9rem;
-        font-weight: 600;
-        color: var(--accent-strong);
-      }
+    .fade-in {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
 
-      .divider {
-        margin-top: 0.4rem;
-        margin-bottom: 1.4rem;
-        height: 1px;
-        background: linear-gradient(
-          to right,
-          transparent,
-          rgba(209, 213, 219, 0.9),
-          transparent
-        );
-      }
+    .delay-1 {
+      animation-delay: 0.1s;
+    }
 
-      .section {
-        margin-top: 0.4rem;
-      }
+    .delay-2 {
+      animation-delay: 0.2s;
+    }
 
-      .section-title {
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 0.16em;
-        color: var(--text-muted);
-        margin-bottom: 0.55rem;
-      }
+    .delay-3 {
+      animation-delay: 0.3s;
+    }
 
-      .pill-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.45rem;
-      }
+    .delay-4 {
+      animation-delay: 0.4s;
+    }
+  </style>
+</head>
 
-      .pill-list li {
-        font-size: 0.83rem;
-        padding: 0.25rem 0.75rem;
-        border-radius: var(--radius-pill);
-        background: var(--pill-bg);
-        border: 1px solid rgba(37, 99, 235, 0.18);
-        color: #1f2933;
-      }
-
-      .pill-list li strong {
-        color: var(--accent-strong);
-      }
-
-      pre {
-        margin: 0.55rem 0 0;
-        background: var(--code-bg);
-        border-radius: 12px;
-        border: 1px solid var(--border-subtle);
-        padding: 0.9rem 1rem;
-        overflow-x: auto;
-        font-size: 0.8rem;
-      }
-
-      code {
-        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-          "Courier New", monospace;
-        white-space: pre;
-      }
-
-      .footer {
-        margin-top: 1.6rem;
-        font-size: 0.8rem;
-        color: var(--text-muted);
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        justify-content: space-between;
-      }
-
-      .footer span.right {
-        opacity: 0.9;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="shell">
-      <main class="card">
-        <!-- Header / Intro -->
-        <header class="header-block">
-          <div class="title-row">
-          <div class="cube-icon-wrap" aria-hidden="true">
-          <img
-            src="icon.svg"
-            alt="Awesome Spatial VLMs logo"
-            class="cube-icon"
-          />
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo-section">
+          <img src="icon.png" alt="Awesome Spatial VLMs" class="logo" />
+          <div class="logo-text">
+            <h1>Spatial VLMs</h1>
+            <p>Research Hub</p>
           </div>
-            <div>
-              <h1>Awesome Spatial VLMs</h1>
-              <div class="brand-tag">
-                <span class="brand-tag-dot"></span>
-                Spatial Intelligence in Vision–Language Models
+        </a>
+        <nav>
+          <a href="#resources" class="nav-link">Resources</a>
+          <a href="#collection" class="nav-link">Collection</a>
+          <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="nav-link primary">GitHub ↗</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-left fade-in delay-1">
+          <h2>Spatial Intelligence in Vision–Language Models</h2>
+          <p>A comprehensive survey and evaluation toolkit for understanding how VLMs perceive and reason about spatial
+            relationships, 3D geometry, and geometric understanding.</p>
+
+          <div class="stats">
+            <div class="stat fade-in delay-2">
+              <div class="stat-value">Novel Structured Taxonomy</div>
+              <div class="stat-label">of Spatial Intelligence in VLMs</div>
+            </div>
+            <div class="stat fade-in delay-2">
+              <div class="stat-value">37 <span>Models</span></div>
+              <div class="stat-label">Evaluated</div>
+            </div>
+            <div class="stat fade-in delay-3">
+              <div class="stat-value">20+<span>Datasets;</span> 50+ <span>Benchmarks</span></div>
+              <div class="stat-label">Collected</div>
+            </div>
+            <div class="stat fade-in delay-4">
+              <div class="stat-value">120+ <span>Methodology Papers</span></div>
+              <div class="stat-label">Curated</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resources" id="resources">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Getting Started</div>
+        <h2 class="section-title">Key Resources</h2>
+        <p class="section-description">Everything you need to explore spatial intelligence in vision-language models</p>
+      </div>
+
+      <div class="resources-grid">
+        <a href="https://www.techrxiv.org/users/992599/articles/1354538/master/file/data/Spatial%20VLM%20Survey/Spatial%20VLM%20Survey.pdf"
+          class="resource-card fade-in delay-1">
+          <div class="resource-icon">📄</div>
+          <div class="resource-label">Survey</div>
+          <h3 class="resource-title">Survey Paper</h3>
+          <p class="resource-description">Comprehensive survey of spatial intelligence in VLMs. TechRxiv preprint 2025
+          </p>
+        </a>
+
+        <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="resource-card fade-in delay-2">
+          <div class="resource-icon">💻</div>
+          <div class="resource-label">Code</div>
+          <h3 class="resource-title">Repository</h3>
+          <p class="resource-description">Full project repository with curated papers, code implementations, and
+            resources</p>
+        </a>
+
+        <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/tree/main/evaluation"
+          class="resource-card fade-in delay-3">
+          <div class="resource-icon">🏆</div>
+          <div class="resource-label">Evaluation</div>
+          <h3 class="resource-title">Toolkit & Leaderboard</h3>
+          <p class="resource-description">Reproducible evaluation scripts and benchmark leaderboard for all 37 models
+          </p>
+        </a>
+
+        <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"
+          class="resource-card fade-in delay-4">
+          <div class="resource-icon">📦</div>
+          <div class="resource-label">Data</div>
+          <h3 class="resource-title">Benchmark Datasets</h3>
+          <p class="resource-description">Spatial VQA benchmarks and dataset resources for evaluation and research</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="table-section" id="collection">
+    <div class="container-wide">
+      <div class="section-header">
+        <div class="section-label">Explore</div>
+        <h2 class="section-title">Research Collection</h2>
+        <p class="section-description">
+          Browse our curated collection of papers, datasets, and benchmarks — continuously updated.
+          Submit your work via
+          <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/issues" target="_blank" rel="noopener noreferrer">
+            this link
+          </a>.
+        </p>
+      </div>
+
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="papers">
+          📄 Papers <span class="tab-count" id="count-papers">0</span>
+        </button>
+        <button class="tab-btn" data-tab="datasets">
+          📦 Datasets <span class="tab-count" id="count-datasets">0</span>
+        </button>
+        <button class="tab-btn" data-tab="benchmarks">
+          🏆 Benchmarks <span class="tab-count" id="count-benchmarks">0</span>
+        </button>
+      </div>
+
+      <div class="table-container">
+
+        <!-- ===================== Papers ===================== -->
+        <div id="view-papers" class="tab-content active">
+          <div class="table-header">
+            <div class="table-controls">
+              <div class="control-group">
+                <label class="control-label">Search</label>
+                <input type="text" id="searchInput" class="input-field" placeholder="Search papers...">
+              </div>
+              <div class="control-group">
+                <label class="control-label">Main Section</label>
+                <select id="mainSectionFilter" class="select-field">
+                  <option value="">All</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Methodology</label>
+                <select id="methodologyFilter" class="select-field">
+                  <option value="">All</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Year</label>
+                <select id="yearFilter" class="select-field">
+                  <option value="">All Years</option>
+                </select>
+              </div>
+              <div class="control-group" style="align-self: end;">
+                <button onclick="clearAllFilters()" class="btn btn-primary">Clear Filters</button>
               </div>
             </div>
           </div>
 
-          <p >
-            Official site for <strong>Awesome Spatial VLMs</strong> project, a curated
-            resource and evaluation toolkit for spatial intelligence in
-            Vision–Language Models (VLMs).
-          </p>
-
-          <div class="divider" aria-hidden="true"></div>
-
-          <!-- Highlights -->
-          <section class="section" aria-label="Highlights">
-            <div class="section-title">Highlights</div>
-            <ul class="pill-list">
-              <li>
-                <strong>Structured taxonomy</strong> of spatial intelligence in VLMs
-              </li>
-              <li>
-                <strong>20+</strong> datasets, <strong>50+</strong> benchmarks, and <strong>120+</strong> method papers
-              </li>
-              <li>
-                Comprehensive evaluation across <strong>37</strong> methods
-              </li>
-            </ul>
-          </section>
-    
-          <!-- <div class="metrics">
-            <span><strong>3</strong> spatial cognitive levels</span>
-            <span><strong>37</strong> evaluated VLMs</span>
-            <span><strong>50+</strong> spatial benchmarks</span>
-            <span><strong>120+</strong> research papers</span>
-          </div> -->
-        </header>
-
-        <div class="divider" aria-hidden="true"></div>
-        <!-- Centered key resources as cards -->
-        <section class="resources-section" aria-label="Key resources">
-          <div class="resources-title">Key resources</div>
-          <div class="resources-subtitle">
-            Jump directly to the main artifacts of the project.
+          <div class="table-scroll">
+            <table id="surveyTable">
+              <thead>
+                <tr>
+                  <th class="sortable" data-column="0">Main Section</th>
+                  <th class="sortable" data-column="1">Methodology</th>
+                  <th class="sortable" data-column="2">Venue</th>
+                  <th class="sortable" data-column="3">Published</th>
+                  <th class="sortable" data-column="4">Title</th>
+                  <th class="sortable" data-column="5">Institution</th>
+                  <th>Paper</th>
+                  <th>Code</th>
+                  <th>Checkpoint</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                <tr>
+                  <td colspan="9" style="text-align:center;padding:32px;">Loading papers...</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-          <div class="resources-grid">
-            <a
-              class="resource-btn"
-              href="https://www.techrxiv.org/users/992599/articles/1354538/master/file/data/Spatial%20VLM%20Survey/Spatial%20VLM%20Survey.pdf?inline=true#scrollbar=1&toolbar=1&statusbar=1&navpanes=1#"
-            >
-              <div class="resource-label">📄  Survey paper</div>
-              <div class="resource-title">Comprehensive survey PDF</div>
-              <div class="link-desc">TechRxiv preprint · 2025</div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs"
-            >
-              <div class="resource-label">💻 GitHub repository</div>
-              <div class="resource-title">Awesome-Spatial-VLMs</div>
-              <div class="link-desc">Project repository with papers and code </div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/tree/main/evaluation"
-            >
-              <div class="resource-label">🏆  Evaluation toolkit</div>
-              <div class="resource-title">
-                Evaluation code &amp; leaderboard
-              </div>
-              <div class="link-desc">Reproducible evaluation scripts</div>
-            </a>
-
-            <a
-              class="resource-btn"
-              href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"
-            >
-              <div class="resource-label">📦 Benchmarks dataset</div>
-              <div class="resource-title">
-                Spatial VQA Benchmarks
-              </div>
-              <div class="link-desc">Dataset resources used in survey paper</div>
-            </a>
+          <div class="pagination">
+            <div>
+              Showing <span id="startRecord">0</span>-<span id="endRecord">0</span> of
+              <span id="totalRecords">0</span> papers
+            </div>
+            <div class="pagination-controls">
+              <button id="firstPage" class="btn">⏮</button>
+              <button id="prevPage" class="btn">◀</button>
+              <span>Page <span id="currentPage">1</span> / <span id="totalPages">1</span></span>
+              <button id="nextPage" class="btn">▶</button>
+              <button id="lastPage" class="btn">⏭</button>
+              <select id="recordsPerPage" class="select-field">
+                <option value="10" selected>10 per page</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+              </select>
+            </div>
           </div>
-        </section>
+        </div>
 
-        <div class="divider" aria-hidden="true"></div>
+        <!-- ===================== Datasets ===================== -->
+        <div id="view-datasets" class="tab-content">
+          <div class="table-header">
+            <div class="table-controls" id="datasetsControls">
+              <div class="control-group">
+                <label class="control-label">Search</label>
+                <input type="text" id="datasetSearchInput" class="input-field" placeholder="Search datasets...">
+              </div>
 
+              <div class="control-group">
+                <label class="control-label">Cognitive Level</label>
+                <select id="datasetCognitiveFilter" class="select-field">
+                  <option value="">All Levels</option>
+                </select>
+              </div>
 
+              <div class="control-group">
+                <label class="control-label">Fundamental Task</label>
+                <select id="datasetTaskFilter" class="select-field">
+                  <option value="">All Tasks</option>
+                </select>
+              </div>
 
-        <!-- BibTeX -->
-        <section class="section" aria-label="BibTeX">
-          <div class="section-title">BibTeX</div>
-          <pre><code>@article{Liu_2025,
-  title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
-  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
-  DOI={10.36227/techrxiv.176231405.57942913/v2},
-  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
-  year={2025},
-  month=nov
-}</code></pre>
-        </section>
+              <div class="control-group">
+                <label class="control-label">Modality</label>
+                <select id="datasetModalityFilter" class="select-field">
+                  <option value="">All Modalities</option>
+                </select>
+              </div>
 
-        <footer class="footer">
-          <span>Maintained by 
-            <a href="https://github.com/vulab-AI" target="_blank" rel="noopener noreferrer">
-              vulab-AI
-            </a>
-          </span>
-          <span class="right">Last updated: 2025</span>
-        </footer>
-      </main>
+              <div class="control-group" style="align-self: end;">
+                <button onclick="clearDatasetFilters()" class="btn btn-primary">Clear Filters</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-scroll">
+            <table id="datasetsTable">
+              <thead>
+                <tr>
+                  <th class="sortable" data-column="0">Dataset</th>
+                  <th class="sortable" data-column="1">Venue</th>
+                  <th class="sortable" data-column="2">Cognitive Level</th>
+                  <th class="sortable" data-column="3">Fundamental Task</th>
+                  <th class="sortable" data-column="4">Size</th>
+                  <th class="sortable" data-column="5">Image Source</th>
+                  <th class="sortable" data-column="6">Modality</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
+
+              <tbody id="datasetTableBody">
+                <tr>
+                  <td colspan="8" style="text-align:center;padding:32px;">Loading datasets...</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="pagination">
+              <div>
+                Showing <span id="datasetStartRecord">0</span>-<span id="datasetEndRecord">0</span> of
+                <span id="datasetTotalRecords">0</span> datasets
+              </div>
+              <div class="pagination-controls">
+                <button id="datasetFirstPage" class="btn">⏮</button>
+                <button id="datasetPrevPage" class="btn">◀</button>
+                <span>Page <span id="datasetCurrentPage">1</span> / <span id="datasetTotalPages">1</span></span>
+                <button id="datasetNextPage" class="btn">▶</button>
+                <button id="datasetLastPage" class="btn">⏭</button>
+                <select id="datasetRecordsPerPage" class="select-field">
+                  <option value="10" selected>10 per page</option>
+                  <option value="25">25</option>
+                  <option value="50">50</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===================== Benchmarks ===================== -->
+        <div id="view-benchmarks" class="tab-content">
+          <div class="table-header">
+            <div class="table-controls">
+              <div class="control-group">
+                <label class="control-label">Search</label>
+                <input type="text" id="benchmarkSearchInput" class="input-field" placeholder="Search benchmarks...">
+              </div>
+              <div class="control-group">
+                <label class="control-label">Cognitive Level</label>
+                <select id="cognitiveFilter" class="select-field">
+                  <option value="">All Levels</option>
+                  <option value="Perception">Perception</option>
+                  <option value="Understanding">Understanding</option>
+                  <option value="Extrapolation">Extrapolation</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Fundamental Task</label>
+                <select id="benchmarkTaskFilter" class="select-field">
+                  <option value="">All Tasks</option>
+                </select>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Modality</label>
+                <select id="modalityFilter" class="select-field">
+                  <option value="">All Modalities</option>
+                </select>
+              </div>
+              <div class="control-group" style="align-self: end;">
+                <button onclick="clearBenchmarkFilters()" class="btn btn-primary">Clear Filters</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-scroll">
+            <table id="benchmarkTable">
+              <thead>
+                <tr>
+                  <th class="sortable" data-column="0">Benchmark</th>
+                  <th class="sortable" data-column="1">Venue</th>
+                  <th class="sortable" data-column="2">Cognitive Level</th>
+                  <th class="sortable" data-column="3">Fundamental Task</th>
+                  <th class="sortable" data-column="4">Size</th>
+                  <th class="sortable" data-column="5">Image Source</th>
+                  <th class="sortable" data-column="6">Modality</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
+              <tbody id="benchmarkTableBody">
+                <tr>
+                  <td colspan="8" style="text-align:center;padding:32px;">Loading benchmarks...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="pagination">
+            <div>
+              Showing <span id="benchmarkStartRecord">0</span>-<span id="benchmarkEndRecord">0</span> of
+              <span id="benchmarkTotalRecords">0</span> benchmarks
+            </div>
+            <div class="pagination-controls">
+              <button id="benchmarkFirstPage" class="btn">⏮</button>
+              <button id="benchmarkPrevPage" class="btn">◀</button>
+              <span>Page <span id="benchmarkCurrentPage">1</span> / <span id="benchmarkTotalPages">1</span></span>
+              <button id="benchmarkNextPage" class="btn">▶</button>
+              <button id="benchmarkLastPage" class="btn">⏭</button>
+              <select id="benchmarkRecordsPerPage" class="select-field">
+                <option value="10" selected>10 per page</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- ✅ end table-container -->
+    </div> <!-- ✅ end container-wide -->
+  </section>
+
+  <!-- BibTeX Section -->
+  <section id="citation" class="citation-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Citation</div>
+        <h2 class="section-title">Cite This Work</h2>
+        <p class="section-description" style="margin-top: 0.5rem;">
+          If you find this survey useful, please consider citing it:
+        </p>
+      </div>
+
+      <div class="bibtex-card">
+        <div class="bibtex-toolbar">
+          <span class="bibtex-title">BibTeX</span>
+          <button class="btn" type="button" onclick="copyBibtex()">Copy</button>
+        </div>
+
+        <pre id="bibtexBlock" class="bibtex-pre"><code>@article{liu2025spatialintelligence,
+    title        = {Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
+    author       = {Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
+    year         = {2025},
+    month        = nov,
+    publisher    = {Institute of Electrical and Electronics Engineers (IEEE)},
+    doi          = {10.36227/techrxiv.176231405.57942913/v2},
+    url          = {http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2}
+  }</code></pre>
+      </div>
     </div>
-  </body>
-</html>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Project</h3>
+          <div class="footer-links">
+            <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs" class="footer-link">GitHub Repository</a>
+            <a href="https://www.techrxiv.org/users/992599/articles/1354538/" class="footer-link">Survey Paper</a>
+            <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"
+              class="footer-link">Datasets</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Resources</h3>
+          <div class="footer-links">
+            <a href="#resources" class="footer-link">Key Resources</a>
+            <a href="#survey" class="footer-link">Paper Survey</a>
+            <a href="#" class="footer-link">Documentation</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Community</h3>
+          <div class="footer-links">
+            <a href="https://github.com/vulab-AI" class="footer-link">VULab AI</a>
+            <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/issues" class="footer-link">Issues &
+              Discussion</a>
+            <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/pulls" class="footer-link">Contributions</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Awesome Spatial VLMs by VULab-AI</span>
+        <span>Last updated: Dec. 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="./js/papers.js"></script>
+  <script src="./js/datasets.js"></script>
+  <script src="./js/benchmarks.js"></script>
+
+  <script>
+    // ----------------------------
+    // 1) Tab Switching (稳定版)
+    // ----------------------------
+    function switchTab (tabName) {
+      // content
+      document.querySelectorAll('.tab-content').forEach(el => {
+        el.classList.remove('active');
+      });
+
+      // buttons
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+
+      // show selected
+      const target = document.getElementById('view-' + tabName);
+      if (target) target.classList.add('active');
+
+      // activate button
+      const btn = document.querySelector(`.tab-btn[data-tab="${tabName}"]`);
+      if (btn) btn.classList.add('active');
+    }
+
+    // ----------------------------
+    // 2) Count logic (根据 table 行数更新)
+    //    ✅ 不依赖你的外部 JS 变量
+    //    ✅ 渲染/过滤/分页变化都会自动更新
+    // ----------------------------
+    function getRealRowCount (tbody) {
+      if (!tbody) return 0;
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+
+      // 排除 "Loading..." 那种 colspan 占位行
+      const validRows = rows.filter(tr => {
+        const td = tr.querySelector('td[colspan]');
+        return !td;
+      });
+
+      return validRows.length;
+    }
+
+    function updateTabCounts () {
+      const papersCount = getRealRowCount(document.getElementById('tableBody'));
+      const datasetsCount = getRealRowCount(document.getElementById('datasetTableBody'));
+      const benchmarksCount = getRealRowCount(document.getElementById('benchmarkTableBody'));
+
+      document.getElementById('count-papers').textContent = papersCount;
+      document.getElementById('count-datasets').textContent = datasetsCount;
+      document.getElementById('count-benchmarks').textContent = benchmarksCount;
+    }
+
+    // 监听表格变化（你的 main.js / datasets.js / benchmarks.js 只要改 tbody，这里就会自动更新 count）
+    function watchTableBody (tbodyId) {
+      const tbody = document.getElementById(tbodyId);
+      if (!tbody) return;
+
+      const observer = new MutationObserver(() => {
+        updateTabCounts();
+      });
+
+      observer.observe(tbody, { childList: true, subtree: true });
+    }
+
+    // ----------------------------
+    // 3) BibTeX Copy
+    // ----------------------------
+    function copyBibtex () {
+      const el = document.getElementById("bibtexBlock");
+      const text = el ? el.innerText : "";
+      if (!text) return;
+
+      navigator.clipboard.writeText(text).catch(() => {
+        const ta = document.createElement("textarea");
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+      });
+    }
+
+    // ----------------------------
+    // 4) Init
+    // ----------------------------
+    document.addEventListener('DOMContentLoaded', () => {
+      // fade-in
+      document.querySelectorAll('.fade-in').forEach(el => {
+        el.style.opacity = '1';
+      });
+
+      // bind tab buttons
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tab = btn.getAttribute('data-tab');
+          switchTab(tab);
+        });
+      });
+
+      // watch 3 tables
+      watchTableBody('tableBody');
+      watchTableBody('datasetTableBody');
+      watchTableBody('benchmarkTableBody');
+
+      // 首次更新（万一外部 JS 已经渲染好了）
+      updateTabCounts();
+    });
+  </script>

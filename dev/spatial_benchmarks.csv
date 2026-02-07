@@ -1,0 +1,55 @@
+﻿Dataset,Venue,Cognitive Level,Fundamental Task,Size,Image Source,Modality,Link
+Ori-Bench,ArXiv2024,Perception,Orientation Estimation,400,"COCO, Generated from DALL-E",RGB,https://github.com/SpatialVision/Orient-Anything
+OriAnyV2_Inference,NeurIPS2025,Perception,Orientation Estimation,838,"Orient Anything V1, ImageNet3D, ARKitScenes...",RGB,https://huggingface.co/datasets/Viglong/OriAnyV2_Inferenceg
+EgoOrientBench,CVPR2025,Perception,Orientation Estimation,"33,460","ImageNet, D3, DomainNet, PACS, OmniObject3D",RGB,https://huggingface.co/datasets/jhCOR/EgoOrientBench
+GeoMeter,CVPRW2025,Perception,Depth Estimation,"11,200",synthetic data,RGB,https://drive.google.com/drive/folders/13WqSuUNV007oQp-u4t0FA51ZOI7BqAaG
+CRPE-relation,ECCV2024,Understanding,Spatial Relations VQA,"7,576",COCO,RGB,https://huggingface.co/datasets/OpenGVLab/CRPE
+"MMBench(physical, spatial relation)",ArXiv2024,Understanding,Spatial Relations VQA,251,Online,RGB,https://github.com/open-compass/VLMEvalKit
+"SEED-Bench (Spatial Rel., Instance Loc.)",CVPR2024,Understanding,Spatial Relations VQA,"1,634",CC3M,RGB,https://github.com/AILab-CVC/SEED-Bench
+MM-Vet(Spatial awareness (Spat)),ICML2024,Understanding,Spatial Relations VQA,75,Online,RGB,https://github.com/yuweihao/MM-Vet
+TopViewRS,EMNLP2024,Understanding,Spatial Relations VQA,"11,384",Matterport3D,"RGB, 3D Mesh",https://github.com/cambridgeltl/topviewrs
+MME(position split),ArXiv2024,Understanding,Spatial Relations VQA,60,COCO,RGB,https://huggingface.co/datasets/darkyarding/MME
+EmbSpatial-Bench,ACL2024,Understanding,Spatial Relations VQA,"3,640","MP3D, AI2-THOR, ScanNet",RGB,https://huggingface.co/datasets/Phineas476/EmbSpatial-Bench
+What's Up,EMNLP2023,Understanding,Spatial Relations VQA,"4,138","COCO,GQA",RGB,https://github.com/amitakamath/whatsup_vlms
+VSP,ArXiv2024,Extrapolation,Spatial Situated Reasoning,"4,600","OpenAI Gym, BIRD",RGB,https://github.com/UCSB-NLP-Chang/Visual-Spatial-Planning
+MapBench,ArXiv2025,Extrapolation,Spatial Situated Reasoning,"1,649",online,RGB,
+MINDCUBE,ArXiv2025,Extrapolation,Spatial Situated Reasoning,"21,154","ArkitScenes,DL3DV-10K,WildRGB-D",RGB,https://huggingface.co/datasets/MLL-Lab/MindCube
+MMSI-Bench,ArXiv2025,Extrapolation,Spatial Situated Reasoning,"1,000","Matterport3D, ScanNet, ...",RGB,https://huggingface.co/datasets/RunsenXu/MMSI-Bench
+CoSpace,CVPR2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","1,626","Baidu Map Panorama API, HM3D",RGB,https://huggingface.co/datasets/StephenZhu/CoSpace
+SPACE-Visual,ICLR2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","5,008","Synthetic Data, Oline",RGB,https://github.com/apple/ml-space-benchmark
+STARE,ArXiv2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","3,937","Synthetic Data, Objectron, HM3D",RGB,https://huggingface.co/datasets/kuvvi/STARE
+SpatialViz-Bench,ArXiv2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","1,180",Synthetic Data,RGB,https://huggingface.co/datasets/PLM-Team/Spatial-Visualization-Benchmark
+SpatiaLite,AAAI2026,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","2,721",Synthetic Data,RGB,https://github.com/jameslian87v5/SpatialLite
+ReMindView-Bench,ArXiv2025,Extrapolation,Spatial Situated Reasoning,">50,000",Synthetic Data,RGB,https://huggingface.co/datasets/Xue0823/ReMindView-Bench
+CV-Bench,NeurIPS2024,Perception; Understanding,"Depth Estimation, Spatial Relations VQA","2,638","COCO,ADE20K, Omini3D",RGB,https://huggingface.co/datasets/nyu-visionx/CV-Bench
+SpatialRGPT-Bench,Neurips2024,Perception; Understanding,"3D Object Detection, Depth Estimation, Spatial Relations VQA,","1,410","nuScenes,Hypersim, SUNRGBD, KITTI, ARKitScenes ...",RGB,https://huggingface.co/datasets/a8cheng/SpatialRGPT-Bench
+Q-Spatial,EMNLP2024,Perception; Understanding,"3D Object Detection, Spatial Relations VQA",271,"ScanNet, images captured by iPhone",RGB,https://huggingface.co/datasets/andrewliao11/Q-Spatial-Bench
+SpatialBench,ICRA2025,Perception; Understanding,"Depth Estimation, Spatial Relations VQA, 3D Object Detection,",182,MME and manually annotated images,RGB-D,https://github.com/BAAI-DCAI/SpatialBot
+Omni3D-Bench,CVPR2025,Perception; Understanding,"3D Object Detection, Spatial Relations VQA",500,Omni3D,RGB,https://huggingface.co/datasets/dmarsili/Omni3D-Bench
+STI-Bench,ICCV2025,Perception; Understanding,"3D Object Detection, Spatial Relations VQA, Orientation Estimation","2,060","Waymo, ScanNet, Omni6DPose",RGB,https://huggingface.co/datasets/MINT-SJTU/STI-Bench
+RefSpatial-Bench,NeurIPS2025,Perception; Understanding,"3D Object Detection,Depth Estimation, Spatial Relations VQA",200,manually collect,RGB,https://huggingface.co/datasets/BAAI/RefSpatial-Bench
+SSRBENCH-Spatial,NeurIPS2025,Perception; Understanding,"3D Object Detection,Spatial Relations VQA",357,SSR-CoT,RGB-D,https://huggingface.co/datasets/yliu-cs/SSRBench
+BLINK,ECCV2024,Perception; Extrapolation,"Depth Estimation, Spatial Simulation and Inferring, Spatial Situated Reasoning","3,807",HPatches,RGB,https://huggingface.co/datasets/BLINK-Benchmark/BLINK
+All-Angles-Bench,ArXiv2025,Perception; Extrapolation,"Depth Estimation, Spatial Simulation and Inferring, Spatial Situated Reasoning","2,132","Exo4D, EgoHumans",RGB,https://huggingface.co/datasets/ch-chenyu/All-Angles-Bench
+SpaceSGG-Val,WACV2025,Understanding; Extrapolation,"Spatial Simulation and Inferring, Spatial Situated Reasoning, Spatial Relations VQA",271,COCO,RGB,https://huggingface.co/datasets/Endlinc/SpaceSGG-Val/viewer/default/train?p=1
+"Space3D-Bench(Relation, Navigation, Prediction)",ECCV2024,Understanding; Extrapolation,"Spatial Simulation and Inferring, Spatial Situated Reasoning, Spatial Relations VQA","1,000",Replica,"RGB, 3D Mesh",https://github.com/Space3D-Bench/Space3D-Bench
+"SpatialEval(VQA, VTQA)",Neurips2024,Understanding; Extrapolation,"Spatial Situated Reasoning, Spatial Relations VQA","9,270","synthetic, Densely Captioned Images (DCI)",RGB,https://huggingface.co/datasets/MilaWang/SpatialEval
+3DSRBench,ICCV2025,Understanding; Extrapolation,"Spatial Situated Reasoning, Spatial Relations VQA","2,170","MS-COCO, HSSD",RGB,https://huggingface.co/datasets/MilaWang/SpatialEval
+Spatial457,CVPR2025,Understanding; Extrapolation,"Spatial Simulation and Inferring, Spatial Relations VQA","23,752",synthetic data,RGB,https://huggingface.co/datasets/RyanWW/Spatial457
+COMFORT,ICLR2025,Understanding; Extrapolation,"Spatial Situated Reasoning, Spatial Relations VQA","58,320",synthetic data,RGB,https://huggingface.co/datasets/sled-umich/COMFORT
+SRBench,ArXiv2025,Perception; Understanding; Extrapolation,"Orientation Estimation, Spatial Relations VQA, Spatial Simulation and Inferring","1,800","classic Mental Rotation Test, EgoOrientBench, Spatial-MM",RGB,https://huggingface.co/datasets/stogian/srbench
+VSI-Bench,CVPR2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning","5,130","ScanNet, ScanNet++, and ARKitScenes",RGB,https://huggingface.co/datasets/nyu-visionx/VSI-Bench
+RealWorldQA,-,Perception; Understanding; Extrapolation,"Depth Estimation, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning",765,NA,RGB,https://huggingface.co/datasets/visheratin/realworldqa
+SPAR-Bench,ArXiv2025,Perception; Understanding; Extrapolation,"Depth Estimation, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","7,207",SPAR-7M,RGB,https://huggingface.co/datasets/jasonzhango/SPAR-Bench
+SPHERE,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","2,285",MS COCO-2017,RGB,https://huggingface.co/datasets/wei2912/SPHERE-VLM
+ViewSpatial-Bench,ArXiv2025,Perception; Understanding; Extrapolation,"Orientation Estimation, Spatial Relations VQA, Spatial Situated Reasoning","5,700","MS-CoCo, ScanNet",RGB,https://huggingface.co/datasets/lidingm/ViewSpatial-Bench
+Spatial-MM,EMNLP2024,Perception; Understanding; Extrapolation,"Orientation Estimation, Spatial Relations VQA, Spatial Situated Reasoning","2,310",Onlin,RGB,https://github.com/FatemehShiri/Spatial-MM
+SpatialScore,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring","28,000","MMVP, MMIU, RealWorldQA , SpatialSense, SpatialBench, ...",RGB,https://huggingface.co/datasets/haoningwu/SpatialScore
+OmniSpatial,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection, Depth Estimation, Orientation Estimation, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring","1,500","Web Images, Exam-Based Test Questions, Driving Test Questions, MME, HOI4D",RGB,https://huggingface.co/datasets/qizekun/OmniSpatial
+SITE-Bench,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring","8,068","VSI-Bench, Blink, VSR, MMBench, ...",RGB,https://huggingface.co/datasets/franky-veteran/SITE-Bench
+RoboSpatial-Home,CVPR2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring",350,manually collect,RGB-D,https://huggingface.co/datasets/chanhee-luke/RoboSpatial-Home
+Ego3D-Bench,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection,Spatial Relations VQA,Spatial Simulation and Inferring, Spatial Situated Reasoning","8,600",manually collect,RGB,https://huggingface.co/datasets/vbdai/Ego3D-Bench
+MSMU-Bench,NeurIPS2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring","1,000","ScanNet, ScanNet++",RGB-D,https://huggingface.co/datasets/cpystan/MSMU/viewer/default/test
+SPINBENCH,ArXiv2025,Perception; Understanding; Extrapolation,"Depth Estimation, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","2,599","Synthetic data, Multi-View Car Dataset, Stereo Face Database",RGB,https://huggingface.co/datasets/YuyouZhang/SpinBench
+SPACE-10,ArXiv2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","5,000","SCN, 3RS, ARK, SCN++","RGB, Point Cloud",https://huggingface.co/datasets/Cusyoung/SpaCE-10
+SiT-Bench,ArXiv2026,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","3,800+","Mindcube, CoSpace, WM-Abench, SpatialEval, ...",RGB,https://github.com/binisalegend/SiT-Bench

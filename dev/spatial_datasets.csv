@@ -1,0 +1,25 @@
+﻿Dataset,Venue,Cognitive Level,Fundamental Task,Size,Image Source,Modality,Link
+OriAnyV2_Train_Render,NeurIPS2025,Perception,Orientation Estimation,"686,000","ImageNet3D, Synthetic Data",RGB,https://huggingface.co/datasets/Viglong/OriAnyV2_Train_Render
+Proximity-110K,ArXiv2024,Perception,Depth Estimation,"989,877","Visual Genome, COCO",RGB,https://huggingface.co/Electronics/ProximityQA/blob/main/llava_proximity-mix.json
+AS-V2,ECCV2024,Understanding,Spatial Relations VQA,"127,000",COCO,RGB,https://huggingface.co/datasets/OpenGVLab/AS-V2
+SpaceThinker,online,Understanding,Spatial Relations VQA,"12,000",VQASynth,RGB,https://huggingface.co/datasets/remyxai/SpaceThinker
+OpenSpatial,NeurIPS2024,Understanding,Spatial Relations VQA,"8,700,000",OpenImages,RGB-D,https://huggingface.co/datasets/a8cheng/OpenSpatialDataset
+SUN-Spot v2.0,ArXiv2025,Understanding,Spatial Relations VQA,"101,053",SUN RGB-D,RGB-D,https://arpg.github.io/sunspot/
+SQA3D,ICLR2023,Extrapolation,Spatial Situated Reasoning,"33,400",ScanNet,"RGB, Point Cloud",https://github.com/SilongYong/SQA3D
+MSQA,NeurIPS2024,Extrapolation,Spatial Situated Reasoning,"251,000","ScanNet , 3RScan , ARKitScenes",Point Cloud,https://docs.google.com/forms/d/e/1FAIpQLSdzj25kXcthCKtypAI0wQP8j16e9F7ODBroL4SCH_ly8_3rKw/viewform
+Spartun3D,ICLR2025,Extrapolation,Spatial Situated Reasoning,"123,000",3RScan,Point Cloud,https://github.com/zhangyuejoslin/Spartun3D?tab=readme-ov-file
+MulSeT,ArXiv2025,Extrapolation,"Spatial Situated Reasoning, Spatial Simulation and Inferring","38,200",AI2THOR,RGB,https://huggingface.co/datasets/WanyueZhang/MulSeT
+Viewpoint-100K,NeurIPS2025,Extrapolation,"Spatial Situated Reasoning,","100,000",MVImgNet,RGB,https://github.com/warmsnow-sh/Actial?tab=readme-ov-file#Data
+"Super-CLEVR-3D(Pose, occlusion)",NeurIPS2023,Perception; Understanding,"Orientation Estimation, Spatial Relations VQA","543,383",Super-CLEVR,RGB,https://github.com/XingruiWang/superclevr-3D-question
+SpatialQA,ICRA2025,Perception; Understanding,"Depth Estimation, 3D Object Detection, Spatial Relations VQA","852,869","Bunny 695k, Open X-Embodiment",RGB-D,https://huggingface.co/datasets/RussRobin/SpatialQA
+SURDS,ArXiv2025,Perception; Understanding,"Depth Estimation, Orientation Estimation, Spatial Relations VQA","50,330",nuScenes,RGB,https://huggingface.co/datasets/bonbon-rj/SURDS
+Open3DVQA,ArXiv2025,Perception; Understanding,"3D Object Detection, Orientation Estimation, Spatial Relations VQA,","9,048",synthetic data,RGB-D,https://drive.google.com/drive/folders/124lDTAukZi6zCtpwTjxu6y3n8z5B2E8v
+RefSpatial,NeurIPS2025,Perception; Understanding,"3D Object Detection, Depth Estimation, Spatial Relations VQA","22,000,000","OpenImages, CA-1M, synthetic",RGB-D,https://huggingface.co/datasets/JingkunAn/RefSpatial
+SSR-CoT,NeurIPS2025,Perception; Understanding,"3D Object Detection, Depth Estimation, Spatial Relations VQA","1,200,000","LLaVA-CoT, Visual-CoT, VoCoT, SpatialQA",RGB-D,https://huggingface.co/datasets/yliu-cs/SSR-CoT/
+SR-91k,ArXiv2025,Perception; Extrapolation,"Depth Estimation, 3D Object Detection, Spatial Situated Reasoning","91,000",ScanNet,RGB,https://huggingface.co/datasets/RUBBISHLIKE/SpaceR-151k
+VSR,ACL2023,Understanding; Extrapolation,"Spatial Situated Reasoning, Spatial Relations VQA","10,972",MS-COCO,RGB,https://github.com/cambridgeltl/visual-spatial-reasoning/tree/master/data
+SpaceSGG,WACV2025,Understanding; Extrapolation,"Spatial Relations VQA, Spatial Situated Reasoning","40,000",COCO,RGB,https://huggingface.co/datasets/Endlinc/SpaceSGG
+SAT,ArXiv2025,Perception; Understanding; Extrapolation,"Depth Estimation,Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring","175,000","PixMo-Cap, DOCCI, Pixmo-Cap",RGB,https://huggingface.co/datasets/array/SAT
+SPAR-7M,ArXiv2025,Perception; Understanding; Extrapolation,"Depth Estimation, Spatial Relations VQA, Spatial Simulation and Inferring, Spatial Situated Reasoning","7,000,000",ProcTHOR-10K,RGB,https://huggingface.co/datasets/jasonzhango/SPAR-7M
+RoboSpatial,CVPR2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Situated Reasoning, Spatial Simulation and Inferring","3,000,000","Matterport3D, ScanNet, 3RScan, HOPE, GraspNet-1B","RGB, Point Cloud",https://github.com/NVlabs/RoboSpatial?tab=readme-ov-file
+MSMU,NeurIPS2025,Perception; Understanding; Extrapolation,"3D Object Detection, Spatial Relations VQA, Spatial Simulation and Inferring","700,000","ScanNet, ScanNet++,",RGB,https://huggingface.co/datasets/cpystan/MSMU
