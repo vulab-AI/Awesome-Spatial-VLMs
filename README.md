@@ -435,16 +435,10 @@ This repository uses the framework from our survey paper to systematically organ
 
 
   - [CVPR2025] RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics (_NVIDIA_) [[paper]](https://arxiv.org/pdf/2411.16537) [[code]](https://github.com/NVlabs/RoboSpatial);
-
   - [ICLR2025] SPARTUN3D: Situated Spatial Understanding of 3D World in Large Language Models (_Michigan State University & UC Davis_) [[paper]](https://arxiv.org/pdf/2410.03878);
-
   - [ICML2025] Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2412.18605) [[code]](https://github.com/SpatialVision/Orient-Anything?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/Viglong/Orient-Anything/blob/main/croplargeEX2/dino_weight.pt);
-
   - [WACV2025] LLaVA-SpaceSGG: Visual Instruct Tuning for Open-vocabulary Scene Graph Generation with Enhanced Spatial Relations (_City University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2412.06322) [[code]](https://github.com/Endlinc/LLaVA-SpaceSGG?tab=readme-ov-file) [[checkpoint]](https://huggingface.co/wumengyangok/LLaVA-SpaceSGG/tree/main);
-
   - [NeurIPS2025] Actial: Activate Spatial Reasoning Ability of Multimodal Large Language Models (_Nanjing University_) [[paper]](https://openreview.net/pdf?id=jquTBzt3Av) [[code]](https://github.com/warmsnow-sh/Actial) [[checkpoint]](https://huggingface.co/Osilly/Acital-Qwen-2.5VL-7B);
-
-  - 
 
 </details>
 
