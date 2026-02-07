@@ -404,12 +404,12 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Scaling Spatial Intelligence with Multimodal Foundation  (_SenseTime Research_) [[paper]](https://arxiv.org/pdf/2511.13719) [[code]](https://github.com/OpenSenseNova/SenseNova-SI) [[checkpoint]](https://huggingface.co/collections/sensenova/sensenova-si);
-  
+
   - [NeurIPS2025] Stitch and Tell: A Structured Multimodal Data Augmentation Method for Spatial Understanding (_Beijing Institute of Technology_) [[paper]](https://www.arxiv.org/pdf/2512.06769);
 </details>
+
 <a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 <details>
-
   <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds</b></summary>
 
   - [CVPR2024] SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities (_Google DeepMind_) [[paper]](https://arxiv.org/pdf/2401.12168) [[code]](https://spatial-vlm.github.io/#community-implementation) [[checkpoint]](https://github.com/remyxai/VQASynth?tab=readme-ov-file#models-trained-using-vqasynth-);
