@@ -409,6 +409,8 @@ This repository uses the framework from our survey paper to systematically organ
 
 <a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 
+
+<a id="manifesting-spatial-priors-in-3d-and-synthetic-worlds"></a>
 <details>
   <summary><b>Manifesting Spatial Priors in 3D and Synthetic Worlds</b></summary>
 
