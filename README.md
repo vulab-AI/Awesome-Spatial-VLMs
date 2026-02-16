@@ -114,32 +114,27 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [arXiv2025] Abstract 3D Perception for Spatial Intelligence in Vision-Language Models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2511.10946)
-
   - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://arxiv.org/pdf/2408.00754);
-
   - [NeurIPS2025] Mindjourney: Test-time scaling with world models for spatial reasoning (_UMass Amherst_) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
-    
   - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://arxiv.org/pdf/2503.13185);
 </details>
-
   - [arXiv2026] Think3D: Thinking with Space for Spatial Reasoning (_Dalian University of Technology_) [[paper]](https://arxiv.org/pdf/2601.13029) [[code]](https://github.com/zhangzaibin/spagent) [[checkpoint]](https://huggingface.co/jialianjie/SPAgent-4B);
+  - [NeurIPS2025] See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model (_HKUST(GZ)_) [[paper]](https://arxiv.org/pdf/2509.16087) [[code]](https://github.com/Hoantrbl/SeeTrek?tab=readme-ov-file);
 
 <a id="hybrid-prompting"></a>
+
 <details>
   <summary><b>Hybrid Prompting</b></summary>
   - [arXiv2024] Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models (_Westlake University_) [[paper]](https://arxiv.org/pdf/2405.13872);
 
   - [NeurIPS2024] Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models (_Microsoft Research_) [[paper]](https://phttps://arxiv.org/pdf/2405.13872roceedings.neurips.cc/paper_files/paper/2024/file/a45296e83b19f656392e0130d9e53cb1-Paper-Conference.pdf) [[code]](https://github.com/microsoft/visualization-of-thought/);
-
   - [NeurIPS2024] Visual SKETCHPAD: Sketching as a visual chain of thought for multimodal language models (_University of Washington_) [[paper]](https://arxiv.org/pdf/2406.09403) [[code]](https://github.com/Yushi-Hu/VisualSketchpad);
-
   - [arXiv2025] SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models (_Toyota Central R&D Labs_) [[paper]](https://arxiv.org/pdf/2505.04911v1);
-
   - [COLING2025] Scaffolding coordinates to promote vision-language coordination in large multi-modal models (_Tsinghua University_) [[paper]](https://arxiv.org/pdf/2402.12058) [[code]](https://github.com/THUNLP-MT/Scaffold);
-
-  - [CVPR2025] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST(Guangzhou)_) [[paper]](https://arxiv.org/pdf/2412.04383) [[code]](https://github.com/iris0329/SeeGround);
-
+  - [CVPR2025] SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST(GZ)_) [[paper]](https://arxiv.org/pdf/2412.04383) [[code]](https://github.com/iris0329/SeeGround);
   - [arXiv2026] CoV: Chain-of-View Prompting for Spatial Reasoning (_Zhejiang University_) [[paper]](https://arxiv.org/pdf/2601.05172) [[code]](https://github.com/ziplab/CoV?tab=readme-ov-file);
+
+
 </details>
 
 ---

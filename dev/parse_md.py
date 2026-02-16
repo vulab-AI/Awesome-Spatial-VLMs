@@ -12,7 +12,7 @@ Usage:
     
     --no-arxiv: Skip arXiv API calls for faster parsing
 """
-
+import os
 import re
 import csv
 import requests
@@ -22,7 +22,7 @@ from datetime import datetime, timezone
 from typing import Optional, Dict
 import time
 import argparse
-
+import pandas as pd
 def arxiv_times_from_pdf_url(pdf_url: str) -> Optional[Dict]:
     """
     Extract publication dates from arXiv PDF URL using arXiv API.
@@ -98,7 +98,7 @@ def clean_institution(institution: str) -> str:
     cleaned = institution.strip('_').strip()
     return cleaned
 
-def parse_readme_papers(readme_path, fetch_arxiv_dates=True):
+def parse_readme_papers(readme_path, fetch_arxiv_dates=True, df_title = None):
     """
     Parse the Awesome Papers section from README.md and extract paper information.
     
@@ -127,8 +127,7 @@ def parse_readme_papers(readme_path, fetch_arxiv_dates=True):
     
     # Find all paper entries
     # Pattern: [Venue/Year] Title (Institution) [[paper]](url) [[code]](url) [[checkpoint]](url)
-    paper_pattern = r'\s*-\s*\[([^\]]+)\]\s+([^(]+?)\s+\(([^)]+)\)\s+\[\[paper\]\]\(([^)]+)\)(?:\s+\[\[code\]\]\(([^)]+)\))?(?:\s+\[\[checkpoint\]\]\(([^)]+)\))?'
-    
+    paper_pattern = r'\s*-\s*\[([^\]]+)\]\s+(.+?)\s+\(((?:[^()]+|\([^()]*\))*)\)\s+\[\[paper\]\]\(([^)]+)\)(?:\s+\[\[code\]\]\(([^)]+)\))?(?:\s+\[\[checkpoint\]\]\(([^)]+)\))?'
     papers = []
     matches = re.finditer(paper_pattern, papers_text)
     
@@ -143,7 +142,14 @@ def parse_readme_papers(readme_path, fetch_arxiv_dates=True):
     total_papers = 0
     arxiv_papers = 0
     arxiv_success = 0
-    
+
+    new_paper = []
+    for match in matches:
+        title = match.group(2).strip()
+        if title not in list(df_title):
+            new_paper.append(title)
+    print("new_paper:", new_paper)
+    matches = re.finditer(paper_pattern, papers_text)
     for match in matches:
         total_papers += 1
         venue_year = match.group(1).strip()
@@ -265,7 +271,7 @@ Examples:
                        help='Skip arXiv API calls for faster parsing')
     parser.add_argument('-i', '--input', default='README.md',
                        help='Input README file path (default: README.md)')
-    parser.add_argument('-o', '--output', default='awesome_papers.csv',
+    parser.add_argument('-o', '--output', default='./dev/awesome_papers.csv',
                        help='Output CSV file path (default: awesome_papers.csv)')
     
     args = parser.parse_args()
@@ -277,7 +283,8 @@ Examples:
     if not readme_path.exists():
         print(f"❌ Error: Input file '{readme_path}' not found!")
         return
-    
+    df = pd.read_csv(output_path)
+    df_title = df.Title
     print("🚀 Awesome Spatial VLMs Paper Parser")
     print("=" * 60)
     print(f"📂 Input:  {readme_path}")
@@ -287,7 +294,7 @@ Examples:
     print()
     
     # Parse papers
-    papers = parse_readme_papers(readme_path, fetch_arxiv_dates=not args.no_arxiv)
+    papers = parse_readme_papers(readme_path, fetch_arxiv_dates=not args.no_arxiv, df_title=df_title)
     
     if papers:
         print("\n📝 Sample papers:")
