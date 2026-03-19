@@ -45,6 +45,10 @@
   let sortCol = null;       // 0..6 sortable, (Link column not sortable)
   let sortOrder = "asc";    // asc/desc
 
+  function syncTotalCount() {
+    if (tbody) tbody.dataset.totalCount = String(allRows.length);
+  }
+
   // ---- Utils ----
   const safe = (v) => (v == null ? "" : String(v).trim());
 
@@ -362,6 +366,7 @@
 
           allRows = rows;
           filteredRows = [...allRows];
+          syncTotalCount();
 
           fillFilterOptions();
 
@@ -374,6 +379,7 @@
           renderPage();
         } catch (e) {
           console.error("datasets.js parse error:", e);
+          tbody.dataset.totalCount = "0";
           tbody.innerHTML = `<tr><td colspan="8" style="text-align:center;padding:32px;color:#dc2626;">
             Failed to load datasets. Check console.
           </td></tr>`;
@@ -381,6 +387,7 @@
       },
       error: (err) => {
         console.error("PapaParse load error:", err);
+        tbody.dataset.totalCount = "0";
         tbody.innerHTML = `<tr><td colspan="8" style="text-align:center;padding:32px;color:#dc2626;">
           Failed to load datasets.csv
         </td></tr>`;

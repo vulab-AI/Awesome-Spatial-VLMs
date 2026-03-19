@@ -31,6 +31,10 @@
   let recordsPerPage = Number(recordsPerPageSelect?.value || 25);
   let sortState = { colIndex: null, order: "asc" };
 
+  function syncTotalCount () {
+    if (tableBody) tableBody.dataset.totalCount = String(allRows.length);
+  }
+
   // 9 columns (must match thead order)
   const COLS = [
     MAIN_COL,         // 0
@@ -305,6 +309,7 @@
       complete: (results) => {
         allRows = (results.data || []).filter(r => Object.keys(r).length > 0);
         filteredRows = allRows.slice();
+        syncTotalCount();
 
         // Init dropdowns once
         renderFilterOptionsLinked();
@@ -322,6 +327,7 @@
       },
       error: (err) => {
         console.error("CSV load error:", err);
+        if (tableBody) tableBody.dataset.totalCount = "0";
         tableBody.innerHTML = `<tr><td colspan="9" style="text-align:center;color:#c00;">Failed to load CSV</td></tr>`;
       }
     });

@@ -17,6 +17,11 @@ let benchmarkSort = { col: null, order: "asc" };
 let benchmarkPage = 1;
 let benchmarkPerPage = 10;
 
+function syncBenchmarkTotalCount() {
+  const tbody = document.getElementById("benchmarkTableBody");
+  if (tbody) tbody.dataset.totalCount = String(benchmarkRaw.length);
+}
+
 function safeStr(v) {
   if (v === null || v === undefined) return "";
   return String(v).trim();
@@ -252,6 +257,7 @@ function initBenchmarks() {
       benchmarkRaw = rows
         .map(normalizeBenchmarkRow)
         .filter(r => r.Benchmark);
+      syncBenchmarkTotalCount();
 
       console.log("[Benchmarks] loaded:", benchmarkRaw.length, "rows");
 
@@ -271,6 +277,7 @@ function initBenchmarks() {
     },
     error: (err) => {
       console.error("[Benchmarks] CSV load failed:", err);
+      if (tbody) tbody.dataset.totalCount = "0";
       if (tbody) {
         tbody.innerHTML = `
           <tr>
