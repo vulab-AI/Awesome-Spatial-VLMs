@@ -117,9 +117,10 @@ This repository uses the framework from our survey paper to systematically organ
   - [CVPR2025] Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model (_University of Washington_) [[paper]](https://arxiv.org/pdf/2408.00754);
   - [NeurIPS2025] Mindjourney: Test-time scaling with world models for spatial reasoning (_UMass Amherst_) [[paper]](https://arxiv.org/pdf/2507.12508) [[code]](https://github.com/UMass-Embodied-AGI/MindJourney);
   - [Neurocomputing2025] 3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o (_Shanghai AI Lab_) [[paper]](https://arxiv.org/pdf/2503.13185);
-</details>
   - [arXiv2026] Think3D: Thinking with Space for Spatial Reasoning (_Dalian University of Technology_) [[paper]](https://arxiv.org/pdf/2601.13029) [[code]](https://github.com/zhangzaibin/spagent) [[checkpoint]](https://huggingface.co/jialianjie/SPAgent-4B);
   - [NeurIPS2025] See&Trek: Training-Free Spatial Prompting for Multimodal Large Language Model (_HKUST(GZ)_) [[paper]](https://arxiv.org/pdf/2509.16087) [[code]](https://github.com/Hoantrbl/SeeTrek?tab=readme-ov-file);
+
+</details>
 
 <a id="hybrid-prompting"></a>
 
