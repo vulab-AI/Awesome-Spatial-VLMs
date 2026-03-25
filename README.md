@@ -3,7 +3,6 @@
   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge" style="vertical-align: middle;"> </a> <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/commits/main/"> <img src="https://img.shields.io/github/last-commit/vulab-AI/Awesome-Spatial-VLMs" alt="GitHub Last Commit" style="vertical-align: middle;"></a>
 </div>
 
-[\[Awesome-Spatial-VLMs\] _Spatial Intelligence in Vision-Language Models: A Comprehensive Survey_](https://github.com/vulab-AI/Awesome-Spatial-VLMs)
 
 <!-- <h1 align="center" style="font-size: 1.7rem">
   🚀 Awesome Spatial VLMs
