@@ -29,7 +29,7 @@
 >Actively maintained—watch for updates, benchmark your VLM with our evaluation code, and consider starring 🌟 and sharing if helpful.
 
 This repository is the official, community-maintained resource for our survey paper:  **Spatial Intelligence in Vision-Language Models: A Comprehensive Survey**.  
-We host an official website for streamlined navigation and well-organized resources: 👉 [Website 🔗](https://vulab-ai.github.io/Awesome-Spatial-VLMs/)
+We host an official website for streamlined navigation and well-organized resources: 👉 [Website 🔗](https://dishengll.github.io/Awesome-Spatial-VLMs/)
 
 <p align="center">
   <a href="./website.png">
@@ -53,22 +53,21 @@ We host an official website for streamlined navigation and well-organized resour
 
 
 ## Table of Contents
-- [Awesome Spatial VLMs    ](#awesome-spatial-vlms----)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [🚀 Awesome Papers](#-awesome-papers)
-    - [Training-Free Prompting](#training-free-prompting)
-    - [Model-Centric Enhancements](#model-centric-enhancements)
-    - [Explicit 2D Information Injection](#explicit-2d-information-injection)
-    - [3D Information Enhancement](#3d-information-enhancement)
-    - [Data-Centric Spatial Enhancement](#data-centric-spatial-enhancement)
-  - [📚 Datasets and Benchmarks](#-datasets-and-benchmarks)
-    - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
-    - [Evaluation Benchmarks](#evaluation-benchmarks)
-  - [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
-    - [🏅 Main Leaderboard](#-main-leaderboard)
-    - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
-  - [Citation](#citation)
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [🚀 Awesome Papers](#-awesome-papers)
+  - [Training-Free Prompting](#training-free-prompting)
+  - [Model-Centric Enhancements](#model-centric-enhancements)
+  - [Explicit 2D Information Injection](#explicit-2d-information-injection)
+  - [3D Information Enhancement](#3d-information-enhancement)
+  - [Data-Centric Spatial Enhancement](#data-centric-spatial-enhancement)
+- [📚 Datasets and Benchmarks](#-datasets-and-benchmarks)
+  - [Spatially-Oriented Training Corpora](#spatially-oriented-training-corpora)
+  - [Evaluation Benchmarks](#evaluation-benchmarks)
+- [🏆 Spatial VLM Leaderboard \& Evaluation Toolkit](#-spatial-vlm-leaderboard--evaluation-toolkit)
+  - [🏅 Main Leaderboard](#-main-leaderboard)
+  - [🧑‍🔬 How to Evaluate Your Model](#-how-to-evaluate-your-model)
+- [Citation](#citation)
 
 
 ## Overview
@@ -353,6 +352,9 @@ This repository uses the framework from our survey paper to systematically organ
 
   <!-- New paper, excluded in survey -->
   - [NeurIPS2025] 3DRS: MLLMs Need 3D-Aware Representation Supervision for Scene Understanding (_HKU_) [[paper]](https://arxiv.org/pdf/2506.01946) [[code]](https://github.com/Visual-AI/3DRS) [[checkpoint]](https://huggingface.co/OliverHuang1998/3DRS)
+
+  <!-- New paper, excluded in survey -->
+  - [arXiv2026] Spa3R: Predictive Spatial Field Modeling for 3D Visual Reasoning (_Huazhong University of Science & Technology_) [[paper]](https://arxiv.org/pdf/2602.21186) [[code]](https://github.com/hustvl/Spa3R) [[checkpoint]](https://huggingface.co/hustvl/Spa3-VLM)
 </details>
 
 <a id="scene-level-information--ego-centric"></a>
