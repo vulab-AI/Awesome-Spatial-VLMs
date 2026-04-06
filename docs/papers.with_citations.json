@@ -1,0 +1,3751 @@
+[
+  {
+    "label": "ICML2025",
+    "title": "Why is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas",
+    "affiliation": "City University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2503.01773",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 31,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/9de83e51be23e0a2bf6d62dc8af6163df247332e",
+        "externalIds": {
+          "ArXiv": "2503.01773",
+          "DBLP": "journals/corr/abs-2503-01773",
+          "DOI": "10.48550/arXiv.2503.01773",
+          "CorpusId": 276775433
+        },
+        "title_matched": "Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415085973",
+        "doi": "https://doi.org/10.48550/arxiv.2503.01773",
+        "title_matched": "Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas"
+      }
+    },
+    "citation_count": 31,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2023",
+    "title": "What Makes for Good Visual Tokenizers for Large Language Models",
+    "affiliation": "National University of Singapore 2ARC Lab",
+    "url": "https://arxiv.org/pdf/2305.12223",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 44,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/6a5525c316b9be7909c433a79e090ed731425083",
+        "externalIds": {
+          "ArXiv": "2305.12223",
+          "DBLP": "journals/corr/abs-2305-12223",
+          "DOI": "10.48550/arXiv.2305.12223",
+          "CorpusId": 258833156
+        },
+        "title_matched": "What Makes for Good Visual Tokenizers for Large Language Models?"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4388926400",
+        "doi": "https://doi.org/10.48550/arxiv.2311.11860",
+        "title_matched": "LION : Empowering Multimodal Large Language Model with Dual-Level Visual Knowledge"
+      }
+    },
+    "citation_count": 44,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Visual Spatial Tuning",
+    "affiliation": "The University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2511.05491",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 4,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/5c93b01196374e36912c16cec0b3943ba4467559",
+        "externalIds": {
+          "ArXiv": "2511.05491",
+          "CorpusId": 282889735
+        },
+        "title_matched": "Visual Spatial Tuning"
+      },
+      "openalex": {
+        "cited_by_count": 35498,
+        "id": "https://openalex.org/W1903029394",
+        "doi": "https://doi.org/10.1109/cvpr.2015.7298965",
+        "title_matched": "Fully convolutional networks for semantic segmentation"
+      }
+    },
+    "citation_count": 4,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Visual SKETCHPAD: Sketching as a visual chain of thought for multimodal language models",
+    "affiliation": "University of Washington",
+    "url": "https://arxiv.org/pdf/2406.09403",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 170,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/2b89380b5259bdaa14f620d4791a81cc463779b8",
+        "externalIds": {
+          "ArXiv": "2406.09403",
+          "DBLP": "conf/nips/HuSFROZSK24",
+          "DOI": "10.48550/arXiv.2406.09403",
+          "CorpusId": 270440440
+        },
+        "title_matched": "Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414586898",
+        "doi": "https://doi.org/10.48550/arxiv.2505.19702",
+        "title_matched": "Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning"
+      }
+    },
+    "citation_count": 170,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "ViLaSR: Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing",
+    "affiliation": "Institute of Automation, Chinese Academy of Sciences",
+    "url": "https://arxiv.org/abs/2506.09965",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 34,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/f961589644c0030dbc2f2d53398fd03934e13bfa",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2506-09965",
+          "ArXiv": "2506.09965",
+          "DOI": "10.48550/arXiv.2506.09965",
+          "CorpusId": 279306073
+        },
+        "title_matched": "Reinforcing Spatial Reasoning in Vision-Language Models with Interwoven Thinking and Visual Drawing"
+      },
+      "openalex": null
+    },
+    "citation_count": 34,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction",
+    "affiliation": "UT Austin",
+    "url": "https://arxiv.org/pdf/2505.20279",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Implicit 3D from Egocentric Views",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 36,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/a66055e694725605f36b0eca9c7daa9631761876",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2505-20279",
+          "ArXiv": "2505.20279",
+          "DOI": "10.48550/arXiv.2505.20279",
+          "CorpusId": 279449925
+        },
+        "title_matched": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4413326179",
+        "doi": "https://doi.org/10.36227/techrxiv.175561766.62405781/v1",
+        "title_matched": "3D Scene Graphs in Robotics: A Unified Representation Bridging Geometry, Semantics, and Action"
+      }
+    },
+    "citation_count": 36,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "VCoder: Versatile Vision Encoders for Multimodal Large Language Models",
+    "affiliation": "Georgia Tech",
+    "url": "https://arxiv.org/pdf/2312.14233",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 45,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/1c9bab7ab072c619133c936b5b85160e5373e638",
+        "externalIds": {
+          "ArXiv": "2312.14233",
+          "DBLP": "conf/cvpr/JainYS24",
+          "DOI": "10.1109/CVPR52733.2024.02644",
+          "CorpusId": 266521081
+        },
+        "title_matched": "VCoder: Versatile Vision Encoders for Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4412888840",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.99",
+        "title_matched": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models"
+      }
+    },
+    "citation_count": 45,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "VCoder: Versatile Vision Encoders for Multimodal Large Language Models",
+    "affiliation": "Georgia Tech",
+    "url": "https://arxiv.org/pdf/2312.14233",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 45,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/1c9bab7ab072c619133c936b5b85160e5373e638",
+        "externalIds": {
+          "ArXiv": "2312.14233",
+          "DBLP": "conf/cvpr/JainYS24",
+          "DOI": "10.1109/CVPR52733.2024.02644",
+          "CorpusId": 266521081
+        },
+        "title_matched": "VCoder: Versatile Vision Encoders for Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4412888840",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.99",
+        "title_matched": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models"
+      }
+    },
+    "citation_count": 45,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "EMNLP2024",
+    "title": "To Preserve or To Compress: An In-Depth Study of Connector Selection in Multimodal Large Language Models",
+    "affiliation": "Digital Twin Institute, Eastern Institute of Technology, China",
+    "url": "https://arxiv.org/pdf/2410.06765v1",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 7,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/04053dcd96280751344e05231e727e64d4a4e162",
+        "externalIds": {
+          "DBLP": "conf/emnlp/LinCZ024",
+          "ACL": "2024.emnlp-main.325",
+          "ArXiv": "2410.06765",
+          "DOI": "10.48550/arXiv.2410.06765",
+          "CorpusId": 273228434
+        },
+        "title_matched": "To Preserve or To Compress: An In-Depth Study of Connector Selection in Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4404784250",
+        "doi": "https://doi.org/10.18653/v1/2024.emnlp-main.325",
+        "title_matched": "To Preserve or To Compress: An In-Depth Study of Connector Selection in Multimodal Large Language Models"
+      }
+    },
+    "citation_count": 7,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2510.18632",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 7,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/72c82250b959bc1ae4fa8ed771b3f6587c6d0614",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2510-18632",
+          "ArXiv": "2510.18632",
+          "DOI": "10.48550/arXiv.2510.18632",
+          "CorpusId": 282246461
+        },
+        "title_matched": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416056960",
+        "doi": "https://doi.org/10.48550/arxiv.2510.18632",
+        "title_matched": "Think with 3D: Geometric Imagination Grounded Spatial Reasoning from Limited Views"
+      }
+    },
+    "citation_count": 7,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ECCV2024",
+    "title": "The All-Seeing Project V2: Towards General Relation Comprehension of the Open World",
+    "affiliation": "Shanghai AI Laboratory",
+    "url": "https://arxiv.org/pdf/2402.19474",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 82,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/437fbf13aa6c141c26d328921fae1dc40a2f234d",
+        "externalIds": {
+          "DBLP": "conf/eccv/WangRLLYCWLLZQD24",
+          "ArXiv": "2402.19474",
+          "DOI": "10.48550/arXiv.2402.19474",
+          "CorpusId": 268091186
+        },
+        "title_matched": "The All-Seeing Project V2: Towards General Relation Comprehension of the Open World"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415158853",
+        "doi": "https://doi.org/10.48550/arxiv.2504.09979",
+        "title_matched": "Resampling Benchmark for Efficient Comprehensive Evaluation of Large Vision-Language Models"
+      }
+    },
+    "citation_count": 82,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICCV2025",
+    "title": "SplatTalk: 3D VQA with Gaussian Splatting",
+    "affiliation": "Georgia Institute of Technology",
+    "url": "https://arxiv.org/pdf/2503.06271",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Implicit 3D from Egocentric Views",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 11,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/32545b681bcf6b80cd837458f08ca7b4f41f51d5",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2503-06271",
+          "ArXiv": "2503.06271",
+          "DOI": "10.48550/arXiv.2503.06271",
+          "CorpusId": 276903832
+        },
+        "title_matched": "SplatTalk: 3D VQA with Gaussian Splatting"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417149936",
+        "doi": "https://doi.org/10.48550/arxiv.2503.06271",
+        "title_matched": "SplatTalk: 3D VQA with Gaussian Splatting"
+      }
+    },
+    "citation_count": 11,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities",
+    "affiliation": "Google DeepMind",
+    "url": "https://arxiv.org/pdf/2401.12168",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 505,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/a3ca77456142b78367dd5d53138b50dfac8086ca",
+        "externalIds": {
+          "DBLP": "conf/cvpr/0003XKISGX24",
+          "ArXiv": "2401.12168",
+          "DOI": "10.1109/CVPR52733.2024.01370",
+          "CorpusId": 267069344
+        },
+        "title_matched": "SpatialVLM: Endowing Vision-Language Models with Spatial Reasoning Capabilities"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4403705221",
+        "doi": "https://doi.org/10.48550/arxiv.2409.10683",
+        "title_matched": "MotIF: Motion Instruction Fine-tuning"
+      }
+    },
+    "citation_count": 505,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards",
+    "affiliation": "University of Oxford",
+    "url": "https://arxiv.org/pdf/2511.07403",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/6f24efd6ba9cc55fac85a64fab13c622379e26b2",
+        "externalIds": {
+          "ArXiv": "2511.07403",
+          "CorpusId": 282721445
+        },
+        "title_matched": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W7105226212",
+        "doi": "https://doi.org/10.48550/arxiv.2511.07403",
+        "title_matched": "SpatialThinker: Reinforcing 3D Reasoning in Multimodal LLMs via Spatial Rewards"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "SpatialReasoner: Towards Explicit and Generalizable 3D Spatial Reasoning,",
+    "affiliation": "Johns Hopkins University",
+    "url": "https://arxiv.org/pdf/2504.20024",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 17,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/7f08ae1a7a2ebb390de858e011a31ddaa331e9e6",
+        "externalIds": {
+          "ArXiv": "2504.20024",
+          "DBLP": "journals/corr/abs-2504-20024",
+          "DOI": "10.48550/arXiv.2504.20024",
+          "CorpusId": 278165552
+        },
+        "title_matched": "SpatialReasoner: Towards Explicit and Generalizable 3D Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417042736",
+        "doi": "https://doi.org/10.48550/arxiv.2504.20024",
+        "title_matched": "SpatialReasoner: Towards Explicit and Generalizable 3D Spatial Reasoning"
+      }
+    },
+    "citation_count": 17,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models",
+    "affiliation": "UC San Diego",
+    "url": "https://arxiv.org/pdf/2406.01584",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 171,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/0072019b934df4a802c2f948ed090c7745b32dd5",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2406-01584",
+          "ArXiv": "2406.01584",
+          "DOI": "10.48550/arXiv.2406.01584",
+          "CorpusId": 270215984
+        },
+        "title_matched": "SpatialRGPT: Grounded Spatial Reasoning in Vision Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414634303",
+        "doi": "https://doi.org/10.48550/arxiv.2504.16061",
+        "title_matched": "Vision language models are unreliable at trivial spatial cognition"
+      }
+    },
+    "citation_count": 171,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models",
+    "affiliation": "Toyota Central R&D Labs",
+    "url": "https://arxiv.org/pdf/2505.04911v1",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/32ec8debca8c85c9a6bb99a27cfbe24c8f257e0e",
+        "externalIds": {
+          "ArXiv": "2505.04911",
+          "DBLP": "journals/corr/abs-2505-04911",
+          "DOI": "10.48550/arXiv.2505.04911",
+          "CorpusId": 278394447
+        },
+        "title_matched": "SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416097677",
+        "doi": "https://doi.org/10.48550/arxiv.2505.04911",
+        "title_matched": "SpatialPrompting: Keyframe-driven Zero-Shot Spatial Reasoning with Off-the-Shelf Multimodal Large Language Models"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors",
+    "affiliation": "University of Oxford",
+    "url": "https://arxiv.org/pdf/2403.13438",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Textual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 41,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/362db7e58c4e4e3d199026dca4dbc3cdbe4d8c88",
+        "externalIds": {
+          "DBLP": "conf/nips/MaLCTM24",
+          "ArXiv": "2403.13438",
+          "DOI": "10.52202/079017-2198",
+          "CorpusId": 268536785
+        },
+        "title_matched": "SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4393108846",
+        "doi": "https://doi.org/10.48550/arxiv.2403.13438",
+        "title_matched": "SpatialPIN: Enhancing Spatial Reasoning Capabilities of Vision-Language Models through Prompting and Interacting 3D Priors"
+      }
+    },
+    "citation_count": 41,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2510.08531",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 6,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d06e9888daa3f5c59d4fd49d58b53487e538e274",
+        "externalIds": {
+          "ArXiv": "2510.08531",
+          "DBLP": "journals/corr/abs-2510-08531",
+          "DOI": "10.48550/arXiv.2510.08531",
+          "CorpusId": 281951172
+        },
+        "title_matched": "SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416386285",
+        "doi": "https://doi.org/10.48550/arxiv.2510.08531",
+        "title_matched": "SpatialLadder: Progressive Training for Spatial Reasoning in Vision-Language Models"
+      }
+    },
+    "citation_count": 6,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "SpatialLLM: A Compound 3D-Informed Design towards Spatially-Intelligent Large Multimodal Models",
+    "affiliation": "Johns Hopkins University",
+    "url": "https://www.cs.jhu.edu/~alanlab/Pubs25/ma2025spatialllm.pdf",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4413157552",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.01608",
+        "title_matched": "SpatialLLM: A Compound 3D-Informed Design towards Spatially-Intelligent Large Multimodal Models"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "openalex"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpatialCoT: Advancing Spatial Reasoning through Coordinate Alignment and Chain-of-Thought for Embodied Task Planning",
+    "affiliation": "Huawei Noah's Ark Lab",
+    "url": "https://arxiv.org/pdf/2501.10074",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 40,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d97ca2bedf3c4a6a7ca29231cb30078e2a7e1abf",
+        "externalIds": {
+          "ArXiv": "2501.10074",
+          "DBLP": "journals/corr/abs-2501-10074",
+          "DOI": "10.48550/arXiv.2501.10074",
+          "CorpusId": 275606784
+        },
+        "title_matched": "SpatialCoT: Advancing Spatial Reasoning through Coordinate Alignment and Chain-of-Thought for Embodied Task Planning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4406604137",
+        "doi": "https://doi.org/10.48550/arxiv.2501.10074",
+        "title_matched": "SpatialCoT: Advancing Spatial Reasoning through Coordinate Alignment and Chain-of-Thought for Embodied Task Planning"
+      }
+    },
+    "citation_count": 40,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language",
+    "affiliation": "Zhejiang University",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_SpatialCLIP_Learning_3D-aware_Image_Representations_from_Spatially_Discriminative_Language_CVPR_2025_paper.pdf",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 7,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/34176c4820d3e8623574cbd2a97bdacdee2476d3",
+        "externalIds": {
+          "DBLP": "conf/cvpr/0001ZHHYZCJ0Z025",
+          "DOI": "10.1109/CVPR52734.2025.02761",
+          "CorpusId": 280157095
+        },
+        "title_matched": "SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4413156275",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.02761",
+        "title_matched": "SpatialCLIP: Learning 3D-aware Image Representations from Spatially Discriminative Language"
+      }
+    },
+    "citation_count": 7,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICRA2025",
+    "title": "SpatialBot: Precise Spatial Understanding with Vision Language Models",
+    "affiliation": "Shanghai Jiao Tong University",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11128671",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 123,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/8a31a1db48f1776e245ee73666f327d00682fc5f",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2406-13642",
+          "ArXiv": "2406.13642",
+          "DOI": "10.1109/ICRA55743.2025.11128671",
+          "CorpusId": 270619467
+        },
+        "title_matched": "SpatialBot: Precise Spatial Understanding with Vision Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 6,
+        "id": "https://openalex.org/W4413926275",
+        "doi": "https://doi.org/10.1109/icra55743.2025.11128671",
+        "title_matched": "SpatialBot: Precise Spatial Understanding with Vision Language Models"
+      }
+    },
+    "citation_count": 123,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2505.23747",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Implicit 3D from Egocentric Views",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 56,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/37cc48c8e1ebadd56ee6295f7afec9cc8f11b29d",
+        "externalIds": {
+          "ArXiv": "2505.23747",
+          "DBLP": "journals/corr/abs-2505-23747",
+          "DOI": "10.48550/arXiv.2505.23747",
+          "CorpusId": 278996112
+        },
+        "title_matched": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416613140",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23747",
+        "title_matched": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence"
+      }
+    },
+    "citation_count": 56,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Spatial 3D-LLM: Progressive Spatial Awareness for Advanced 3D Vision-Language Understanding",
+    "affiliation": "Beijing Digital Native Digital City Research Center",
+    "url": "https://openreview.net/pdf?id=JzLcKWtGnl",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": {
+        "cited_by_count": 154,
+        "id": "https://openalex.org/W4391974599",
+        "doi": "https://doi.org/10.1109/access.2024.3367715",
+        "title_matched": "Generative AI for Transformative Healthcare: A Comprehensive Study of Emerging Models, Applications, Case Studies, and Limitations"
+      }
+    },
+    "citation_count": 154,
+    "citation_source": "openalex"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Sparkle: Mastering Basic Spatial Capabilities in Vision Language Models Elicits Generalization to Spatial Reasoning",
+    "affiliation": "Massachusetts Institute of Technology",
+    "url": "https://arxiv.org/pdf/2410.16162",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 24,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/353c781fe72253f05896430335bf80f3c02fcc21",
+        "externalIds": {
+          "ArXiv": "2410.16162",
+          "DOI": "10.18653/v1/2025.findings-emnlp.217",
+          "CorpusId": 273507080
+        },
+        "title_matched": "Sparkle: Mastering Basic Spatial Capabilities in Vision Language Models Elicits Generalization to Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414634303",
+        "doi": "https://doi.org/10.48550/arxiv.2504.16061",
+        "title_matched": "Vision language models are unreliable at trivial spatial cognition"
+      }
+    },
+    "citation_count": 24,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+    "affiliation": "Umich, OSU, Nvidia",
+    "url": "https://arxiv.org/pdf/2512.04069",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/976cba14bf3d1cadb409480d0ffb67aa23237989",
+        "externalIds": {
+          "ArXiv": "2512.04069",
+          "CorpusId": 283466453
+        },
+        "title_matched": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417036176",
+        "doi": "https://doi.org/10.48550/arxiv.2512.04069",
+        "title_matched": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpaceR: Reinforcing MLLMs in Video Spatial Reasoning",
+    "affiliation": "Peking University",
+    "url": "https://arxiv.org/pdf/2504.01805v2",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 29,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/cc2038510f2027fa504961e5268cf778487a67cc",
+        "externalIds": {
+          "ArXiv": "2504.01805",
+          "CorpusId": 277501860
+        },
+        "title_matched": "SpaceR: Reinforcing MLLMs in Video Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415320074",
+        "doi": "https://doi.org/10.48550/arxiv.2504.01805",
+        "title_matched": "SpaceR: Reinforcing MLLMs in Video Spatial Reasoning"
+      }
+    },
+    "citation_count": 29,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpaceMind: Camera-Guided Modality Fusion for Spatial Reasoning in Vision-Language Models",
+    "affiliation": "Huawei",
+    "url": "https://arxiv.org/pdf/2511.23075",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/88df9aaf190e392fa64d19e0c0ae5932a9b643fd",
+        "externalIds": {
+          "ArXiv": "2511.23075",
+          "CorpusId": 283438262
+        },
+        "title_matched": "SpaceMind: Camera-Guided Modality Fusion for Spatial Reasoning in Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W7108248435",
+        "doi": "",
+        "title_matched": "SpaceMind: Camera-Guided Modality Fusion for Spatial Reasoning in Vision-Language Models"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data",
+    "affiliation": "University of Waterloo",
+    "url": "https://arxiv.org/pdf/2504.20648",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 9,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/4b788e3a4d82173e7d16d6cc887409f69b4350ed",
+        "externalIds": {
+          "ArXiv": "2504.20648",
+          "DBLP": "conf/acl/OgeziS25",
+          "DOI": "10.48550/arXiv.2504.20648",
+          "CorpusId": 278171508
+        },
+        "title_matched": "SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4412945600",
+        "doi": "https://doi.org/10.18653/v1/2025.acl-long.387",
+        "title_matched": "SpaRE: Enhancing Spatial Reasoning in Vision-Language Models with Synthetic Data"
+      }
+    },
+    "citation_count": 9,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CoRR2025",
+    "title": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2502.13143",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Textual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 29,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/3564562b1fd9ed8abf9aaeef0afd1d759c5e0d55",
+        "externalIds": {
+          "ArXiv": "2502.13143",
+          "DBLP": "journals/corr/abs-2502-13143",
+          "DOI": "10.48550/arXiv.2502.13143",
+          "CorpusId": 276421453
+        },
+        "title_matched": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4407760070",
+        "doi": "https://doi.org/10.48550/arxiv.2502.13143",
+        "title_matched": "SoFar: Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation"
+      }
+    },
+    "citation_count": 29,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICCVW2025",
+    "title": "SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters",
+    "affiliation": "Universit de Moncton",
+    "url": "https://arxiv.org/pdf/2509.15490",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/aa58d063f250a438c1451d619cec007c7db35d90",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2509-15490",
+          "ArXiv": "2509.15490",
+          "DOI": "10.48550/arXiv.2509.15490",
+          "CorpusId": 281410772
+        },
+        "title_matched": "SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414696416",
+        "doi": "https://doi.org/10.48550/arxiv.2509.15490",
+        "title_matched": "SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "Situational Awareness Matters in 3D Vision Language Reasoning",
+    "affiliation": "UIUC",
+    "url": "https://arxiv.org/pdf/2406.07544",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 35,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/c31970f0b5a3ffa41ab604ae29ffd323af277538",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2406-07544",
+          "ArXiv": "2406.07544",
+          "DOI": "10.1109/CVPR52733.2024.01298",
+          "CorpusId": 270380128
+        },
+        "title_matched": "Situational Awareness Matters in 3D Vision Language Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 5,
+        "id": "https://openalex.org/W4402727108",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.01298",
+        "title_matched": "Situational Awareness Matters in 3D Vision Language Reasoning"
+      }
+    },
+    "citation_count": 35,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2023",
+    "title": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V",
+    "affiliation": "Microsoft Research, Redmond",
+    "url": "https://arxiv.org/pdf/2310.11441",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 268,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/7451d756118628474dc022813eb952a21d34c5f6",
+        "externalIds": {
+          "ArXiv": "2310.11441",
+          "DBLP": "journals/corr/abs-2310-11441",
+          "DOI": "10.48550/arXiv.2310.11441",
+          "CorpusId": 266149987
+        },
+        "title_matched": "Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V"
+      },
+      "openalex": {
+        "cited_by_count": 26,
+        "id": "https://openalex.org/W4399142101",
+        "doi": "https://doi.org/10.1098/rsos.231676",
+        "title_matched": "Putting ChatGPT vision (GPT-4V) to the test: risk perception in traffic images"
+      }
+    },
+    "citation_count": 268,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ECCV2024",
+    "title": "SegPoint: Segment Any Point Cloud via Large Language Model",
+    "affiliation": "Nanyang Technological University",
+    "url": "https://arxiv.org/pdf/2407.13761",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 33,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/5d637c654deec76faba6ecb8b11b0617ac51c459",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2407-13761",
+          "ArXiv": "2407.13761",
+          "DOI": "10.48550/arXiv.2407.13761",
+          "CorpusId": 271270879
+        },
+        "title_matched": "SegPoint: Segment Any Point Cloud via Large Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4406060212",
+        "doi": "https://doi.org/10.48550/arxiv.2407.13761",
+        "title_matched": "SegPoint: Segment Any Point Cloud via Large Language Model"
+      }
+    },
+    "citation_count": 33,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning",
+    "affiliation": "South China University of Technology",
+    "url": "https://arxiv.org/pdf/2505.09118",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Explicit spatial relationship",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/83b5bab2393d14b2eabfc0ec44d913ffba0ea57d",
+        "externalIds": {
+          "ArXiv": "2505.09118",
+          "DBLP": "journals/corr/abs-2505-09118",
+          "DOI": "10.48550/arXiv.2505.09118",
+          "CorpusId": 278602959
+        },
+        "title_matched": "Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414938947",
+        "doi": "https://doi.org/10.48550/arxiv.2505.09118",
+        "title_matched": "Seeing Beyond the Scene: Enhancing Vision-Language Models with Interactional Reasoning"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding (_HKUST",
+    "affiliation": "Guangzhou)",
+    "url": "https://arxiv.org/pdf/2412.04383",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 33,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/839f73c8db2a35e10c5e7f8e20dfbaa2d5fce6ba",
+        "externalIds": {
+          "ArXiv": "2412.04383",
+          "DBLP": "conf/cvpr/LiLKY025",
+          "DOI": "10.1109/CVPR52734.2025.00351",
+          "CorpusId": 274514651
+        },
+        "title_matched": "SeeGround: See and Ground for Zero-Shot Open-Vocabulary 3D Visual Grounding"
+      },
+      "openalex": null
+    },
+    "citation_count": 33,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "WACV2025",
+    "title": "Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning",
+    "affiliation": "Brown University",
+    "url": "https://openaccess.thecvf.com/content/WACV2025/papers/Fu_Scene-LLM_Extending_Language_Model_for_3D_Visual_Reasoning_WACV_2025_paper.pdf",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 132,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/e3c2c4104ca8923fd58508ab6cb52f5c579a77c9",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2403-11401",
+          "ArXiv": "2403.11401",
+          "DOI": "10.48550/arXiv.2403.11401",
+          "CorpusId": 268513037
+        },
+        "title_matched": "Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 7,
+        "id": "https://openalex.org/W4392972344",
+        "doi": "https://doi.org/10.48550/arxiv.2403.11401",
+        "title_matched": "Scene-LLM: Extending Language Model for 3D Visual Understanding and Reasoning"
+      }
+    },
+    "citation_count": 132,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ECCV2024",
+    "title": "ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities",
+    "affiliation": "The University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2407.01525",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 45,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/fd36c54ae4f81f1fca80c52125a14bee3a0b6711",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2407-01525",
+          "ArXiv": "2407.01525",
+          "DOI": "10.48550/arXiv.2407.01525",
+          "CorpusId": 270870423
+        },
+        "title_matched": "ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4400377505",
+        "doi": "https://doi.org/10.48550/arxiv.2407.01525",
+        "title_matched": "ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities"
+      }
+    },
+    "citation_count": 45,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2022",
+    "title": "ScanQA: 3D Question Answering for Spatial Scene Understanding",
+    "affiliation": "Kyoto University",
+    "url": "https://arxiv.org/pdf/2112.10482",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 309,
+        "year": 2021,
+        "url": "https://www.semanticscholar.org/paper/8f6c652a392995bd047a2f7b94474ab1e6e23ff0",
+        "externalIds": {
+          "ArXiv": "2112.10482",
+          "DBLP": "conf/cvpr/AzumaMKK22",
+          "DOI": "10.1109/CVPR52688.2022.01854",
+          "CorpusId": 245334889
+        },
+        "title_matched": "ScanQA: 3D Question Answering for Spatial Scene Understanding"
+      },
+      "openalex": {
+        "cited_by_count": 2,
+        "id": "https://openalex.org/W4386280283",
+        "doi": "https://doi.org/10.1371/journal.pone.0290315",
+        "title_matched": "Image to English translation and comprehension: INT2-VQA method based on inter-modality and intra-modality collaborations"
+      }
+    },
+    "citation_count": 309,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Scaling Spatial Intelligence with Multimodal Foundation",
+    "affiliation": "SenseTime Research",
+    "url": "https://arxiv.org/pdf/2511.13719",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/1c14b22e6852dd9e17062e697bfcb087753e1944",
+        "externalIds": {
+          "ArXiv": "2511.13719",
+          "CorpusId": 283073248
+        },
+        "title_matched": "Scaling Spatial Intelligence with Multimodal Foundation Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416378724",
+        "doi": "https://doi.org/10.48550/arxiv.2511.13719",
+        "title_matched": "Scaling Spatial Intelligence with Multimodal Foundation Models"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "COLING2025",
+    "title": "Scaffolding coordinates to promote vision-language coordination in large multi-modal models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2402.12058",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 52,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/fd309bff5f99c6f5c3dbe51bb68b4beeec475bd8",
+        "externalIds": {
+          "ArXiv": "2402.12058",
+          "DBLP": "conf/coling/LeiYCLL25",
+          "DOI": "10.48550/arXiv.2402.12058",
+          "CorpusId": 267750933
+        },
+        "title_matched": "Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416246068",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23740",
+        "title_matched": "LayerPeeler: Autoregressive Peeling for Layer-wise Image Vectorization"
+      }
+    },
+    "citation_count": 52,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization",
+    "affiliation": "Stony Brook University",
+    "url": "https://arxiv.org/pdf/2506.01371",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 7,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/4e0d94eeb07a2d6dbd59c65a6b22ea4dfd57aa81",
+        "externalIds": {
+          "ArXiv": "2506.01371",
+          "DBLP": "journals/corr/abs-2506-01371",
+          "DOI": "10.48550/arXiv.2506.01371",
+          "CorpusId": 279075317
+        },
+        "title_matched": "SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414896938",
+        "doi": "https://doi.org/10.48550/arxiv.2506.01371",
+        "title_matched": "SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization"
+      }
+    },
+    "citation_count": 7,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning",
+    "affiliation": "Westlake University",
+    "url": "https://arxiv.org/pdf/2505.12448",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 19,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/a8b9ae79e58786f19d4fc4992fb3bf7ae1891f57",
+        "externalIds": {
+          "ArXiv": "2505.12448",
+          "DBLP": "journals/corr/abs-2505-12448",
+          "DOI": "10.48550/arXiv.2505.12448",
+          "CorpusId": 278739739
+        },
+        "title_matched": "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415320167",
+        "doi": "https://doi.org/10.48550/arxiv.2505.12448",
+        "title_matched": "SSR: Enhancing Depth Perception in Vision-Language Models via Rationale-Guided Spatial Reasoning"
+      }
+    },
+    "citation_count": 19,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2025",
+    "title": "SPARTUN3D: Situated Spatial Understanding of 3D World in Large Language Models",
+    "affiliation": "Michigan State University & UC Davis",
+    "url": "https://arxiv.org/pdf/2410.03878",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 17,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/f587e7053d31b6962db5d3d587c073968f84893c",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2410-03878",
+          "ArXiv": "2410.03878",
+          "DOI": "10.48550/arXiv.2410.03878",
+          "CorpusId": 273186345
+        },
+        "title_matched": "SPARTUN3D: Situated Spatial Understanding of 3D World in Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4403322223",
+        "doi": "https://doi.org/10.48550/arxiv.2410.03878",
+        "title_matched": "SPARTUN3D: Situated Spatial Understanding of 3D World in Large Language Models"
+      }
+    },
+    "citation_count": 17,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "AAAI2026",
+    "title": "SIFThinker: Spatially-Aware Image Focus for Visual Reasoning",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2508.06259",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 4,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/2d19ea0cf82d2f46ab3a259f551c7ce436d6b1ea",
+        "externalIds": {
+          "ArXiv": "2508.06259",
+          "DBLP": "journals/corr/abs-2508-06259",
+          "DOI": "10.48550/arXiv.2508.06259",
+          "CorpusId": 280561179
+        },
+        "title_matched": "SIFThinker: Spatially-Aware Image Focus for Visual Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415193793",
+        "doi": "https://doi.org/10.48550/arxiv.2508.06259",
+        "title_matched": "SIFThinker: Spatially-Aware Image Focus for Visual Reasoning"
+      }
+    },
+    "citation_count": 4,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2509.17664",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 2,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/2f4ce809f4dbc7593f17e1b1057fcc64dd1b3d12",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2509-17664",
+          "ArXiv": "2509.17664",
+          "DOI": "10.48550/arXiv.2509.17664",
+          "CorpusId": 281420367
+        },
+        "title_matched": "SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415254741",
+        "doi": "https://doi.org/10.48550/arxiv.2509.17664",
+        "title_matched": "SD-VLM: Spatial Measuring and Understanding with Depth-Encoded Vision-Language Models"
+      }
+    },
+    "citation_count": 2,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR26 Submission",
+    "title": "SCoT: Teaching 3D-LLMs to Think Spatially with Million-scale CoT Annotations",
+    "affiliation": "",
+    "url": "https://openreview.net/pdf?id=5Tph6wFMOm",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": null
+    },
+    "citation_count": null,
+    "citation_source": null
+  },
+  {
+    "label": "ICLR2025",
+    "title": "Ross: Reconstructive Visual Instruction Tuning",
+    "affiliation": "Institute of Automation, Chinese Academy of Sciences",
+    "url": "https://arxiv.org/pdf/2410.09575",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 30,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/2f5c19e3884dce851931d1dddb729694a1c90f1f",
+        "externalIds": {
+          "ArXiv": "2410.09575",
+          "DBLP": "journals/corr/abs-2410-09575",
+          "DOI": "10.48550/arXiv.2410.09575",
+          "CorpusId": 273346319
+        },
+        "title_matched": "Reconstructive Visual Instruction Tuning"
+      },
+      "openalex": {
+        "cited_by_count": 5477,
+        "id": "https://openalex.org/W2153791616",
+        "doi": "https://doi.org/10.1017/s0140525x12000477",
+        "title_matched": "Whatever next? Predictive brains, situated agents, and the future of cognitive science"
+      }
+    },
+    "citation_count": 30,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics",
+    "affiliation": "NVIDIA",
+    "url": "https://arxiv.org/pdf/2411.16537",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 74,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/ba8f1e36ca5f16a61d679f1ddf7b2cb3e298b354",
+        "externalIds": {
+          "ArXiv": "2411.16537",
+          "DBLP": "journals/corr/abs-2411-16537",
+          "DOI": "10.1109/CVPR52734.2025.01470",
+          "CorpusId": 274233932
+        },
+        "title_matched": "RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417095204",
+        "doi": "https://doi.org/10.48550/arxiv.2505.13441",
+        "title_matched": "GraspMolmo: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation"
+      }
+    },
+    "citation_count": 74,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics",
+    "affiliation": "Beihang University",
+    "url": "https://arxiv.org/pdf/2506.04308",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 43,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/1f887ad6315c2fdaea1d4d76b55af83b2ba7ef1e",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2506-04308",
+          "ArXiv": "2506.04308",
+          "DOI": "10.48550/arXiv.2506.04308",
+          "CorpusId": 279244524
+        },
+        "title_matched": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416075795",
+        "doi": "https://doi.org/10.48550/arxiv.2506.04308",
+        "title_matched": "RoboRefer: Towards Spatial Referring with Reasoning in Vision-Language Models for Robotics"
+      }
+    },
+    "citation_count": 43,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICCV2025",
+    "title": "Robin3D: Improving 3D Large Language Model via Robust Instruction Tuning",
+    "affiliation": "University of Illinois Chicago",
+    "url": "https://arxiv.org/pdf/2410.00255",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 17,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/3c13b2eb054a3d4b4bf0f63c56fdeef746669fd0",
+        "externalIds": {
+          "ArXiv": "2410.00255",
+          "DBLP": "journals/corr/abs-2410-00255",
+          "DOI": "10.48550/arXiv.2410.00255",
+          "CorpusId": 273022776
+        },
+        "title_matched": "Robin3D: Improving 3D Large Language Model via Robust Instruction Tuning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417089499",
+        "doi": "https://doi.org/10.48550/arxiv.2504.12599",
+        "title_matched": "3DResT: A Strong Baseline for Semi-Supervised 3D Referring Expression Segmentation"
+      }
+    },
+    "citation_count": 17,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "RegionGPT: Towards Region Understanding Vision Language Model",
+    "affiliation": "Nvidia",
+    "url": "https://arxiv.org/pdf/2403.02330",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 65,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/eac12b27f535220a8dd22bf1f199b57cef6fbd67",
+        "externalIds": {
+          "DBLP": "conf/cvpr/GuoMYBCYLL24",
+          "ArXiv": "2403.02330",
+          "DOI": "10.1109/CVPR52733.2024.01309",
+          "CorpusId": 268247535
+        },
+        "title_matched": "RegionGPT: Towards Region Understanding Vision Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 24,
+        "id": "https://openalex.org/W4402753807",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.01309",
+        "title_matched": "RegionGPT: Towards Region Understanding Vision Language Model"
+      }
+    },
+    "citation_count": 65,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "EMNLP2024",
+    "title": "Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models",
+    "affiliation": "University of Toronto",
+    "url": "https://arxiv.org/abs/2409.09788",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Textual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 39,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/7b32e4e18dcd680ae2aee356542f022047e782ca",
+        "externalIds": {
+          "DBLP": "conf/emnlp/LiaoMFA24",
+          "ArXiv": "2409.09788",
+          "ACL": "2024.emnlp-main.947",
+          "DOI": "10.48550/arXiv.2409.09788",
+          "CorpusId": 272689771
+        },
+        "title_matched": "Reasoning Paths with Reference Objects Elicit Quantitative Spatial Reasoning in Large Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414896938",
+        "doi": "https://doi.org/10.48550/arxiv.2506.01371",
+        "title_matched": "SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization"
+      }
+    },
+    "citation_count": 39,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2022",
+    "title": "Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2203.08481",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 64,
+        "year": 2022,
+        "url": "https://www.semanticscholar.org/paper/de20efa062cb54ce06beab24ac70be9501423f6a",
+        "externalIds": {
+          "DBLP": "conf/cvpr/JiangLHSH22",
+          "ArXiv": "2203.08481",
+          "DOI": "10.1109/CVPR52688.2022.01507",
+          "CorpusId": 247476021
+        },
+        "title_matched": "Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding"
+      },
+      "openalex": {
+        "cited_by_count": 9,
+        "id": "https://openalex.org/W4385573866",
+        "doi": "https://doi.org/10.18653/v1/2022.emnlp-main.530",
+        "title_matched": "Modal-specific Pseudo Query Generation for Video Corpus Moment Retrieval"
+      }
+    },
+    "citation_count": 64,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICML2024",
+    "title": "Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models",
+    "affiliation": "Stanford",
+    "url": "https://arxiv.org/pdf/2402.07865",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 219,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/f86f71cfd2e9682a56d7334736a7b8a0b1c70b45",
+        "externalIds": {
+          "ArXiv": "2402.07865",
+          "DBLP": "conf/icml/Karamcheti0BLKS24",
+          "DOI": "10.48550/arXiv.2402.07865",
+          "CorpusId": 267627175
+        },
+        "title_matched": "Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4399116039",
+        "doi": "https://doi.org/10.48550/arxiv.2405.16789",
+        "title_matched": "NoteLLM-2: Multimodal Large Representation Models for Recommendation"
+      }
+    },
+    "citation_count": 219,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CoRR2023",
+    "title": "Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2308.13437",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 55,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/ef1ebdb24ce45fb57e271783a0c9a877fe0e79c3",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2308-13437",
+          "ArXiv": "2308.13437",
+          "DOI": "10.48550/arXiv.2308.13437",
+          "CorpusId": 261214794
+        },
+        "title_matched": "Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 10,
+        "id": "https://openalex.org/W4388717680",
+        "doi": "https://doi.org/10.48550/arxiv.2311.07594",
+        "title_matched": "How to Bridge the Gap between Modalities: Survey on Multimodal Large Language Model"
+      }
+    },
+    "citation_count": 55,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2023",
+    "title": "Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2308.13437",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 55,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/ef1ebdb24ce45fb57e271783a0c9a877fe0e79c3",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2308-13437",
+          "ArXiv": "2308.13437",
+          "DOI": "10.48550/arXiv.2308.13437",
+          "CorpusId": 261214794
+        },
+        "title_matched": "Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 10,
+        "id": "https://openalex.org/W4388717680",
+        "doi": "https://doi.org/10.48550/arxiv.2311.07594",
+        "title_matched": "How to Bridge the Gap between Modalities: Survey on Multimodal Large Language Model"
+      }
+    },
+    "citation_count": 55,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "Perception Tokens Enhance Visual Reasoning in Multimodal Language Models",
+    "affiliation": "University of Washington",
+    "url": "https://arxiv.org/pdf/2412.03548v1",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 32,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/b940d65aabe04876349c75498487d83db66a4081",
+        "externalIds": {
+          "ArXiv": "2412.03548",
+          "DBLP": "journals/corr/abs-2412-03548",
+          "DOI": "10.1109/CVPR52734.2025.00363",
+          "CorpusId": 274464813
+        },
+        "title_matched": "Perception Tokens Enhance Visual Reasoning in Multimodal Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417076070",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23004",
+        "title_matched": "QLIP: A Dynamic Quadtree Vision Prior Enhances MLLM Performance Without Retraining"
+      }
+    },
+    "citation_count": 32,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "EMNLP2022",
+    "title": "PEVL: Position-enhanced Pre-training and Prompt Tuning for Vision-language Models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2205.11169",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 43,
+        "year": 2022,
+        "url": "https://www.semanticscholar.org/paper/c9cc62881bc4ef571785b06fd54d4e6adaecb321",
+        "externalIds": {
+          "DBLP": "conf/emnlp/YaoCZ0LCS22",
+          "ArXiv": "2205.11169",
+          "ACL": "2022.emnlp-main.763",
+          "DOI": "10.48550/arXiv.2205.11169",
+          "CorpusId": 248987282
+        },
+        "title_matched": "PEVL: Position-enhanced Pre-training and Prompt Tuning for Vision-language Models"
+      },
+      "openalex": {
+        "cited_by_count": 13,
+        "id": "https://openalex.org/W4393159049",
+        "doi": "https://doi.org/10.1609/aaai.v38i5.28278",
+        "title_matched": "GroundVLP: Harnessing Zero-Shot Visual Grounding from Vision-Language Pre-training and Open-Vocabulary Object Detection"
+      }
+    },
+    "citation_count": 43,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICML2025",
+    "title": "Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2412.18605",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 22,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/32ba79c6efb9cc16183f3df79c9f29877c049b9e",
+        "externalIds": {
+          "ArXiv": "2412.18605",
+          "DBLP": "journals/corr/abs-2412-18605",
+          "DOI": "10.48550/arXiv.2412.18605",
+          "CorpusId": 274992375
+        },
+        "title_matched": "Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4405792769",
+        "doi": "https://doi.org/10.48550/arxiv.2412.18605",
+        "title_matched": "Orient Anything: Learning Robust Object Orientation Estimation from Rendering 3D Models"
+      }
+    },
+    "citation_count": 22,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Object-centric Binding in Contrastive Language-Image Pretraining",
+    "affiliation": "Meta",
+    "url": "https://arxiv.org/pdf/2502.14113",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Explicit spatial relationship",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 5,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/26c9d45799d7e3e3490e191f9c763564e5cb379c",
+        "externalIds": {
+          "ArXiv": "2502.14113",
+          "DBLP": "journals/corr/abs-2502-14113",
+          "DOI": "10.48550/arXiv.2502.14113",
+          "CorpusId": 276482762
+        },
+        "title_matched": "Object-centric Binding in Contrastive Language-Image Pretraining"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4407806400",
+        "doi": "https://doi.org/10.48550/arxiv.2502.14113",
+        "title_matched": "Object-centric Binding in Contrastive Language-Image Pretraining"
+      }
+    },
+    "citation_count": 5,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Multi-modal Situated Reasoning in 3D Scenes",
+    "affiliation": "BIGAI",
+    "url": "https://arxiv.org/pdf/2409.02389",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 38,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/b8d405189f4b5556d2882c879454b65bfa66f443",
+        "externalIds": {
+          "ArXiv": "2409.02389",
+          "DBLP": "journals/corr/abs-2409-02389",
+          "DOI": "10.48550/arXiv.2409.02389",
+          "CorpusId": 272398155
+        },
+        "title_matched": "Multi-modal Situated Reasoning in 3D Scenes"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4403160067",
+        "doi": "https://doi.org/10.48550/arxiv.2409.02389",
+        "title_matched": "Multi-modal Situated Reasoning in 3D Scenes"
+      }
+    },
+    "citation_count": 38,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Multi-SpatialMLLM: Multi-Frame Spatial Understanding with MultiModal Large Language Models",
+    "affiliation": "Meta FAIR",
+    "url": "https://arxiv.org/pdf/2505.17015",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 18,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d45adcfac2b0a6dbbed132d216e33833be4cdea3",
+        "externalIds": {
+          "ArXiv": "2505.17015",
+          "DBLP": "journals/corr/abs-2505-17015",
+          "DOI": "10.48550/arXiv.2505.17015",
+          "CorpusId": 278788804
+        },
+        "title_matched": "Multi-SpatialMLLM: Multi-Frame Spatial Understanding with Multi-Modal Large Language Models"
+      },
+      "openalex": null
+    },
+    "citation_count": 18,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "Mindjourney: Test-time scaling with world models for spatial reasoning",
+    "affiliation": "UMass Amherst",
+    "url": "https://arxiv.org/pdf/2507.12508",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 7,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/a9af39adbdb3557590804fc5f99e2970adf3d374",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2507-12508",
+          "ArXiv": "2507.12508",
+          "DOI": "10.48550/arXiv.2507.12508",
+          "CorpusId": 280252932
+        },
+        "title_matched": "MindJourney: Test-Time Scaling with World Models for Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415309321",
+        "doi": "https://doi.org/10.48550/arxiv.2507.12508",
+        "title_matched": "MindJourney: Test-Time Scaling with World Models for Spatial Reasoning"
+      }
+    },
+    "citation_count": 7,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models",
+    "affiliation": "Microsoft Research",
+    "url": "https://phttps://arxiv.org/pdf/2405.13872roceedings.neurips.cc/paper_files/paper/2024/file/a45296e83b19f656392e0130d9e53cb1-Paper-Conference.pdf",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 41,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/02e10a3033489858a47da0279344cce0c034b00a",
+        "externalIds": {
+          "ArXiv": "2405.13872",
+          "DBLP": "journals/corr/abs-2405-13872",
+          "DOI": "10.48550/arXiv.2405.13872",
+          "CorpusId": 269982092
+        },
+        "title_matched": "Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 2,
+        "id": "https://openalex.org/W4394007723",
+        "doi": "https://doi.org/10.48550/arxiv.2404.03622",
+        "title_matched": "Mind's Eye of LLMs: Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models"
+      }
+    },
+    "citation_count": 41,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse",
+    "affiliation": "Northwestern University",
+    "url": "https://arxiv.org/pdf/2503.18470",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 22,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d62d88ce519a54f9d7da4e7a3c524aef2d4a6ec7",
+        "externalIds": {
+          "ArXiv": "2503.18470",
+          "DBLP": "journals/corr/abs-2503-18470",
+          "DOI": "10.48550/arXiv.2503.18470",
+          "CorpusId": 277272837
+        },
+        "title_matched": "MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415330285",
+        "doi": "https://doi.org/10.48550/arxiv.2506.04695",
+        "title_matched": "Reshaping Reasoning in LLMs: A Theoretical Analysis of RL Training Dynamics through Pattern Selection"
+      }
+    },
+    "citation_count": 22,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICCV2025",
+    "title": "MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs",
+    "affiliation": "Apple",
+    "url": "https://arxiv.org/pdf/2503.13111",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 25,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/4fbd9ed8076f32b5eda3483005d7a2d05763fd57",
+        "externalIds": {
+          "ArXiv": "2503.13111",
+          "DBLP": "journals/corr/abs-2503-13111",
+          "DOI": "10.48550/arXiv.2503.13111",
+          "CorpusId": 277104907
+        },
+        "title_matched": "MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414896938",
+        "doi": "https://doi.org/10.48550/arxiv.2506.01371",
+        "title_matched": "SVQA-R1: Reinforcing Spatial Reasoning in MLLMs via View-Consistent Reward Optimization"
+      }
+    },
+    "citation_count": 25,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning",
+    "affiliation": "Inclusion AI, Ant Group",
+    "url": "https://arxiv.org/pdf/2507.08306",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 9,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/a10c2502cc7b8c83a4afcef5e990de6ebd7f6648",
+        "externalIds": {
+          "ArXiv": "2507.08306",
+          "DBLP": "journals/corr/abs-2507-08306",
+          "DOI": "10.48550/arXiv.2507.08306",
+          "CorpusId": 280296969
+        },
+        "title_matched": "M2-Reasoning: Empowering MLLMs with Unified General and Spatial Reasoning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416613140",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23747",
+        "title_matched": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence"
+      }
+    },
+    "citation_count": 9,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects",
+    "affiliation": "International Digital Economy Academy",
+    "url": "https://arxiv.org/pdf/2312.05278",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 21,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/d23f08611ea1e64f691ecddee1f7f48c8015eea6",
+        "externalIds": {
+          "ArXiv": "2312.05278",
+          "CorpusId": 266162357
+        },
+        "title_matched": "Lyrics: Boosting Fine-grained Language-Vision Alignment and Comprehension via Semantic-aware Visual Objects"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4391345745",
+        "doi": "https://doi.org/10.3390/app14031169",
+        "title_matched": "VL-Few: Vision Language Alignment for Multimodal Few-Shot Meta Learning"
+      }
+    },
+    "citation_count": 21,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2025",
+    "title": "Locality Alignment Improves Vision-Language Models",
+    "affiliation": "Stanford University",
+    "url": "https://arxiv.org/pdf/2410.11087",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 11,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/26bd84d181af3812a62bc03ba005e223471a3bad",
+        "externalIds": {
+          "DBLP": "conf/iclr/CovertS0H25",
+          "ArXiv": "2410.11087",
+          "DOI": "10.48550/arXiv.2410.11087",
+          "CorpusId": 273350553
+        },
+        "title_matched": "Locality Alignment Improves Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4403573318",
+        "doi": "https://doi.org/10.48550/arxiv.2410.11087",
+        "title_matched": "Locality Alignment Improves Vision-Language Models"
+      }
+    },
+    "citation_count": 11,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs",
+    "affiliation": "Meta",
+    "url": "https://arxiv.org/pdf/2404.07449",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 55,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/3c101920b0b2b1bd4411b6ab27d4784e26864022",
+        "externalIds": {
+          "DBLP": "conf/cvpr/RanasingheSPRL24",
+          "ArXiv": "2404.07449",
+          "DOI": "10.1109/CVPR52733.2024.01233",
+          "CorpusId": 269043025
+        },
+        "title_matched": "Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs"
+      },
+      "openalex": {
+        "cited_by_count": 13,
+        "id": "https://openalex.org/W4402816819",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.01233",
+        "title_matched": "Learning to Localize Objects Improves Spatial Reasoning in Visual-LLMs"
+      }
+    },
+    "citation_count": 55,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors",
+    "affiliation": "CUHK",
+    "url": "https://arxiv.org/pdf/2505.24625#page=3.50",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Implicit 3D from Egocentric Views",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 20,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/941dea94c02b3e670bab4261dac56cb5b0b2d2f4",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2505-24625",
+          "ArXiv": "2505.24625",
+          "DOI": "10.48550/arXiv.2505.24625",
+          "CorpusId": 279070749
+        },
+        "title_matched": "Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414858116",
+        "doi": "https://doi.org/10.48550/arxiv.2505.24625",
+        "title_matched": "Learning from Videos for 3D World: Enhancing MLLMs with 3D Vision Geometry Priors"
+      }
+    },
+    "citation_count": 20,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2025",
+    "title": "Language-Image Models with 3D Understanding (Cube-LLM)",
+    "affiliation": "UT Austin",
+    "url": "https://arxiv.org/pdf/2405.03685",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 26,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/5de2dd75319f5bdfd4ba68ce61eaaaaa532dfc8d",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2405-03685",
+          "ArXiv": "2405.03685",
+          "DOI": "10.48550/arXiv.2405.03685",
+          "CorpusId": 269605134
+        },
+        "title_matched": "Language-Image Models with 3D Understanding"
+      },
+      "openalex": {
+        "cited_by_count": 157,
+        "id": "https://openalex.org/W4385431115",
+        "doi": "https://doi.org/10.15607/rss.2023.xix.066",
+        "title_matched": "ConceptFusion: Open-set multimodal 3D mapping"
+      }
+    },
+    "citation_count": 26,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences",
+    "affiliation": "South China University of Technology",
+    "url": "https://arxiv.org/pdf/2412.01292",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 21,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/2386f1b3222aaac3e48fc4eab8bcea50c3a38e6a",
+        "externalIds": {
+          "ArXiv": "2412.01292",
+          "DBLP": "conf/cvpr/ZhiCLMSXLTG25",
+          "DOI": "10.1109/CVPR52734.2025.00356",
+          "CorpusId": 274437572
+        },
+        "title_matched": "LSceneLLM: Enhancing Large 3D Scene Understanding Using Adaptive Visual Preferences"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416073171",
+        "doi": "https://doi.org/10.48550/arxiv.2506.03583",
+        "title_matched": "A Large-Scale Referring Remote Sensing Image Segmentation Dataset and Benchmark"
+      }
+    },
+    "citation_count": 21,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "WACV2025",
+    "title": "LLaVA-SpaceSGG: Visual Instruct Tuning for Open-vocabulary Scene Graph Generation with Enhanced Spatial Relations",
+    "affiliation": "City University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2412.06322",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Priors in 3D and Synthetic Worlds",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 10,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/d7beb36a6bcfdf3bd61b6d174f8ad01343d3243e",
+        "externalIds": {
+          "DBLP": "conf/wacv/XuWZLO25",
+          "ArXiv": "2412.06322",
+          "DOI": "10.1109/WACV61041.2025.00620",
+          "CorpusId": 274597092
+        },
+        "title_matched": "LLaVA-SpaceSGG: Visual Instruct Tuning for Open-Vocabulary Scene Graph Generation with Enhanced Spatial Relations"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4409262174",
+        "doi": "https://doi.org/10.1109/wacv61041.2025.00620",
+        "title_matched": "LLaVA-SpaceSGG: Visual Instruct Tuning for Open-Vocabulary Scene Graph Generation with Enhanced Spatial Relations"
+      }
+    },
+    "citation_count": 10,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "LLaVA-SG: Leveraging Scene Graphs as Visual Semantic Expression in Vision-Language Models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2408.16224",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Explicit spatial relationship",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 4,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/026933f721604dcf6fcafa817752c10a49799b94",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2408-16224",
+          "ArXiv": "2408.16224",
+          "DOI": "10.1109/ICASSP49660.2025.10887586",
+          "CorpusId": 272146052
+        },
+        "title_matched": "LLaVA-SG: Leveraging Scene Graphs as Visual Semantic Expression in Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4408345923",
+        "doi": "https://doi.org/10.1109/icassp49660.2025.10887586",
+        "title_matched": "LLaVA-SG: Leveraging Scene Graphs as Visual Semantic Expression in Vision-Language Models"
+      }
+    },
+    "citation_count": 4,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICCV2025",
+    "title": "LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D Capabilities",
+    "affiliation": "The University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2409.18125",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 107,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/57b01c25d88d923a75c17c353fa1351d30bd9edf",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2409-18125",
+          "ArXiv": "2409.18125",
+          "DOI": "10.48550/arXiv.2409.18125",
+          "CorpusId": 272910746
+        },
+        "title_matched": "LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416613140",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23747",
+        "title_matched": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence"
+      }
+    },
+    "citation_count": 107,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning",
+    "affiliation": "Fudan University",
+    "url": "https://arxiv.org/pdf/2311.18651",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 159,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/fc53f8f3a84f1fc4993689d8f98cf6551d07a22d",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2311-18651",
+          "ArXiv": "2311.18651",
+          "DOI": "10.1109/CVPR52733.2024.02496",
+          "CorpusId": 265506642
+        },
+        "title_matched": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning"
+      },
+      "openalex": {
+        "cited_by_count": 38,
+        "id": "https://openalex.org/W4402716423",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.02496",
+        "title_matched": "LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning"
+      }
+    },
+    "citation_count": 159,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2024",
+    "title": "KOSMOS-2: Grounding Multimodal Large Language Models to the World",
+    "affiliation": "Microsoft Research",
+    "url": "https://arxiv.org/pdf/2306.14824",
+    "category_lv3": "Data-Centric Spatial Enhancement",
+    "category_lv4": "Manifesting Spatial Relations in 2D Images",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 993,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/3b6179c293df29e31d31cea46476f104ab6950f2",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2306-14824",
+          "ArXiv": "2306.14824",
+          "DOI": "10.48550/arXiv.2306.14824",
+          "CorpusId": 259262263
+        },
+        "title_matched": "Kosmos-2: Grounding Multimodal Large Language Models to the World"
+      },
+      "openalex": {
+        "cited_by_count": 103,
+        "id": "https://openalex.org/W4394606408",
+        "doi": "https://doi.org/10.1145/3656580",
+        "title_matched": "Foundations &amp; Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions"
+      }
+    },
+    "citation_count": 993,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Introducing Visual Perception Token into Multimodal Large Language Model",
+    "affiliation": "National University of Singapore",
+    "url": "https://arxiv.org/pdf/2502.17425",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 10,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/5c0da59174f71465ca5cbf2de72308dce0bb4068",
+        "externalIds": {
+          "ArXiv": "2502.17425",
+          "DBLP": "journals/corr/abs-2502-17425",
+          "DOI": "10.48550/arXiv.2502.17425",
+          "CorpusId": 276576278
+        },
+        "title_matched": "Introducing Visual Perception Token into Multimodal Large Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4414850552",
+        "doi": "https://doi.org/10.48550/arxiv.2502.17425",
+        "title_matched": "Introducing Visual Perception Token into Multimodal Large Language Model"
+      }
+    },
+    "citation_count": 10,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2503.00513",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 24,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/46645af72afd568b02b3107635e083e02e6b4c2a",
+        "externalIds": {
+          "DBLP": "conf/cvpr/Yu0WCZ25",
+          "ArXiv": "2503.00513",
+          "DOI": "10.1109/CVPR52734.2025.01320",
+          "CorpusId": 276742380
+        },
+        "title_matched": "Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4413144952",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.01320",
+        "title_matched": "Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning"
+      }
+    },
+    "citation_count": 24,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "IJCAI2025",
+    "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
+    "affiliation": "Huawei",
+    "url": "https://arxiv.org/pdf/2401.03105",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 12,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/002d2c4569d070a55fe69c25ebccad8e9ddae572",
+        "externalIds": {
+          "ArXiv": "2401.03105",
+          "DBLP": "conf/ijcai/HeWX025",
+          "DOI": "10.48550/arXiv.2401.03105",
+          "CorpusId": 266844533
+        },
+        "title_matched": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 28,
+        "id": "https://openalex.org/W4405827891",
+        "doi": "https://doi.org/10.1007/s44267-024-00065-8",
+        "title_matched": "An overview of large AI models and their applications"
+      }
+    },
+    "citation_count": 12,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ACL2023",
+    "title": "Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs",
+    "affiliation": "Tel-Aviv University",
+    "url": "https://arxiv.org/pdf/2305.06343",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Explicit spatial relationship",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 38,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/b0e8632c25a9e262944b8849eced6f29091e700f",
+        "externalIds": {
+          "DBLP": "conf/emnlp/HerzigMKAFDG23",
+          "ArXiv": "2305.06343",
+          "DOI": "10.48550/arXiv.2305.06343",
+          "CorpusId": 258588427
+        },
+        "title_matched": "Incorporating Structured Representations into Pretrained Vision & Language Models Using Scene Graphs"
+      },
+      "openalex": {
+        "cited_by_count": 12,
+        "id": "https://openalex.org/W4389519483",
+        "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.870",
+        "title_matched": "Incorporating Structured Representations into Pretrained Vision &amp; Language Models Using Scene Graphs"
+      }
+    },
+    "citation_count": 38,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Improved Visual-Spatial Reasoning via R1-Zero-Like Training",
+    "affiliation": "Shanghai Jiao Tong University",
+    "url": "https://arxiv.org/pdf/2504.00883",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 27,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/531a8f3c4d7cd5cedb082eaef03f94dae2bb71a0",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2504-00883",
+          "ArXiv": "2504.00883",
+          "DOI": "10.48550/arXiv.2504.00883",
+          "CorpusId": 277468489
+        },
+        "title_matched": "Improved Visual-Spatial Reasoning via R1-Zero-Like Training"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417228662",
+        "doi": "https://doi.org/10.48550/arxiv.2504.00883",
+        "title_matched": "Improved Visual-Spatial Reasoning via R1-Zero-Like Training"
+      }
+    },
+    "citation_count": 27,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICML2025",
+    "title": "Imagine while Reasoning in Space: Multimodal Visualization-of-Thought",
+    "affiliation": "Microsoft Research",
+    "url": "https://arxiv.org/pdf/2501.07542",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 100,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/2d0b030d314a5aa8feaa03695e8471270130bdf9",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2501-07542",
+          "ArXiv": "2501.07542",
+          "DOI": "10.48550/arXiv.2501.07542",
+          "CorpusId": 275471612
+        },
+        "title_matched": "Imagine while Reasoning in Space: Multimodal Visualization-of-Thought"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4412889538",
+        "doi": "https://doi.org/10.18653/v1/2025.acl-short.85",
+        "title_matched": "WinSpot: GUI Grounding Benchmark with Multimodal Large Language Models"
+      }
+    },
+    "citation_count": 100,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2024",
+    "title": "Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models",
+    "affiliation": "Westlake University",
+    "url": "https://arxiv.org/pdf/2405.13872",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Hybrid Prompting",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 41,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/02e10a3033489858a47da0279344cce0c034b00a",
+        "externalIds": {
+          "ArXiv": "2405.13872",
+          "DBLP": "journals/corr/abs-2405-13872",
+          "DOI": "10.48550/arXiv.2405.13872",
+          "CorpusId": 269982092
+        },
+        "title_matched": "Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4399026215",
+        "doi": "https://doi.org/10.48550/arxiv.2405.13872",
+        "title_matched": "Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models"
+      }
+    },
+    "citation_count": 41,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2024",
+    "title": "I Know About “Up”! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction",
+    "affiliation": "Guangdong Polytechnic Normal University",
+    "url": "https://arxiv.org/pdf/2407.14133",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 5,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/9583cb80f1e07bfe3ac6ce5cf958a7a92f1ca35c",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2407-14133",
+          "ArXiv": "2407.14133",
+          "DOI": "10.48550/arXiv.2407.14133",
+          "CorpusId": 271310255
+        },
+        "title_matched": "I Know About \"Up\"! Enhancing Spatial Reasoning in Visual Language Models Through 3D Reconstruction"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4411113129",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-naacl.192",
+        "title_matched": "Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting"
+      }
+    },
+    "citation_count": 5,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "Honeybee: Locality Enhanced Projector for Multimodal LLM",
+    "affiliation": "Kakao Brain",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cha_Honeybee_Locality-enhanced_Projector_for_Multimodal_LLM_CVPR_2024_paper.pdf",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 188,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/4f5654ec1dfc04478be42d03eee8e6db6bd9ca14",
+        "externalIds": {
+          "DBLP": "conf/cvpr/ChaKMR24",
+          "ArXiv": "2312.06742",
+          "DOI": "10.1109/CVPR52733.2024.01311",
+          "CorpusId": 266174127
+        },
+        "title_matched": "Honeybee: Locality-Enhanced Projector for Multimodal LLM"
+      },
+      "openalex": {
+        "cited_by_count": 31,
+        "id": "https://openalex.org/W4402753980",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.01311",
+        "title_matched": "Honeybee: Locality-Enhanced Projector for Multimodal LLM"
+      }
+    },
+    "citation_count": 188,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models",
+    "affiliation": "The University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2501.01428",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 47,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/28afc4d43909e6071fedbf4f29e02ddc81d29fe7",
+        "externalIds": {
+          "ArXiv": "2501.01428",
+          "DBLP": "journals/corr/abs-2501-01428",
+          "DOI": "10.48550/arXiv.2501.01428",
+          "CorpusId": 275212717
+        },
+        "title_matched": "GPT4Scene: Understand 3D Scenes from Videos with Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4417091692",
+        "doi": "https://doi.org/10.48550/arxiv.2504.13119",
+        "title_matched": "Object-Driven Narrative in AR: A Scenario-Metaphor Framework with VLM Integration"
+      }
+    },
+    "citation_count": 47,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ECCVWorkshops2024",
+    "title": "GPT4RoI: Instruction Tuning Large Language Model on Region-of-Interest",
+    "affiliation": "The University of Hong Kong",
+    "url": "https://arxiv.org/pdf/2307.03601",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 304,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/094883e42bb9a41f602c0715c1059bc431e33fb2",
+        "externalIds": {
+          "ArXiv": "2307.03601",
+          "DBLP": "journals/corr/abs-2307-03601",
+          "DOI": "10.48550/arXiv.2307.03601",
+          "CorpusId": 259375716
+        },
+        "title_matched": "GPT4RoI: Instruction Tuning Large Language Model on Region-of-Interest"
+      },
+      "openalex": {
+        "cited_by_count": 10,
+        "id": "https://openalex.org/W4388717680",
+        "doi": "https://doi.org/10.48550/arxiv.2311.07594",
+        "title_matched": "How to Bridge the Gap between Modalities: Survey on Multimodal Large Language Model"
+      }
+    },
+    "citation_count": 304,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "G2VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning",
+    "affiliation": "Shanghai AI Lab",
+    "url": "https://arxiv.org/pdf/2511.21688",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/3e9b812ecf09ffb0a67473c3e19745e4137efd0d",
+        "externalIds": {
+          "ArXiv": "2511.21688",
+          "CorpusId": 283262189
+        },
+        "title_matched": "G$^2$VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning"
+      },
+      "openalex": null
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2023",
+    "title": "Fine-Grained Visual Prompting",
+    "affiliation": "Nanjing University of Science and Technology",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/4e9fa6e716940a7cfc60c46e6f702f52-Paper-Conference.pdf",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": {
+        "cited_by_count": 8,
+        "id": "https://openalex.org/W4379958270",
+        "doi": "https://doi.org/10.48550/arxiv.2306.04356",
+        "title_matched": "Fine-Grained Visual Prompting"
+      }
+    },
+    "citation_count": 8,
+    "citation_source": "openalex"
+  },
+  {
+    "label": "NeurIPS2025",
+    "title": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs",
+    "affiliation": "UIUC",
+    "url": "https://arxiv.org/pdf/2506.21656",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/bba9df17cf0452603e402f508da87ef311282c6b",
+        "externalIds": {
+          "ArXiv": "2506.21656",
+          "DBLP": "journals/corr/abs-2506-21656",
+          "DOI": "10.48550/arXiv.2506.21656",
+          "CorpusId": 280010766
+        },
+        "title_matched": "Fine-Grained Preference Optimization Improves Spatial Reasoning in VLMs"
+      },
+      "openalex": {
+        "cited_by_count": 191,
+        "id": "https://openalex.org/W4383605161",
+        "doi": "https://doi.org/10.48550/arxiv.2307.03109",
+        "title_matched": "A Survey on Evaluation of Large Language Models"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CoRR2023",
+    "title": "Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model",
+    "affiliation": "Peking University",
+    "url": "https://arxiv.org/pdf/2310.20357",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Textual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 6,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/16e5a2d85ee023544e8f2f1921e6b6176ad7c2d0",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2310-20357",
+          "ArXiv": "2310.20357",
+          "DOI": "10.48550/arXiv.2310.20357",
+          "CorpusId": 264770799
+        },
+        "title_matched": "Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 19,
+        "id": "https://openalex.org/W4401895018",
+        "doi": "https://doi.org/10.3390/app14177455",
+        "title_matched": "Large Language Models for Intelligent Transportation: A Review of the State of the Art and Challenges"
+      }
+    },
+    "citation_count": 6,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Enhancing Spatial Reasoning through Visual and Textual Thinking",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2507.20529",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/09ca7d83a69d6e08f73aacbb11e958618837ebeb",
+        "externalIds": {
+          "ArXiv": "2507.20529",
+          "DBLP": "journals/corr/abs-2507-20529",
+          "DOI": "10.48550/arXiv.2507.20529",
+          "CorpusId": 280323027
+        },
+        "title_matched": "Enhancing Spatial Reasoning through Visual and Textual Thinking"
+      },
+      "openalex": {
+        "cited_by_count": 910,
+        "id": "https://openalex.org/W4225716729",
+        "doi": "https://doi.org/10.1007/s42979-022-01043-x",
+        "title_matched": "AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2504.12680",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Advanced Training Strategies",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 24,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/d02ca19a813520144985dab1bce8dc71d25a1f96",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2504-12680",
+          "ArXiv": "2504.12680",
+          "DOI": "10.1145/3746027.3755703",
+          "CorpusId": 277856815
+        },
+        "title_matched": "Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416047864",
+        "doi": "https://doi.org/10.48550/arxiv.2505.22050",
+        "title_matched": "Reinforced Reasoning for Embodied Planning"
+      }
+    },
+    "citation_count": 24,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2025",
+    "title": "Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models",
+    "affiliation": "NVIDIA",
+    "url": "https://arxiv.org/pdf/2501.14818",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 35,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/39dd4dcaf0bb977fa24a0503975bc42ec65918ec",
+        "externalIds": {
+          "ArXiv": "2501.14818",
+          "DBLP": "journals/corr/abs-2501-14818",
+          "DOI": "10.48550/arXiv.2501.14818",
+          "CorpusId": 275921957
+        },
+        "title_matched": "Eagle 2: Building Post-Training Data Strategies from Scratch for Frontier Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416139081",
+        "doi": "https://doi.org/10.48550/arxiv.2506.05328",
+        "title_matched": "AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs"
+      }
+    },
+    "citation_count": 35,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "DSPNet: Dual-vision Scene Perception for Robust 3D Question Answering",
+    "affiliation": "Sun Yat-sen University",
+    "url": "https://arxiv.org/pdf/2503.03190",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 9,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/257cb90dc72cc0b1d5dcff584eb4c68c953fc9da",
+        "externalIds": {
+          "DBLP": "conf/cvpr/LuoLCLWLL25",
+          "ArXiv": "2503.03190",
+          "DOI": "10.1109/CVPR52734.2025.01322",
+          "CorpusId": 276782305
+        },
+        "title_matched": "DSPNet: Dual-vision Scene Perception for Robust 3D Question Answering"
+      },
+      "openalex": {
+        "cited_by_count": 2,
+        "id": "https://openalex.org/W4413158305",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.01322",
+        "title_matched": "DSPNet: Dual-vision Scene Perception for Robust 3D Question Answering"
+      }
+    },
+    "citation_count": 9,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ECCV2024",
+    "title": "Contrastive Region Guidance: Improving Grounding in Vision-Language Models without Training",
+    "affiliation": "unc",
+    "url": "https://arxiv.org/pdf/2403.02325",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 48,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/978f2dffd3ca434d84a322b288e9f7a07aaec494",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2403-02325",
+          "ArXiv": "2403.02325",
+          "DOI": "10.48550/arXiv.2403.02325",
+          "CorpusId": 268247556
+        },
+        "title_matched": "Contrastive Region Guidance: Improving Grounding in Vision-Language Models without Training"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4412888840",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.99",
+        "title_matched": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models"
+      }
+    },
+    "citation_count": 48,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2024",
+    "title": "Compositional Chain-of-Thought Prompting for Large Multimodal Models",
+    "affiliation": "University of California, Berkeley",
+    "url": "https://arxiv.org/pdf/2311.17076",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Textual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 158,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/5eea245cc12c55905d4df827d0c9776c5ddfa743",
+        "externalIds": {
+          "DBLP": "conf/cvpr/MitraHDH24",
+          "ArXiv": "2311.17076",
+          "DOI": "10.1109/CVPR52733.2024.01367",
+          "CorpusId": 265498786
+        },
+        "title_matched": "Compositional Chain-of-Thought Prompting for Large Multimodal Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4392089286",
+        "doi": "https://doi.org/10.48550/arxiv.2402.13577",
+        "title_matched": "BBA: Bi-Modal Behavioral Alignment for Reasoning with Large Vision-Language Models"
+      }
+    },
+    "citation_count": 158,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model",
+    "affiliation": "University of Washington",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Coarse_Correspondences_Boost_Spatial-Temporal_Reasoning_in_Multimodal_Language_Model_CVPR_2025_paper.pdf",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 8,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/576884d7df0a77bc06fd3e5c76425339e1c45f86",
+        "externalIds": {
+          "DBLP": "conf/cvpr/LiuDWMTTRMK25",
+          "ArXiv": "2408.00754",
+          "DOI": "10.1109/CVPR52734.2025.00358",
+          "CorpusId": 271600608
+        },
+        "title_matched": "Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4401307761",
+        "doi": "https://doi.org/10.48550/arxiv.2408.00754",
+        "title_matched": "Coarse Correspondences Boost Spatial-Temporal Reasoning in Multimodal Language Model"
+      }
+    },
+    "citation_count": 8,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICLR2024",
+    "title": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding",
+    "affiliation": "UMass Amherst",
+    "url": "https://arxiv.org/abs/2311.03354",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 18,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/055e3aa78a542c6cec016169f3011c2bf4e46932",
+        "externalIds": {
+          "DBLP": "conf/iclr/LiCHCCSG24",
+          "ArXiv": "2311.03354",
+          "DOI": "10.48550/arXiv.2311.03354",
+          "CorpusId": 265043790
+        },
+        "title_matched": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding"
+      },
+      "openalex": {
+        "cited_by_count": 2,
+        "id": "https://openalex.org/W4388482284",
+        "doi": "https://doi.org/10.48550/arxiv.2311.03354",
+        "title_matched": "CoVLM: Composing Visual Entities and Relationships in Large Language Models Via Communicative Decoding"
+      }
+    },
+    "citation_count": 18,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers",
+    "affiliation": "Zhejiang University",
+    "url": "https://arxiv.org/pdf/2312.08168",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 107,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/a5ecfe7f961ab9a65aab033692dff71f5c70c2b6",
+        "externalIds": {
+          "ArXiv": "2312.08168",
+          "DBLP": "conf/nips/HuangC0HXWLCZPZ24",
+          "DOI": "10.52202/079017-3620",
+          "CorpusId": 266191146
+        },
+        "title_matched": "Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers"
+      },
+      "openalex": {
+        "cited_by_count": 1,
+        "id": "https://openalex.org/W4390897477",
+        "doi": "https://doi.org/10.48550/arxiv.2401.06341",
+        "title_matched": "AffordanceLLM: Grounding Affordance from Vision Language Models"
+      }
+    },
+    "citation_count": 107,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+    "affiliation": "New York University",
+    "url": "https://arxiv.org/pdf/2511.04670",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 8,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/cd1d87e7e31a05a82b6b25bf231f831c39006ef1",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2511-04670",
+          "ArXiv": "2511.04670",
+          "DOI": "10.48550/arXiv.2511.04670",
+          "CorpusId": 282812799
+        },
+        "title_matched": "Cambrian-S: Towards Spatial Supersensing in Video"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416027202",
+        "doi": "https://doi.org/10.48550/arxiv.2511.04670",
+        "title_matched": "Cambrian-S: Towards Spatial Supersensing in Video"
+      }
+    },
+    "citation_count": 8,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLM",
+    "affiliation": "New York University",
+    "url": "https://arxiv.org/pdf/2406.16860",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Architectural Enhancements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 595,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/94773f22b5befd0e167a7de525d29bec2b09937a",
+        "externalIds": {
+          "ArXiv": "2406.16860",
+          "DBLP": "journals/corr/abs-2406-16860",
+          "DOI": "10.48550/arXiv.2406.16860",
+          "CorpusId": 270703300
+        },
+        "title_matched": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4412888840",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.99",
+        "title_matched": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models"
+      }
+    },
+    "citation_count": 595,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2024",
+    "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLM",
+    "affiliation": "New York University",
+    "url": "https://arxiv.org/pdf/2406.16860",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 595,
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/94773f22b5befd0e167a7de525d29bec2b09937a",
+        "externalIds": {
+          "ArXiv": "2406.16860",
+          "DBLP": "journals/corr/abs-2406-16860",
+          "DOI": "10.48550/arXiv.2406.16860",
+          "CorpusId": 270703300
+        },
+        "title_matched": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs"
+      },
+      "openalex": {
+        "cited_by_count": 3,
+        "id": "https://openalex.org/W4412888840",
+        "doi": "https://doi.org/10.18653/v1/2025.findings-acl.99",
+        "title_matched": "Don’t Miss the Forest for the Trees: Attentional Vision Calibration for Large Vision Language Models"
+      }
+    },
+    "citation_count": 595,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Beyond Flatlands: Unlocking Spatial Intelligence by Decoupling 3D Reasoning from Numerical Regression",
+    "affiliation": "Beijing Institute of Technology",
+    "url": "https://arxiv.org/pdf/2511.11239",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/e168a7b871610f9977001f6503e39206d4727f76",
+        "externalIds": {
+          "ArXiv": "2511.11239",
+          "CorpusId": 283054867
+        },
+        "title_matched": "Beyond Flatlands: Unlocking Spatial Intelligence by Decoupling 3D Reasoning from Numerical Regression"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W7105979021",
+        "doi": "",
+        "title_matched": "Beyond Flatlands: Unlocking Spatial Intelligence by Decoupling 3D Reasoning from Numerical Regression"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "Argus: A Compact and Versatile Foundation Model for Vision",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.pdf",
+    "category_lv3": "Model-Centric Enhancements",
+    "category_lv4": "Encoder-Level Improvements",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/2eb6d5f48d107617eb037141182f0a3fbda617ae",
+        "externalIds": {
+          "DBLP": "conf/cvpr/Zhuang0LSLHS0SG25",
+          "DOI": "10.1109/CVPR52734.2025.00417",
+          "CorpusId": 277742014
+        },
+        "title_matched": "Argus: A Compact and Versatile Foundation Model for Vision"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4413147746",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00417",
+        "title_matched": "Argus: A Compact and Versatile Foundation Model for Vision"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "Argus: A Compact and Versatile Foundation Model for Vision",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhuang_Argus_A_Compact_and_Versatile_Foundation_Model_for_Vision_CVPR_2025_paper.pdf",
+    "category_lv3": "Explicit 2D Information Injection",
+    "category_lv4": "Object Region Guidance",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 1,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/2eb6d5f48d107617eb037141182f0a3fbda617ae",
+        "externalIds": {
+          "DBLP": "conf/cvpr/Zhuang0LSLHS0SG25",
+          "DOI": "10.1109/CVPR52734.2025.00417",
+          "CorpusId": 277742014
+        },
+        "title_matched": "Argus: A Compact and Versatile Foundation Model for Vision"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4413147746",
+        "doi": "https://doi.org/10.1109/cvpr52734.2025.00417",
+        "title_matched": "Argus: A Compact and Versatile Foundation Model for Vision"
+      }
+    },
+    "citation_count": 1,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "ICML2024",
+    "title": "An Embodied Generalist Agent in 3D World (Beijing Institute for General Artificial Intelligence",
+    "affiliation": "BIGAI)",
+    "url": "https://arxiv.org/pdf/2311.12871",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 280,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/13d12b26db345f62e8e512db181b96a7f8763b47",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2311-12871",
+          "ArXiv": "2311.12871",
+          "DOI": "10.48550/arXiv.2311.12871",
+          "CorpusId": 265351495
+        },
+        "title_matched": "An Embodied Generalist Agent in 3D World"
+      },
+      "openalex": {
+        "cited_by_count": 13,
+        "id": "https://openalex.org/W4387074810",
+        "doi": "https://doi.org/10.48550/arxiv.2309.13193",
+        "title_matched": "SurrealDriver: Designing LLM-powered Generative Driver Agent Framework based on Human Drivers' Driving-thinking Data"
+      }
+    },
+    "citation_count": 280,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "arXiv2025",
+    "title": "Abstract 3D Perception for Spatial Intelligence in Vision-Language Models",
+    "affiliation": "Tsinghua University",
+    "url": "https://arxiv.org/pdf/2511.10946",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 0,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/b36e603228827a04cac6e4135eec8d781740d850",
+        "externalIds": {
+          "ArXiv": "2511.10946",
+          "CorpusId": 283055190
+        },
+        "title_matched": "Abstract 3D Perception for Spatial Intelligence in Vision-Language Models"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416341260",
+        "doi": "https://doi.org/10.48550/arxiv.2511.10946",
+        "title_matched": "Abstract 3D Perception for Spatial Intelligence in Vision-Language Models"
+      }
+    },
+    "citation_count": 0,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "Neurocomputing2025",
+    "title": "3DAxisPrompt: Promoting the 3d grounding and reasoning in gpt-4o",
+    "affiliation": "Shanghai AI Lab",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231225007441",
+    "category_lv3": "Training-Free Prompting",
+    "category_lv4": "Visual Prompting Methods",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": {
+        "cited_by_count": 2,
+        "id": "https://openalex.org/W4408997891",
+        "doi": "https://doi.org/10.1016/j.neucom.2025.130072",
+        "title_matched": "3DAxisPrompt: Promoting the 3D grounding and reasoning in GPT-4o"
+      }
+    },
+    "citation_count": 2,
+    "citation_source": "openalex"
+  },
+  {
+    "label": "CVPR2025",
+    "title": "3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer",
+    "affiliation": "The University of Adelaide",
+    "url": "https://arxiv.org/pdf/2501.01163",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 33,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/055a5bb273aef22e40485746531c08b6fee2d2f7",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2501-01163",
+          "ArXiv": "2501.01163",
+          "DOI": "10.1109/CVPR52734.2025.00357",
+          "CorpusId": 275212604
+        },
+        "title_matched": "3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4416613140",
+        "doi": "https://doi.org/10.48550/arxiv.2505.23747",
+        "title_matched": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence"
+      }
+    },
+    "citation_count": 33,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "NeurIPS2023",
+    "title": "3D-LLM: Injecting the 3D World into Large Language Models",
+    "affiliation": "UCLA",
+    "url": "https://arxiv.org/pdf/2307.12981",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": null,
+      "openalex": {
+        "cited_by_count": 14,
+        "id": "https://openalex.org/W4394603144",
+        "doi": "https://doi.org/10.3390/infrastructures9040071",
+        "title_matched": "Multi-Context Point Cloud Dataset and Machine Learning for Railway Semantic Segmentation"
+      }
+    },
+    "citation_count": 14,
+    "citation_source": "openalex"
+  },
+  {
+    "label": "CVPR2023",
+    "title": "3D Concept Learning and Reasoning from Multi-View Images",
+    "affiliation": "UCLA",
+    "url": "https://arxiv.org/pdf/2303.11327",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Scene-level information + Ego-centric",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 70,
+        "year": 2023,
+        "url": "https://www.semanticscholar.org/paper/efd20373f3d0a3d48c6ed6852aab5863f71733c2",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2303-11327",
+          "ArXiv": "2303.11327",
+          "DOI": "10.1109/CVPR52729.2023.00888",
+          "CorpusId": 257631929
+        },
+        "title_matched": "3D Concept Learning and Reasoning from Multi-View Images"
+      },
+      "openalex": {
+        "cited_by_count": 28,
+        "id": "https://openalex.org/W4386071473",
+        "doi": "https://doi.org/10.1109/cvpr52729.2023.00888",
+        "title_matched": "3D Concept Learning and Reasoning from Multi-View Images"
+      }
+    },
+    "citation_count": 70,
+    "citation_source": "semantic_scholar"
+  },
+  {
+    "label": "Arxiv2025",
+    "title": "3D Aware Region Prompted Vision Language Model",
+    "affiliation": "UC San Diego",
+    "url": "https://arxiv.org/pdf/2509.13317",
+    "category_lv3": "3D Information Enhancement",
+    "category_lv4": "Explicit 3D Geometric Representations",
+    "first_seen": "2025-12-12",
+    "last_seen": "2025-12-12",
+    "is_new_today": false,
+    "citations": {
+      "semantic_scholar": {
+        "citationCount": 6,
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/7dbdb527cb2c53fa1ac4e393932868a609ab5a27",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2509-13317",
+          "ArXiv": "2509.13317",
+          "DOI": "10.48550/arXiv.2509.13317",
+          "CorpusId": 281325489
+        },
+        "title_matched": "3D Aware Region Prompted Vision Language Model"
+      },
+      "openalex": {
+        "cited_by_count": 0,
+        "id": "https://openalex.org/W4415317981",
+        "doi": "https://doi.org/10.48550/arxiv.2509.13317",
+        "title_matched": "3D Aware Region Prompted Vision Language Model"
+      }
+    },
+    "citation_count": 6,
+    "citation_source": "semantic_scholar"
+  }
+]
