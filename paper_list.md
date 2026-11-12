@@ -92,6 +92,8 @@
 
 - [ICML2025]; Why is spatial reasoning hard for vlms? an attention mechanism perspective on focus areas (City University of Hong Kong) [[paper]](https://arxiv.org/pdf/2503.01773) [[code]](https://github.com/shiqichen17/AdaptVis) [[checkpoint]](https://github.com/shiqichen17/AdaptVis);
 
+- [arXiv2026]; MJev-Spatial: System One Spatial Intelligence via Native Attention Matching (MindLab) [[paper]](https://arxiv.org/abs/2610.22276) [[code]](https://github.com/Fr0zenCrane/MJev-Spatial) [[checkpoint]](https://huggingface.co/mindlab-research/MJev-Spatial-4B);
+
 --------
 
 #### Encoder-Level Improvements

@@ -225,6 +225,9 @@ This repository uses the framework from our survey paper to systematically organ
   - [arXiv2025] Cambrian-S: Towards Spatial Supersensing in Video (_New York University_) [[paper]](https://arxiv.org/pdf/2511.04670) [[code]](https://github.com/cambrian-mllm/cambrian-s) [[checkpoint]](https://huggingface.co/collections/nyu-visionx/cambrian-s-models);
 
   - [ICML2025] Why is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas (_City University of Hong Kong_) [[paper]](https://arxiv.org/pdf/2503.01773) [[code]](https://github.com/shiqichen17/AdaptVis) [[checkpoint]](https://github.com/shiqichen17/AdaptVis);
+
+  <!-- New paper, excluded in survey -->
+  - [arXiv2026] MJev-Spatial: System One Spatial Intelligence via Native Attention Matching (_MindLab_) [[paper]](https://arxiv.org/abs/2610.22276) [[code]](https://github.com/Fr0zenCrane/MJev-Spatial) [[checkpoint]](https://huggingface.co/mindlab-research/MJev-Spatial-4B);
 </details>
 
 <a id="encoder-level-improvements"></a>
