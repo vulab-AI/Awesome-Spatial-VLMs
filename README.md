@@ -39,8 +39,8 @@ We host an official website for streamlined navigation and well-organized resour
 
 
 <p align="center">
-<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176231405.57942913/v2">
-  <img src="https://img.shields.io/badge/TechRxiv-Preprint-00629B?style=flat&logo=ieee&logoColor=white" alt="TechRxiv"></a>&nbsp;
+<a href="https://link.springer.com/article/10.1007/s10462-026-11671-x">
+    <img src="https://img.shields.io/badge/Artificial_Intelligence_Review-2026-00629B?style=flat" alt="Published in Artificial Intelligence Review (2026)"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/Spatial_VLM_survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-0066CC?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>&nbsp;
   <a href="https://huggingface.co/datasets/LLDDSS/Awesome_Spatial_VQA_Benchmarks"><img src="https://img.shields.io/badge/Evaluated-Dataset-yellow?style=flat&logo=huggingface&logoColor=yellow" alt="Evaluated Data"></a>&nbsp;
   <a href="https://github.com/vulab-AI/Awesome-Spatial-VLMs/blob/main/evaluation/README.md"><img src="https://img.shields.io/badge/Evaluation-Code-black?style=flat&logo=github&logoColor=black" alt="Evaluation Code"></a>
@@ -533,12 +533,26 @@ We invite the community to benchmark new models using our suite. Please to add y
 ## Citation
 If you find this survey or repository useful for your research, please cite our paper:
 ```
- @article{Liu_2025,
-  title={Spatial Intelligence in Vision-Language Models: A Comprehensive Survey},
-  url={http://dx.doi.org/10.36227/techrxiv.176231405.57942913/v2},
-  DOI={10.36227/techrxiv.176231405.57942913/v2},
-  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-  author={Liu, Disheng and Liang, Tuo and Hu, Zhe and Peng, Jierui and Lu, Yiren and Xu, Yi and Fu, Yun and Yin, Yu},
-  year={2025},
-  month=nov }
+@Article{Liu2026,
+author={Liu, Disheng
+and Liang, Tuo
+and Hu, Zhe
+and Peng, Jierui
+and Lu, Yiren
+and Xu, Yi
+and Fu, Yun
+and Yin, Yu},
+title={Spatial intelligence in vision-language models: a comprehensive survey},
+journal={Artificial Intelligence Review},
+year={2026},
+month={Aug},
+day={11},
+volume={59},
+number={12},
+pages={269},
+abstract={Vision-language models have achieved impressive progress, yet they still struggle with spatial intelligence--understanding where objects are, how they relate, and how space changes across viewpoints. This limitation matters for embodied AI, autonomous driving, and spatially consistent generation. Meanwhile, rapid advances in spatially enhanced VLMs have produced a scattered literature with inconsistent terminology, methods, and evaluation practices. In this survey, we provide a comprehensive and unified overview of recent advances in spatial intelligence for VLMs. We summarize core concepts behind spatial reasoning in VLMs, analyze why spatial failures occur, and organize existing solutions into a clear framework spanning prompting-based techniques, model improvements, explicit 2D cues, 3D enrichment, and data-driven strategies. We also examine how spatial ability is currently measured and report an empirical study across 37 models and 9 representative benchmarks. Our analysis highlights current best-performing approaches, clarifies when different strategies help or fail, shows the existence of performance gaps across different evaluation datasets and reveals the potential design biases in current spatial understanding benchmarks. By consolidating evidence and outlining open challenges, this survey offers a practical roadmap for building more spatially capable VLMs. We release our evaluation codeand maintain a curated paper repositoryto support the rapidly growing research on spatial intelligence in vision-language models.},
+issn={1573-7462},
+doi={10.1007/s10462-026-11671-x},
+url={https://doi.org/10.1007/s10462-026-11671-x}
+}
 ```
